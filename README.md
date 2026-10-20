@@ -14,12 +14,16 @@ Real-time scraper, data pipeline, and interactive web dashboard for the **2026 A
   - Exports clean CSVs for spreadsheet analysis (`referendum_summary.csv` and `riding_results.csv`).
 
 - **Interactive Web Dashboard (`index.html`)**:
-  - **Live Overview Bar**: Real-time ticker of polls reporting (`X / 5,595`), total valid votes, and voting channels (Advance, Election Day, Mail/VBM).
-  - **Question 10 Spotlight**: Dedicated banner tracking the Alberta independence / constitutional separation question.
-  - **Referendum Scoreboard**: All 10 questions with live Yes/No percentages, margins, and visual progress bars.
-  - **Regional Analysis**: Calgary (26 ridings) vs Edmonton (20 ridings) vs Regional/Rural (41 ridings) comparison chart.
-  - **Riding Explorer Table**: Filterable by region and outcome, searchable by name/code, sortable by Yes %, No %, Margin, Turnout, or Code.
-  - **Auto-Refresh**: Live updates in browser with countdown timer and manual refresh button.
+  - **Live Overview Bar**: Real-time ticker of polls reporting (`X / 5,599`), total valid votes, and voting channels (Advance, Election Day, Mail/VBM).
+  - **Question 10 Dedicated Map**: Prominent choropleth map dedicated specifically to the Alberta independence / separation question (Option 1 Remain vs. Option 2 Separate).
+  - **Referendum Scoreboard**: All 10 questions with live Yes/No percentages, margins, and direct links to inspect any question's map.
+  - **Regional Analysis & Riding Explorer**: Searchable and filterable table with metro breakdowns.
+
+- **Multi-Question Map Atlas (`maps.html`)**:
+  - Dedicated interactive atlas allowing users to click through and view interactive riding maps for **all 10 referendum questions**.
+  - One-click question switcher pills (Q1–Q10).
+  - Synchronized province summary, regional breakdowns (Calgary vs Edmonton vs Regional/Rural), and full riding results table for the active question.
+  - Powered by Esri World Gray Canvas (no API keys, zero watermarks) with Light/Dark/Auto theme support.
 
 - **Optional GitHub Actions Automation (`workflows-sample/scrape.yml`)**:
   - Sample workflow to automatically run every 5 minutes on election night and push updated data snapshots to the repository (requires the `workflow` scope on your GitHub token if pushed to `.github/workflows/`).
