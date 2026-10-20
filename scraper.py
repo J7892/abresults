@@ -25,6 +25,14 @@ METADATA_FILE = os.path.join(BASE_DIR, "metadata.json")
 EAB_DATA_URL = "https://results.elections.ab.ca/data/8400"
 CURRENT_VERSION = "3.1.0"
 QUESTION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
+ALL_WARDS = [f"{i:02d}" for i in range(1, 88)]
+
+VOTING_METHODS_DEF = [
+    {"code": "ADV", "name": "Advance Voting"},
+    {"code": "ORD", "name": "Election Day"},
+    {"code": "VBMHQ", "name": "Mail-in / Special Ballot"},
+    {"code": "MOB", "name": "Mobile Voting"}
+]
 
 # Short question titles for compact display and CSVs
 QUESTION_SHORT_TITLES = {
@@ -99,19 +107,22 @@ def get_latest_version(session=None):
         logger.warning(f"Could not auto-detect API version from HTML: {e}")
     return CURRENT_VERSION
 
-def fetch_api_data(questions=None, wards=None, timeout=15):
+def fetch_api_data(questions=None, wards=None, timeout=20):
     """
     Fetches raw JSON from Elections Alberta API with auto-version detection and retry mechanism.
+    Defaults to all referendum questions and all 87 wards to retrieve poll-by-poll method data.
     """
     global CURRENT_VERSION
     params = {}
-    if questions:
+    if questions is not None:
         params["questions"] = ",".join(str(q) for q in questions)
     else:
         params["questions"] = ",".join(str(q) for q in QUESTION_IDS)
         
-    if wards:
+    if wards is not None:
         params["wards"] = ",".join(str(w) for w in wards)
+    else:
+        params["wards"] = ",".join(str(w) for w in ALL_WARDS)
 
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -289,6 +300,48 @@ def process_results(raw_data):
             reg_data["yesPct"] = round(reg_data["yes"] / tot * 100, 2) if tot > 0 else 0.0
             reg_data["noPct"] = round(reg_data["no"] / tot * 100, 2) if tot > 0 else 0.0
 
+        # Voting method aggregation
+        method_dict = {
+            m["code"]: {
+                "code": m["code"],
+                "name": m["name"],
+                "yesVotes": 0,
+                "noVotes": 0,
+                "totalVotes": 0,
+                "yesPct": 0.0,
+                "noPct": 0.0,
+                "marginVotes": 0,
+                "marginPct": 0.0,
+                "pollsReporting": 0,
+                "totalPolls": 0
+            }
+            for m in VOTING_METHODS_DEF
+        }
+
+        for ws in q_item.get("wardStats", []):
+            for p in ws.get("pollStats", []):
+                p_code = p.get("pollTypeCode")
+                if p_code in method_dict:
+                    entry = method_dict[p_code]
+                    entry["totalPolls"] += 1
+                    p_yes = p.get("yesVotes")
+                    p_no = p.get("noVotes")
+                    if p_yes is not None or p_no is not None:
+                        entry["pollsReporting"] += 1
+                        entry["yesVotes"] += (p_yes or 0)
+                        entry["noVotes"] += (p_no or 0)
+
+        for m in method_dict.values():
+            tot = m["yesVotes"] + m["noVotes"]
+            m["totalVotes"] = tot
+            if tot > 0:
+                m["yesPct"] = round(m["yesVotes"] / tot * 100, 2)
+                m["noPct"] = round(m["noVotes"] / tot * 100, 2)
+                m["marginVotes"] = m["yesVotes"] - m["noVotes"]
+                m["marginPct"] = round(m["yesPct"] - m["noPct"], 2)
+
+        voting_methods_list = [method_dict[m["code"]] for m in VOTING_METHODS_DEF]
+
         processed_questions.append({
             "questionID": q_id,
             "questionNumber": q_num,
@@ -303,6 +356,7 @@ def process_results(raw_data):
             "marginPct": margin_pct,
             "leader": leader,
             "regionalStats": regional_stats,
+            "votingMethods": voting_methods_list,
             "wards": ward_list
         })
 
@@ -339,6 +393,7 @@ def save_data(enriched):
     history_path = os.path.join(DATA_DIR, "history.jsonl")
     summary_csv_path = os.path.join(DATA_DIR, "referendum_summary.csv")
     ridings_csv_path = os.path.join(DATA_DIR, "riding_results.csv")
+    methods_csv_path = os.path.join(DATA_DIR, "voting_methods.csv")
 
     # Check if data actually changed compared to existing latest.json
     if os.path.exists(latest_path):
@@ -347,7 +402,9 @@ def save_data(enriched):
                 prev = json.load(f)
             prev_sum = prev.get("turnout", {}).get("summary", {})
             curr_sum = enriched.get("turnout", {}).get("summary", {})
-            if (prev.get("lastUpdatedEAB") == enriched.get("lastUpdatedEAB") and
+            prev_has_methods = bool(prev.get("questions") and "votingMethods" in prev["questions"][0])
+            if (prev_has_methods and
+                prev.get("lastUpdatedEAB") == enriched.get("lastUpdatedEAB") and
                 prev_sum.get("votes") == curr_sum.get("votes") and
                 prev_sum.get("pollsReporting") == curr_sum.get("pollsReporting")):
                 logger.info("No vote changes from Elections Alberta; data unchanged.")
@@ -471,6 +528,37 @@ def save_data(enriched):
                     ])
     except Exception as e:
         logger.error(f"Error writing ridings CSV: {e}")
+
+    # 5. Export voting_methods.csv
+    try:
+        with open(methods_csv_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                "Question Number", "Question ID", "Question Title",
+                "Method Code", "Method Name",
+                "Yes Votes", "No Votes", "Total Votes", "Yes %", "No %",
+                "Margin (Votes)", "Margin %", "Polls Reporting", "Total Polls"
+            ])
+            for q in enriched["questions"]:
+                for m in q.get("votingMethods", []):
+                    writer.writerow([
+                        q["questionNumber"],
+                        q["questionID"],
+                        q["title"],
+                        m["code"],
+                        m["name"],
+                        m["yesVotes"],
+                        m["noVotes"],
+                        m["totalVotes"],
+                        m["yesPct"],
+                        m["noPct"],
+                        m["marginVotes"],
+                        m["marginPct"],
+                        m["pollsReporting"],
+                        m["totalPolls"]
+                    ])
+    except Exception as e:
+        logger.error(f"Error writing voting methods CSV: {e}")
 
     logger.info(f"Saved latest data. Polls: {enriched['turnout']['summary']['pollsReporting']}/{enriched['turnout']['summary']['totalPolls']}, Votes: {enriched['turnout']['summary']['votes']}")
     return True

@@ -328,71 +328,122 @@
         </div>
       </div>
 
-      <!-- Regional Rollups -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <!-- Calgary Card -->
-        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+      <!-- Voting Method Breakdown Section -->
+      <div class="space-y-3">
+        <div class="flex items-center justify-between">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center space-x-1.5">
+            <i data-lucide="layers" class="w-4 h-4 text-blue-500"></i>
+            <span>Results by Voting Method (Advance vs Election Day vs Mail-in)</span>
+          </h4>
+          <span class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">Poll-level Breakdown</span>
+        </div>
+
+        <!-- 4 Method Stat Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5" id="method-cards-grid">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+
+      <!-- Comparative Charts (Voting Method vs Regional) -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- Voting Method Comparison Chart -->
+        <div class="bg-slate-50 dark:bg-slate-950/50 border border-slate-200 dark:border-slate-800/70 rounded-xl p-4 transition-colors flex flex-col justify-between">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-500 dark:text-blue-400"></i>
-              <span>Calgary (26 Ridings)</span>
-            </span>
-            <span id="calg-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+            <div>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
+                <i data-lucide="bar-chart-horizontal" class="w-3.5 h-3.5 text-blue-500"></i>
+                <span id="method-chart-title">Voting Method Comparison</span>
+              </h4>
+              <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Advance vs Election Day vs Mail-in %</p>
+            </div>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300 font-semibold">Live Polls</span>
           </div>
-          <div class="flex items-baseline justify-between mb-2">
-            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="calg-yes">0.0% YES</div>
-            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="calg-no">0.0% NO</div>
-          </div>
-          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
-            <div id="calg-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
-            <div class="bg-red-500 h-full flex-1"></div>
+          <div class="h-56 w-full relative">
+            <canvas id="votingMethodChart"></canvas>
           </div>
         </div>
 
-        <!-- Edmonton Card -->
-        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+        <!-- Regional Comparison Chart -->
+        <div class="bg-slate-50 dark:bg-slate-950/50 border border-slate-200 dark:border-slate-800/70 rounded-xl p-4 transition-colors flex flex-col justify-between">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-indigo-500 dark:text-indigo-400"></i>
-              <span>Edmonton (20 Ridings)</span>
-            </span>
-            <span id="edm-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+            <div>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-indigo-500"></i>
+                <span>Regional Yes vs No Comparison</span>
+              </h4>
+              <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">Calgary vs Edmonton vs Regional / Rural</p>
+            </div>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300 font-semibold">87 Ridings</span>
           </div>
-          <div class="flex items-baseline justify-between mb-2">
-            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="edm-yes">0.0% YES</div>
-            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="edm-no">0.0% NO</div>
-          </div>
-          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
-            <div id="edm-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
-            <div class="bg-red-500 h-full flex-1"></div>
-          </div>
-        </div>
-
-        <!-- Regional / Rural Card -->
-        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
-          <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-500 dark:text-amber-400"></i>
-              <span>Regional / Rural (41 Ridings)</span>
-            </span>
-            <span id="oth-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
-          </div>
-          <div class="flex items-baseline justify-between mb-2">
-            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="oth-yes">0.0% YES</div>
-            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="oth-no">0.0% NO</div>
-          </div>
-          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
-            <div id="oth-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
-            <div class="bg-red-500 h-full flex-1"></div>
+          <div class="h-56 w-full relative">
+            <canvas id="regionalChart"></canvas>
           </div>
         </div>
       </div>
 
-      <!-- Regional Comparison Chart -->
-      <div class="bg-slate-50 dark:bg-slate-950/50 border border-slate-200 dark:border-slate-800/70 rounded-xl p-4 transition-colors">
-        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-3">Regional Yes vs No Comparison</h4>
-        <div class="h-48 w-full">
-          <canvas id="regionalChart"></canvas>
+      <!-- Regional Rollups -->
+      <div class="space-y-3">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center space-x-1.5">
+          <i data-lucide="map-pin" class="w-4 h-4 text-indigo-500"></i>
+          <span>Regional Rollup Cards</span>
+        </h4>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Calgary Card -->
+          <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-500 dark:text-blue-400"></i>
+                <span>Calgary (26 Ridings)</span>
+              </span>
+              <span id="calg-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+            </div>
+            <div class="flex items-baseline justify-between mb-2">
+              <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="calg-yes">0.0% YES</div>
+              <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="calg-no">0.0% NO</div>
+            </div>
+            <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+              <div id="calg-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+              <div class="bg-red-500 h-full flex-1"></div>
+            </div>
+          </div>
+
+          <!-- Edmonton Card -->
+          <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-indigo-500 dark:text-indigo-400"></i>
+                <span>Edmonton (20 Ridings)</span>
+              </span>
+              <span id="edm-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+            </div>
+            <div class="flex items-baseline justify-between mb-2">
+              <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="edm-yes">0.0% YES</div>
+              <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="edm-no">0.0% NO</div>
+            </div>
+            <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+              <div id="edm-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+              <div class="bg-red-500 h-full flex-1"></div>
+            </div>
+          </div>
+
+          <!-- Regional / Rural Card -->
+          <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-500 dark:text-amber-400"></i>
+                <span>Regional / Rural (41 Ridings)</span>
+              </span>
+              <span id="oth-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+            </div>
+            <div class="flex items-baseline justify-between mb-2">
+              <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="oth-yes">0.0% YES</div>
+              <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="oth-no">0.0% NO</div>
+            </div>
+            <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+              <div id="oth-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+              <div class="bg-red-500 h-full flex-1"></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -476,6 +527,7 @@
     let sortAsc = true;
     let timerCountdown = 30;
     let regionalChartInstance = null;
+    let votingMethodChartInstance = null;
 
     // --- THEME MANAGEMENT (LIGHT / DARK / AUTO) ---
     function getSystemTheme() {
@@ -511,15 +563,24 @@
       }
 
       // Update Chart text/grid colors for the active theme
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
       if (regionalChartInstance) {
-        const isDark = document.documentElement.classList.contains('dark');
-        const textColor = isDark ? '#94a3b8' : '#475569';
-        const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
         regionalChartInstance.options.plugins.legend.labels.color = textColor;
         regionalChartInstance.options.scales.x.ticks.color = textColor;
         regionalChartInstance.options.scales.y.ticks.color = textColor;
         regionalChartInstance.options.scales.y.grid.color = gridColor;
         regionalChartInstance.update();
+      }
+
+      if (votingMethodChartInstance) {
+        votingMethodChartInstance.options.plugins.legend.labels.color = textColor;
+        votingMethodChartInstance.options.scales.x.ticks.color = textColor;
+        votingMethodChartInstance.options.scales.x.grid.color = gridColor;
+        votingMethodChartInstance.options.scales.y.ticks.color = textColor;
+        votingMethodChartInstance.update();
       }
 
       // Re-render questions grid to ensure active card styling matches theme
@@ -958,6 +1019,7 @@
         renderQuestionsGrid(currentData.questions || []);
         renderActiveQuestionDetail();
         updateMapChoropleth();
+        lucide.createIcons();
       }
     }
 
@@ -990,14 +1052,175 @@
       document.getElementById('oth-no').textContent = `${oth.noPct}% NO`;
       document.getElementById('oth-bar').style.width = `${oth.total > 0 ? oth.yesPct : 50}%`;
 
-      // Update Chart
-      updateRegionalChart(calg, edm, oth);
+      // Voting Methods Stats & Chart
+      const isQ10 = (q.questionNumber === 10 || q.questionID === 11);
+      renderMethodCards(q.votingMethods || [], isQ10);
+      updateVotingMethodChart(q.votingMethods || [], isQ10);
+      lucide.createIcons();
+
+      // Update Regional Chart
+      updateRegionalChart(calg, edm, oth, isQ10);
 
       // Render Riding Table
       renderRidingTable(q.wards || []);
     }
 
-    function updateRegionalChart(calg, edm, oth) {
+    function renderMethodCards(votingMethods, isQ10) {
+      const container = document.getElementById('method-cards-grid');
+      if (!container) return;
+
+      const iconMap = {
+        'ADV': 'calendar',
+        'ORD': 'clock',
+        'VBMHQ': 'mail',
+        'MOB': 'truck'
+      };
+
+      const labelYesShort = isQ10 ? 'Remain' : 'YES';
+      const labelNoShort = isQ10 ? 'Separation' : 'NO';
+
+      container.innerHTML = (votingMethods || []).map(m => {
+        const icon = iconMap[m.code] || 'check-circle';
+        const repPct = m.totalPolls > 0 ? (m.pollsReporting / m.totalPolls * 100).toFixed(1) : '0.0';
+        const yesW = m.totalVotes > 0 ? m.yesPct : 50;
+
+        return `
+          <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-3.5 transition-colors flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-xs font-bold text-slate-800 dark:text-slate-200 flex items-center space-x-1.5">
+                  <i data-lucide="${icon}" class="w-3.5 h-3.5 text-blue-500"></i>
+                  <span>${m.name}</span>
+                </span>
+                <span class="text-[10px] text-slate-500 dark:text-slate-400 font-medium">${m.pollsReporting}/${m.totalPolls} (${repPct}%)</span>
+              </div>
+
+              <div class="flex items-baseline justify-between my-1">
+                <div>
+                  <span class="text-base font-extrabold text-emerald-600 dark:text-emerald-400">${m.yesPct}%</span>
+                  <span class="text-[10px] text-slate-500 dark:text-slate-400 ml-0.5">${labelYesShort}</span>
+                </div>
+                <div class="text-right">
+                  <span class="text-base font-extrabold text-red-600 dark:text-red-400">${m.noPct}%</span>
+                  <span class="text-[10px] text-slate-500 dark:text-slate-400 ml-0.5">${labelNoShort}</span>
+                </div>
+              </div>
+
+              <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden my-1.5">
+                <div class="bg-emerald-500 h-full transition-width" style="width: ${yesW}%"></div>
+                <div class="bg-red-500 h-full flex-1"></div>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-1.5 border-t border-slate-200/60 dark:border-slate-800/60">
+              <span>${(m.totalVotes || 0).toLocaleString()} votes</span>
+              <span class="font-bold ${m.marginVotes >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}">
+                ${m.marginVotes >= 0 ? '+' : ''}${m.marginPct}%
+              </span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function updateVotingMethodChart(votingMethods, isQ10) {
+      const ctx = document.getElementById('votingMethodChart');
+      if (!ctx) return;
+
+      const labels = (votingMethods || []).map(m => m.name);
+      const yesData = (votingMethods || []).map(m => m.yesPct || 0);
+      const noData = (votingMethods || []).map(m => m.noPct || 0);
+
+      const labelYes = isQ10 ? 'Option 1 (Remain) %' : 'YES %';
+      const labelNo = isQ10 ? 'Option 2 (Separation Referendum) %' : 'NO %';
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      const titleEl = document.getElementById('method-chart-title');
+      if (titleEl) {
+        titleEl.textContent = isQ10 ? 'Separation Referendum by Voting Method' : 'Voting Method Comparison';
+      }
+
+      if (votingMethodChartInstance) {
+        votingMethodChartInstance.data.labels = labels;
+        votingMethodChartInstance.data.datasets[0].label = labelYes;
+        votingMethodChartInstance.data.datasets[0].data = yesData;
+        votingMethodChartInstance.data.datasets[1].label = labelNo;
+        votingMethodChartInstance.data.datasets[1].data = noData;
+        votingMethodChartInstance.options.plugins.legend.labels.color = textColor;
+        votingMethodChartInstance.options.scales.x.ticks.color = textColor;
+        votingMethodChartInstance.options.scales.x.grid.color = gridColor;
+        votingMethodChartInstance.options.scales.y.ticks.color = textColor;
+        votingMethodChartInstance.update();
+      } else {
+        votingMethodChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [
+              {
+                label: labelYes,
+                data: yesData,
+                backgroundColor: 'rgba(16, 185, 129, 0.85)',
+                borderRadius: 4
+              },
+              {
+                label: labelNo,
+                data: noData,
+                backgroundColor: 'rgba(239, 68, 68, 0.85)',
+                borderRadius: 4
+              }
+            ]
+          },
+          options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: textColor, font: { family: 'Inter', size: 11 } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    const m = (votingMethods || [])[context.dataIndex] || {};
+                    const votes = context.datasetIndex === 0 ? (m.yesVotes || 0) : (m.noVotes || 0);
+                    return `${context.dataset.label}: ${context.parsed.x}% (${votes.toLocaleString()} votes)`;
+                  },
+                  afterBody: function(items) {
+                    if (!items.length) return '';
+                    const m = (votingMethods || [])[items[0].dataIndex] || {};
+                    const pct = m.totalPolls > 0 ? (m.pollsReporting / m.totalPolls * 100).toFixed(1) : 0;
+                    return `Total: ${(m.totalVotes || 0).toLocaleString()} votes | Reporting: ${m.pollsReporting}/${m.totalPolls} polls (${pct}%)`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                max: 100,
+                min: 0,
+                ticks: {
+                  color: textColor,
+                  callback: val => val + '%',
+                  font: { family: 'Inter', size: 10 }
+                },
+                grid: { color: gridColor }
+              },
+              y: {
+                ticks: { color: textColor, font: { family: 'Inter', size: 11 } },
+                grid: { display: false }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    function updateRegionalChart(calg, edm, oth, isQ10) {
       const ctx = document.getElementById('regionalChart');
       if (!ctx) return;
 
@@ -1005,12 +1228,17 @@
       const yesData = [calg.yesPct || 0, edm.yesPct || 0, oth.yesPct || 0];
       const noData = [calg.noPct || 0, edm.noPct || 0, oth.noPct || 0];
 
+      const labelYes = isQ10 ? 'Option 1 (Remain) %' : 'YES %';
+      const labelNo = isQ10 ? 'Option 2 (Separation Referendum) %' : 'NO %';
+
       const isDark = document.documentElement.classList.contains('dark');
       const textColor = isDark ? '#94a3b8' : '#475569';
       const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
 
       if (regionalChartInstance) {
+        regionalChartInstance.data.datasets[0].label = labelYes;
         regionalChartInstance.data.datasets[0].data = yesData;
+        regionalChartInstance.data.datasets[1].label = labelNo;
         regionalChartInstance.data.datasets[1].data = noData;
         regionalChartInstance.options.plugins.legend.labels.color = textColor;
         regionalChartInstance.options.scales.x.ticks.color = textColor;
@@ -1024,13 +1252,13 @@
             labels: labels,
             datasets: [
               {
-                label: 'Yes %',
+                label: labelYes,
                 data: yesData,
                 backgroundColor: 'rgba(16, 185, 129, 0.85)',
                 borderRadius: 4
               },
               {
-                label: 'No %',
+                label: labelNo,
                 data: noData,
                 backgroundColor: 'rgba(239, 68, 68, 0.85)',
                 borderRadius: 4
@@ -1042,6 +1270,7 @@
             maintainAspectRatio: false,
             plugins: {
               legend: {
+                position: 'top',
                 labels: { color: textColor, font: { family: 'Inter', size: 11 } }
               }
             },
