@@ -18,6 +18,7 @@ while true; do
     git add data/
     TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
     git commit -m "Auto-update referendum returns: $TIMESTAMP"
+    git pull --rebase origin main
     git push origin main
     echo "Pushed to GitHub. GitHub Pages will refresh automatically."
   else
