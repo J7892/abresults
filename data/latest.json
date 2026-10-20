@@ -1,35 +1,35 @@
 {
-  "fetchedAt": "2026-10-20T06:43:48.895591+00:00",
-  "lastUpdatedEAB": "2026-10-20T06:43:14.4130871+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 12:43:14 AM MDT",
+  "fetchedAt": "2026-10-20T06:44:22.711079+00:00",
+  "lastUpdatedEAB": "2026-10-20T06:44:01.7575388+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 12:44:01 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 3654875,
-      "valid": 3654875,
-      "pollsReporting": 2179,
+      "votes": 3664546,
+      "valid": 3664546,
+      "pollsReporting": 2185,
       "totalPolls": 5587,
-      "pollsReportingPct": 39.0
+      "pollsReportingPct": 39.11
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 65.72,
-      "valid": 2402081,
+      "percentageOfAllVotes": 65.7,
+      "valid": 2407786,
       "pollsReporting": 176,
       "totalPolls": 269
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 19.44,
-      "valid": 710468,
-      "pollsReporting": 1831,
+      "percentageOfAllVotes": 19.5,
+      "valid": 714434,
+      "pollsReporting": 1837,
       "totalPolls": 4904
     },
     "vbm": {
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.32,
+      "percentageOfAllVotes": 13.28,
       "valid": 486766,
       "pollsReporting": 74,
       "totalPolls": 87
@@ -48,22 +48,22 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 346660,
-      "noVotes": 259126,
-      "totalVotes": 605786,
-      "yesPct": 57.22,
-      "noPct": 42.78,
-      "marginVotes": 87534,
-      "marginPct": 14.44,
+      "yesVotes": 346874,
+      "noVotes": 259179,
+      "totalVotes": 606053,
+      "yesPct": 57.23,
+      "noPct": 42.77,
+      "marginVotes": 87695,
+      "marginPct": 14.46,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 102846,
-          "no": 100933,
-          "total": 203779,
+          "yes": 102985,
+          "no": 100973,
+          "total": 203958,
           "wards": 26,
-          "yesPct": 50.47,
-          "noPct": 49.53
+          "yesPct": 50.49,
+          "noPct": 49.51
         },
         "Edmonton": {
           "yes": 32345,
@@ -74,9 +74,9 @@
           "noPct": 59.16
         },
         "Regional / Other": {
-          "yes": 211469,
-          "no": 111341,
-          "total": 322810,
+          "yes": 211544,
+          "no": 111354,
+          "total": 322898,
           "wards": 41,
           "yesPct": 65.51,
           "noPct": 34.49
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 68965,
-          "noVotes": 26756,
-          "totalVotes": 95721,
-          "yesPct": 72.05,
-          "noPct": 27.95,
-          "marginVotes": 42209,
-          "marginPct": 44.1,
-          "pollsReporting": 1842,
+          "yesVotes": 69179,
+          "noVotes": 26809,
+          "totalVotes": 95988,
+          "yesPct": 72.07,
+          "noPct": 27.93,
+          "marginVotes": 42370,
+          "marginPct": 44.14,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -261,9 +261,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -509,17 +509,17 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 10236,
-          "noVotes": 6876,
-          "totalVotes": 17112,
-          "yesPct": 59.82,
-          "noPct": 40.18,
-          "marginVotes": 3360,
-          "marginPct": 19.64,
+          "yesVotes": 10375,
+          "noVotes": 6916,
+          "totalVotes": 17291,
+          "yesPct": 60.0,
+          "noPct": 40.0,
+          "marginVotes": 3459,
+          "marginPct": 20.0,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -581,9 +581,9 @@
           "marginVotes": 131,
           "marginPct": 2.92,
           "leader": "YES",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -661,9 +661,9 @@
           "marginVotes": -1825,
           "marginPct": -25.68,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -709,9 +709,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -1117,13 +1117,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 3851,
-          "noVotes": 1816,
-          "totalVotes": 5667,
-          "yesPct": 67.95,
-          "noPct": 32.05,
-          "marginVotes": 2035,
-          "marginPct": 35.9,
+          "yesVotes": 3926,
+          "noVotes": 1829,
+          "totalVotes": 5755,
+          "yesPct": 68.22,
+          "noPct": 31.78,
+          "marginVotes": 2097,
+          "marginPct": 36.44,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -1429,9 +1429,9 @@
           "marginVotes": 1438,
           "marginPct": 10.18,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -1536,38 +1536,38 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 276296,
-      "noVotes": 222779,
-      "totalVotes": 499075,
-      "yesPct": 55.36,
-      "noPct": 44.64,
-      "marginVotes": 53517,
-      "marginPct": 10.72,
+      "yesVotes": 276911,
+      "noVotes": 223233,
+      "totalVotes": 500144,
+      "yesPct": 55.37,
+      "noPct": 44.63,
+      "marginVotes": 53678,
+      "marginPct": 10.74,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 93484,
-          "no": 102542,
-          "total": 196026,
+          "yes": 93807,
+          "no": 102836,
+          "total": 196643,
           "wards": 26,
-          "yesPct": 47.69,
-          "noPct": 52.31
+          "yesPct": 47.7,
+          "noPct": 52.3
         },
         "Edmonton": {
-          "yes": 22734,
-          "no": 36122,
-          "total": 58856,
+          "yes": 22865,
+          "no": 36236,
+          "total": 59101,
           "wards": 20,
-          "yesPct": 38.63,
-          "noPct": 61.37
+          "yesPct": 38.69,
+          "noPct": 61.31
         },
         "Regional / Other": {
-          "yes": 160078,
-          "no": 84115,
-          "total": 244193,
+          "yes": 160239,
+          "no": 84161,
+          "total": 244400,
           "wards": 41,
-          "yesPct": 65.55,
-          "noPct": 34.45
+          "yesPct": 65.56,
+          "noPct": 34.44
         }
       },
       "votingMethods": [
@@ -1587,14 +1587,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 53417,
-          "noVotes": 22799,
-          "totalVotes": 76216,
-          "yesPct": 70.09,
-          "noPct": 29.91,
-          "marginVotes": 30618,
-          "marginPct": 40.18,
-          "pollsReporting": 1842,
+          "yesVotes": 54032,
+          "noVotes": 23253,
+          "totalVotes": 77285,
+          "yesPct": 69.91,
+          "noPct": 30.09,
+          "marginVotes": 30779,
+          "marginPct": 39.82,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -1661,13 +1661,13 @@
           "ward": "03",
           "wardName": "03 - Calgary-Bow",
           "region": "Calgary",
-          "yesVotes": 6272,
-          "noVotes": 6807,
-          "totalVotes": 13079,
-          "yesPct": 47.95,
-          "noPct": 52.05,
-          "marginVotes": -535,
-          "marginPct": -4.1,
+          "yesVotes": 6395,
+          "noVotes": 6872,
+          "totalVotes": 13267,
+          "yesPct": 48.2,
+          "noPct": 51.8,
+          "marginVotes": -477,
+          "marginPct": -3.6,
           "leader": "NO",
           "pollsReporting": 57,
           "totalPolls": 69,
@@ -1749,9 +1749,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -1933,14 +1933,14 @@
           "ward": "20",
           "wardName": "20 - Calgary-North East",
           "region": "Calgary",
-          "yesVotes": 1145,
-          "noVotes": 1110,
-          "totalVotes": 2255,
-          "yesPct": 50.78,
-          "noPct": 49.22,
-          "marginVotes": 35,
-          "marginPct": 1.56,
-          "leader": "YES",
+          "yesVotes": 1243,
+          "noVotes": 1282,
+          "totalVotes": 2525,
+          "yesPct": 49.23,
+          "noPct": 50.77,
+          "marginVotes": -39,
+          "marginPct": -1.54,
+          "leader": "NO",
           "pollsReporting": 45,
           "totalPolls": 65,
           "pollsPct": 69.2
@@ -1997,17 +1997,17 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 8661,
-          "noVotes": 6684,
-          "totalVotes": 15345,
-          "yesPct": 56.44,
-          "noPct": 43.56,
-          "marginVotes": 1977,
-          "marginPct": 12.88,
+          "yesVotes": 8763,
+          "noVotes": 6741,
+          "totalVotes": 15504,
+          "yesPct": 56.52,
+          "noPct": 43.48,
+          "marginVotes": 2022,
+          "marginPct": 13.04,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -2069,9 +2069,9 @@
           "marginVotes": -230,
           "marginPct": -5.12,
           "leader": "NO",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -2149,9 +2149,9 @@
           "marginVotes": -2161,
           "marginPct": -31.08,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -2197,9 +2197,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -2269,13 +2269,13 @@
           "ward": "41",
           "wardName": "41 - Edmonton-Rutherford",
           "region": "Edmonton",
-          "yesVotes": 3439,
-          "noVotes": 5163,
-          "totalVotes": 8602,
-          "yesPct": 39.98,
-          "noPct": 60.02,
-          "marginVotes": -1724,
-          "marginPct": -20.04,
+          "yesVotes": 3570,
+          "noVotes": 5277,
+          "totalVotes": 8847,
+          "yesPct": 40.35,
+          "noPct": 59.65,
+          "marginVotes": -1707,
+          "marginPct": -19.3,
           "leader": "NO",
           "pollsReporting": 28,
           "totalPolls": 50,
@@ -2605,13 +2605,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 288,
-          "noVotes": 74,
-          "totalVotes": 362,
-          "yesPct": 79.56,
-          "noPct": 20.44,
-          "marginVotes": 214,
-          "marginPct": 59.12,
+          "yesVotes": 360,
+          "noVotes": 91,
+          "totalVotes": 451,
+          "yesPct": 79.82,
+          "noPct": 20.18,
+          "marginVotes": 269,
+          "marginPct": 59.64,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -2845,13 +2845,13 @@
           "ward": "77",
           "wardName": "77 - Peace River",
           "region": "Regional / Other",
-          "yesVotes": 5158,
-          "noVotes": 3048,
-          "totalVotes": 8206,
-          "yesPct": 62.86,
-          "noPct": 37.14,
-          "marginVotes": 2110,
-          "marginPct": 25.72,
+          "yesVotes": 5247,
+          "noVotes": 3077,
+          "totalVotes": 8324,
+          "yesPct": 63.03,
+          "noPct": 36.97,
+          "marginVotes": 2170,
+          "marginPct": 26.06,
           "leader": "YES",
           "pollsReporting": 47,
           "totalPolls": 69,
@@ -2917,9 +2917,9 @@
           "marginVotes": 540,
           "marginPct": 4.06,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -3024,65 +3024,65 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 198854,
-      "noVotes": 153383,
-      "totalVotes": 352237,
-      "yesPct": 56.45,
-      "noPct": 43.55,
-      "marginVotes": 45471,
-      "marginPct": 12.9,
+      "yesVotes": 201980,
+      "noVotes": 156613,
+      "totalVotes": 358593,
+      "yesPct": 56.33,
+      "noPct": 43.67,
+      "marginVotes": 45367,
+      "marginPct": 12.66,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 67042,
-          "no": 71948,
-          "total": 138990,
+          "yes": 69887,
+          "no": 75031,
+          "total": 144918,
           "wards": 26,
-          "yesPct": 48.24,
-          "noPct": 51.76
+          "yesPct": 48.23,
+          "noPct": 51.77
         },
         "Edmonton": {
-          "yes": 19425,
-          "no": 31426,
-          "total": 50851,
+          "yes": 19551,
+          "no": 31545,
+          "total": 51096,
           "wards": 20,
-          "yesPct": 38.2,
-          "noPct": 61.8
+          "yesPct": 38.26,
+          "noPct": 61.74
         },
         "Regional / Other": {
-          "yes": 112387,
-          "no": 50009,
-          "total": 162396,
+          "yes": 112542,
+          "no": 50037,
+          "total": 162579,
           "wards": 41,
-          "yesPct": 69.21,
-          "noPct": 30.79
+          "yesPct": 69.22,
+          "noPct": 30.78
         }
       },
       "votingMethods": [
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 152146,
-          "noVotes": 131226,
-          "totalVotes": 283372,
-          "yesPct": 53.69,
-          "noPct": 46.31,
-          "marginVotes": 20920,
-          "marginPct": 7.38,
+          "yesVotes": 154867,
+          "noVotes": 134210,
+          "totalVotes": 289077,
+          "yesPct": 53.57,
+          "noPct": 46.43,
+          "marginVotes": 20657,
+          "marginPct": 7.14,
           "pollsReporting": 176,
           "totalPolls": 269
         },
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 40208,
-          "noVotes": 15064,
-          "totalVotes": 55272,
-          "yesPct": 72.75,
-          "noPct": 27.25,
-          "marginVotes": 25144,
-          "marginPct": 45.5,
-          "pollsReporting": 1842,
+          "yesVotes": 40613,
+          "noVotes": 15310,
+          "totalVotes": 55923,
+          "yesPct": 72.62,
+          "noPct": 27.38,
+          "marginVotes": 25303,
+          "marginPct": 45.24,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -3237,9 +3237,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -3405,13 +3405,13 @@
           "ward": "19",
           "wardName": "19 - Calgary-North",
           "region": "Calgary",
-          "yesVotes": 1960,
-          "noVotes": 1966,
-          "totalVotes": 3926,
-          "yesPct": 49.92,
-          "noPct": 50.08,
-          "marginVotes": -6,
-          "marginPct": -0.16,
+          "yesVotes": 4681,
+          "noVotes": 4950,
+          "totalVotes": 9631,
+          "yesPct": 48.6,
+          "noPct": 51.4,
+          "marginVotes": -269,
+          "marginPct": -2.8,
           "leader": "NO",
           "pollsReporting": 6,
           "totalPolls": 52,
@@ -3421,13 +3421,13 @@
           "ward": "20",
           "wardName": "20 - Calgary-North East",
           "region": "Calgary",
-          "yesVotes": 180,
-          "noVotes": 128,
-          "totalVotes": 308,
-          "yesPct": 58.44,
-          "noPct": 41.56,
-          "marginVotes": 52,
-          "marginPct": 16.88,
+          "yesVotes": 304,
+          "noVotes": 227,
+          "totalVotes": 531,
+          "yesPct": 57.25,
+          "noPct": 42.75,
+          "marginVotes": 77,
+          "marginPct": 14.5,
           "leader": "YES",
           "pollsReporting": 45,
           "totalPolls": 65,
@@ -3493,9 +3493,9 @@
           "marginVotes": 524,
           "marginPct": 29.6,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -3557,9 +3557,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -3637,9 +3637,9 @@
           "marginVotes": -1900,
           "marginPct": -27.68,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -3685,9 +3685,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -3757,13 +3757,13 @@
           "ward": "41",
           "wardName": "41 - Edmonton-Rutherford",
           "region": "Edmonton",
-          "yesVotes": 3381,
-          "noVotes": 5124,
-          "totalVotes": 8505,
-          "yesPct": 39.75,
-          "noPct": 60.25,
-          "marginVotes": -1743,
-          "marginPct": -20.5,
+          "yesVotes": 3507,
+          "noVotes": 5243,
+          "totalVotes": 8750,
+          "yesPct": 40.08,
+          "noPct": 59.92,
+          "marginVotes": -1736,
+          "marginPct": -19.84,
           "leader": "NO",
           "pollsReporting": 28,
           "totalPolls": 50,
@@ -4093,13 +4093,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 293,
-          "noVotes": 69,
-          "totalVotes": 362,
-          "yesPct": 80.94,
-          "noPct": 19.06,
-          "marginVotes": 224,
-          "marginPct": 61.88,
+          "yesVotes": 366,
+          "noVotes": 85,
+          "totalVotes": 451,
+          "yesPct": 81.15,
+          "noPct": 18.85,
+          "marginVotes": 281,
+          "marginPct": 62.3,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -4141,13 +4141,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 367,
-          "noVotes": 129,
-          "totalVotes": 496,
-          "yesPct": 73.99,
-          "noPct": 26.01,
-          "marginVotes": 238,
-          "marginPct": 47.98,
+          "yesVotes": 449,
+          "noVotes": 141,
+          "totalVotes": 590,
+          "yesPct": 76.1,
+          "noPct": 23.9,
+          "marginVotes": 308,
+          "marginPct": 52.2,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -4405,9 +4405,9 @@
           "marginVotes": 513,
           "marginPct": 8.8,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -4512,13 +4512,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 141747,
-      "noVotes": 114791,
-      "totalVotes": 256538,
-      "yesPct": 55.25,
-      "noPct": 44.75,
-      "marginVotes": 26956,
-      "marginPct": 10.5,
+      "yesVotes": 141900,
+      "noVotes": 114821,
+      "totalVotes": 256721,
+      "yesPct": 55.27,
+      "noPct": 44.73,
+      "marginVotes": 27079,
+      "marginPct": 10.54,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4538,12 +4538,12 @@
           "noPct": 61.16
         },
         "Regional / Other": {
-          "yes": 83022,
-          "no": 41836,
-          "total": 124858,
+          "yes": 83175,
+          "no": 41866,
+          "total": 125041,
           "wards": 41,
-          "yesPct": 66.49,
-          "noPct": 33.51
+          "yesPct": 66.52,
+          "noPct": 33.48
         }
       },
       "votingMethods": [
@@ -4563,14 +4563,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 32258,
-          "noVotes": 12389,
-          "totalVotes": 44647,
-          "yesPct": 72.25,
-          "noPct": 27.75,
-          "marginVotes": 19869,
-          "marginPct": 44.5,
-          "pollsReporting": 1842,
+          "yesVotes": 32411,
+          "noVotes": 12419,
+          "totalVotes": 44830,
+          "yesPct": 72.3,
+          "noPct": 27.7,
+          "marginVotes": 19992,
+          "marginPct": 44.6,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -4725,9 +4725,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -4981,9 +4981,9 @@
           "marginVotes": 63,
           "marginPct": 22.74,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -5045,9 +5045,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -5125,9 +5125,9 @@
           "marginVotes": -2010,
           "marginPct": -29.24,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -5173,9 +5173,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -5581,13 +5581,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 273,
-          "noVotes": 89,
-          "totalVotes": 362,
-          "yesPct": 75.41,
-          "noPct": 24.59,
-          "marginVotes": 184,
-          "marginPct": 50.82,
+          "yesVotes": 345,
+          "noVotes": 106,
+          "totalVotes": 451,
+          "yesPct": 76.5,
+          "noPct": 23.5,
+          "marginVotes": 239,
+          "marginPct": 53.0,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -5629,13 +5629,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 390,
-          "noVotes": 164,
-          "totalVotes": 554,
-          "yesPct": 70.4,
-          "noPct": 29.6,
-          "marginVotes": 226,
-          "marginPct": 40.8,
+          "yesVotes": 471,
+          "noVotes": 177,
+          "totalVotes": 648,
+          "yesPct": 72.69,
+          "noPct": 27.31,
+          "marginVotes": 294,
+          "marginPct": 45.38,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -5893,9 +5893,9 @@
           "marginVotes": 350,
           "marginPct": 6.56,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -6000,13 +6000,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 100063,
-      "noVotes": 66130,
-      "totalVotes": 166193,
-      "yesPct": 60.21,
-      "noPct": 39.79,
-      "marginVotes": 33933,
-      "marginPct": 20.42,
+      "yesVotes": 100328,
+      "noVotes": 66165,
+      "totalVotes": 166493,
+      "yesPct": 60.26,
+      "noPct": 39.74,
+      "marginVotes": 34163,
+      "marginPct": 20.52,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6026,12 +6026,12 @@
           "noPct": 59.65
         },
         "Regional / Other": {
-          "yes": 58934,
-          "no": 21646,
-          "total": 80580,
+          "yes": 59199,
+          "no": 21681,
+          "total": 80880,
           "wards": 41,
-          "yesPct": 73.14,
-          "noPct": 26.86
+          "yesPct": 73.19,
+          "noPct": 26.81
         }
       },
       "votingMethods": [
@@ -6051,14 +6051,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 32662,
-          "noVotes": 9123,
-          "totalVotes": 41785,
-          "yesPct": 78.17,
-          "noPct": 21.83,
-          "marginVotes": 23539,
-          "marginPct": 56.34,
-          "pollsReporting": 1842,
+          "yesVotes": 32927,
+          "noVotes": 9158,
+          "totalVotes": 42085,
+          "yesPct": 78.24,
+          "noPct": 21.76,
+          "marginVotes": 23769,
+          "marginPct": 56.48,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -6213,9 +6213,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -6469,9 +6469,9 @@
           "marginVotes": 107,
           "marginPct": 38.62,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -6533,9 +6533,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -6613,9 +6613,9 @@
           "marginVotes": -1119,
           "marginPct": -41.34,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -6661,9 +6661,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -7069,13 +7069,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 297,
-          "noVotes": 66,
-          "totalVotes": 363,
-          "yesPct": 81.82,
-          "noPct": 18.18,
-          "marginVotes": 231,
-          "marginPct": 63.64,
+          "yesVotes": 377,
+          "noVotes": 75,
+          "totalVotes": 452,
+          "yesPct": 83.41,
+          "noPct": 16.59,
+          "marginVotes": 302,
+          "marginPct": 66.82,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -7117,13 +7117,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 430,
-          "noVotes": 127,
-          "totalVotes": 557,
-          "yesPct": 77.2,
-          "noPct": 22.8,
-          "marginVotes": 303,
-          "marginPct": 54.4,
+          "yesVotes": 515,
+          "noVotes": 136,
+          "totalVotes": 651,
+          "yesPct": 79.11,
+          "noPct": 20.89,
+          "marginVotes": 379,
+          "marginPct": 58.22,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -7293,13 +7293,13 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 411,
-          "noVotes": 61,
-          "totalVotes": 472,
-          "yesPct": 87.08,
-          "noPct": 12.92,
-          "marginVotes": 350,
-          "marginPct": 74.16,
+          "yesVotes": 511,
+          "noVotes": 78,
+          "totalVotes": 589,
+          "yesPct": 86.76,
+          "noPct": 13.24,
+          "marginVotes": 433,
+          "marginPct": 73.52,
           "leader": "YES",
           "pollsReporting": 69,
           "totalPolls": 71,
@@ -7381,9 +7381,9 @@
           "marginVotes": 871,
           "marginPct": 16.56,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -7488,13 +7488,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 56074,
-      "noVotes": 57628,
-      "totalVotes": 113702,
-      "yesPct": 49.32,
-      "noPct": 50.68,
-      "marginVotes": -1554,
-      "marginPct": -1.36,
+      "yesVotes": 56223,
+      "noVotes": 57661,
+      "totalVotes": 113884,
+      "yesPct": 49.37,
+      "noPct": 50.63,
+      "marginVotes": -1438,
+      "marginPct": -1.26,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -7514,12 +7514,12 @@
           "noPct": 71.51
         },
         "Regional / Other": {
-          "yes": 37943,
-          "no": 20301,
-          "total": 58244,
+          "yes": 38092,
+          "no": 20334,
+          "total": 58426,
           "wards": 41,
-          "yesPct": 65.14,
-          "noPct": 34.86
+          "yesPct": 65.2,
+          "noPct": 34.8
         }
       },
       "votingMethods": [
@@ -7539,14 +7539,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 26815,
-          "noVotes": 11863,
-          "totalVotes": 38678,
-          "yesPct": 69.33,
-          "noPct": 30.67,
-          "marginVotes": 14952,
-          "marginPct": 38.66,
-          "pollsReporting": 1842,
+          "yesVotes": 26964,
+          "noVotes": 11896,
+          "totalVotes": 38860,
+          "yesPct": 69.39,
+          "noPct": 30.61,
+          "marginVotes": 15068,
+          "marginPct": 38.78,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -7701,9 +7701,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -7957,9 +7957,9 @@
           "marginVotes": 9,
           "marginPct": 3.34,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -8021,9 +8021,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -8101,9 +8101,9 @@
           "marginVotes": -1579,
           "marginPct": -58.46,
           "leader": "NO",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -8149,9 +8149,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -8557,13 +8557,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 255,
-          "noVotes": 107,
-          "totalVotes": 362,
-          "yesPct": 70.44,
-          "noPct": 29.56,
-          "marginVotes": 148,
-          "marginPct": 40.88,
+          "yesVotes": 326,
+          "noVotes": 124,
+          "totalVotes": 450,
+          "yesPct": 72.44,
+          "noPct": 27.56,
+          "marginVotes": 202,
+          "marginPct": 44.88,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -8605,13 +8605,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 329,
-          "noVotes": 152,
-          "totalVotes": 481,
-          "yesPct": 68.4,
-          "noPct": 31.6,
-          "marginVotes": 177,
-          "marginPct": 36.8,
+          "yesVotes": 407,
+          "noVotes": 168,
+          "totalVotes": 575,
+          "yesPct": 70.78,
+          "noPct": 29.22,
+          "marginVotes": 239,
+          "marginPct": 41.56,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -8869,9 +8869,9 @@
           "marginVotes": -11,
           "marginPct": -28.2,
           "leader": "NO",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -8976,13 +8976,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 64197,
-      "noVotes": 62806,
-      "totalVotes": 127003,
-      "yesPct": 50.55,
-      "noPct": 49.45,
-      "marginVotes": 1391,
-      "marginPct": 1.1,
+      "yesVotes": 64333,
+      "noVotes": 62842,
+      "totalVotes": 127175,
+      "yesPct": 50.59,
+      "noPct": 49.41,
+      "marginVotes": 1491,
+      "marginPct": 1.18,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -9002,12 +9002,12 @@
           "noPct": 67.1
         },
         "Regional / Other": {
-          "yes": 40384,
-          "no": 21781,
-          "total": 62165,
+          "yes": 40520,
+          "no": 21817,
+          "total": 62337,
           "wards": 41,
-          "yesPct": 64.96,
-          "noPct": 35.04
+          "yesPct": 65.0,
+          "noPct": 35.0
         }
       },
       "votingMethods": [
@@ -9027,14 +9027,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 23580,
-          "noVotes": 10929,
-          "totalVotes": 34509,
-          "yesPct": 68.33,
-          "noPct": 31.67,
-          "marginVotes": 12651,
-          "marginPct": 36.66,
-          "pollsReporting": 1842,
+          "yesVotes": 23716,
+          "noVotes": 10965,
+          "totalVotes": 34681,
+          "yesPct": 68.38,
+          "noPct": 31.62,
+          "marginVotes": 12751,
+          "marginPct": 36.76,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -9189,9 +9189,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -9445,9 +9445,9 @@
           "marginVotes": 43,
           "marginPct": 15.76,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -9509,9 +9509,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -9589,9 +9589,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -9637,9 +9637,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -10045,13 +10045,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 260,
-          "noVotes": 101,
-          "totalVotes": 361,
-          "yesPct": 72.02,
-          "noPct": 27.98,
-          "marginVotes": 159,
-          "marginPct": 44.04,
+          "yesVotes": 328,
+          "noVotes": 121,
+          "totalVotes": 449,
+          "yesPct": 73.05,
+          "noPct": 26.95,
+          "marginVotes": 207,
+          "marginPct": 46.1,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -10093,13 +10093,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 282,
-          "noVotes": 143,
-          "totalVotes": 425,
-          "yesPct": 66.35,
-          "noPct": 33.65,
-          "marginVotes": 139,
-          "marginPct": 32.7,
+          "yesVotes": 350,
+          "noVotes": 159,
+          "totalVotes": 509,
+          "yesPct": 68.76,
+          "noPct": 31.24,
+          "marginVotes": 191,
+          "marginPct": 37.52,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -10357,9 +10357,9 @@
           "marginVotes": -7,
           "marginPct": -17.94,
           "leader": "NO",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -10464,13 +10464,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 53291,
-      "noVotes": 61344,
-      "totalVotes": 114635,
-      "yesPct": 46.49,
-      "noPct": 53.51,
-      "marginVotes": -8053,
-      "marginPct": -7.02,
+      "yesVotes": 53419,
+      "noVotes": 61388,
+      "totalVotes": 114807,
+      "yesPct": 46.53,
+      "noPct": 53.47,
+      "marginVotes": -7969,
+      "marginPct": -6.94,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10490,12 +10490,12 @@
           "noPct": 72.3
         },
         "Regional / Other": {
-          "yes": 37150,
-          "no": 24330,
-          "total": 61480,
+          "yes": 37278,
+          "no": 24374,
+          "total": 61652,
           "wards": 41,
-          "yesPct": 60.43,
-          "noPct": 39.57
+          "yesPct": 60.47,
+          "noPct": 39.53
         }
       },
       "votingMethods": [
@@ -10515,14 +10515,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 23718,
-          "noVotes": 13021,
-          "totalVotes": 36739,
-          "yesPct": 64.56,
-          "noPct": 35.44,
-          "marginVotes": 10697,
-          "marginPct": 29.12,
-          "pollsReporting": 1842,
+          "yesVotes": 23846,
+          "noVotes": 13065,
+          "totalVotes": 36911,
+          "yesPct": 64.6,
+          "noPct": 35.4,
+          "marginVotes": 10781,
+          "marginPct": 29.2,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -10677,9 +10677,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -10933,9 +10933,9 @@
           "marginVotes": 44,
           "marginPct": 10.42,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -10997,9 +10997,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -11077,9 +11077,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -11125,9 +11125,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -11533,13 +11533,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 254,
-          "noVotes": 107,
-          "totalVotes": 361,
-          "yesPct": 70.36,
-          "noPct": 29.64,
-          "marginVotes": 147,
-          "marginPct": 40.72,
+          "yesVotes": 320,
+          "noVotes": 127,
+          "totalVotes": 447,
+          "yesPct": 71.59,
+          "noPct": 28.41,
+          "marginVotes": 193,
+          "marginPct": 43.18,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -11581,13 +11581,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 268,
-          "noVotes": 156,
-          "totalVotes": 424,
-          "yesPct": 63.21,
-          "noPct": 36.79,
-          "marginVotes": 112,
-          "marginPct": 26.42,
+          "yesVotes": 330,
+          "noVotes": 180,
+          "totalVotes": 510,
+          "yesPct": 64.71,
+          "noPct": 35.29,
+          "marginVotes": 150,
+          "marginPct": 29.42,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -11845,9 +11845,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -11952,22 +11952,22 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 70036,
-      "noVotes": 75305,
-      "totalVotes": 145341,
-      "yesPct": 48.19,
-      "noPct": 51.81,
-      "marginVotes": -5269,
-      "marginPct": -3.62,
+      "yesVotes": 70213,
+      "noVotes": 75405,
+      "totalVotes": 145618,
+      "yesPct": 48.22,
+      "noPct": 51.78,
+      "marginVotes": -5192,
+      "marginPct": -3.56,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 10302,
-          "no": 16958,
-          "total": 27260,
+          "yes": 10345,
+          "no": 17019,
+          "total": 27364,
           "wards": 26,
-          "yesPct": 37.79,
-          "noPct": 62.21
+          "yesPct": 37.81,
+          "noPct": 62.19
         },
         "Edmonton": {
           "yes": 11358,
@@ -11978,12 +11978,12 @@
           "noPct": 69.54
         },
         "Regional / Other": {
-          "yes": 48376,
-          "no": 32414,
-          "total": 80790,
+          "yes": 48510,
+          "no": 32453,
+          "total": 80963,
           "wards": 41,
-          "yesPct": 59.88,
-          "noPct": 40.12
+          "yesPct": 59.92,
+          "noPct": 40.08
         }
       },
       "votingMethods": [
@@ -12003,14 +12003,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 26320,
-          "noVotes": 13958,
-          "totalVotes": 40278,
-          "yesPct": 65.35,
-          "noPct": 34.65,
-          "marginVotes": 12362,
-          "marginPct": 30.7,
-          "pollsReporting": 1842,
+          "yesVotes": 26497,
+          "noVotes": 14058,
+          "totalVotes": 40555,
+          "yesPct": 65.34,
+          "noPct": 34.66,
+          "marginVotes": 12439,
+          "marginPct": 30.68,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -12093,13 +12093,13 @@
           "ward": "04",
           "wardName": "04 - Calgary-Buffalo",
           "region": "Calgary",
-          "yesVotes": 2473,
-          "noVotes": 5330,
-          "totalVotes": 7803,
-          "yesPct": 31.69,
-          "noPct": 68.31,
-          "marginVotes": -2857,
-          "marginPct": -36.62,
+          "yesVotes": 2495,
+          "noVotes": 5360,
+          "totalVotes": 7855,
+          "yesPct": 31.76,
+          "noPct": 68.24,
+          "marginVotes": -2865,
+          "marginPct": -36.48,
           "leader": "NO",
           "pollsReporting": 35,
           "totalPolls": 78,
@@ -12165,9 +12165,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -12317,13 +12317,13 @@
           "ward": "18",
           "wardName": "18 - Calgary-Mountain View",
           "region": "Calgary",
-          "yesVotes": 522,
-          "noVotes": 1102,
-          "totalVotes": 1624,
-          "yesPct": 32.14,
-          "noPct": 67.86,
-          "marginVotes": -580,
-          "marginPct": -35.72,
+          "yesVotes": 543,
+          "noVotes": 1133,
+          "totalVotes": 1676,
+          "yesPct": 32.4,
+          "noPct": 67.6,
+          "marginVotes": -590,
+          "marginPct": -35.2,
           "leader": "NO",
           "pollsReporting": 34,
           "totalPolls": 90,
@@ -12421,9 +12421,9 @@
           "marginVotes": 36,
           "marginPct": 12.0,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -12485,9 +12485,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -12565,9 +12565,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -12613,9 +12613,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -13021,13 +13021,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 266,
-          "noVotes": 96,
-          "totalVotes": 362,
-          "yesPct": 73.48,
-          "noPct": 26.52,
-          "marginVotes": 170,
-          "marginPct": 46.96,
+          "yesVotes": 334,
+          "noVotes": 116,
+          "totalVotes": 450,
+          "yesPct": 74.22,
+          "noPct": 25.78,
+          "marginVotes": 218,
+          "marginPct": 48.44,
           "leader": "YES",
           "pollsReporting": 43,
           "totalPolls": 82,
@@ -13069,13 +13069,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 437,
-          "noVotes": 236,
-          "totalVotes": 673,
-          "yesPct": 64.93,
-          "noPct": 35.07,
-          "marginVotes": 201,
-          "marginPct": 29.86,
+          "yesVotes": 503,
+          "noVotes": 255,
+          "totalVotes": 758,
+          "yesPct": 66.36,
+          "noPct": 33.64,
+          "marginVotes": 248,
+          "marginPct": 32.72,
           "leader": "YES",
           "pollsReporting": 50,
           "totalPolls": 112,
@@ -13333,9 +13333,9 @@
           "marginVotes": 14,
           "marginPct": 8.98,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
@@ -13440,35 +13440,35 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 973346,
-      "noVotes": 301019,
-      "totalVotes": 1274365,
+      "yesVotes": 973885,
+      "noVotes": 301173,
+      "totalVotes": 1275058,
       "yesPct": 76.38,
       "noPct": 23.62,
-      "marginVotes": 672327,
+      "marginVotes": 672712,
       "marginPct": 52.76,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 342163,
-          "no": 67716,
-          "total": 409879,
+          "yes": 342298,
+          "no": 67752,
+          "total": 410050,
           "wards": 26,
           "yesPct": 83.48,
           "noPct": 16.52
         },
         "Edmonton": {
-          "yes": 221246,
-          "no": 29225,
-          "total": 250471,
+          "yes": 221516,
+          "no": 29289,
+          "total": 250805,
           "wards": 20,
-          "yesPct": 88.33,
-          "noPct": 11.67
+          "yesPct": 88.32,
+          "noPct": 11.68
         },
         "Regional / Other": {
-          "yes": 409937,
-          "no": 204078,
-          "total": 614015,
+          "yes": 410071,
+          "no": 204132,
+          "total": 614203,
           "wards": 41,
           "yesPct": 66.76,
           "noPct": 33.24
@@ -13491,14 +13491,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 153108,
-          "noVotes": 93515,
-          "totalVotes": 246623,
-          "yesPct": 62.08,
-          "noPct": 37.92,
-          "marginVotes": 59593,
-          "marginPct": 24.16,
-          "pollsReporting": 1842,
+          "yesVotes": 153647,
+          "noVotes": 93669,
+          "totalVotes": 247316,
+          "yesPct": 62.13,
+          "noPct": 37.87,
+          "marginVotes": 59978,
+          "marginPct": 24.26,
+          "pollsReporting": 1848,
           "totalPolls": 4904
         },
         {
@@ -13645,17 +13645,17 @@
           "ward": "08",
           "wardName": "08 - Calgary-Edgemont",
           "region": "Calgary",
-          "yesVotes": 9598,
-          "noVotes": 1167,
-          "totalVotes": 10765,
-          "yesPct": 89.16,
-          "noPct": 10.84,
-          "marginVotes": 8431,
-          "marginPct": 78.32,
+          "yesVotes": 9733,
+          "noVotes": 1203,
+          "totalVotes": 10936,
+          "yesPct": 89.0,
+          "noPct": 11.0,
+          "marginVotes": 8530,
+          "marginPct": 78.0,
           "leader": "YES",
-          "pollsReporting": 24,
+          "pollsReporting": 25,
           "totalPolls": 57,
-          "pollsPct": 42.1
+          "pollsPct": 43.9
         },
         {
           "ward": "09",
@@ -13909,9 +13909,9 @@
           "marginVotes": 14993,
           "marginPct": 56.32,
           "leader": "YES",
-          "pollsReporting": 50,
+          "pollsReporting": 51,
           "totalPolls": 76,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "25",
@@ -13965,17 +13965,17 @@
           "ward": "28",
           "wardName": "28 - Edmonton-Castle Downs",
           "region": "Edmonton",
-          "yesVotes": 12758,
-          "noVotes": 1996,
-          "totalVotes": 14754,
-          "yesPct": 86.47,
-          "noPct": 13.53,
-          "marginVotes": 10762,
-          "marginPct": 72.94,
+          "yesVotes": 12866,
+          "noVotes": 2025,
+          "totalVotes": 14891,
+          "yesPct": 86.4,
+          "noPct": 13.6,
+          "marginVotes": 10841,
+          "marginPct": 72.8,
           "leader": "YES",
-          "pollsReporting": 7,
+          "pollsReporting": 8,
           "totalPolls": 69,
-          "pollsPct": 10.1
+          "pollsPct": 11.6
         },
         {
           "ward": "29",
@@ -14045,17 +14045,17 @@
           "ward": "33",
           "wardName": "33 - Edmonton-Gold Bar",
           "region": "Edmonton",
-          "yesVotes": 8681,
-          "noVotes": 1920,
-          "totalVotes": 10601,
-          "yesPct": 81.89,
-          "noPct": 18.11,
-          "marginVotes": 6761,
-          "marginPct": 63.78,
+          "yesVotes": 8764,
+          "noVotes": 1935,
+          "totalVotes": 10699,
+          "yesPct": 81.91,
+          "noPct": 18.09,
+          "marginVotes": 6829,
+          "marginPct": 63.82,
           "leader": "YES",
-          "pollsReporting": 22,
+          "pollsReporting": 23,
           "totalPolls": 58,
-          "pollsPct": 37.9
+          "pollsPct": 39.7
         },
         {
           "ward": "34",
@@ -14093,17 +14093,17 @@
           "ward": "36",
           "wardName": "36 - Edmonton-McClung",
           "region": "Edmonton",
-          "yesVotes": 7266,
-          "noVotes": 794,
-          "totalVotes": 8060,
-          "yesPct": 90.15,
-          "noPct": 9.85,
-          "marginVotes": 6472,
-          "marginPct": 80.3,
+          "yesVotes": 7345,
+          "noVotes": 814,
+          "totalVotes": 8159,
+          "yesPct": 90.02,
+          "noPct": 9.98,
+          "marginVotes": 6531,
+          "marginPct": 80.04,
           "leader": "YES",
-          "pollsReporting": 14,
+          "pollsReporting": 15,
           "totalPolls": 51,
-          "pollsPct": 27.5
+          "pollsPct": 29.4
         },
         {
           "ward": "37",
@@ -14813,17 +14813,17 @@
           "ward": "81",
           "wardName": "81 - Sherwood Park",
           "region": "Regional / Other",
-          "yesVotes": 14765,
-          "noVotes": 4973,
-          "totalVotes": 19738,
-          "yesPct": 74.8,
-          "noPct": 25.2,
-          "marginVotes": 9792,
-          "marginPct": 49.6,
+          "yesVotes": 14899,
+          "noVotes": 5027,
+          "totalVotes": 19926,
+          "yesPct": 74.77,
+          "noPct": 25.23,
+          "marginVotes": 9872,
+          "marginPct": 49.54,
           "leader": "YES",
-          "pollsReporting": 56,
+          "pollsReporting": 57,
           "totalPolls": 61,
-          "pollsPct": 91.8
+          "pollsPct": 93.4
         },
         {
           "ward": "82",
