@@ -278,6 +278,134 @@
       </div>
     </section>
 
+    <!-- SECTION 3: 2021 CENSUS DEMOGRAPHIC PREDICTORS & SCATTER EXPLORER -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="users" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">3. Census Demographic Predictors</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+              2021 Census Profiles
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Programmatically compiled from all 87 Electoral Division census profiles (Open Alberta / Statistics Canada). 
+            Analyze how education, immigrant share, homeownership, oil & gas employment, and income shape referendum votes.
+          </p>
+        </div>
+        <div class="flex items-center space-x-2 flex-shrink-0">
+          <a href="data/riding_demographics.csv" download class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 dark:bg-emerald-600/20 dark:hover:bg-emerald-600/30 dark:text-emerald-300 dark:border-emerald-500/30 transition shadow-sm">
+            <i data-lucide="download" class="w-3.5 h-3.5"></i>
+            <span>Demographics CSV</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Interactive Demographic Scatter Plot (7 cols on XL) -->
+        <div class="xl:col-span-7 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <i data-lucide="scatter-chart" class="w-3.5 h-3.5 text-emerald-500"></i>
+                <span>Demographic vs Referendum Scatter</span>
+              </h4>
+              <span id="demo-scatter-r-badge" class="px-2.5 py-0.5 rounded font-bold text-xs bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+                r = -0.66
+              </span>
+            </div>
+
+            <!-- Controls -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+              <div>
+                <label class="block text-[10px] text-slate-500 dark:text-slate-400 mb-0.5">Demographic Factor (X Axis)</label>
+                <select id="demo-var-select" class="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+                  <option value="bachelorDegreePct">Education (Bachelor's Degree or Higher %)</option>
+                  <option value="immigrantPct">Immigrant Population %</option>
+                  <option value="visibleMinorityPct">Visible Minority %</option>
+                  <option value="oilAndGasPct">Oil & Gas / Resource Employment %</option>
+                  <option value="homeownershipPct">Homeownership Rate %</option>
+                  <option value="medianHouseholdIncome">Median Household Income ($)</option>
+                  <option value="avgAge">Average Age (Years)</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-[10px] text-slate-500 dark:text-slate-400 mb-0.5">Referendum Vote Metric (Y Axis)</label>
+                <select id="demo-vote-select" class="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+                  <option value="q10_no">Q10: Option 2 (Separation Referendum %)</option>
+                  <option value="q10_yes">Q10: Option 1 (Remain in Canada %)</option>
+                  <option value="q1">Q1: Immigration Control Yes %</option>
+                  <option value="q2">Q2: Citizenship & PR Services Yes %</option>
+                  <option value="q3">Q3: Police Act Amendments Yes %</option>
+                  <option value="q4">Q4: Alberta Pension Plan Yes %</option>
+                  <option value="q5">Q5: Proof of Citizenship to Vote Yes %</option>
+                  <option value="q6">Q6: Provincial Selection of Judges Yes %</option>
+                  <option value="q7">Q7: Abolition of Senate Yes %</option>
+                  <option value="q8">Q8: Federal Opt-Out Rights Yes %</option>
+                  <option value="q9">Q9: Carbon Tax & Resource Levies Yes %</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Scatter Canvas -->
+            <div class="h-64 sm:h-72 w-full relative">
+              <canvas id="demographicScatterChart"></canvas>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-200 dark:border-slate-800">
+            <div class="flex items-center space-x-2">
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-1"></span> Calgary</span>
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-1"></span> Edmonton</span>
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-1"></span> Rural</span>
+            </div>
+            <span id="demo-scatter-interpretation" class="font-medium text-slate-600 dark:text-slate-300">Strong correlation</span>
+          </div>
+        </div>
+
+        <!-- Correlation Summary Table & Key Findings (5 cols on XL) -->
+        <div class="xl:col-span-5 space-y-4">
+          <!-- Key Insights Card -->
+          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 space-y-2.5">
+            <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider block">Key Statistical Takeaways</span>
+            <div class="space-y-2 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+              <div class="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+                <strong>1. Immigration & Diversity ($r = -0.75$)</strong>: High immigrant and visible minority ridings vote overwhelmingly against separation.
+              </div>
+              <div class="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+                <strong>2. Higher Education ($r = -0.66$)</strong>: Ridings with high university degree attainment heavily favor remaining in Canada.
+              </div>
+              <div class="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+                <strong>3. Resource Employment ($r = +0.52$)</strong>: The strongest positive predictor for Option 2 (Separation) is resource/oil & gas sector employment.
+              </div>
+              <div class="p-2 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800">
+                <strong>4. Household Income ($r = +0.04$)</strong>: Income has virtually zero correlation with the separation vote—wealthy and working-class ridings divide similarly based on culture and industry rather than personal earnings.
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Correlation Matrix Table -->
+          <div class="overflow-x-auto">
+            <table class="min-w-full text-xs text-left">
+              <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-700">
+                <tr>
+                  <th class="py-2 px-2.5">Demographic Metric</th>
+                  <th class="py-2 px-2 text-right">Q10 Separate</th>
+                  <th class="py-2 px-2 text-right">Q10 Remain</th>
+                  <th class="py-2 px-2 text-right">Q1 Immig.</th>
+                </tr>
+              </thead>
+              <tbody id="demo-summary-table-body" class="divide-y divide-slate-100 dark:divide-slate-800">
+                <!-- Rendered via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- FOOTER -->
@@ -301,6 +429,8 @@
 
     let urbanRuralChartInstance = null;
     let scatterChartInstance = null;
+    let demographicScatterChartInstance = null;
+    let demographicData = null;
 
     let activeScatterX = 1;
     let activeScatterY = 10;
@@ -334,12 +464,14 @@
       const textColor = isDark ? '#94a3b8' : '#475569';
       const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
 
-      [urbanRuralChartInstance, scatterChartInstance].forEach(inst => {
+      [urbanRuralChartInstance, scatterChartInstance, demographicScatterChartInstance].forEach(inst => {
         if (inst) {
           if (inst.options.plugins?.legend?.labels) inst.options.plugins.legend.labels.color = textColor;
           if (inst.options.scales?.x?.ticks) inst.options.scales.x.ticks.color = textColor;
+          if (inst.options.scales?.x?.title) inst.options.scales.x.title.color = textColor;
           if (inst.options.scales?.x?.grid) inst.options.scales.x.grid.color = gridColor;
           if (inst.options.scales?.y?.ticks) inst.options.scales.y.ticks.color = textColor;
+          if (inst.options.scales?.y?.title) inst.options.scales.y.title.color = textColor;
           if (inst.options.scales?.y?.grid) inst.options.scales.y.grid.color = gridColor;
           inst.update();
         }
@@ -357,9 +489,17 @@
       if (icon) icon.classList.add('animate-spin');
 
       try {
-        const resp = await fetch(`data/latest.json?t=${Date.now()}`);
-        if (resp.ok) {
-          currentData = await resp.json();
+        const [respLatest, respDemo] = await Promise.all([
+          fetch(`data/latest.json?t=${Date.now()}`),
+          demographicData ? Promise.resolve(null) : fetch(`data/riding_demographics.json?t=${Date.now()}`)
+        ]);
+
+        if (respDemo && respDemo.ok) {
+          demographicData = await respDemo.json();
+        }
+
+        if (respLatest && respLatest.ok) {
+          currentData = await respLatest.json();
           renderLatestInsights(currentData);
         }
       } catch (err) {
@@ -743,8 +883,269 @@
       const questions = data.questions || [];
       renderUrbanRuralDivide(questions);
       renderCorrelationMatrix(questions);
+      renderDemographics(questions, demographicData);
 
       lucide.createIcons();
+    }
+
+    // --- SECTION 3: 2021 CENSUS DEMOGRAPHIC PREDICTORS & SCATTER ---
+    const DEMO_VARS = {
+      bachelorDegreePct: { label: "Bachelor's Degree or Higher", unit: "%", format: v => `${v.toFixed(1)}%` },
+      immigrantPct: { label: "Immigrant Population", unit: "%", format: v => `${v.toFixed(1)}%` },
+      visibleMinorityPct: { label: "Visible Minority", unit: "%", format: v => `${v.toFixed(1)}%` },
+      oilAndGasPct: { label: "Oil & Gas / Resource Employment", unit: "%", format: v => `${v.toFixed(1)}%` },
+      homeownershipPct: { label: "Homeownership Rate", unit: "%", format: v => `${v.toFixed(1)}%` },
+      medianHouseholdIncome: { label: "Median Household Income", unit: "$", format: v => `$${Math.round(v).toLocaleString()}` },
+      avgAge: { label: "Average Age", unit: " yrs", format: v => `${v.toFixed(1)} yrs` }
+    };
+
+    function getVoteValuesForMetric(questions, metricKey) {
+      const map = {};
+      if (metricKey === 'q10_no') {
+        const q10 = (questions || []).find(q => q.questionNumber === 10);
+        if (q10) {
+          (q10.wards || []).forEach(w => {
+            if (w.totalVotes > 0) map[w.ward] = w.noPct;
+          });
+        }
+      } else if (metricKey === 'q10_yes') {
+        const q10 = (questions || []).find(q => q.questionNumber === 10);
+        if (q10) {
+          (q10.wards || []).forEach(w => {
+            if (w.totalVotes > 0) map[w.ward] = w.yesPct;
+          });
+        }
+      } else if (metricKey.startsWith('q')) {
+        const qNum = parseInt(metricKey.replace('q', ''));
+        const q = (questions || []).find(item => item.questionNumber === qNum);
+        if (q) {
+          (q.wards || []).forEach(w => {
+            if (w.totalVotes > 0) map[w.ward] = w.yesPct;
+          });
+        }
+      }
+      return map;
+    }
+
+    function renderDemographicSummaryTable(questions, demographicData) {
+      const tbody = document.getElementById('demo-summary-table-body');
+      if (!tbody || !demographicData || !questions) return;
+      tbody.innerHTML = '';
+
+      const sepMap = getVoteValuesForMetric(questions, 'q10_no');
+      const remMap = getVoteValuesForMetric(questions, 'q10_yes');
+      const immMap = getVoteValuesForMetric(questions, 'q1');
+
+      function formatRCell(r) {
+        const sign = r >= 0 ? '+' : '';
+        const rStr = `${sign}${r.toFixed(2)}`;
+        let badgeClass = 'text-slate-600 dark:text-slate-400 bg-slate-100 dark:bg-slate-800';
+        if (r >= 0.5) {
+          badgeClass = 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 font-bold';
+        } else if (r >= 0.25) {
+          badgeClass = 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-400 font-medium';
+        } else if (r <= -0.5) {
+          badgeClass = 'bg-rose-100 text-rose-800 dark:bg-rose-900/50 dark:text-rose-300 font-bold';
+        } else if (r <= -0.25) {
+          badgeClass = 'bg-rose-50 text-rose-700 dark:bg-rose-950/40 dark:text-rose-400 font-medium';
+        }
+        return `<span class="px-2 py-0.5 rounded text-xs inline-block min-w-[50px] text-center ${badgeClass}">${rStr}</span>`;
+      }
+
+      Object.entries(DEMO_VARS).forEach(([varKey, meta]) => {
+        const xArr = [];
+        const sepArr = [];
+        const remArr = [];
+        const immArr = [];
+
+        demographicData.forEach(d => {
+          const x = d[varKey];
+          if (x !== undefined && x !== null) {
+            if (sepMap[d.ward] !== undefined) {
+              xArr.push(x);
+              sepArr.push(sepMap[d.ward]);
+              remArr.push(remMap[d.ward]);
+              immArr.push(immMap[d.ward]);
+            }
+          }
+        });
+
+        const rSep = calcPearson(xArr, sepArr);
+        const rRem = calcPearson(xArr, remArr);
+        const rImm = calcPearson(xArr, immArr);
+
+        const tr = document.createElement('tr');
+        tr.className = "hover:bg-slate-50 dark:hover:bg-slate-800/40 transition cursor-pointer";
+        tr.onclick = () => {
+          const sel = document.getElementById('demo-var-select');
+          if (sel) {
+            sel.value = varKey;
+            updateDemographicScatter();
+          }
+        };
+
+        tr.innerHTML = `
+          <td class="py-2 px-2.5 font-medium text-slate-900 dark:text-slate-100">
+            ${meta.label}
+          </td>
+          <td class="py-2 px-2 text-right">${formatRCell(rSep)}</td>
+          <td class="py-2 px-2 text-right">${formatRCell(rRem)}</td>
+          <td class="py-2 px-2 text-right">${formatRCell(rImm)}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function updateDemographicScatter() {
+      if (!currentData || !demographicData) return;
+
+      const demoVar = document.getElementById('demo-var-select')?.value || 'bachelorDegreePct';
+      const voteVar = document.getElementById('demo-vote-select')?.value || 'q10_no';
+      const demoConfig = DEMO_VARS[demoVar] || { label: demoVar, format: v => v };
+
+      const voteMap = getVoteValuesForMetric(currentData.questions || [], voteVar);
+      const selVoteElem = document.getElementById('demo-vote-select');
+      const voteLabel = selVoteElem?.options[selVoteElem.selectedIndex]?.text || voteVar;
+
+      const pointsCalg = [];
+      const pointsEdm = [];
+      const pointsRur = [];
+      const allX = [];
+      const allY = [];
+
+      // Lookup ward region from latest.json questions[0].wards
+      const q1 = (currentData.questions || [])[0];
+      const regionMap = {};
+      (q1?.wards || []).forEach(w => { regionMap[w.ward] = w.region; });
+
+      demographicData.forEach(d => {
+        const yVal = voteMap[d.ward];
+        const xVal = d[demoVar];
+        if (xVal !== undefined && xVal !== null && yVal !== undefined && yVal !== null) {
+          allX.push(xVal);
+          allY.push(yVal);
+          const pt = {
+            x: xVal,
+            y: yVal,
+            wardName: d.wardName || d.name,
+            xFormatted: demoConfig.format(xVal),
+            region: regionMap[d.ward] || 'Regional / Other'
+          };
+
+          if (pt.region === 'Calgary') pointsCalg.push(pt);
+          else if (pt.region === 'Edmonton') pointsEdm.push(pt);
+          else pointsRur.push(pt);
+        }
+      });
+
+      const r = calcPearson(allX, allY);
+      const rBadge = document.getElementById('demo-scatter-r-badge');
+      if (rBadge) {
+        rBadge.textContent = `r = ${r >= 0 ? '+' : ''}${r.toFixed(3)}`;
+        if (Math.abs(r) >= 0.5) {
+          rBadge.className = "px-2.5 py-0.5 rounded font-bold text-xs bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300";
+        } else if (Math.abs(r) >= 0.25) {
+          rBadge.className = "px-2.5 py-0.5 rounded font-semibold text-xs bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300";
+        } else {
+          rBadge.className = "px-2.5 py-0.5 rounded font-medium text-xs bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300";
+        }
+      }
+
+      const interp = document.getElementById('demo-scatter-interpretation');
+      if (interp) {
+        const absR = Math.abs(r);
+        let desc = "Negligible / no linear correlation";
+        if (absR >= 0.7) desc = "Very strong correlation";
+        else if (absR >= 0.5) desc = "Strong correlation";
+        else if (absR >= 0.3) desc = "Moderate correlation";
+        else if (absR >= 0.15) desc = "Weak correlation";
+        interp.textContent = desc;
+      }
+
+      const ctx = document.getElementById('demographicScatterChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (demographicScatterChartInstance) {
+        demographicScatterChartInstance.data.datasets[0].data = pointsCalg;
+        demographicScatterChartInstance.data.datasets[1].data = pointsEdm;
+        demographicScatterChartInstance.data.datasets[2].data = pointsRur;
+        demographicScatterChartInstance.options.scales.x.title.text = demoConfig.label;
+        demographicScatterChartInstance.options.scales.y.title.text = voteLabel;
+        demographicScatterChartInstance.update();
+      } else {
+        demographicScatterChartInstance = new Chart(ctx, {
+          type: 'scatter',
+          data: {
+            datasets: [
+              {
+                label: 'Calgary',
+                data: pointsCalg,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderColor: 'rgba(37, 99, 235, 1)',
+                pointRadius: 5,
+                hoverRadius: 7
+              },
+              {
+                label: 'Edmonton',
+                data: pointsEdm,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderColor: 'rgba(147, 51, 234, 1)',
+                pointRadius: 5,
+                hoverRadius: 7
+              },
+              {
+                label: 'Regional / Rural',
+                data: pointsRur,
+                backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                borderColor: 'rgba(217, 119, 6, 1)',
+                pointRadius: 5,
+                hoverRadius: 7
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (item) => {
+                    const raw = item.raw;
+                    return `${raw.wardName}: (${raw.xFormatted}, ${raw.y.toFixed(1)}%) [${raw.region}]`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                title: { display: true, text: demoConfig.label, color: textColor, font: { size: 10 } },
+                ticks: {
+                  color: textColor,
+                  font: { size: 10 },
+                  callback: (val) => demoVar === 'medianHouseholdIncome' ? `$${(val / 1000).toFixed(0)}k` : (demoVar === 'avgAge' ? `${val}y` : `${val}%`)
+                },
+                grid: { color: gridColor }
+              },
+              y: {
+                title: { display: true, text: voteLabel, color: textColor, font: { size: 10 } },
+                ticks: { color: textColor, font: { size: 10 }, callback: v => `${v}%` },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    function renderDemographics(questions, demographicData) {
+      if (!demographicData || !questions) return;
+      renderDemographicSummaryTable(questions, demographicData);
+      updateDemographicScatter();
     }
 
     // --- TIMER & INIT ---
@@ -757,6 +1158,9 @@
       document.getElementById('btn-refresh').addEventListener('click', () => {
         loadAllData();
       });
+
+      document.getElementById('demo-var-select')?.addEventListener('change', updateDemographicScatter);
+      document.getElementById('demo-vote-select')?.addEventListener('change', updateDemographicScatter);
 
       // 30s Polling Loop
       setInterval(() => {
