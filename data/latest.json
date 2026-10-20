@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-20T06:12:26.536738+00:00",
-  "lastUpdatedEAB": "2026-10-20T06:11:33.0124174+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 12:11:33 AM MDT",
+  "fetchedAt": "2026-10-20T06:12:57.503274+00:00",
+  "lastUpdatedEAB": "2026-10-20T06:12:20.1464055+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 12:12:20 AM MDT",
   "turnout": {
     "summary": {
       "votes": 2930085,
@@ -58,12 +58,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 75276,
-          "no": 73724,
-          "total": 149000,
+          "yes": 78742,
+          "no": 77486,
+          "total": 156228,
           "wards": 26,
-          "yesPct": 50.52,
-          "noPct": 49.48
+          "yesPct": 50.4,
+          "noPct": 49.6
         },
         "Edmonton": {
           "yes": 23251,
@@ -74,12 +74,12 @@
           "noPct": 60.8
         },
         "Regional / Other": {
-          "yes": 193354,
-          "no": 105651,
-          "total": 299005,
+          "yes": 193968,
+          "no": 105795,
+          "total": 299763,
           "wards": 41,
-          "yesPct": 64.67,
-          "noPct": 35.33
+          "yesPct": 64.71,
+          "noPct": 35.29
         }
       },
       "wards": [
@@ -87,14 +87,14 @@
           "ward": "01",
           "wardName": "01 - Calgary-Acadia",
           "region": "Calgary",
-          "yesVotes": 0,
-          "noVotes": 0,
-          "totalVotes": 0,
-          "yesPct": 0.0,
-          "noPct": 0.0,
-          "marginVotes": 0,
-          "marginPct": 0.0,
-          "leader": "Awaiting",
+          "yesVotes": 2061,
+          "noVotes": 1929,
+          "totalVotes": 3990,
+          "yesPct": 51.65,
+          "noPct": 48.35,
+          "marginVotes": 132,
+          "marginPct": 3.3,
+          "leader": "YES",
           "pollsReporting": 3,
           "totalPolls": 57,
           "pollsPct": 5.3
@@ -119,13 +119,13 @@
           "ward": "03",
           "wardName": "03 - Calgary-Bow",
           "region": "Calgary",
-          "yesVotes": 7138,
-          "noVotes": 6726,
-          "totalVotes": 13864,
-          "yesPct": 51.49,
-          "noPct": 48.51,
-          "marginVotes": 412,
-          "marginPct": 2.98,
+          "yesVotes": 7315,
+          "noVotes": 6862,
+          "totalVotes": 14177,
+          "yesPct": 51.6,
+          "noPct": 48.4,
+          "marginVotes": 453,
+          "marginPct": 3.2,
           "leader": "YES",
           "pollsReporting": 57,
           "totalPolls": 69,
@@ -135,13 +135,13 @@
           "ward": "04",
           "wardName": "04 - Calgary-Buffalo",
           "region": "Calgary",
-          "yesVotes": 1991,
-          "noVotes": 2845,
-          "totalVotes": 4836,
-          "yesPct": 41.17,
-          "noPct": 58.83,
-          "marginVotes": -854,
-          "marginPct": -17.66,
+          "yesVotes": 3140,
+          "noVotes": 4470,
+          "totalVotes": 7610,
+          "yesPct": 41.26,
+          "noPct": 58.74,
+          "marginVotes": -1330,
+          "marginPct": -17.48,
           "leader": "NO",
           "pollsReporting": 31,
           "totalPolls": 78,
@@ -183,13 +183,13 @@
           "ward": "07",
           "wardName": "07 - Calgary-East",
           "region": "Calgary",
-          "yesVotes": 1407,
-          "noVotes": 1823,
-          "totalVotes": 3230,
-          "yesPct": 43.56,
-          "noPct": 56.44,
-          "marginVotes": -416,
-          "marginPct": -12.88,
+          "yesVotes": 1446,
+          "noVotes": 1848,
+          "totalVotes": 3294,
+          "yesPct": 43.9,
+          "noPct": 56.1,
+          "marginVotes": -402,
+          "marginPct": -12.2,
           "leader": "NO",
           "pollsReporting": 17,
           "totalPolls": 74,
@@ -359,13 +359,13 @@
           "ward": "18",
           "wardName": "18 - Calgary-Mountain View",
           "region": "Calgary",
-          "yesVotes": 1641,
-          "noVotes": 3098,
-          "totalVotes": 4739,
-          "yesPct": 34.63,
-          "noPct": 65.37,
-          "marginVotes": -1457,
-          "marginPct": -30.74,
+          "yesVotes": 1681,
+          "noVotes": 3145,
+          "totalVotes": 4826,
+          "yesPct": 34.83,
+          "noPct": 65.17,
+          "marginVotes": -1464,
+          "marginPct": -30.34,
           "leader": "NO",
           "pollsReporting": 33,
           "totalPolls": 90,
@@ -399,9 +399,9 @@
           "marginVotes": 215,
           "marginPct": 21.1,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -463,9 +463,9 @@
           "marginVotes": 2837,
           "marginPct": 18.42,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -607,9 +607,9 @@
           "marginVotes": -1821,
           "marginPct": -25.98,
           "leader": "NO",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -823,17 +823,17 @@
           "ward": "47",
           "wardName": "47 - Airdrie-Cochrane",
           "region": "Regional / Other",
-          "yesVotes": 2149,
-          "noVotes": 830,
-          "totalVotes": 2979,
-          "yesPct": 72.14,
-          "noPct": 27.86,
-          "marginVotes": 1319,
-          "marginPct": 44.28,
+          "yesVotes": 2230,
+          "noVotes": 863,
+          "totalVotes": 3093,
+          "yesPct": 72.1,
+          "noPct": 27.9,
+          "marginVotes": 1367,
+          "marginPct": 44.2,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -847,9 +847,9 @@
           "marginVotes": 4243,
           "marginPct": 42.7,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -863,9 +863,9 @@
           "marginVotes": 3170,
           "marginPct": 29.92,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -951,13 +951,13 @@
           "ward": "55",
           "wardName": "55 - Central Peace-Notley",
           "region": "Regional / Other",
-          "yesVotes": 2057,
-          "noVotes": 768,
-          "totalVotes": 2825,
-          "yesPct": 72.81,
-          "noPct": 27.19,
-          "marginVotes": 1289,
-          "marginPct": 45.62,
+          "yesVotes": 2218,
+          "noVotes": 786,
+          "totalVotes": 3004,
+          "yesPct": 73.83,
+          "noPct": 26.17,
+          "marginVotes": 1432,
+          "marginPct": 47.66,
           "leader": "YES",
           "pollsReporting": 35,
           "totalPolls": 60,
@@ -1159,17 +1159,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 10185,
-          "noVotes": 3519,
-          "totalVotes": 13704,
-          "yesPct": 74.32,
-          "noPct": 25.68,
-          "marginVotes": 6666,
-          "marginPct": 48.64,
+          "yesVotes": 10266,
+          "noVotes": 3531,
+          "totalVotes": 13797,
+          "yesPct": 74.41,
+          "noPct": 25.59,
+          "marginVotes": 6735,
+          "marginPct": 48.82,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -1207,13 +1207,13 @@
           "ward": "71",
           "wardName": "71 - Lethbridge-East",
           "region": "Regional / Other",
-          "yesVotes": 7476,
-          "noVotes": 6055,
-          "totalVotes": 13531,
-          "yesPct": 55.25,
-          "noPct": 44.75,
-          "marginVotes": 1421,
-          "marginPct": 10.5,
+          "yesVotes": 7636,
+          "noVotes": 6108,
+          "totalVotes": 13744,
+          "yesPct": 55.56,
+          "noPct": 44.44,
+          "marginVotes": 1528,
+          "marginPct": 11.12,
           "leader": "YES",
           "pollsReporting": 60,
           "totalPolls": 69,
@@ -1295,9 +1295,9 @@
           "marginVotes": 9381,
           "marginPct": 59.72,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -1431,17 +1431,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 6739,
-          "noVotes": 2309,
-          "totalVotes": 9048,
-          "yesPct": 74.48,
-          "noPct": 25.52,
-          "marginVotes": 4430,
-          "marginPct": 48.96,
+          "yesVotes": 6870,
+          "noVotes": 2337,
+          "totalVotes": 9207,
+          "yesPct": 74.62,
+          "noPct": 25.38,
+          "marginVotes": 4533,
+          "marginPct": 49.24,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -1455,9 +1455,9 @@
           "marginVotes": -81,
           "marginPct": -3.78,
           "leader": "NO",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -1492,12 +1492,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 64617,
-          "no": 72399,
-          "total": 137016,
+          "yes": 64752,
+          "no": 72535,
+          "total": 137287,
           "wards": 26,
-          "yesPct": 47.16,
-          "noPct": 52.84
+          "yesPct": 47.17,
+          "noPct": 52.83
         },
         "Edmonton": {
           "yes": 17203,
@@ -1508,12 +1508,12 @@
           "noPct": 62.72
         },
         "Regional / Other": {
-          "yes": 121354,
-          "no": 62063,
-          "total": 183417,
+          "yes": 125496,
+          "no": 64289,
+          "total": 189785,
           "wards": 41,
-          "yesPct": 66.16,
-          "noPct": 33.84
+          "yesPct": 66.13,
+          "noPct": 33.87
         }
       },
       "wards": [
@@ -1601,13 +1601,13 @@
           "ward": "06",
           "wardName": "06 - Calgary-Currie",
           "region": "Calgary",
-          "yesVotes": 4322,
-          "noVotes": 6301,
-          "totalVotes": 10623,
-          "yesPct": 40.69,
-          "noPct": 59.31,
-          "marginVotes": -1979,
-          "marginPct": -18.62,
+          "yesVotes": 4384,
+          "noVotes": 6369,
+          "totalVotes": 10753,
+          "yesPct": 40.77,
+          "noPct": 59.23,
+          "marginVotes": -1985,
+          "marginPct": -18.46,
           "leader": "NO",
           "pollsReporting": 38,
           "totalPolls": 58,
@@ -1745,13 +1745,13 @@
           "ward": "15",
           "wardName": "15 - Calgary-Klein",
           "region": "Calgary",
-          "yesVotes": 4692,
-          "noVotes": 5461,
-          "totalVotes": 10153,
-          "yesPct": 46.21,
-          "noPct": 53.79,
-          "marginVotes": -769,
-          "marginPct": -7.58,
+          "yesVotes": 4765,
+          "noVotes": 5529,
+          "totalVotes": 10294,
+          "yesPct": 46.29,
+          "noPct": 53.71,
+          "marginVotes": -764,
+          "marginPct": -7.42,
           "leader": "NO",
           "pollsReporting": 46,
           "totalPolls": 53,
@@ -1833,9 +1833,9 @@
           "marginVotes": 63,
           "marginPct": 16.54,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -1897,9 +1897,9 @@
           "marginVotes": 1586,
           "marginPct": 11.46,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -2041,9 +2041,9 @@
           "marginVotes": -2161,
           "marginPct": -31.08,
           "leader": "NO",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -2257,17 +2257,17 @@
           "ward": "47",
           "wardName": "47 - Airdrie-Cochrane",
           "region": "Regional / Other",
-          "yesVotes": 2068,
-          "noVotes": 921,
-          "totalVotes": 2989,
-          "yesPct": 69.19,
-          "noPct": 30.81,
-          "marginVotes": 1147,
-          "marginPct": 38.38,
+          "yesVotes": 2144,
+          "noVotes": 958,
+          "totalVotes": 3102,
+          "yesPct": 69.12,
+          "noPct": 30.88,
+          "marginVotes": 1186,
+          "marginPct": 38.24,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -2281,9 +2281,9 @@
           "marginVotes": 3688,
           "marginPct": 37.22,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -2297,9 +2297,9 @@
           "marginVotes": 3069,
           "marginPct": 42.68,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -2385,13 +2385,13 @@
           "ward": "55",
           "wardName": "55 - Central Peace-Notley",
           "region": "Regional / Other",
-          "yesVotes": 2001,
-          "noVotes": 823,
-          "totalVotes": 2824,
-          "yesPct": 70.86,
-          "noPct": 29.14,
-          "marginVotes": 1178,
-          "marginPct": 41.72,
+          "yesVotes": 2157,
+          "noVotes": 846,
+          "totalVotes": 3003,
+          "yesPct": 71.83,
+          "noPct": 28.17,
+          "marginVotes": 1311,
+          "marginPct": 43.66,
           "leader": "YES",
           "pollsReporting": 35,
           "totalPolls": 60,
@@ -2593,17 +2593,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 7813,
-          "noVotes": 3160,
-          "totalVotes": 10973,
-          "yesPct": 71.2,
-          "noPct": 28.8,
-          "marginVotes": 4653,
-          "marginPct": 42.4,
+          "yesVotes": 7892,
+          "noVotes": 3174,
+          "totalVotes": 11066,
+          "yesPct": 71.32,
+          "noPct": 28.68,
+          "marginVotes": 4718,
+          "marginPct": 42.64,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -2729,9 +2729,9 @@
           "marginVotes": 5702,
           "marginPct": 55.18,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -2753,13 +2753,13 @@
           "ward": "78",
           "wardName": "78 - Red Deer-North",
           "region": "Regional / Other",
-          "yesVotes": 2499,
-          "noVotes": 1549,
-          "totalVotes": 4048,
-          "yesPct": 61.73,
-          "noPct": 38.27,
-          "marginVotes": 950,
-          "marginPct": 23.46,
+          "yesVotes": 6208,
+          "noVotes": 3663,
+          "totalVotes": 9871,
+          "yesPct": 62.89,
+          "noPct": 37.11,
+          "marginVotes": 2545,
+          "marginPct": 25.78,
           "leader": "YES",
           "pollsReporting": 21,
           "totalPolls": 64,
@@ -2865,17 +2865,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 4170,
-          "noVotes": 1412,
-          "totalVotes": 5582,
-          "yesPct": 74.7,
-          "noPct": 25.3,
-          "marginVotes": 2758,
-          "marginPct": 49.4,
+          "yesVotes": 4292,
+          "noVotes": 1450,
+          "totalVotes": 5742,
+          "yesPct": 74.75,
+          "noPct": 25.25,
+          "marginVotes": 2842,
+          "marginPct": 49.5,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -2889,9 +2889,9 @@
           "marginVotes": 79,
           "marginPct": 42.24,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -2942,12 +2942,12 @@
           "noPct": 62.63
         },
         "Regional / Other": {
-          "yes": 78183,
-          "no": 33776,
-          "total": 111959,
+          "yes": 85314,
+          "no": 37738,
+          "total": 123052,
           "wards": 41,
-          "yesPct": 69.83,
-          "noPct": 30.17
+          "yesPct": 69.33,
+          "noPct": 30.67
         }
       },
       "wards": [
@@ -3267,9 +3267,9 @@
           "marginVotes": 30,
           "marginPct": 13.64,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -3331,9 +3331,9 @@
           "marginVotes": 137,
           "marginPct": 34.16,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -3475,9 +3475,9 @@
           "marginVotes": -1900,
           "marginPct": -27.68,
           "leader": "NO",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -3699,9 +3699,9 @@
           "marginVotes": 734,
           "marginPct": 41.94,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -3715,9 +3715,9 @@
           "marginVotes": 1458,
           "marginPct": 31.0,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -3731,9 +3731,9 @@
           "marginVotes": 1792,
           "marginPct": 46.26,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -3771,13 +3771,13 @@
           "ward": "52",
           "wardName": "52 - Brooks-Medicine Hat",
           "region": "Regional / Other",
-          "yesVotes": 3180,
-          "noVotes": 982,
-          "totalVotes": 4162,
-          "yesPct": 76.41,
-          "noPct": 23.59,
-          "marginVotes": 2198,
-          "marginPct": 52.82,
+          "yesVotes": 6047,
+          "noVotes": 2790,
+          "totalVotes": 8837,
+          "yesPct": 68.43,
+          "noPct": 31.57,
+          "marginVotes": 3257,
+          "marginPct": 36.86,
           "leader": "YES",
           "pollsReporting": 39,
           "totalPolls": 73,
@@ -3819,13 +3819,13 @@
           "ward": "55",
           "wardName": "55 - Central Peace-Notley",
           "region": "Regional / Other",
-          "yesVotes": 1877,
-          "noVotes": 786,
-          "totalVotes": 2663,
-          "yesPct": 70.48,
-          "noPct": 29.52,
-          "marginVotes": 1091,
-          "marginPct": 40.96,
+          "yesVotes": 2037,
+          "noVotes": 805,
+          "totalVotes": 2842,
+          "yesPct": 71.67,
+          "noPct": 28.33,
+          "marginVotes": 1232,
+          "marginPct": 43.34,
           "leader": "YES",
           "pollsReporting": 35,
           "totalPolls": 60,
@@ -4027,17 +4027,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 9607,
-          "noVotes": 3622,
-          "totalVotes": 13229,
-          "yesPct": 72.62,
-          "noPct": 27.38,
-          "marginVotes": 5985,
-          "marginPct": 45.24,
+          "yesVotes": 9679,
+          "noVotes": 3643,
+          "totalVotes": 13322,
+          "yesPct": 72.65,
+          "noPct": 27.35,
+          "marginVotes": 6036,
+          "marginPct": 45.3,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -4163,9 +4163,9 @@
           "marginVotes": 2900,
           "marginPct": 56.56,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -4187,13 +4187,13 @@
           "ward": "78",
           "wardName": "78 - Red Deer-North",
           "region": "Regional / Other",
-          "yesVotes": 2483,
-          "noVotes": 1548,
-          "totalVotes": 4031,
-          "yesPct": 61.6,
-          "noPct": 38.4,
-          "marginVotes": 935,
-          "marginPct": 23.2,
+          "yesVotes": 6393,
+          "noVotes": 3626,
+          "totalVotes": 10019,
+          "yesPct": 63.81,
+          "noPct": 36.19,
+          "marginVotes": 2767,
+          "marginPct": 27.62,
           "leader": "YES",
           "pollsReporting": 21,
           "totalPolls": 64,
@@ -4299,17 +4299,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 4337,
-          "noVotes": 1396,
-          "totalVotes": 5733,
-          "yesPct": 75.65,
-          "noPct": 24.35,
-          "marginVotes": 2941,
-          "marginPct": 51.3,
+          "yesVotes": 4459,
+          "noVotes": 1432,
+          "totalVotes": 5891,
+          "yesPct": 75.69,
+          "noPct": 24.31,
+          "marginVotes": 3027,
+          "marginPct": 51.38,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -4323,9 +4323,9 @@
           "marginVotes": 87,
           "marginPct": 46.52,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -4376,12 +4376,12 @@
           "noPct": 64.27
         },
         "Regional / Other": {
-          "yes": 51323,
-          "no": 24133,
-          "total": 75456,
+          "yes": 54403,
+          "no": 26135,
+          "total": 80538,
           "wards": 41,
-          "yesPct": 68.02,
-          "noPct": 31.98
+          "yesPct": 67.55,
+          "noPct": 32.45
         }
       },
       "wards": [
@@ -4701,9 +4701,9 @@
           "marginVotes": 9,
           "marginPct": 4.04,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -4765,9 +4765,9 @@
           "marginVotes": 63,
           "marginPct": 22.74,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -4909,9 +4909,9 @@
           "marginVotes": -2010,
           "marginPct": -29.24,
           "leader": "NO",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -5133,9 +5133,9 @@
           "marginVotes": 357,
           "marginPct": 45.24,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -5149,9 +5149,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -5165,9 +5165,9 @@
           "marginVotes": 639,
           "marginPct": 60.46,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -5205,13 +5205,13 @@
           "ward": "52",
           "wardName": "52 - Brooks-Medicine Hat",
           "region": "Regional / Other",
-          "yesVotes": 2616,
-          "noVotes": 956,
-          "totalVotes": 3572,
-          "yesPct": 73.24,
-          "noPct": 26.76,
-          "marginVotes": 1660,
-          "marginPct": 46.48,
+          "yesVotes": 5339,
+          "noVotes": 2884,
+          "totalVotes": 8223,
+          "yesPct": 64.93,
+          "noPct": 35.07,
+          "marginVotes": 2455,
+          "marginPct": 29.86,
           "leader": "YES",
           "pollsReporting": 39,
           "totalPolls": 73,
@@ -5253,13 +5253,13 @@
           "ward": "55",
           "wardName": "55 - Central Peace-Notley",
           "region": "Regional / Other",
-          "yesVotes": 1804,
-          "noVotes": 855,
-          "totalVotes": 2659,
-          "yesPct": 67.85,
-          "noPct": 32.15,
-          "marginVotes": 949,
-          "marginPct": 35.7,
+          "yesVotes": 1960,
+          "noVotes": 878,
+          "totalVotes": 2838,
+          "yesPct": 69.06,
+          "noPct": 30.94,
+          "marginVotes": 1082,
+          "marginPct": 38.12,
           "leader": "YES",
           "pollsReporting": 35,
           "totalPolls": 60,
@@ -5461,17 +5461,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 4300,
-          "noVotes": 2018,
-          "totalVotes": 6318,
-          "yesPct": 68.06,
-          "noPct": 31.94,
-          "marginVotes": 2282,
-          "marginPct": 36.12,
+          "yesVotes": 4377,
+          "noVotes": 2033,
+          "totalVotes": 6410,
+          "yesPct": 68.28,
+          "noPct": 31.72,
+          "marginVotes": 2344,
+          "marginPct": 36.56,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -5597,9 +5597,9 @@
           "marginVotes": 1064,
           "marginPct": 53.74,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -5733,17 +5733,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 2394,
-          "noVotes": 831,
-          "totalVotes": 3225,
-          "yesPct": 74.23,
-          "noPct": 25.77,
-          "marginVotes": 1563,
-          "marginPct": 48.46,
+          "yesVotes": 2518,
+          "noVotes": 867,
+          "totalVotes": 3385,
+          "yesPct": 74.39,
+          "noPct": 25.61,
+          "marginVotes": 1651,
+          "marginPct": 48.78,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -5757,9 +5757,9 @@
           "marginVotes": 73,
           "marginPct": 39.46,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -5810,12 +5810,12 @@
           "noPct": 60.53
         },
         "Regional / Other": {
-          "yes": 32806,
-          "no": 12503,
-          "total": 45309,
+          "yes": 33188,
+          "no": 12556,
+          "total": 45744,
           "wards": 41,
-          "yesPct": 72.41,
-          "noPct": 27.59
+          "yesPct": 72.55,
+          "noPct": 27.45
         }
       },
       "wards": [
@@ -6135,9 +6135,9 @@
           "marginVotes": 70,
           "marginPct": 30.98,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -6199,9 +6199,9 @@
           "marginVotes": 107,
           "marginPct": 38.62,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -6343,9 +6343,9 @@
           "marginVotes": -1119,
           "marginPct": -41.34,
           "leader": "NO",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -6567,9 +6567,9 @@
           "marginVotes": 445,
           "marginPct": 45.26,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -6583,9 +6583,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -6599,9 +6599,9 @@
           "marginVotes": 729,
           "marginPct": 73.72,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -6687,13 +6687,13 @@
           "ward": "55",
           "wardName": "55 - Central Peace-Notley",
           "region": "Regional / Other",
-          "yesVotes": 1692,
-          "noVotes": 615,
-          "totalVotes": 2307,
-          "yesPct": 73.34,
-          "noPct": 26.66,
-          "marginVotes": 1077,
-          "marginPct": 46.68,
+          "yesVotes": 1851,
+          "noVotes": 635,
+          "totalVotes": 2486,
+          "yesPct": 74.46,
+          "noPct": 25.54,
+          "marginVotes": 1216,
+          "marginPct": 48.92,
           "leader": "YES",
           "pollsReporting": 35,
           "totalPolls": 60,
@@ -6895,17 +6895,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 2152,
-          "noVotes": 610,
-          "totalVotes": 2762,
-          "yesPct": 77.91,
-          "noPct": 22.09,
-          "marginVotes": 1542,
-          "marginPct": 55.82,
+          "yesVotes": 2234,
+          "noVotes": 621,
+          "totalVotes": 2855,
+          "yesPct": 78.25,
+          "noPct": 21.75,
+          "marginVotes": 1613,
+          "marginPct": 56.5,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -7031,9 +7031,9 @@
           "marginVotes": 350,
           "marginPct": 74.16,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -7167,17 +7167,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 1509,
-          "noVotes": 335,
-          "totalVotes": 1844,
-          "yesPct": 81.83,
-          "noPct": 18.17,
-          "marginVotes": 1174,
-          "marginPct": 63.66,
+          "yesVotes": 1650,
+          "noVotes": 357,
+          "totalVotes": 2007,
+          "yesPct": 82.21,
+          "noPct": 17.79,
+          "marginVotes": 1293,
+          "marginPct": 64.42,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -7191,9 +7191,9 @@
           "marginVotes": 134,
           "marginPct": 72.04,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -7244,12 +7244,12 @@
           "noPct": 71.8
         },
         "Regional / Other": {
-          "yes": 23815,
-          "no": 14744,
-          "total": 38559,
+          "yes": 24017,
+          "no": 14795,
+          "total": 38812,
           "wards": 41,
-          "yesPct": 61.76,
-          "noPct": 38.24
+          "yesPct": 61.88,
+          "noPct": 38.12
         }
       },
       "wards": [
@@ -7569,9 +7569,9 @@
           "marginVotes": -2061,
           "marginPct": -47.44,
           "leader": "NO",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -7633,9 +7633,9 @@
           "marginVotes": 9,
           "marginPct": 3.34,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -7777,9 +7777,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -8001,9 +8001,9 @@
           "marginVotes": 219,
           "marginPct": 18.86,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -8017,9 +8017,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -8033,9 +8033,9 @@
           "marginVotes": 547,
           "marginPct": 55.64,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -8329,17 +8329,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 1574,
-          "noVotes": 823,
-          "totalVotes": 2397,
-          "yesPct": 65.67,
-          "noPct": 34.33,
-          "marginVotes": 751,
-          "marginPct": 31.34,
+          "yesVotes": 1652,
+          "noVotes": 836,
+          "totalVotes": 2488,
+          "yesPct": 66.4,
+          "noPct": 33.6,
+          "marginVotes": 816,
+          "marginPct": 32.8,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -8465,9 +8465,9 @@
           "marginVotes": 189,
           "marginPct": 62.38,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -8601,17 +8601,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 438,
-          "noVotes": 132,
-          "totalVotes": 570,
-          "yesPct": 76.84,
-          "noPct": 23.16,
-          "marginVotes": 306,
-          "marginPct": 53.68,
+          "yesVotes": 562,
+          "noVotes": 170,
+          "totalVotes": 732,
+          "yesPct": 76.78,
+          "noPct": 23.22,
+          "marginVotes": 392,
+          "marginPct": 53.56,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -8625,9 +8625,9 @@
           "marginVotes": 73,
           "marginPct": 40.78,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -8678,12 +8678,12 @@
           "noPct": 66.42
         },
         "Regional / Other": {
-          "yes": 29169,
-          "no": 17163,
-          "total": 46332,
+          "yes": 29369,
+          "no": 17214,
+          "total": 46583,
           "wards": 41,
-          "yesPct": 62.96,
-          "noPct": 37.04
+          "yesPct": 63.05,
+          "noPct": 36.95
         }
       },
       "wards": [
@@ -9003,9 +9003,9 @@
           "marginVotes": 2,
           "marginPct": 0.9,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -9067,9 +9067,9 @@
           "marginVotes": 8,
           "marginPct": 6.56,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -9211,9 +9211,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -9435,9 +9435,9 @@
           "marginVotes": 17,
           "marginPct": 4.68,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -9451,9 +9451,9 @@
           "marginVotes": 97,
           "marginPct": 32.44,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -9467,9 +9467,9 @@
           "marginVotes": 583,
           "marginPct": 59.18,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -9763,17 +9763,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 5840,
-          "noVotes": 2868,
-          "totalVotes": 8708,
-          "yesPct": 67.06,
-          "noPct": 32.94,
-          "marginVotes": 2972,
-          "marginPct": 34.12,
+          "yesVotes": 5919,
+          "noVotes": 2881,
+          "totalVotes": 8800,
+          "yesPct": 67.26,
+          "noPct": 32.74,
+          "marginVotes": 3038,
+          "marginPct": 34.52,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -9899,9 +9899,9 @@
           "marginVotes": 194,
           "marginPct": 62.98,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -10035,17 +10035,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 427,
-          "noVotes": 139,
-          "totalVotes": 566,
-          "yesPct": 75.44,
-          "noPct": 24.56,
-          "marginVotes": 288,
-          "marginPct": 50.88,
+          "yesVotes": 548,
+          "noVotes": 177,
+          "totalVotes": 725,
+          "yesPct": 75.59,
+          "noPct": 24.41,
+          "marginVotes": 371,
+          "marginPct": 51.18,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -10059,9 +10059,9 @@
           "marginVotes": 78,
           "marginPct": 41.94,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -10112,12 +10112,12 @@
           "noPct": 71.17
         },
         "Regional / Other": {
-          "yes": 26211,
-          "no": 19331,
-          "total": 45542,
+          "yes": 26406,
+          "no": 19388,
+          "total": 45794,
           "wards": 41,
-          "yesPct": 57.55,
-          "noPct": 42.45
+          "yesPct": 57.66,
+          "noPct": 42.34
         }
       },
       "wards": [
@@ -10437,9 +10437,9 @@
           "marginVotes": -45,
           "marginPct": -20.18,
           "leader": "NO",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -10501,9 +10501,9 @@
           "marginVotes": -7,
           "marginPct": -5.78,
           "leader": "NO",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -10645,9 +10645,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -10869,9 +10869,9 @@
           "marginVotes": 8,
           "marginPct": 1.58,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -10885,9 +10885,9 @@
           "marginVotes": 75,
           "marginPct": 25.26,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -10901,9 +10901,9 @@
           "marginVotes": 657,
           "marginPct": 51.28,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -11197,17 +11197,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 3478,
-          "noVotes": 2274,
-          "totalVotes": 5752,
-          "yesPct": 60.47,
-          "noPct": 39.53,
-          "marginVotes": 1204,
-          "marginPct": 20.94,
+          "yesVotes": 3555,
+          "noVotes": 2289,
+          "totalVotes": 5844,
+          "yesPct": 60.83,
+          "noPct": 39.17,
+          "marginVotes": 1266,
+          "marginPct": 21.66,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -11333,9 +11333,9 @@
           "marginVotes": 156,
           "marginPct": 51.66,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -11469,17 +11469,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 416,
-          "noVotes": 152,
-          "totalVotes": 568,
-          "yesPct": 73.24,
-          "noPct": 26.76,
-          "marginVotes": 264,
-          "marginPct": 46.48,
+          "yesVotes": 534,
+          "noVotes": 194,
+          "totalVotes": 728,
+          "yesPct": 73.35,
+          "noPct": 26.65,
+          "marginVotes": 340,
+          "marginPct": 46.7,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -11493,9 +11493,9 @@
           "marginVotes": 110,
           "marginPct": 74.32,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -11530,9 +11530,9 @@
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 9134,
-          "no": 15691,
-          "total": 24825,
+          "yes": 9195,
+          "no": 15797,
+          "total": 24992,
           "wards": 26,
           "yesPct": 36.79,
           "noPct": 63.21
@@ -11546,12 +11546,12 @@
           "noPct": 68.41
         },
         "Regional / Other": {
-          "yes": 37215,
-          "no": 27033,
-          "total": 64248,
+          "yes": 37411,
+          "no": 27092,
+          "total": 64503,
           "wards": 41,
-          "yesPct": 57.92,
-          "noPct": 42.08
+          "yesPct": 58.0,
+          "noPct": 42.0
         }
       },
       "wards": [
@@ -11607,13 +11607,13 @@
           "ward": "04",
           "wardName": "04 - Calgary-Buffalo",
           "region": "Calgary",
-          "yesVotes": 2436,
-          "noVotes": 5269,
-          "totalVotes": 7705,
-          "yesPct": 31.62,
-          "noPct": 68.38,
-          "marginVotes": -2833,
-          "marginPct": -36.76,
+          "yesVotes": 2473,
+          "noVotes": 5330,
+          "totalVotes": 7803,
+          "yesPct": 31.69,
+          "noPct": 68.31,
+          "marginVotes": -2857,
+          "marginPct": -36.62,
           "leader": "NO",
           "pollsReporting": 31,
           "totalPolls": 78,
@@ -11687,13 +11687,13 @@
           "ward": "09",
           "wardName": "09 - Calgary-Elbow",
           "region": "Calgary",
-          "yesVotes": 33,
-          "noVotes": 42,
-          "totalVotes": 75,
-          "yesPct": 44.0,
-          "noPct": 56.0,
-          "marginVotes": -9,
-          "marginPct": -12.0,
+          "yesVotes": 57,
+          "noVotes": 87,
+          "totalVotes": 144,
+          "yesPct": 39.58,
+          "noPct": 60.42,
+          "marginVotes": -30,
+          "marginPct": -20.84,
           "leader": "NO",
           "pollsReporting": 7,
           "totalPolls": 60,
@@ -11871,9 +11871,9 @@
           "marginVotes": -1714,
           "marginPct": -22.64,
           "leader": "NO",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -11935,9 +11935,9 @@
           "marginVotes": 5,
           "marginPct": 4.2,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -12079,9 +12079,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
@@ -12303,9 +12303,9 @@
           "marginVotes": 1146,
           "marginPct": 6.34,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
@@ -12319,9 +12319,9 @@
           "marginVotes": 121,
           "marginPct": 27.82,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
@@ -12335,9 +12335,9 @@
           "marginVotes": 544,
           "marginPct": 55.28,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -12631,17 +12631,17 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 3773,
-          "noVotes": 2199,
-          "totalVotes": 5972,
-          "yesPct": 63.18,
-          "noPct": 36.82,
-          "marginVotes": 1574,
-          "marginPct": 26.36,
+          "yesVotes": 3854,
+          "noVotes": 2212,
+          "totalVotes": 6066,
+          "yesPct": 63.53,
+          "noPct": 36.47,
+          "marginVotes": 1642,
+          "marginPct": 27.06,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -12767,9 +12767,9 @@
           "marginVotes": 183,
           "marginPct": 59.6,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -12903,17 +12903,17 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 433,
-          "noVotes": 136,
-          "totalVotes": 569,
-          "yesPct": 76.1,
-          "noPct": 23.9,
-          "marginVotes": 297,
-          "marginPct": 52.2,
+          "yesVotes": 548,
+          "noVotes": 182,
+          "totalVotes": 730,
+          "yesPct": 75.07,
+          "noPct": 24.93,
+          "marginVotes": 366,
+          "marginPct": 50.14,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
@@ -12927,9 +12927,9 @@
           "marginVotes": 88,
           "marginPct": 47.32,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
@@ -12964,28 +12964,28 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 287953,
-          "no": 58969,
-          "total": 346922,
+          "yes": 288316,
+          "no": 59108,
+          "total": 347424,
           "wards": 26,
-          "yesPct": 83.0,
-          "noPct": 17.0
+          "yesPct": 82.99,
+          "noPct": 17.01
         },
         "Edmonton": {
-          "yes": 202982,
-          "no": 25928,
-          "total": 228910,
+          "yes": 203066,
+          "no": 25966,
+          "total": 229032,
           "wards": 20,
-          "yesPct": 88.67,
-          "noPct": 11.33
+          "yesPct": 88.66,
+          "noPct": 11.34
         },
         "Regional / Other": {
-          "yes": 389981,
-          "no": 191181,
-          "total": 581162,
+          "yes": 390532,
+          "no": 191633,
+          "total": 582165,
           "wards": 41,
-          "yesPct": 67.1,
-          "noPct": 32.9
+          "yesPct": 67.08,
+          "noPct": 32.92
         }
       },
       "wards": [
@@ -13041,13 +13041,13 @@
           "ward": "04",
           "wardName": "04 - Calgary-Buffalo",
           "region": "Calgary",
-          "yesVotes": 16619,
-          "noVotes": 2386,
-          "totalVotes": 19005,
-          "yesPct": 87.45,
-          "noPct": 12.55,
-          "marginVotes": 14233,
-          "marginPct": 74.9,
+          "yesVotes": 16699,
+          "noVotes": 2408,
+          "totalVotes": 19107,
+          "yesPct": 87.4,
+          "noPct": 12.6,
+          "marginVotes": 14291,
+          "marginPct": 74.8,
           "leader": "YES",
           "pollsReporting": 31,
           "totalPolls": 78,
@@ -13297,17 +13297,17 @@
           "ward": "20",
           "wardName": "20 - Calgary-North East",
           "region": "Calgary",
-          "yesVotes": 17675,
-          "noVotes": 2923,
-          "totalVotes": 20598,
-          "yesPct": 85.81,
-          "noPct": 14.19,
-          "marginVotes": 14752,
-          "marginPct": 71.62,
+          "yesVotes": 17761,
+          "noVotes": 2949,
+          "totalVotes": 20710,
+          "yesPct": 85.76,
+          "noPct": 14.24,
+          "marginVotes": 14812,
+          "marginPct": 71.52,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 65,
-          "pollsPct": 60.0
+          "pollsPct": 61.5
         },
         {
           "ward": "21",
@@ -13361,17 +13361,17 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 13158,
-          "noVotes": 4739,
-          "totalVotes": 17897,
-          "yesPct": 73.52,
-          "noPct": 26.48,
-          "marginVotes": 8419,
-          "marginPct": 47.04,
+          "yesVotes": 13355,
+          "noVotes": 4830,
+          "totalVotes": 18185,
+          "yesPct": 73.44,
+          "noPct": 26.56,
+          "marginVotes": 8525,
+          "marginPct": 46.88,
           "leader": "YES",
-          "pollsReporting": 36,
+          "pollsReporting": 38,
           "totalPolls": 76,
-          "pollsPct": 47.4
+          "pollsPct": 50.0
         },
         {
           "ward": "25",
@@ -13505,29 +13505,29 @@
           "ward": "33",
           "wardName": "33 - Edmonton-Gold Bar",
           "region": "Edmonton",
-          "yesVotes": 7619,
-          "noVotes": 1510,
-          "totalVotes": 9129,
-          "yesPct": 83.46,
-          "noPct": 16.54,
-          "marginVotes": 6109,
-          "marginPct": 66.92,
+          "yesVotes": 7703,
+          "noVotes": 1542,
+          "totalVotes": 9245,
+          "yesPct": 83.32,
+          "noPct": 16.68,
+          "marginVotes": 6161,
+          "marginPct": 66.64,
           "leader": "YES",
-          "pollsReporting": 10,
+          "pollsReporting": 11,
           "totalPolls": 58,
-          "pollsPct": 17.2
+          "pollsPct": 19.0
         },
         {
           "ward": "34",
           "wardName": "34 - Edmonton-Highlands-Norwood",
           "region": "Edmonton",
           "yesVotes": 11472,
-          "noVotes": 1631,
-          "totalVotes": 13103,
-          "yesPct": 87.55,
-          "noPct": 12.45,
-          "marginVotes": 9841,
-          "marginPct": 75.1,
+          "noVotes": 1637,
+          "totalVotes": 13109,
+          "yesPct": 87.51,
+          "noPct": 12.49,
+          "marginVotes": 9835,
+          "marginPct": 75.02,
           "leader": "YES",
           "pollsReporting": 21,
           "totalPolls": 49,
@@ -13729,49 +13729,49 @@
           "ward": "47",
           "wardName": "47 - Airdrie-Cochrane",
           "region": "Regional / Other",
-          "yesVotes": 17653,
-          "noVotes": 9557,
-          "totalVotes": 27210,
-          "yesPct": 64.88,
-          "noPct": 35.12,
-          "marginVotes": 8096,
-          "marginPct": 29.76,
+          "yesVotes": 17723,
+          "noVotes": 9601,
+          "totalVotes": 27324,
+          "yesPct": 64.86,
+          "noPct": 35.14,
+          "marginVotes": 8122,
+          "marginPct": 29.72,
           "leader": "YES",
-          "pollsReporting": 76,
+          "pollsReporting": 77,
           "totalPolls": 92,
-          "pollsPct": 82.6
+          "pollsPct": 83.7
         },
         {
           "ward": "48",
           "wardName": "48 - Airdrie-East",
           "region": "Regional / Other",
-          "yesVotes": 19018,
-          "noVotes": 7188,
-          "totalVotes": 26206,
-          "yesPct": 72.57,
-          "noPct": 27.43,
-          "marginVotes": 11830,
-          "marginPct": 45.14,
+          "yesVotes": 19109,
+          "noVotes": 7230,
+          "totalVotes": 26339,
+          "yesPct": 72.55,
+          "noPct": 27.45,
+          "marginVotes": 11879,
+          "marginPct": 45.1,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "49",
           "wardName": "49 - Athabasca-Barrhead-Westlock",
           "region": "Regional / Other",
-          "yesVotes": 9183,
-          "noVotes": 5938,
-          "totalVotes": 15121,
-          "yesPct": 60.73,
-          "noPct": 39.27,
-          "marginVotes": 3245,
-          "marginPct": 21.46,
+          "yesVotes": 9353,
+          "noVotes": 6057,
+          "totalVotes": 15410,
+          "yesPct": 60.69,
+          "noPct": 39.31,
+          "marginVotes": 3296,
+          "marginPct": 21.38,
           "leader": "YES",
-          "pollsReporting": 35,
+          "pollsReporting": 37,
           "totalPolls": 62,
-          "pollsPct": 56.5
+          "pollsPct": 59.7
         },
         {
           "ward": "50",
@@ -14073,9 +14073,9 @@
           "marginVotes": 3632,
           "marginPct": 15.6,
           "leader": "YES",
-          "pollsReporting": 61,
+          "pollsReporting": 62,
           "totalPolls": 72,
-          "pollsPct": 84.7
+          "pollsPct": 86.1
         },
         {
           "ward": "69",
@@ -14193,17 +14193,17 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 12456,
-          "noVotes": 10221,
-          "totalVotes": 22677,
-          "yesPct": 54.93,
-          "noPct": 45.07,
-          "marginVotes": 2235,
-          "marginPct": 9.86,
+          "yesVotes": 12495,
+          "noVotes": 10300,
+          "totalVotes": 22795,
+          "yesPct": 54.81,
+          "noPct": 45.19,
+          "marginVotes": 2195,
+          "marginPct": 9.62,
           "leader": "YES",
-          "pollsReporting": 64,
+          "pollsReporting": 65,
           "totalPolls": 71,
-          "pollsPct": 90.1
+          "pollsPct": 91.5
         },
         {
           "ward": "77",
@@ -14337,33 +14337,33 @@
           "ward": "85",
           "wardName": "85 - Taber-Warner",
           "region": "Regional / Other",
-          "yesVotes": 5596,
-          "noVotes": 5110,
-          "totalVotes": 10706,
-          "yesPct": 52.27,
-          "noPct": 47.73,
-          "marginVotes": 486,
-          "marginPct": 4.54,
+          "yesVotes": 5677,
+          "noVotes": 5190,
+          "totalVotes": 10867,
+          "yesPct": 52.24,
+          "noPct": 47.76,
+          "marginVotes": 487,
+          "marginPct": 4.48,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 20,
           "totalPolls": 70,
-          "pollsPct": 27.1
+          "pollsPct": 28.6
         },
         {
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 8647,
-          "noVotes": 4521,
-          "totalVotes": 13168,
-          "yesPct": 65.67,
-          "noPct": 34.33,
-          "marginVotes": 4126,
-          "marginPct": 31.34,
+          "yesVotes": 8747,
+          "noVotes": 4609,
+          "totalVotes": 13356,
+          "yesPct": 65.49,
+          "noPct": 34.51,
+          "marginVotes": 4138,
+          "marginPct": 30.98,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 26,
           "totalPolls": 67,
-          "pollsPct": 37.3
+          "pollsPct": 38.8
         },
         {
           "ward": "87",
