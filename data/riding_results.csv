@@ -34,7 +34,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 33,33 - Edmonton-Gold Bar,Edmonton,1,Immigration Control & Alberta Priority,6831,8019,14850,46.0,54.0,NO,58,58,100.0
 34,34 - Edmonton-Highlands-Norwood,Edmonton,1,Immigration Control & Alberta Priority,6246,10133,16379,38.13,61.87,NO,48,49,98.0
 35,35 - Edmonton-Manning,Edmonton,1,Immigration Control & Alberta Priority,2157,3525,5682,37.96,62.04,NO,9,59,15.3
-36,36 - Edmonton-McClung,Edmonton,1,Immigration Control & Alberta Priority,8081,9793,17874,45.21,54.79,NO,48,51,94.1
+36,36 - Edmonton-McClung,Edmonton,1,Immigration Control & Alberta Priority,8142,9828,17970,45.31,54.69,NO,48,51,94.1
 37,37 - Edmonton-Meadows,Edmonton,1,Immigration Control & Alberta Priority,5313,8177,13490,39.38,60.62,NO,57,61,93.4
 38,38 - Edmonton-Mill Woods,Edmonton,1,Immigration Control & Alberta Priority,7114,7865,14979,47.49,52.51,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,1,Immigration Control & Alberta Priority,2190,3694,5884,37.22,62.78,NO,50,68,73.5
@@ -68,7 +68,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,1,Immigration Control & Alberta Priority,16933,7228,24161,70.08,29.92,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,1,Immigration Control & Alberta Priority,16089,4872,20961,76.76,23.24,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,1,Immigration Control & Alberta Priority,15543,7148,22691,68.5,31.5,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,1,Immigration Control & Alberta Priority,2245,1880,4125,54.42,45.58,YES,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,1,Immigration Control & Alberta Priority,2245,1880,4125,54.42,45.58,YES,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,1,Immigration Control & Alberta Priority,10680,7887,18567,57.52,42.48,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,1,Immigration Control & Alberta Priority,10671,9487,20158,52.94,47.06,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,1,Immigration Control & Alberta Priority,16237,6597,22834,71.11,28.89,YES,93,94,98.9
@@ -80,7 +80,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 79,79 - Red Deer-South,Regional / Other,1,Immigration Control & Alberta Priority,15616,10567,26183,59.64,40.36,YES,62,73,84.9
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,1,Immigration Control & Alberta Priority,13797,4326,18123,76.13,23.87,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,1,Immigration Control & Alberta Priority,15398,14657,30055,51.23,48.77,YES,61,61,100.0
-82,82 - Spruce Grove-Stony Plain,Regional / Other,1,Immigration Control & Alberta Priority,11388,8760,20148,56.52,43.48,YES,55,67,82.1
+82,82 - Spruce Grove-Stony Plain,Regional / Other,1,Immigration Control & Alberta Priority,11510,8800,20310,56.67,43.33,YES,55,67,82.1
 83,83 - St. Albert,Regional / Other,1,Immigration Control & Alberta Priority,10177,8285,18462,55.12,44.88,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,1,Immigration Control & Alberta Priority,16136,11703,27839,57.96,42.04,YES,63,63,100.0
 85,85 - Taber-Warner,Regional / Other,1,Immigration Control & Alberta Priority,12525,3421,15946,78.55,21.45,YES,69,70,98.6
@@ -155,7 +155,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,14836,5784,20620,71.95,28.05,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15691,5357,21048,74.55,25.45,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,14621,7659,22280,65.62,34.38,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,2075,2030,4105,50.55,49.45,YES,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,2075,2030,4105,50.55,49.45,YES,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,10065,8484,18549,54.26,45.74,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,9755,10412,20167,48.37,51.63,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15759,7112,22871,68.9,31.1,YES,93,94,98.9
@@ -167,13 +167,13 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 79,79 - Red Deer-South,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,12619,6842,19461,64.84,35.16,YES,62,73,84.9
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,10488,3823,14311,73.29,26.71,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,11395,8999,20394,55.87,44.13,YES,61,61,100.0
-82,82 - Spruce Grove-Stony Plain,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,6151,3678,9829,62.58,37.42,YES,55,67,82.1
+82,82 - Spruce Grove-Stony Plain,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,6270,3721,9991,62.76,37.24,YES,55,67,82.1
 83,83 - St. Albert,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,9504,9066,18570,51.18,48.82,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,12376,7288,19664,62.94,37.06,YES,63,63,100.0
 85,85 - Taber-Warner,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,12062,3808,15870,76.01,23.99,YES,69,70,98.6
-86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,4572,1336,5908,77.39,22.61,YES,55,66,83.3
+86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,5427,2433,7860,69.05,30.95,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,6990,2005,8995,77.71,22.29,YES,72,74,97.3
-01,01 - Calgary-Acadia,Calgary,3,12-Month Residency Rule for Non-Permanent Support,4764,4582,9346,50.97,49.03,YES,53,57,93.0
+01,01 - Calgary-Acadia,Calgary,3,12-Month Residency Rule for Non-Permanent Support,4805,4601,9406,51.08,48.92,YES,53,57,93.0
 02,02 - Calgary-Beddington,Calgary,3,12-Month Residency Rule for Non-Permanent Support,4906,5672,10578,46.38,53.62,NO,44,53,83.0
 03,03 - Calgary-Bow,Calgary,3,12-Month Residency Rule for Non-Permanent Support,10425,9674,20099,51.87,48.13,YES,69,69,100.0
 04,04 - Calgary-Buffalo,Calgary,3,12-Month Residency Rule for Non-Permanent Support,6402,8013,14415,44.41,55.59,NO,78,78,100.0
@@ -242,7 +242,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15035,5576,20611,72.95,27.05,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15678,5173,20851,75.19,24.81,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15122,7525,22647,66.77,33.23,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,2122,1990,4112,51.61,48.39,YES,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,2122,1990,4112,51.61,48.39,YES,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,10329,8174,18503,55.82,44.18,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7596,6704,14300,53.12,46.88,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15874,6982,22856,69.45,30.55,YES,93,94,98.9
@@ -260,7 +260,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 85,85 - Taber-Warner,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,12346,3745,16091,76.73,23.27,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,4585,1318,5903,77.67,22.33,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7074,2007,9081,77.9,22.1,YES,72,74,97.3
-01,01 - Calgary-Acadia,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,4971,5480,10451,47.56,52.44,NO,53,57,93.0
+01,01 - Calgary-Acadia,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,5010,5503,10513,47.66,52.34,NO,53,57,93.0
 02,02 - Calgary-Beddington,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,5559,6442,12001,46.32,53.68,NO,44,53,83.0
 03,03 - Calgary-Bow,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,10216,9881,20097,50.83,49.17,YES,69,69,100.0
 04,04 - Calgary-Buffalo,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,6681,9462,16143,41.39,58.61,NO,78,78,100.0
@@ -329,7 +329,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14645,5817,20462,71.57,28.43,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15365,5640,21005,73.15,26.85,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14738,8043,22781,64.69,35.31,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,1899,2110,4009,47.37,52.63,NO,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,1899,2110,4009,47.37,52.63,NO,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,9848,8622,18470,53.32,46.68,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,7239,7244,14483,49.98,50.02,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15539,7388,22927,67.78,32.22,YES,93,94,98.9
@@ -355,7 +355,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 06,06 - Calgary-Currie,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,8175,7878,16053,50.93,49.07,YES,56,58,96.6
 07,07 - Calgary-East,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,6223,4974,11197,55.58,44.42,YES,58,74,78.4
 08,08 - Calgary-Edgemont,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,2192,2078,4270,51.33,48.67,YES,55,57,96.5
-09,09 - Calgary-Elbow,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,8448,7523,15971,52.9,47.1,YES,60,60,100.0
+09,09 - Calgary-Elbow,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,8504,7576,16080,52.89,47.11,YES,60,60,100.0
 10,10 - Calgary-Falconridge,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,5240,5938,11178,46.88,53.12,NO,51,51,100.0
 11,11 - Calgary-Fish Creek,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,10341,6555,16896,61.2,38.8,YES,59,59,100.0
 12,12 - Calgary-Foothills,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,375,316,691,54.27,45.73,YES,9,62,14.5
@@ -416,7 +416,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,15826,5045,20871,75.83,24.17,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16575,4302,20877,79.39,20.61,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,15974,6421,22395,71.33,28.67,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,1901,1531,3432,55.39,44.61,YES,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,1901,1531,3432,55.39,44.61,YES,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,11357,7236,18593,61.08,38.92,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,8542,5984,14526,58.8,41.2,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16968,5935,22903,74.09,25.91,YES,93,94,98.9
@@ -429,7 +429,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16582,2944,19526,84.92,15.08,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,12671,7725,20396,62.12,37.88,YES,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,6150,2768,8918,68.96,31.04,YES,55,67,82.1
-83,83 - St. Albert,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,3831,4434,8265,46.35,53.65,NO,59,60,98.3
+83,83 - St. Albert,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,3936,4483,8419,46.75,53.25,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,5832,1815,7647,76.27,23.73,YES,63,63,100.0
 85,85 - Taber-Warner,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,13112,3007,16119,81.34,18.66,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,4699,1043,5742,81.84,18.16,YES,55,66,83.3
@@ -503,7 +503,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,13591,6696,20287,66.99,33.01,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14543,6166,20709,70.23,29.77,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,13051,9794,22845,57.13,42.87,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,1454,1898,3352,43.38,56.62,NO,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,1454,1898,3352,43.38,56.62,NO,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,8902,9547,18449,48.25,51.75,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,5399,6326,11725,46.05,53.95,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14694,8064,22758,64.57,35.43,YES,93,94,98.9
@@ -529,11 +529,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 06,06 - Calgary-Currie,Calgary,7,Abolition of the Federal Senate,6487,9599,16086,40.33,59.67,NO,56,58,96.6
 07,07 - Calgary-East,Calgary,7,Abolition of the Federal Senate,4763,6315,11078,43.0,57.0,NO,58,74,78.4
 08,08 - Calgary-Edgemont,Calgary,7,Abolition of the Federal Senate,2089,2685,4774,43.76,56.24,NO,55,57,96.5
-09,09 - Calgary-Elbow,Calgary,7,Abolition of the Federal Senate,4695,7037,11732,40.02,59.98,NO,60,60,100.0
+09,09 - Calgary-Elbow,Calgary,7,Abolition of the Federal Senate,4792,7126,11918,40.21,59.79,NO,60,60,100.0
 10,10 - Calgary-Falconridge,Calgary,7,Abolition of the Federal Senate,3314,6009,9323,35.55,64.45,NO,51,51,100.0
 11,11 - Calgary-Fish Creek,Calgary,7,Abolition of the Federal Senate,8666,8109,16775,51.66,48.34,YES,59,59,100.0
 12,12 - Calgary-Foothills,Calgary,7,Abolition of the Federal Senate,282,395,677,41.65,58.35,NO,9,62,14.5
-13,13 - Calgary-Glenmore,Calgary,7,Abolition of the Federal Senate,6843,7583,14426,47.44,52.56,NO,59,59,100.0
+13,13 - Calgary-Glenmore,Calgary,7,Abolition of the Federal Senate,6956,7716,14672,47.41,52.59,NO,59,59,100.0
 14,14 - Calgary-Hays,Calgary,7,Abolition of the Federal Senate,9602,9094,18696,51.36,48.64,YES,58,58,100.0
 15,15 - Calgary-Klein,Calgary,7,Abolition of the Federal Senate,6676,8499,15175,43.99,56.01,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,7,Abolition of the Federal Senate,7562,7383,14945,50.6,49.4,YES,45,45,100.0
@@ -590,7 +590,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,7,Abolition of the Federal Senate,13850,6400,20250,68.4,31.6,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,7,Abolition of the Federal Senate,14738,5943,20681,71.26,28.74,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,7,Abolition of the Federal Senate,13174,9139,22313,59.04,40.96,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,7,Abolition of the Federal Senate,1472,1878,3350,43.94,56.06,NO,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,7,Abolition of the Federal Senate,1472,1878,3350,43.94,56.06,NO,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,7,Abolition of the Federal Senate,8955,9172,18127,49.4,50.6,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,7,Abolition of the Federal Senate,5434,6259,11693,46.47,53.53,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,7,Abolition of the Federal Senate,14630,7912,22542,64.9,35.1,YES,93,94,98.9
@@ -677,7 +677,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,15877,7181,23058,68.86,31.14,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,13937,5771,19708,70.72,29.28,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,12220,10211,22431,54.48,45.52,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,1407,1988,3395,41.44,58.56,NO,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,1407,1988,3395,41.44,58.56,NO,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,8236,10236,18472,44.59,55.41,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,4955,6772,11727,42.25,57.75,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,13956,8801,22757,61.33,38.67,YES,93,94,98.9
@@ -686,7 +686,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,14060,5740,19800,71.01,28.99,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,7474,5790,13264,56.35,43.65,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,9348,7385,16733,55.87,44.13,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,3892,2594,6486,60.01,39.99,YES,62,73,84.9
+79,79 - Red Deer-South,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,4106,2710,6816,60.24,39.76,YES,62,73,84.9
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,7820,2931,10751,72.74,27.26,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,8950,11326,20276,44.14,55.86,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,5311,4514,9825,54.06,45.94,YES,55,67,82.1
@@ -764,7 +764,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,13530,6593,20123,67.24,32.76,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,14378,6704,21082,68.2,31.8,YES,72,72,100.0
 69,69 - Leduc-Beaumont,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,12806,9482,22288,57.46,42.54,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,1536,1835,3371,45.57,54.43,NO,35,48,72.9
+70,70 - Lesser Slave Lake,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,1536,1835,3371,45.57,54.43,NO,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,8956,9594,18550,48.28,51.72,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,5336,6458,11794,45.24,54.76,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,14439,8280,22719,63.55,36.45,YES,93,94,98.9
@@ -850,8 +850,8 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,10,Alberta Independence / Separation Referendum Process,14939,11342,26281,56.84,43.16,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,10,Alberta Independence / Separation Referendum Process,15495,11235,26730,57.97,42.03,YES,75,75,100.0
 68,68 - Lacombe-Ponoka,Regional / Other,10,Alberta Independence / Separation Referendum Process,14183,10429,24612,57.63,42.37,YES,72,72,100.0
-69,69 - Leduc-Beaumont,Regional / Other,10,Alberta Independence / Separation Referendum Process,20623,8442,29065,70.95,29.05,YES,68,68,100.0
-70,70 - Lesser Slave Lake,Regional / Other,10,Alberta Independence / Separation Referendum Process,5735,2569,8304,69.06,30.94,YES,35,48,72.9
+69,69 - Leduc-Beaumont,Regional / Other,10,Alberta Independence / Separation Referendum Process,20786,8544,29330,70.87,29.13,YES,68,68,100.0
+70,70 - Lesser Slave Lake,Regional / Other,10,Alberta Independence / Separation Referendum Process,5850,2641,8491,68.9,31.1,YES,36,48,75.0
 71,71 - Lethbridge-East,Regional / Other,10,Alberta Independence / Separation Referendum Process,19751,4943,24694,79.98,20.02,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,10,Alberta Independence / Separation Referendum Process,21479,4899,26378,81.43,18.57,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,10,Alberta Independence / Separation Referendum Process,17602,10319,27921,63.04,36.96,YES,93,94,98.9
