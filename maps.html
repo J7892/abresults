@@ -547,7 +547,7 @@
       if (infoBox) {
         const isQ10 = (activeQuestionId === 11);
         const yesLabel = isQ10 ? 'Option 1 (Remain)' : 'YES';
-        const noLabel = isQ10 ? 'Option 2 (Separate)' : 'NO';
+        const noLabel = isQ10 ? 'Option 2 (Separation Referendum)' : 'NO';
 
         let statsHtml = '';
         if (w && w.totalVotes > 0) {
@@ -717,7 +717,7 @@
         badge.textContent = isQ10 ? 'Option 1 Leading (Remain)' : 'YES Leading';
         badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-500/30';
       } else if (q.noVotes > q.yesVotes) {
-        badge.textContent = isQ10 ? 'Option 2 Leading (Separate)' : 'NO Leading';
+        badge.textContent = isQ10 ? 'Option 2 Leading (Separation Referendum)' : 'NO Leading';
         badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-red-100 text-red-800 dark:bg-red-500/20 dark:text-red-300 border border-red-300 dark:border-red-500/30';
       } else {
         badge.textContent = 'Tied';
@@ -726,7 +726,7 @@
 
       // Province Scoreboard
       document.getElementById('score-yes-label').textContent = isQ10 ? 'Option 1 (Remain)' : 'YES';
-      document.getElementById('score-no-label').textContent = isQ10 ? 'Option 2 (Separate)' : 'NO';
+      document.getElementById('score-no-label').textContent = isQ10 ? 'Option 2 (Separation Referendum)' : 'NO';
       document.getElementById('score-yes-pct').textContent = `${q.yesPct}%`;
       document.getElementById('score-no-pct').textContent = `${q.noPct}%`;
       document.getElementById('score-total-votes').textContent = `${q.totalVotes.toLocaleString()} votes`;
@@ -738,7 +738,7 @@
       document.getElementById('score-bar-no').style.width = `${q.totalVotes > 0 ? q.noPct : 50}%`;
 
       document.getElementById('legend-yes-label').textContent = isQ10 ? 'Option 1 (Remain)' : 'Yes Lead';
-      document.getElementById('legend-no-label').textContent = isQ10 ? 'Option 2 (Separate)' : 'No Lead';
+      document.getElementById('legend-no-label').textContent = isQ10 ? 'Option 2 (Separation Referendum)' : 'No Lead';
 
       // Regional Stats
       const reg = q.regionalStats || {};
