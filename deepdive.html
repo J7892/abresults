@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta Referendum 2026 - Deeper Dive & Advanced Analytics</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍁</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <!-- Chart.js & Lucide Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .pulse-dot {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: .4; transform: scale(0.92); }
+    }
+    /* Heatmap cell hover effects */
+    .heatmap-cell {
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .heatmap-cell:hover {
+      transform: scale(1.12);
+      z-index: 10;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-full flex flex-col antialiased transition-colors duration-200">
+
+  <!-- HEADER -->
+  <header class="bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 sticky top-0 z-40 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <!-- Brand & Navigation Links -->
+      <div class="flex items-center space-x-3 sm:space-x-5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-500 flex items-center justify-center shadow-md shadow-purple-500/20 text-white font-black text-sm flex-shrink-0">
+          AB
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <h1 class="text-base sm:text-lg font-bold tracking-tight text-slate-900 dark:text-white">Alberta Referendum 2026</h1>
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-500/20">
+              <span class="w-1.5 h-1.5 rounded-full bg-purple-500 dark:bg-purple-400 mr-1.5 pulse-dot"></span>
+              DEEPER DIVE
+            </span>
+            <span class="hidden md:inline-flex px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300 border border-amber-300 dark:border-amber-700">
+              Experimental
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Advanced Analytics, Correlation & Regional Divergence Explorer</p>
+        </div>
+      </div>
+
+      <!-- Controls, Navigation & Theme Switcher -->
+      <div class="flex items-center flex-wrap gap-2 sm:gap-2.5">
+        <!-- Main Dashboard Link -->
+        <a href="index.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 transition shadow-sm border border-slate-200 dark:border-slate-700">
+          <i data-lucide="layout-dashboard" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Main Dashboard</span>
+        </a>
+
+        <!-- Map Atlas Link -->
+        <a href="maps.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 dark:bg-indigo-600/20 dark:hover:bg-indigo-600/30 dark:text-indigo-300 dark:border-indigo-500/30 transition shadow-sm">
+          <i data-lucide="map" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Map Atlas</span>
+        </a>
+
+        <!-- 3-Way Theme Switcher (Light / Dark / Auto) -->
+        <div class="flex items-center bg-slate-200/80 dark:bg-slate-800 p-0.5 rounded-lg border border-slate-300/80 dark:border-slate-700 shadow-inner">
+          <button id="theme-btn-light" onclick="setTheme('light')" title="Light Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="sun" class="w-3.5 h-3.5"></i>
+          </button>
+          <button id="theme-btn-dark" onclick="setTheme('dark')" title="Dark Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="moon" class="w-3.5 h-3.5"></i>
+          </button>
+          <button id="theme-btn-auto" onclick="setTheme('auto')" title="System Auto Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="monitor" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+
+        <!-- Refresh Button -->
+        <button id="btn-refresh" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:hover:text-white dark:border-slate-700 transition shadow-sm active:scale-95">
+          <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5"></i>
+          <span class="hidden md:inline">Refresh</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-8">
+
+    <!-- HERO INTRO -->
+    <section class="rounded-2xl bg-gradient-to-r from-purple-900/10 via-indigo-900/10 to-blue-900/10 dark:from-purple-950/40 dark:via-indigo-950/40 dark:to-slate-900/60 border border-purple-200 dark:border-purple-500/30 p-6 shadow-sm">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="space-y-2 max-w-3xl">
+          <div class="inline-flex items-center space-x-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-100 text-purple-700 dark:bg-purple-900/50 dark:text-purple-300">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span>Deeper Dive Analytics Lab</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+            Advanced Insights Beyond the Public Summary
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+            The official Elections Alberta portal presents each referendum question in isolation. This experimental dashboard analyzes 
+            <strong>cross-question alignment, the urban-rural divide, historical ballot arrival trajectories, and polling station polarization</strong> across 87 electoral divisions and over 2,200 reporting stations.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row md:flex-col gap-2 flex-shrink-0">
+          <div class="bg-white/80 dark:bg-slate-900/80 backdrop-blur border border-slate-200 dark:border-slate-800 rounded-xl p-3 text-xs">
+            <span class="text-slate-400 block text-[10px] uppercase font-semibold">Live State</span>
+            <span id="stat-summary-polls" class="font-bold text-slate-800 dark:text-slate-100 text-sm">Loading polls...</span>
+          </div>
+          <div class="bg-white/80 dark:bg-slate-900/80 backdrop-blur border border-slate-200 dark:border-slate-800 rounded-xl p-3 text-xs">
+            <span class="text-slate-400 block text-[10px] uppercase font-semibold">Ballots Analyzed</span>
+            <span id="stat-summary-votes" class="font-bold text-slate-800 dark:text-slate-100 text-sm">Loading votes...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 1: THE URBAN-RURAL POLARIZATION GAP -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-5 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="split" class="w-4 h-4 text-purple-600 dark:text-purple-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">1. The Urban-Rural Polarization Divide</h3>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Comparing Yes % (or Option 1 Remain %) across Edmonton (20 ridings), Calgary (26 ridings), and Regional/Rural Alberta (41 ridings).
+          </p>
+        </div>
+        <div class="text-xs font-semibold px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 border border-purple-200 dark:border-purple-800/50 self-start sm:self-auto">
+          Edmonton vs Rural Gap
+        </div>
+      </div>
+
+      <!-- Urban-Rural Chart -->
+      <div class="h-80 sm:h-96 w-full relative">
+        <canvas id="urbanRuralChart"></canvas>
+      </div>
+
+      <!-- Key Takeaways & Divergence Table -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 pt-2">
+        <div class="lg:col-span-1 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-bold text-purple-600 dark:text-purple-400 uppercase tracking-wider block mb-1">Key Observation</span>
+            <h4 class="text-sm font-bold text-slate-900 dark:text-white mb-2">Massive Ideological Split</h4>
+            <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed" id="divide-insight-text">
+              Questions regarding Provincial Judges (Q6) and Senate Abolition (Q7) exhibit the widest urban-rural divergence, exceeding 30 percentage points between Edmonton and rural ridings.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400">
+            <strong>Question 10 (Separation)</strong> shows consensus against separation across all three zones, with Edmonton at 88.3% Remain, Calgary at 83.5%, and Rural at 66.8%.
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 overflow-x-auto">
+          <table class="min-w-full text-xs text-left">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-700">
+              <tr>
+                <th class="py-2.5 px-3">Question</th>
+                <th class="py-2.5 px-2 text-right">Edmonton</th>
+                <th class="py-2.5 px-2 text-right">Calgary</th>
+                <th class="py-2.5 px-2 text-right">Rural</th>
+                <th class="py-2.5 px-3 text-right">Rural - Edm Gap</th>
+              </tr>
+            </thead>
+            <tbody id="divide-table-body" class="divide-y divide-slate-100 dark:divide-slate-800">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: CROSS-QUESTION CORRELATION MATRIX & SCATTER EXPLORER -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="git-merge" class="w-4 h-4 text-indigo-600 dark:text-indigo-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">2. Cross-Question Correlation & Co-Voting Matrix</h3>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Pearson correlation coefficient ($r$) across all 87 ridings. Click any cell to view the riding-by-riding scatter plot!
+          </p>
+        </div>
+        <span class="text-xs text-slate-400 font-medium">87 Electoral Divisions</span>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Correlation Heatmap Grid (7 cols on XL) -->
+        <div class="xl:col-span-7 overflow-x-auto">
+          <div class="min-w-[500px]">
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">10x10 Correlation Heatmap</span>
+              <div class="flex items-center space-x-2 text-[10px]">
+                <span class="flex items-center"><span class="w-2.5 h-2.5 bg-red-500 rounded-sm mr-1"></span> Low/Negative</span>
+                <span class="flex items-center"><span class="w-2.5 h-2.5 bg-emerald-500 rounded-sm mr-1"></span> High (r &gt; 0.8)</span>
+              </div>
+            </div>
+            
+            <div id="correlation-matrix-container" class="border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden bg-slate-50 dark:bg-slate-950 p-2">
+              <!-- Rendered via JS -->
+            </div>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2">
+              💡 <em>Click any cell above to plot that specific question pair on the scatter plot.</em>
+            </p>
+          </div>
+        </div>
+
+        <!-- Interactive Riding Scatter Plot (5 cols on XL) -->
+        <div class="xl:col-span-5 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+                <i data-lucide="scatter-chart" class="w-3.5 h-3.5 text-indigo-500"></i>
+                <span>Riding Scatter Explorer</span>
+              </h4>
+              <span id="scatter-r-badge" class="px-2 py-0.5 rounded font-bold text-xs bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">
+                r = +0.85
+              </span>
+            </div>
+
+            <!-- Question Selectors -->
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div>
+                <label class="block text-[10px] text-slate-500 dark:text-slate-400 mb-0.5">X Axis Question</label>
+                <select id="scatter-x-select" class="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+                  <!-- Populated via JS -->
+                </select>
+              </div>
+              <div>
+                <label class="block text-[10px] text-slate-500 dark:text-slate-400 mb-0.5">Y Axis Question</label>
+                <select id="scatter-y-select" class="w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+                  <!-- Populated via JS -->
+                </select>
+              </div>
+            </div>
+
+            <!-- Scatter Canvas -->
+            <div class="h-64 sm:h-72 w-full relative">
+              <canvas id="scatterChart"></canvas>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-200 dark:border-slate-800">
+            <div class="flex items-center space-x-2">
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-blue-500 mr-1"></span> Calgary</span>
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-purple-500 mr-1"></span> Edmonton</span>
+              <span class="inline-flex items-center"><span class="w-2 h-2 rounded-full bg-amber-500 mr-1"></span> Rural</span>
+            </div>
+            <span>87 Ridings</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TIME-SERIES VOTE COUNTING TRAJECTORY -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-5 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="trending-up" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">3. Counting Trajectory & Timeline Progression</h3>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Tracking Question 10 (Separation) margin evolution across historical check-in snapshots as polls reported.
+          </p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <span class="text-xs text-slate-500 dark:text-slate-400 font-medium" id="trajectory-snapshots-count">0 Snapshots</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Margin Trajectory Line Chart (2 cols) -->
+        <div class="lg:col-span-2">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">Option 1 vs Option 2 % Progression</span>
+            <div class="flex items-center space-x-3 text-xs">
+              <span class="flex items-center text-emerald-600 dark:text-emerald-400 font-semibold"><span class="w-2 h-2 bg-emerald-500 rounded-full mr-1.5"></span> Option 1 (Remain)</span>
+              <span class="flex items-center text-red-600 dark:text-red-400 font-semibold"><span class="w-2 h-2 bg-red-500 rounded-full mr-1.5"></span> Option 2 (Separation)</span>
+            </div>
+          </div>
+          <div class="h-64 sm:h-72 w-full relative">
+            <canvas id="timelineChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Cumulative Votes & Reporting Speed (1 col) -->
+        <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider block mb-2">Cumulative Ballots Counted</span>
+            <div class="h-52 w-full relative">
+              <canvas id="velocityChart"></canvas>
+            </div>
+          </div>
+          <div class="pt-3 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 flex justify-between">
+            <span>First Count: <strong id="traj-first-time">-</strong></span>
+            <span>Latest: <strong id="traj-latest-time">-</strong></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: POLLING STATION POLARIZATION & MARGIN DISTRIBUTION -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-5 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="bar-chart-2" class="w-4 h-4 text-blue-600 dark:text-blue-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">4. Polling Station Polarization (Margin Distribution)</h3>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Frequency distribution of reporting voting stations by Option 1 / Yes % bracket. Reveals whether returns are polarized or consensus.
+          </p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <label for="hist-question-select" class="text-xs text-slate-500 dark:text-slate-400 font-medium">Question:</label>
+          <select id="hist-question-select" class="bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+            <!-- Populated via JS -->
+          </select>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+        <!-- Histogram Bar Chart -->
+        <div class="lg:col-span-2 h-64 sm:h-72 w-full relative">
+          <canvas id="histogramChart"></canvas>
+        </div>
+
+        <!-- Polarization Index & Stat Cards -->
+        <div class="space-y-3">
+          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">Modal Distribution Peak</span>
+            <div class="text-xl font-black text-slate-900 dark:text-white" id="hist-peak-bracket">70% – 80% Bracket</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" id="hist-peak-desc">
+              The highest density of individual voting stations across Alberta voted in the 70%–80% Option 1 bracket.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">Landslide Consensus Ratio</span>
+            <div class="text-xl font-black text-emerald-600 dark:text-emerald-400" id="hist-landslide-stat">&gt; 79% of Polls</div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              Stations where Option 1 (Remain) won by absolute majority (&gt;50%).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-12 py-6 text-center text-xs text-slate-500 dark:text-slate-400 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div>
+        <span>Alberta Referendum 2026 Deeper Dive</span> &bull; 
+        <a href="index.html" class="text-blue-600 dark:text-blue-400 hover:underline">Main Dashboard</a> &bull; 
+        <a href="maps.html" class="text-indigo-600 dark:text-indigo-400 hover:underline">10-Question Map Atlas</a>
+      </div>
+      <div>
+        Data sourced directly from Elections Alberta (Unofficial Results)
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    let currentData = null;
+    let historyData = [];
+    let timerCountdown = 30;
+
+    let urbanRuralChartInstance = null;
+    let scatterChartInstance = null;
+    let timelineChartInstance = null;
+    let velocityChartInstance = null;
+    let histogramChartInstance = null;
+
+    let activeScatterX = 1;
+    let activeScatterY = 10;
+    let activeHistQ = 10;
+
+    // --- THEME MANAGEMENT ---
+    function getSystemTheme() {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    function applyTheme(theme) {
+      const effective = (theme === 'auto') ? getSystemTheme() : theme;
+      if (effective === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+
+      ['light', 'dark', 'auto'].forEach(mode => {
+        const btn = document.getElementById(`theme-btn-${mode}`);
+        if (btn) {
+          if (mode === theme) {
+            btn.className = "px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 bg-white text-slate-900 shadow-sm dark:bg-slate-700 dark:text-white font-semibold";
+          } else {
+            btn.className = "px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+          }
+        }
+      });
+
+      // Update all chart themes
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      [urbanRuralChartInstance, scatterChartInstance, timelineChartInstance, velocityChartInstance, histogramChartInstance].forEach(inst => {
+        if (inst) {
+          if (inst.options.plugins?.legend?.labels) inst.options.plugins.legend.labels.color = textColor;
+          if (inst.options.scales?.x?.ticks) inst.options.scales.x.ticks.color = textColor;
+          if (inst.options.scales?.x?.grid) inst.options.scales.x.grid.color = gridColor;
+          if (inst.options.scales?.y?.ticks) inst.options.scales.y.ticks.color = textColor;
+          if (inst.options.scales?.y?.grid) inst.options.scales.y.grid.color = gridColor;
+          inst.update();
+        }
+      });
+    }
+
+    function setTheme(theme) {
+      localStorage.setItem('theme', theme);
+      applyTheme(theme);
+    }
+
+    // --- DATA FETCHING ---
+    async function loadAllData() {
+      const icon = document.getElementById('icon-refresh');
+      if (icon) icon.classList.add('animate-spin');
+
+      try {
+        const [latestResp, histResp] = await Promise.all([
+          fetch(`data/latest.json?t=${Date.now()}`),
+          fetch(`data/history.jsonl?t=${Date.now()}`)
+        ]);
+
+        if (latestResp.ok) {
+          currentData = await latestResp.json();
+          renderLatestInsights(currentData);
+        }
+
+        if (histResp.ok) {
+          const text = await histResp.text();
+          historyData = text.trim().split('\n').filter(Boolean).map(line => {
+            try { return JSON.parse(line); } catch(e) { return null; }
+          }).filter(Boolean);
+
+          renderTimelineInsights(historyData);
+        }
+      } catch (err) {
+        console.error('Error fetching data for deepdive:', err);
+      } finally {
+        if (icon) icon.classList.remove('animate-spin');
+        timerCountdown = 30;
+      }
+    }
+
+    // --- SECTION 1: URBAN-RURAL DIVIDE ---
+    function renderUrbanRuralDivide(questions) {
+      const tbody = document.getElementById('divide-table-body');
+      tbody.innerHTML = '';
+
+      const labels = [];
+      const edmData = [];
+      const calgData = [];
+      const rurData = [];
+
+      questions.forEach(q => {
+        const qNum = q.questionNumber;
+        const shortName = `Q${qNum}`;
+        labels.push(shortName);
+
+        const calg = q.regionalStats?.Calgary?.yesPct || 0;
+        const edm = q.regionalStats?.Edmonton?.yesPct || 0;
+        const rur = q.regionalStats?.['Regional / Other']?.yesPct || 0;
+        const gap = (rur - edm).toFixed(1);
+
+        calgData.push(calg);
+        edmData.push(edm);
+        rurData.push(rur);
+
+        const isQ10 = (qNum === 10);
+        const titleText = isQ10 ? 'Q10: Separation Referendum (Option 1 Remain)' : `Q${qNum}: ${q.title}`;
+
+        const tr = document.createElement('tr');
+        tr.className = "hover:bg-slate-50/80 dark:hover:bg-slate-800/50 transition";
+        tr.innerHTML = `
+          <td class="py-2 px-3 font-medium text-slate-800 dark:text-slate-200">
+            ${titleText}
+          </td>
+          <td class="py-2 px-2 text-right font-mono text-purple-600 dark:text-purple-400 font-semibold">${edm}%</td>
+          <td class="py-2 px-2 text-right font-mono text-blue-600 dark:text-blue-400 font-semibold">${calg}%</td>
+          <td class="py-2 px-2 text-right font-mono text-amber-600 dark:text-amber-400 font-semibold">${rur}%</td>
+          <td class="py-2 px-3 text-right font-mono font-bold ${gap >= 0 ? 'text-amber-600 dark:text-amber-400' : 'text-purple-600 dark:text-purple-400'}">
+            ${gap >= 0 ? '+' : ''}${gap}%
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      // Render Chart.js Grouped Bar
+      const ctx = document.getElementById('urbanRuralChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (urbanRuralChartInstance) {
+        urbanRuralChartInstance.data.labels = labels;
+        urbanRuralChartInstance.data.datasets[0].data = edmData;
+        urbanRuralChartInstance.data.datasets[1].data = calgData;
+        urbanRuralChartInstance.data.datasets[2].data = rurData;
+        urbanRuralChartInstance.update();
+      } else {
+        urbanRuralChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [
+              {
+                label: 'Edmonton (20 Ridings)',
+                data: edmData,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderRadius: 4
+              },
+              {
+                label: 'Calgary (26 Ridings)',
+                data: calgData,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderRadius: 4
+              },
+              {
+                label: 'Regional / Rural (41 Ridings)',
+                data: rurData,
+                backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                borderRadius: 4
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: textColor, font: { family: 'Inter', size: 11 } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y}% Yes/Remain`
+                }
+              }
+            },
+            scales: {
+              x: {
+                ticks: { color: textColor, font: { family: 'Inter', size: 11, weight: 'bold' } },
+                grid: { display: false }
+              },
+              y: {
+                max: 100,
+                min: 0,
+                ticks: {
+                  color: textColor,
+                  callback: val => val + '%',
+                  font: { family: 'Inter', size: 10 }
+                },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // --- SECTION 2: CORRELATION MATRIX & SCATTER ---
+    function calcPearson(arrX, arrY) {
+      const n = arrX.length;
+      if (n < 3) return 0;
+      const mx = arrX.reduce((a, b) => a + b, 0) / n;
+      const my = arrY.reduce((a, b) => a + b, 0) / n;
+      let num = 0, denX = 0, denY = 0;
+      for (let i = 0; i < n; i++) {
+        const dx = arrX[i] - mx;
+        const dy = arrY[i] - my;
+        num += dx * dy;
+        denX += dx * dx;
+        denY += dy * dy;
+      }
+      const den = Math.sqrt(denX * denY);
+      return den ? (num / den) : 0;
+    }
+
+    function renderCorrelationMatrix(questions) {
+      const container = document.getElementById('correlation-matrix-container');
+      container.innerHTML = '';
+
+      // Populate Selectors for Scatter Plot
+      const selX = document.getElementById('scatter-x-select');
+      const selY = document.getElementById('scatter-y-select');
+      if (selX.options.length === 0) {
+        questions.forEach(q => {
+          const optX = document.createElement('option');
+          optX.value = q.questionNumber;
+          optX.textContent = `Q${q.questionNumber}: ${q.title.substring(0, 24)}...`;
+          if (q.questionNumber === activeScatterX) optX.selected = true;
+          selX.appendChild(optX);
+
+          const optY = document.createElement('option');
+          optY.value = q.questionNumber;
+          optY.textContent = `Q${q.questionNumber}: ${q.title.substring(0, 24)}...`;
+          if (q.questionNumber === activeScatterY) optY.selected = true;
+          selY.appendChild(optY);
+        });
+
+        selX.onchange = () => { activeScatterX = parseInt(selX.value); updateScatterPlot(); };
+        selY.onchange = () => { activeScatterY = parseInt(selY.value); updateScatterPlot(); };
+      }
+
+      // Build Riding Value Lookup per question
+      const qValues = {};
+      questions.forEach(q => {
+        qValues[q.questionNumber] = {};
+        (q.wards || []).forEach(w => {
+          if (w.totalVotes && w.totalVotes > 0) {
+            // For Q10, use Option 1 % (Remain) or Option 2 % (Separation)
+            // Let's standardise on Yes / Option 1 %
+            qValues[q.questionNumber][w.ward] = w.yesPct;
+          }
+        });
+      });
+
+      // 10x10 Table
+      const table = document.createElement('table');
+      table.className = "w-full text-center border-collapse text-[10px] sm:text-xs";
+
+      // Header row
+      const thead = document.createElement('thead');
+      const trh = document.createElement('tr');
+      trh.innerHTML = `<th class="p-1.5 text-slate-400"></th>` + questions.map(q => 
+        `<th class="p-1.5 font-bold text-slate-700 dark:text-slate-300">Q${q.questionNumber}</th>`
+      ).join('');
+      thead.appendChild(trh);
+      table.appendChild(thead);
+
+      // Body rows
+      const tbody = document.createElement('tbody');
+      questions.forEach(q1 => {
+        const tr = document.createElement('tr');
+        let rowHtml = `<td class="p-1.5 font-bold text-slate-700 dark:text-slate-300 text-left">Q${q1.questionNumber}</td>`;
+
+        questions.forEach(q2 => {
+          const commonWards = Object.keys(qValues[q1.questionNumber] || {}).filter(w => w in (qValues[q2.questionNumber] || {}));
+          const xVals = commonWards.map(w => qValues[q1.questionNumber][w]);
+          const yVals = commonWards.map(w => qValues[q2.questionNumber][w]);
+
+          const r = calcPearson(xVals, yVals);
+          const rStr = r.toFixed(2);
+
+          // Color shading based on r
+          let bgStyle = 'bg-slate-200 dark:bg-slate-800 text-slate-400';
+          if (q1.questionNumber === q2.questionNumber) {
+            bgStyle = 'bg-slate-300 dark:bg-slate-700 font-bold text-slate-900 dark:text-white';
+          } else if (r >= 0.8) {
+            bgStyle = 'bg-emerald-500 text-white font-bold';
+          } else if (r >= 0.6) {
+            bgStyle = 'bg-emerald-400/80 text-white font-semibold';
+          } else if (r >= 0.3) {
+            bgStyle = 'bg-emerald-200/60 dark:bg-emerald-900/40 text-emerald-900 dark:text-emerald-200';
+          } else if (r >= 0) {
+            bgStyle = 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
+          } else {
+            bgStyle = 'bg-red-400/80 text-white font-bold';
+          }
+
+          rowHtml += `
+            <td class="p-0.5">
+              <div onclick="selectScatterPair(${q1.questionNumber}, ${q2.questionNumber})" 
+                   title="Q${q1.questionNumber} vs Q${q2.questionNumber} (r = ${rStr})"
+                   class="heatmap-cell cursor-pointer p-1 rounded ${bgStyle}">
+                ${q1.questionNumber === q2.questionNumber ? '1.0' : rStr}
+              </div>
+            </td>
+          `;
+        });
+
+        tr.innerHTML = rowHtml;
+        tbody.appendChild(tr);
+      });
+
+      table.appendChild(tbody);
+      container.appendChild(table);
+
+      updateScatterPlot();
+    }
+
+    function selectScatterPair(q1, q2) {
+      activeScatterX = q1;
+      activeScatterY = q2;
+      document.getElementById('scatter-x-select').value = q1;
+      document.getElementById('scatter-y-select').value = q2;
+      updateScatterPlot();
+    }
+
+    function updateScatterPlot() {
+      if (!currentData) return;
+      const qX = (currentData.questions || []).find(q => q.questionNumber === activeScatterX);
+      const qY = (currentData.questions || []).find(q => q.questionNumber === activeScatterY);
+      if (!qX || !qY) return;
+
+      const wardsX = {};
+      (qX.wards || []).forEach(w => { if (w.totalVotes > 0) wardsX[w.ward] = w; });
+
+      const pointsCalg = [];
+      const pointsEdm = [];
+      const pointsRur = [];
+
+      const xValsAll = [];
+      const yValsAll = [];
+
+      (qY.wards || []).forEach(wY => {
+        const wX = wardsX[wY.ward];
+        if (wX && wY.totalVotes > 0) {
+          const pt = {
+            x: wX.yesPct,
+            y: wY.yesPct,
+            wardName: wY.wardName,
+            region: wY.region
+          };
+
+          xValsAll.push(pt.x);
+          yValsAll.push(pt.y);
+
+          if (wY.region === 'Calgary') pointsCalg.push(pt);
+          else if (wY.region === 'Edmonton') pointsEdm.push(pt);
+          else pointsRur.push(pt);
+        }
+      });
+
+      const r = calcPearson(xValsAll, yValsAll);
+      document.getElementById('scatter-r-badge').textContent = `r = ${r >= 0 ? '+' : ''}${r.toFixed(3)}`;
+
+      const ctx = document.getElementById('scatterChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (scatterChartInstance) {
+        scatterChartInstance.data.datasets[0].data = pointsCalg;
+        scatterChartInstance.data.datasets[1].data = pointsEdm;
+        scatterChartInstance.data.datasets[2].data = pointsRur;
+        scatterChartInstance.options.scales.x.title.text = `Q${qX.questionNumber} Yes/Option 1 %`;
+        scatterChartInstance.options.scales.y.title.text = `Q${qY.questionNumber} Yes/Option 1 %`;
+        scatterChartInstance.update();
+      } else {
+        scatterChartInstance = new Chart(ctx, {
+          type: 'scatter',
+          data: {
+            datasets: [
+              {
+                label: 'Calgary',
+                data: pointsCalg,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderColor: 'rgba(37, 99, 235, 1)',
+                pointRadius: 4.5
+              },
+              {
+                label: 'Edmonton',
+                data: pointsEdm,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderColor: 'rgba(147, 51, 234, 1)',
+                pointRadius: 4.5
+              },
+              {
+                label: 'Regional / Rural',
+                data: pointsRur,
+                backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                borderColor: 'rgba(217, 119, 6, 1)',
+                pointRadius: 4.5
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (ctx) => {
+                    const raw = ctx.raw;
+                    return `${raw.wardName}: (${raw.x}%, ${raw.y}%)`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                min: 20,
+                max: 100,
+                title: { display: true, text: `Q${qX.questionNumber} Yes %`, color: textColor, font: { size: 10 } },
+                ticks: { color: textColor, font: { size: 10 } },
+                grid: { color: gridColor }
+              },
+              y: {
+                min: 20,
+                max: 100,
+                title: { display: true, text: `Q${qY.questionNumber} Yes %`, color: textColor, font: { size: 10 } },
+                ticks: { color: textColor, font: { size: 10 } },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // --- SECTION 3: TIMELINE PROGRESSION ---
+    function renderTimelineInsights(history) {
+      if (!history || history.length === 0) return;
+
+      document.getElementById('trajectory-snapshots-count').textContent = `${history.length} Snapshots`;
+
+      const labels = [];
+      const yesPctData = [];
+      const noPctData = [];
+      const votesData = [];
+
+      history.forEach((h, idx) => {
+        let label = `#${idx + 1}`;
+        if (h.timestamp) {
+          const d = new Date(h.timestamp);
+          label = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        }
+        labels.push(label);
+
+        const q10 = h.questions?.Q10 || {};
+        yesPctData.push(q10.yesPct || 0);
+        noPctData.push(q10.noPct || 0);
+        votesData.push(h.totalVotes || 0);
+      });
+
+      if (history[0].timestamp) {
+        document.getElementById('traj-first-time').textContent = new Date(history[0].timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        document.getElementById('traj-latest-time').textContent = new Date(history[history.length - 1].timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      }
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      // Timeline Margin Line Chart
+      const ctxLine = document.getElementById('timelineChart');
+      if (ctxLine) {
+        if (timelineChartInstance) {
+          timelineChartInstance.data.labels = labels;
+          timelineChartInstance.data.datasets[0].data = yesPctData;
+          timelineChartInstance.data.datasets[1].data = noPctData;
+          timelineChartInstance.update();
+        } else {
+          timelineChartInstance = new Chart(ctxLine, {
+            type: 'line',
+            data: {
+              labels: labels,
+              datasets: [
+                {
+                  label: 'Option 1 (Remain) %',
+                  data: yesPctData,
+                  borderColor: 'rgba(16, 185, 129, 1)',
+                  backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                  borderWidth: 2.5,
+                  tension: 0.3,
+                  pointRadius: history.length > 40 ? 0 : 2
+                },
+                {
+                  label: 'Option 2 (Separation) %',
+                  data: noPctData,
+                  borderColor: 'rgba(239, 68, 68, 1)',
+                  backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                  borderWidth: 2.5,
+                  tension: 0.3,
+                  pointRadius: history.length > 40 ? 0 : 2
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false }
+              },
+              scales: {
+                x: {
+                  ticks: { color: textColor, font: { size: 10 }, maxTicksLimit: 12 },
+                  grid: { display: false }
+                },
+                y: {
+                  min: 0,
+                  max: 100,
+                  ticks: { color: textColor, callback: v => v + '%', font: { size: 10 } },
+                  grid: { color: gridColor }
+                }
+              }
+            }
+          });
+        }
+      }
+
+      // Velocity Area Chart
+      const ctxVel = document.getElementById('velocityChart');
+      if (ctxVel) {
+        if (velocityChartInstance) {
+          velocityChartInstance.data.labels = labels;
+          velocityChartInstance.data.datasets[0].data = votesData;
+          velocityChartInstance.update();
+        } else {
+          velocityChartInstance = new Chart(ctxVel, {
+            type: 'line',
+            data: {
+              labels: labels,
+              datasets: [{
+                label: 'Cumulative Ballots',
+                data: votesData,
+                borderColor: 'rgba(99, 102, 241, 1)',
+                backgroundColor: 'rgba(99, 102, 241, 0.15)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.3,
+                pointRadius: 0
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: { legend: { display: false } },
+              scales: {
+                x: { display: false },
+                y: {
+                  ticks: { color: textColor, font: { size: 9 }, callback: v => (v / 1e6).toFixed(1) + 'M' },
+                  grid: { color: gridColor }
+                }
+              }
+            }
+          });
+        }
+      }
+    }
+
+    // --- SECTION 4: HISTOGRAM ---
+    function renderHistogram(questions) {
+      const sel = document.getElementById('hist-question-select');
+      if (sel.options.length === 0) {
+        questions.forEach(q => {
+          const opt = document.createElement('option');
+          opt.value = q.questionNumber;
+          opt.textContent = `Q${q.questionNumber}: ${q.title.substring(0, 30)}`;
+          if (q.questionNumber === activeHistQ) opt.selected = true;
+          sel.appendChild(opt);
+        });
+
+        sel.onchange = () => {
+          activeHistQ = parseInt(sel.value);
+          updateHistogramChart();
+        };
+      }
+
+      updateHistogramChart();
+    }
+
+    function updateHistogramChart() {
+      if (!currentData) return;
+      const q = (currentData.questions || []).find(x => x.questionNumber === activeHistQ);
+      if (!q) return;
+
+      const dist = q.pollDistribution || {
+        "<30%": 0, "30-40%": 0, "40-50%": 0, "50-60%": 0,
+        "60-70%": 0, "70-80%": 0, "80-90%": 0, "90-100%": 0
+      };
+
+      const labels = Object.keys(dist);
+      const dataVals = Object.values(dist);
+      const totalPolls = dataVals.reduce((a, b) => a + b, 0);
+
+      // Find peak
+      let maxVal = -1;
+      let peakKey = '';
+      labels.forEach(k => {
+        if (dist[k] > maxVal) {
+          maxVal = dist[k];
+          peakKey = k;
+        }
+      });
+
+      const peakPct = totalPolls > 0 ? (maxVal / totalPolls * 100).toFixed(1) : 0;
+      document.getElementById('hist-peak-bracket').textContent = `${peakKey} Bracket (${maxVal} Polls)`;
+      document.getElementById('hist-peak-desc').textContent = `${peakPct}% of reporting voting stations fall into the ${peakKey} bracket.`;
+
+      const ctx = document.getElementById('histogramChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      const colors = labels.map(k => {
+        if (k.includes('<') || k.startsWith('30') || k.startsWith('40')) {
+          return 'rgba(239, 68, 68, 0.85)';
+        }
+        return 'rgba(16, 185, 129, 0.85)';
+      });
+
+      if (histogramChartInstance) {
+        histogramChartInstance.data.labels = labels;
+        histogramChartInstance.data.datasets[0].data = dataVals;
+        histogramChartInstance.data.datasets[0].backgroundColor = colors;
+        histogramChartInstance.update();
+      } else {
+        histogramChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Reporting Polling Stations',
+              data: dataVals,
+              backgroundColor: colors,
+              borderRadius: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (ctx) => `${ctx.parsed.y} polls (${totalPolls > 0 ? (ctx.parsed.y / totalPolls * 100).toFixed(1) : 0}%)`
+                }
+              }
+            },
+            scales: {
+              x: {
+                title: { display: true, text: 'Vote Share Bracket (Option 1 / Yes %)', color: textColor, font: { size: 10 } },
+                ticks: { color: textColor, font: { size: 10 } },
+                grid: { display: false }
+              },
+              y: {
+                title: { display: true, text: 'Number of Stations', color: textColor, font: { size: 10 } },
+                ticks: { color: textColor, font: { size: 10 } },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    function renderLatestInsights(data) {
+      if (!data) return;
+
+      // Summary Header stats
+      const summary = data.turnout?.summary || {};
+      document.getElementById('stat-summary-polls').textContent = `${(summary.pollsReporting || 0).toLocaleString()} of ${(summary.totalPolls || 5587).toLocaleString()} (${summary.pollsReportingPct || 0}%)`;
+      document.getElementById('stat-summary-votes').textContent = `${(summary.votes || 0).toLocaleString()} valid ballots`;
+
+      const questions = data.questions || [];
+      renderUrbanRuralDivide(questions);
+      renderCorrelationMatrix(questions);
+      renderHistogram(questions);
+
+      lucide.createIcons();
+    }
+
+    // --- TIMER & INIT ---
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('theme') || 'auto';
+      applyTheme(savedTheme);
+
+      loadAllData();
+
+      document.getElementById('btn-refresh').addEventListener('click', () => {
+        loadAllData();
+      });
+
+      // 30s Polling Loop
+      setInterval(() => {
+        timerCountdown--;
+        if (timerCountdown <= 0) {
+          loadAllData();
+        }
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

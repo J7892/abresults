@@ -325,6 +325,11 @@ def process_results(raw_data):
             for m in VOTING_METHODS_DEF
         }
 
+        poll_dist = {
+            "<30%": 0, "30-40%": 0, "40-50%": 0, "50-60%": 0,
+            "60-70%": 0, "70-80%": 0, "80-90%": 0, "90-100%": 0
+        }
+
         for ws in q_item.get("wardStats", []):
             for p in ws.get("pollStats", []):
                 p_code = p.get("pollTypeCode")
@@ -335,8 +340,21 @@ def process_results(raw_data):
                     p_no = p.get("noVotes")
                     if p_yes is not None or p_no is not None:
                         entry["pollsReporting"] += 1
-                        entry["yesVotes"] += (p_yes or 0)
-                        entry["noVotes"] += (p_no or 0)
+                        y_val = p_yes or 0
+                        n_val = p_no or 0
+                        entry["yesVotes"] += y_val
+                        entry["noVotes"] += n_val
+                        tot_p = y_val + n_val
+                        if tot_p > 0:
+                            pct_yes = y_val / tot_p * 100
+                            if pct_yes < 30: poll_dist["<30%"] += 1
+                            elif pct_yes < 40: poll_dist["30-40%"] += 1
+                            elif pct_yes < 50: poll_dist["40-50%"] += 1
+                            elif pct_yes < 60: poll_dist["50-60%"] += 1
+                            elif pct_yes < 70: poll_dist["60-70%"] += 1
+                            elif pct_yes < 80: poll_dist["70-80%"] += 1
+                            elif pct_yes < 90: poll_dist["80-90%"] += 1
+                            else: poll_dist["90-100%"] += 1
 
         for m in method_dict.values():
             tot = m["yesVotes"] + m["noVotes"]
@@ -364,6 +382,7 @@ def process_results(raw_data):
             "leader": leader,
             "regionalStats": regional_stats,
             "votingMethods": voting_methods_list,
+            "pollDistribution": poll_dist,
             "wards": ward_list
         })
 
