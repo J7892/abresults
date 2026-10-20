@@ -11,7 +11,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 10,10 - Calgary-Falconridge,Calgary,1,Immigration Control & Alberta Priority,3806,4753,8559,44.47,55.53,NO,51,51,100.0
 11,11 - Calgary-Fish Creek,Calgary,1,Immigration Control & Alberta Priority,9598,6799,16397,58.54,41.46,YES,59,59,100.0
 12,12 - Calgary-Foothills,Calgary,1,Immigration Control & Alberta Priority,8641,11191,19832,43.57,56.43,NO,9,62,14.5
-13,13 - Calgary-Glenmore,Calgary,1,Immigration Control & Alberta Priority,6286,5805,12091,51.99,48.01,YES,59,59,100.0
+13,13 - Calgary-Glenmore,Calgary,1,Immigration Control & Alberta Priority,6369,5868,12237,52.05,47.95,YES,59,59,100.0
 14,14 - Calgary-Hays,Calgary,1,Immigration Control & Alberta Priority,14083,10913,24996,56.34,43.66,YES,58,58,100.0
 15,15 - Calgary-Klein,Calgary,1,Immigration Control & Alberta Priority,10016,12330,22346,44.82,55.18,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,1,Immigration Control & Alberta Priority,11101,9295,20396,54.43,45.57,YES,45,45,100.0
@@ -27,7 +27,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,1,Immigration Control & Alberta Priority,12417,12706,25123,49.42,50.58,NO,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,1,Immigration Control & Alberta Priority,5407,6270,11677,46.3,53.7,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,1,Immigration Control & Alberta Priority,7315,8686,16001,45.72,54.28,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,1,Immigration Control & Alberta Priority,6731,13419,20150,33.4,66.6,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,1,Immigration Control & Alberta Priority,6775,13471,20246,33.46,66.54,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,1,Immigration Control & Alberta Priority,4247,4747,8994,47.22,52.78,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,1,Immigration Control & Alberta Priority,6897,8936,15833,43.56,56.44,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,1,Immigration Control & Alberta Priority,7428,13462,20890,35.56,64.44,NO,52,52,100.0
@@ -72,7 +72,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,1,Immigration Control & Alberta Priority,10680,7887,18567,57.52,42.48,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,1,Immigration Control & Alberta Priority,10671,9487,20158,52.94,47.06,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,1,Immigration Control & Alberta Priority,16224,6585,22809,71.13,28.87,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,1,Immigration Control & Alberta Priority,6016,2127,8143,73.88,26.12,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,1,Immigration Control & Alberta Priority,6016,2127,8143,73.88,26.12,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,1,Immigration Control & Alberta Priority,13613,7053,20666,65.87,34.13,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,1,Immigration Control & Alberta Priority,18733,4845,23578,79.45,20.55,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,1,Immigration Control & Alberta Priority,9034,5100,14134,63.92,36.08,YES,68,69,98.6
@@ -83,7 +83,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,1,Immigration Control & Alberta Priority,10445,8426,18871,55.35,44.65,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,1,Immigration Control & Alberta Priority,10177,8285,18462,55.12,44.88,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,1,Immigration Control & Alberta Priority,15692,11566,27258,57.57,42.43,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,1,Immigration Control & Alberta Priority,12495,3413,15908,78.55,21.45,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,1,Immigration Control & Alberta Priority,12495,3413,15908,78.55,21.45,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,1,Immigration Control & Alberta Priority,5558,2285,7843,70.87,29.13,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,1,Immigration Control & Alberta Priority,7796,3025,10821,72.05,27.95,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,2,Citizenship/PR Requirement for Provincial Services,6174,8455,14629,42.2,57.8,NO,46,57,80.7
@@ -114,7 +114,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,2,Citizenship/PR Requirement for Provincial Services,8926,7463,16389,54.46,45.54,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,2,Citizenship/PR Requirement for Provincial Services,5227,6531,11758,44.45,55.55,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,2,Citizenship/PR Requirement for Provincial Services,7075,8966,16041,44.11,55.89,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,2,Citizenship/PR Requirement for Provincial Services,5675,12624,18299,31.01,68.99,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,2,Citizenship/PR Requirement for Provincial Services,5714,12680,18394,31.06,68.94,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,2,Citizenship/PR Requirement for Provincial Services,3884,4702,8586,45.24,54.76,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,2,Citizenship/PR Requirement for Provincial Services,6162,9346,15508,39.73,60.27,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,2,Citizenship/PR Requirement for Provincial Services,7060,13883,20943,33.71,66.29,NO,52,52,100.0
@@ -159,7 +159,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,10065,8484,18549,54.26,45.74,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,9755,10412,20167,48.37,51.63,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15744,7101,22845,68.92,31.08,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,4677,1283,5960,78.47,21.53,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,4677,1283,5960,78.47,21.53,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,13073,7615,20688,63.19,36.81,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,18155,5400,23555,77.07,22.93,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,8444,5665,14109,59.85,40.15,YES,68,69,98.6
@@ -170,7 +170,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,5154,3233,8387,61.45,38.55,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,9504,9066,18570,51.18,48.82,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,11811,7008,18819,62.76,37.24,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,11994,3790,15784,75.99,24.01,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,11994,3790,15784,75.99,24.01,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,4572,1336,5908,77.39,22.61,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,6484,1816,8300,78.12,21.88,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,3,12-Month Residency Rule for Non-Permanent Support,3754,3849,7603,49.38,50.62,NO,46,57,80.7
@@ -201,7 +201,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,3,12-Month Residency Rule for Non-Permanent Support,8967,7469,16436,54.56,45.44,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,5294,6294,11588,45.69,54.31,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,4842,5203,10045,48.2,51.8,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,4674,7934,12608,37.07,62.93,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,4720,7984,12704,37.15,62.85,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,3783,4554,8337,45.38,54.62,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,5024,6317,11341,44.3,55.7,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,5804,7174,12978,44.72,55.28,NO,52,52,100.0
@@ -231,7 +231,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,13243,6832,20075,65.97,34.03,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,14703,9359,24062,61.1,38.9,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,16699,4856,21555,77.47,22.53,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7111,1355,8466,83.99,16.01,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7181,1361,8542,84.07,15.93,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,3340,1556,4896,68.22,31.78,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,1177,903,2080,56.59,43.41,YES,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,13731,5980,19711,69.66,30.34,YES,61,82,74.4
@@ -246,7 +246,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,10329,8174,18503,55.82,44.18,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7596,6704,14300,53.12,46.88,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15861,6971,22832,69.47,30.53,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,4232,1156,5388,78.54,21.46,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,4232,1156,5388,78.54,21.46,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,13075,7605,20680,63.23,36.77,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,18373,5263,23636,77.73,22.27,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,8543,5569,14112,60.54,39.46,YES,68,69,98.6
@@ -257,7 +257,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,3780,1837,5617,67.3,32.7,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,9728,8990,18718,51.97,48.03,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,11446,6552,17998,63.6,36.4,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,12278,3726,16004,76.72,23.28,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,12278,3726,16004,76.72,23.28,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,4585,1318,5903,77.67,22.33,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,6555,1834,8389,78.14,21.86,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,3997,4715,8712,45.88,54.12,NO,46,57,80.7
@@ -288,7 +288,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,8926,7594,16520,54.03,45.97,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,4871,6314,11185,43.55,56.45,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,4538,3094,7632,59.46,40.54,YES,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,6435,6768,13203,48.74,51.26,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,6478,6821,13299,48.71,51.29,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,2030,2121,4151,48.9,51.1,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,4965,6659,11624,42.71,57.29,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,5369,7503,12872,41.71,58.29,NO,52,52,100.0
@@ -318,7 +318,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,12836,7073,19909,64.47,35.53,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,12584,7053,19637,64.08,35.92,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,16471,5146,21617,76.19,23.81,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,7025,1432,8457,83.07,16.93,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,7090,1442,8532,83.1,16.9,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,3315,1701,5016,66.09,33.91,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,538,646,1184,45.44,54.56,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,13527,6579,20106,67.28,32.72,YES,61,82,74.4
@@ -333,7 +333,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,9848,8622,18470,53.32,46.68,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,7239,7244,14483,49.98,50.02,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15526,7376,22902,67.79,32.21,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,4296,1331,5627,76.35,23.65,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,4296,1331,5627,76.35,23.65,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,12835,7847,20682,62.06,37.94,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15474,4460,19934,77.63,22.37,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,8328,5432,13760,60.52,39.48,YES,68,69,98.6
@@ -344,7 +344,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,4338,2203,6541,66.32,33.68,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,3126,4659,7785,40.15,59.85,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,10873,6760,17633,61.66,38.34,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,11889,3958,15847,75.02,24.98,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,11889,3958,15847,75.02,24.98,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,3540,1062,4602,76.92,23.08,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,6363,1940,8303,76.63,23.37,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,4837,4295,9132,52.97,47.03,YES,46,57,80.7
@@ -375,7 +375,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,9787,6451,16238,60.27,39.73,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,5756,5909,11665,49.34,50.66,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,5154,4793,9947,51.81,48.19,YES,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,5405,7800,13205,40.93,59.07,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,5451,7849,13300,40.98,59.02,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,2632,1884,4516,58.28,41.72,YES,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,5319,5260,10579,50.28,49.72,YES,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,6133,6834,12967,47.3,52.7,NO,52,52,100.0
@@ -405,7 +405,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,14108,5742,19850,71.07,28.93,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,13406,5389,18795,71.33,28.67,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,17325,4125,21450,80.77,19.23,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,7437,1049,8486,87.64,12.36,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,7507,1055,8562,87.68,12.32,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,300,120,420,71.43,28.57,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,36,48,84,42.86,57.14,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,14810,5406,20216,73.26,26.74,YES,61,82,74.4
@@ -420,18 +420,18 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,11357,7236,18593,61.08,38.92,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,8542,5984,14526,58.8,41.2,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16952,5925,22877,74.1,25.9,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,4587,997,5584,82.15,17.85,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,4587,997,5584,82.15,17.85,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,14121,6550,20671,68.31,31.69,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16318,3644,19962,81.75,18.25,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,8656,4508,13164,65.76,34.24,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,12096,4774,16870,71.7,28.3,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,12948,5621,18569,69.73,30.27,YES,62,73,84.9
+79,79 - Red Deer-South,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,13142,5666,18808,69.87,30.13,YES,62,73,84.9
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16582,2944,19526,84.92,15.08,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,12671,7725,20396,62.12,37.88,YES,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,1274,389,1663,76.61,23.39,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,3494,4255,7749,45.09,54.91,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,4683,1408,6091,76.88,23.12,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,13037,2996,16033,81.31,18.69,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,13037,2996,16033,81.31,18.69,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,4699,1043,5742,81.84,18.16,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,6915,1359,8274,83.58,16.42,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,3905,8175,12080,32.33,67.67,NO,46,57,80.7
@@ -451,7 +451,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 15,15 - Calgary-Klein,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,6461,8713,15174,42.58,57.42,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7258,7690,14948,48.55,51.45,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,3444,9058,12502,27.55,72.45,NO,39,39,100.0
-18,18 - Calgary-Mountain View,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,5647,11650,17297,32.65,67.35,NO,90,90,100.0
+18,18 - Calgary-Mountain View,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,5684,11702,17386,32.69,67.31,NO,90,90,100.0
 19,19 - Calgary-North,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,4502,7124,11626,38.72,61.28,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7395,13190,20585,35.92,64.08,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7851,10503,18354,42.78,57.22,NO,58,58,100.0
@@ -462,7 +462,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7813,8539,16352,47.78,52.22,NO,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,2855,4266,7121,40.09,59.91,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,4210,6280,10490,40.13,59.87,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,3639,9482,13121,27.73,72.27,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,3675,9542,13217,27.81,72.19,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,1887,2477,4364,43.24,56.76,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,3526,7190,10716,32.9,67.1,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,4410,8464,12874,34.26,65.74,NO,52,52,100.0
@@ -492,7 +492,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11353,8372,19725,57.56,42.44,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11391,7522,18913,60.23,39.77,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,15448,5842,21290,72.56,27.44,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,6876,1585,8461,81.27,18.73,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,6940,1596,8536,81.3,18.7,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,237,183,420,56.43,43.57,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,26,58,84,30.95,69.05,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,12388,7567,19955,62.08,37.92,YES,61,82,74.4
@@ -507,18 +507,18 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,8902,9547,18449,48.25,51.75,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,5399,6326,11725,46.05,53.95,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14681,8052,22733,64.58,35.42,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,4057,1535,5592,72.55,27.45,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,4057,1535,5592,72.55,27.45,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11354,9240,20594,55.13,44.87,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14626,5186,19812,73.82,26.18,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,7628,5480,13108,58.19,41.81,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,9861,6871,16732,58.93,41.07,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11360,7523,18883,60.16,39.84,YES,62,73,84.9
+79,79 - Red Deer-South,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11502,7617,19119,60.16,39.84,YES,62,73,84.9
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,10366,2651,13017,79.63,20.37,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,9714,10559,20273,47.92,52.08,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,1801,921,2722,66.16,33.84,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,2586,5155,7741,33.41,66.59,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,1614,1033,2647,60.97,39.03,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11728,4232,15960,73.48,26.52,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11728,4232,15960,73.48,26.52,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,3507,1207,4714,74.4,25.6,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,6317,2810,9127,69.21,30.79,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,7,Abolition of the Federal Senate,4077,4322,8399,48.54,51.46,NO,46,57,80.7
@@ -538,7 +538,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 15,15 - Calgary-Klein,Calgary,7,Abolition of the Federal Senate,6676,8499,15175,43.99,56.01,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,7,Abolition of the Federal Senate,7495,7338,14833,50.53,49.47,YES,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,7,Abolition of the Federal Senate,3518,8997,12515,28.11,71.89,NO,39,39,100.0
-18,18 - Calgary-Mountain View,Calgary,7,Abolition of the Federal Senate,5917,11287,17204,34.39,65.61,NO,90,90,100.0
+18,18 - Calgary-Mountain View,Calgary,7,Abolition of the Federal Senate,5959,11334,17293,34.46,65.54,NO,90,90,100.0
 19,19 - Calgary-North,Calgary,7,Abolition of the Federal Senate,4295,6111,10406,41.27,58.73,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,7,Abolition of the Federal Senate,6561,9600,16161,40.6,59.4,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,7,Abolition of the Federal Senate,8219,10102,18321,44.86,55.14,NO,58,58,100.0
@@ -549,7 +549,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,7,Abolition of the Federal Senate,7986,7835,15821,50.48,49.52,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,7,Abolition of the Federal Senate,3171,4178,7349,43.15,56.85,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,7,Abolition of the Federal Senate,3925,6082,10007,39.22,60.78,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,7,Abolition of the Federal Senate,3988,9056,13044,30.57,69.43,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,7,Abolition of the Federal Senate,4022,9116,13138,30.61,69.39,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,7,Abolition of the Federal Senate,1934,2313,4247,45.54,54.46,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,7,Abolition of the Federal Senate,3196,6237,9433,33.88,66.12,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,7,Abolition of the Federal Senate,4495,7997,12492,35.98,64.02,NO,52,52,100.0
@@ -579,7 +579,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,7,Abolition of the Federal Senate,8151,4770,12921,63.08,36.92,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,7,Abolition of the Federal Senate,11671,7301,18972,61.52,38.48,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,7,Abolition of the Federal Senate,15661,5707,21368,73.29,26.71,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,7,Abolition of the Federal Senate,6779,1621,8400,80.7,19.3,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,7,Abolition of the Federal Senate,6849,1630,8479,80.78,19.22,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,7,Abolition of the Federal Senate,244,177,421,57.96,42.04,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,7,Abolition of the Federal Senate,24,60,84,28.57,71.43,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,7,Abolition of the Federal Senate,12568,7404,19972,62.93,37.07,YES,61,82,74.4
@@ -594,7 +594,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,7,Abolition of the Federal Senate,8955,9172,18127,49.4,50.6,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,7,Abolition of the Federal Senate,5434,6259,11693,46.47,53.53,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,7,Abolition of the Federal Senate,14617,7900,22517,64.92,35.08,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,7,Abolition of the Federal Senate,3912,1433,5345,73.19,26.81,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,7,Abolition of the Federal Senate,3912,1433,5345,73.19,26.81,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,7,Abolition of the Federal Senate,11748,9181,20929,56.13,43.87,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,7,Abolition of the Federal Senate,13284,4367,17651,75.26,24.74,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,7,Abolition of the Federal Senate,7624,5467,13091,58.24,41.76,YES,68,69,98.6
@@ -605,7 +605,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,7,Abolition of the Federal Senate,2070,1011,3081,67.19,32.81,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,7,Abolition of the Federal Senate,2735,4996,7731,35.38,64.62,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,7,Abolition of the Federal Senate,911,686,1597,57.04,42.96,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,7,Abolition of the Federal Senate,11719,4167,15886,73.77,26.23,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,7,Abolition of the Federal Senate,11719,4167,15886,73.77,26.23,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,7,Abolition of the Federal Senate,3108,1039,4147,74.95,25.05,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,7,Abolition of the Federal Senate,5808,2133,7941,73.14,26.86,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,3549,5446,8995,39.46,60.54,NO,46,57,80.7
@@ -623,9 +623,9 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 13,13 - Calgary-Glenmore,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5225,7634,12859,40.63,59.37,NO,59,59,100.0
 14,14 - Calgary-Hays,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,8271,9391,17662,46.83,53.17,NO,58,58,100.0
 15,15 - Calgary-Klein,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,6044,9155,15199,39.77,60.23,NO,53,53,100.0
-16,16 - Calgary-Lougheed,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,6381,7468,13849,46.08,53.92,NO,45,45,100.0
+16,16 - Calgary-Lougheed,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,6503,7602,14105,46.1,53.9,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,3267,9200,12467,26.21,73.79,NO,39,39,100.0
-18,18 - Calgary-Mountain View,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5259,12186,17445,30.15,69.85,NO,90,90,100.0
+18,18 - Calgary-Mountain View,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5295,12239,17534,30.2,69.8,NO,90,90,100.0
 19,19 - Calgary-North,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2492,4149,6641,37.52,62.48,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7093,13515,20608,34.42,65.58,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7381,11017,18398,40.12,59.88,NO,58,58,100.0
@@ -636,7 +636,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7830,9034,16864,46.43,53.57,NO,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,2891,3663,6554,44.11,55.89,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,3534,6378,9912,35.65,64.35,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,3319,9790,13109,25.32,74.68,NO,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,3350,9855,13205,25.37,74.63,NO,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,1801,2380,4181,43.08,56.92,NO,42,56,75.0
 31,31 - Edmonton-Ellerslie,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,3400,7225,10625,32.0,68.0,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,4094,9063,13157,31.12,68.88,NO,52,52,100.0
@@ -666,7 +666,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,7589,5366,12955,58.58,41.42,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,10549,8065,18614,56.67,43.33,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,14654,6494,21148,69.29,30.71,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,6707,1903,8610,77.9,22.1,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,6772,1914,8686,77.96,22.04,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,230,191,421,54.63,45.37,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,78,326,404,19.31,80.69,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,11400,8427,19827,57.5,42.5,YES,61,82,74.4
@@ -681,7 +681,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,8236,10236,18472,44.59,55.41,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,4955,6772,11727,42.25,57.75,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,13943,8790,22733,61.33,38.67,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,3948,1636,5584,70.7,29.3,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,3948,1636,5584,70.7,29.3,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,8875,8249,17124,51.83,48.17,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,11372,4488,15860,71.7,28.3,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,7386,5721,13107,56.35,43.65,YES,68,69,98.6
@@ -692,7 +692,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,1939,1155,3094,62.67,37.33,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,2403,5336,7739,31.05,68.95,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,735,656,1391,52.84,47.16,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,11084,4768,15852,69.92,30.08,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,11084,4768,15852,69.92,30.08,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,2890,1094,3984,72.54,27.46,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,5632,2354,7986,70.52,29.48,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,3769,5317,9086,41.48,58.52,NO,46,57,80.7
@@ -712,7 +712,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 15,15 - Calgary-Klein,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,6277,8717,14994,41.86,58.14,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,6829,7222,14051,48.6,51.4,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,3433,8922,12355,27.79,72.21,NO,39,39,100.0
-18,18 - Calgary-Mountain View,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,5464,11878,17342,31.51,68.49,NO,90,90,100.0
+18,18 - Calgary-Mountain View,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,5502,11928,17430,31.57,68.43,NO,90,90,100.0
 19,19 - Calgary-North,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,2677,4221,6898,38.81,61.19,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7559,13050,20609,36.68,63.32,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7626,10739,18365,41.52,58.48,NO,58,58,100.0
@@ -723,12 +723,12 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7515,8853,16368,45.91,54.09,NO,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3085,4292,7377,41.82,58.18,NO,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3556,6236,9792,36.32,63.68,NO,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,11468,9377,20845,55.02,44.98,YES,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,11501,9437,20938,54.93,45.07,YES,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,1773,2298,4071,43.55,56.45,NO,42,56,75.0
-31,31 - Edmonton-Ellerslie,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3425,6789,10214,33.53,66.47,NO,34,52,65.4
+31,31 - Edmonton-Ellerslie,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3487,6899,10386,33.57,66.43,NO,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,4375,8381,12756,34.3,65.7,NO,52,52,100.0
 33,33 - Edmonton-Gold Bar,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,5170,9483,14653,35.28,64.72,NO,58,58,100.0
-34,34 - Edmonton-Highlands-Norwood,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3509,7110,10619,33.04,66.96,NO,45,49,91.8
+34,34 - Edmonton-Highlands-Norwood,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,3581,7223,10804,33.15,66.85,NO,45,49,91.8
 35,35 - Edmonton-Manning,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,0,0,0,0.0,0.0,Awaiting,1,59,1.7
 36,36 - Edmonton-McClung,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,2346,3077,5423,43.26,56.74,NO,43,51,84.3
 37,37 - Edmonton-Meadows,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,2670,5748,8418,31.72,68.28,NO,56,61,91.8
@@ -753,7 +753,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 56,56 - Chestermere-Strathmore,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,3287,2376,5663,58.04,41.96,YES,68,71,95.8
 57,57 - Cypress-Medicine Hat,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,10096,7416,17512,57.65,42.35,YES,59,59,100.0
 58,58 - Drayton Valley-Devon,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,15389,6176,21565,71.36,28.64,YES,68,68,100.0
-59,59 - Drumheller-Stettler,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,12499,4133,16632,75.15,24.85,YES,66,71,93.0
+59,59 - Drumheller-Stettler,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,12571,4142,16713,75.22,24.78,YES,66,71,93.0
 60,60 - Fort McMurray-Lac La Biche,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,235,180,415,56.63,43.37,YES,18,63,28.6
 61,61 - Fort McMurray-Wood Buffalo,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,74,329,403,18.36,81.64,NO,7,40,17.5
 62,62 - Fort Saskatchewan-Vegreville,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11890,7796,19686,60.4,39.6,YES,61,82,74.4
@@ -768,7 +768,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,8956,9594,18550,48.28,51.72,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,5336,6458,11794,45.24,54.76,NO,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,14428,8269,22697,63.57,36.43,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,4085,1493,5578,73.23,26.77,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,4085,1493,5578,73.23,26.77,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,9155,7634,16789,54.53,45.47,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11726,4086,15812,74.16,25.84,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,7618,5411,13029,58.47,41.53,YES,68,69,98.6
@@ -779,7 +779,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,4181,2847,7028,59.49,40.51,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,2474,5243,7717,32.06,67.94,NO,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,699,559,1258,55.56,44.44,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11337,4200,15537,72.97,27.03,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11337,4200,15537,72.97,27.03,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,1864,486,2350,79.32,20.68,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,5833,2141,7974,73.15,26.85,YES,70,74,94.6
 01,01 - Calgary-Acadia,Calgary,10,Alberta Independence / Separation Referendum Process,18496,4311,22807,81.1,18.9,YES,46,57,80.7
@@ -810,9 +810,9 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 26,26 - Calgary-West,Calgary,10,Alberta Independence / Separation Referendum Process,20609,4644,25253,81.61,18.39,YES,54,54,100.0
 27,27 - Edmonton-Beverly-Clareview,Edmonton,10,Alberta Independence / Separation Referendum Process,11505,2377,13882,82.88,17.12,YES,27,49,55.1
 28,28 - Edmonton-Castle Downs,Edmonton,10,Alberta Independence / Separation Referendum Process,13764,2237,16001,86.02,13.98,YES,16,69,23.2
-29,29 - Edmonton-City Centre,Edmonton,10,Alberta Independence / Separation Referendum Process,17277,2149,19426,88.94,11.06,YES,72,79,91.1
+29,29 - Edmonton-City Centre,Edmonton,10,Alberta Independence / Separation Referendum Process,17365,2156,19521,88.96,11.04,YES,73,79,92.4
 30,30 - Edmonton-Decore,Edmonton,10,Alberta Independence / Separation Referendum Process,10838,2019,12857,84.3,15.7,YES,42,56,75.0
-31,31 - Edmonton-Ellerslie,Edmonton,10,Alberta Independence / Separation Referendum Process,15387,2866,18253,84.3,15.7,YES,34,52,65.4
+31,31 - Edmonton-Ellerslie,Edmonton,10,Alberta Independence / Separation Referendum Process,15517,2897,18414,84.27,15.73,YES,34,52,65.4
 32,32 - Edmonton-Glenora,Edmonton,10,Alberta Independence / Separation Referendum Process,18848,2624,21472,87.78,12.22,YES,52,52,100.0
 33,33 - Edmonton-Gold Bar,Edmonton,10,Alberta Independence / Separation Referendum Process,20850,3245,24095,86.53,13.47,YES,58,58,100.0
 34,34 - Edmonton-Highlands-Norwood,Edmonton,10,Alberta Independence / Separation Referendum Process,14062,2274,16336,86.08,13.92,YES,45,49,91.8
@@ -855,7 +855,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 71,71 - Lethbridge-East,Regional / Other,10,Alberta Independence / Separation Referendum Process,19751,4943,24694,79.98,20.02,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,10,Alberta Independence / Separation Referendum Process,21479,4899,26378,81.43,18.57,YES,67,67,100.0
 73,73 - Livingstone-Macleod,Regional / Other,10,Alberta Independence / Separation Referendum Process,17581,10313,27894,63.03,36.97,YES,92,94,97.9
-74,74 - Maskwacis-Wetaskiwin,Regional / Other,10,Alberta Independence / Separation Referendum Process,13940,7091,21031,66.28,33.72,YES,51,57,89.5
+74,74 - Maskwacis-Wetaskiwin,Regional / Other,10,Alberta Independence / Separation Referendum Process,14051,7133,21184,66.33,33.67,YES,52,57,91.2
 75,75 - Morinville-St. Albert,Regional / Other,10,Alberta Independence / Separation Referendum Process,21880,7378,29258,74.78,25.22,YES,54,64,84.4
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,10,Alberta Independence / Separation Referendum Process,15215,12302,27517,55.29,44.71,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,10,Alberta Independence / Separation Referendum Process,8455,6249,14704,57.5,42.5,YES,68,69,98.6
@@ -866,6 +866,6 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 82,82 - Spruce Grove-Stony Plain,Regional / Other,10,Alberta Independence / Separation Referendum Process,20059,7354,27413,73.17,26.83,YES,54,67,80.6
 83,83 - St. Albert,Regional / Other,10,Alberta Independence / Separation Referendum Process,24990,5051,30041,83.19,16.81,YES,59,60,98.3
 84,84 - Strathcona-Sherwood Park,Regional / Other,10,Alberta Independence / Separation Referendum Process,21849,7761,29610,73.79,26.21,YES,63,63,100.0
-85,85 - Taber-Warner,Regional / Other,10,Alberta Independence / Separation Referendum Process,9847,8497,18344,53.68,46.32,YES,68,70,97.1
+85,85 - Taber-Warner,Regional / Other,10,Alberta Independence / Separation Referendum Process,9859,8499,18358,53.7,46.3,YES,69,70,98.6
 86,86 - Vermilion-Lloydminster-Wainwright,Regional / Other,10,Alberta Independence / Separation Referendum Process,10790,7011,17801,60.61,39.39,YES,55,66,83.3
 87,87 - West Yellowhead,Regional / Other,10,Alberta Independence / Separation Referendum Process,13831,9270,23101,59.87,40.13,YES,70,74,94.6
