@@ -101,6 +101,12 @@
           </button>
         </div>
 
+        <!-- All 10 Maps Link Button -->
+        <a href="maps.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 dark:bg-indigo-600/20 dark:hover:bg-indigo-600/30 dark:text-indigo-300 dark:border-indigo-500/30 transition shadow-sm">
+          <i data-lucide="map" class="w-3.5 h-3.5"></i>
+          <span>All 10 Question Maps &rarr;</span>
+        </a>
+
         <!-- Refresh Button -->
         <button id="btn-refresh" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:hover:text-white dark:border-slate-700 transition shadow-sm active:scale-95">
           <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5"></i>
@@ -243,26 +249,33 @@
       </div>
     </section>
 
-    <!-- INTERACTIVE RIDING MAP SECTION -->
+    <!-- QUESTION 10 DEDICATED RIDING MAP SECTION -->
     <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4 transition-colors">
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-3">
         <div>
           <div class="flex items-center space-x-2">
-            <i data-lucide="map" class="w-4 h-4 text-blue-500 dark:text-blue-400"></i>
-            <h3 class="text-base font-bold text-slate-900 dark:text-white">Interactive Alberta Riding Map</h3>
-            <span class="text-xs px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-500/20 dark:text-blue-300 font-semibold" id="map-active-q-badge">Question 10</span>
+            <i data-lucide="map" class="w-4 h-4 text-red-500"></i>
+            <h3 class="text-base font-bold text-slate-900 dark:text-white">Question 10: Alberta Separation Referendum Map</h3>
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-red-100 text-red-700 dark:bg-red-500/20 dark:text-red-300 font-semibold">Key Question</span>
           </div>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Click or hover over any of the 87 electoral divisions to inspect returns. Zoom to metropolitan areas below.</p>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+            Option 1 (Remain in Canada) vs Option 2 (Commence Legal Separation Process) across all 87 ridings.
+          </p>
         </div>
 
-        <!-- Quick Zoom Presets -->
-        <div class="flex items-center flex-wrap gap-1.5 text-xs">
-          <span class="text-slate-400 text-[11px] mr-1 hidden sm:inline font-medium">Zoom to:</span>
-          <button onclick="zoomMap('ab')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Alberta</button>
-          <button onclick="zoomMap('calgary')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Calgary</button>
-          <button onclick="zoomMap('edmonton')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Edmonton</button>
-          <button onclick="zoomMap('reddeer')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm hidden md:inline">Red Deer</button>
-          <button onclick="zoomMap('lethbridge')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm hidden md:inline">Lethbridge</button>
+        <div class="flex items-center flex-wrap gap-2">
+          <!-- Link to all 10 maps -->
+          <a href="maps.html" class="inline-flex items-center space-x-1 px-3 py-1.5 rounded-lg text-xs font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-sm transition active:scale-95">
+            <i data-lucide="layers" class="w-3.5 h-3.5"></i>
+            <span>View Maps for All 10 Questions &rarr;</span>
+          </a>
+
+          <!-- Quick Zoom Presets -->
+          <div class="flex items-center flex-wrap gap-1 text-xs">
+            <button onclick="zoomMap('ab')" class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Province</button>
+            <button onclick="zoomMap('calgary')" class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Calgary</button>
+            <button onclick="zoomMap('edmonton')" class="px-2 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Edmonton</button>
+          </div>
         </div>
       </div>
 
@@ -278,22 +291,22 @@
 
         <!-- Map Legend -->
         <div class="absolute bottom-3 left-3 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 rounded-lg p-2.5 shadow-lg text-[11px] flex flex-col gap-1.5 pointer-events-none">
-          <div class="font-bold text-slate-700 dark:text-slate-300 text-[10px] uppercase tracking-wider">Map Legend</div>
+          <div class="font-bold text-slate-700 dark:text-slate-300 text-[10px] uppercase tracking-wider">Question 10 Legend</div>
           <div class="flex items-center gap-1">
-            <span class="w-4 h-3 rounded-sm bg-emerald-700" title="Yes >= 65%"></span>
-            <span class="w-4 h-3 rounded-sm bg-emerald-600" title="Yes 58-65%"></span>
-            <span class="w-4 h-3 rounded-sm bg-emerald-500" title="Yes 53-58%"></span>
-            <span class="w-4 h-3 rounded-sm bg-emerald-400" title="Lean Yes"></span>
+            <span class="w-4 h-3 rounded-sm bg-emerald-700" title="Option 1 (Remain) >= 65%"></span>
+            <span class="w-4 h-3 rounded-sm bg-emerald-600" title="Option 1 (Remain) 58-65%"></span>
+            <span class="w-4 h-3 rounded-sm bg-emerald-500" title="Option 1 (Remain) 53-58%"></span>
+            <span class="w-4 h-3 rounded-sm bg-emerald-400" title="Lean Option 1"></span>
             <span class="w-3 h-3 rounded-sm bg-slate-300 dark:bg-slate-600" title="Awaiting / Tied"></span>
-            <span class="w-4 h-3 rounded-sm bg-red-400" title="Lean No"></span>
-            <span class="w-4 h-3 rounded-sm bg-red-500" title="No 53-58%"></span>
-            <span class="w-4 h-3 rounded-sm bg-red-600" title="No 58-65%"></span>
-            <span class="w-4 h-3 rounded-sm bg-red-700" title="No >= 65%"></span>
+            <span class="w-4 h-3 rounded-sm bg-red-400" title="Lean Option 2"></span>
+            <span class="w-4 h-3 rounded-sm bg-red-500" title="Option 2 (Separate) 53-58%"></span>
+            <span class="w-4 h-3 rounded-sm bg-red-600" title="Option 2 (Separate) 58-65%"></span>
+            <span class="w-4 h-3 rounded-sm bg-red-700" title="Option 2 (Separate) >= 65%"></span>
           </div>
           <div class="flex justify-between text-[10px] text-slate-500 dark:text-slate-400 font-medium">
-            <span>Yes Lead</span>
+            <span>Option 1 (Remain)</span>
             <span>Awaiting</span>
-            <span>No Lead</span>
+            <span>Option 2 (Separate)</span>
           </div>
         </div>
       </div>
@@ -603,6 +616,17 @@
       }
     }
 
+    function getQ10WardLookup() {
+      if (!currentData) return {};
+      const q10 = (currentData.questions || []).find(x => x.questionID === 11 || x.questionNumber === 10);
+      if (!q10) return {};
+      const lookup = {};
+      (q10.wards || []).forEach(w => {
+        lookup[w.ward] = w;
+      });
+      return lookup;
+    }
+
     function getActiveQuestionWardLookup() {
       if (!currentData) return {};
       const q = (currentData.questions || []).find(x => x.questionID === activeQuestionId);
@@ -626,15 +650,15 @@
       const noPct = w.noPct || 0;
 
       if (yVal > nVal) {
-        if (yesPct >= 65) return '#047857'; // emerald-700
-        if (yesPct >= 58) return '#059669'; // emerald-600
-        if (yesPct >= 53) return '#10b981'; // emerald-500
-        return '#34d399';                  // emerald-400
+        if (yesPct >= 65) return '#047857'; // Option 1 / Yes strong
+        if (yesPct >= 58) return '#059669';
+        if (yesPct >= 53) return '#10b981';
+        return '#34d399';
       } else if (nVal > yVal) {
-        if (noPct >= 65) return '#b91c1c';  // red-700
-        if (noPct >= 58) return '#dc2626';  // red-600
-        if (noPct >= 53) return '#ef4444';  // red-500
-        return '#f87171';                  // red-400
+        if (noPct >= 65) return '#b91c1c';  // Option 2 / No strong
+        if (noPct >= 58) return '#dc2626';
+        if (noPct >= 53) return '#ef4444';
+        return '#f87171';
       } else {
         return isDark ? '#475569' : '#94a3b8'; // Tied
       }
@@ -643,7 +667,8 @@
     function styleRidingFeature(feature) {
       const isDark = document.documentElement.classList.contains('dark');
       const wardCode = feature.properties.ward;
-      const lookup = getActiveQuestionWardLookup();
+      // Main page map is dedicated to Question 10 (Alberta Separation)
+      const lookup = getQ10WardLookup();
       const w = lookup[wardCode];
 
       return {
@@ -651,7 +676,7 @@
         weight: 1.2,
         opacity: 0.9,
         color: isDark ? '#334155' : '#cbd5e1',
-        fillOpacity: (w && w.totalVotes > 0) ? 0.8 : 0.45
+        fillOpacity: (w && w.totalVotes > 0) ? 0.82 : 0.45
       };
     }
 
@@ -675,17 +700,15 @@
       });
       layer.bringToFront();
 
-      // Update Floating Info Box
+      // Update Floating Info Box for Question 10 Map
       const wardCode = feature.properties.ward;
-      const lookup = getActiveQuestionWardLookup();
+      const lookup = getQ10WardLookup();
       const w = lookup[wardCode];
-      const q = (currentData?.questions || []).find(x => x.questionID === activeQuestionId);
 
       const infoBox = document.getElementById('map-info-box');
       if (infoBox) {
-        const isQ10 = (activeQuestionId === 11);
-        const yesLabel = isQ10 ? 'Option 1 (Remain)' : 'YES';
-        const noLabel = isQ10 ? 'Option 2 (Separate)' : 'NO';
+        const yesLabel = 'Option 1 (Remain)';
+        const noLabel = 'Option 2 (Separate)';
 
         let statsHtml = '';
         if (w && w.totalVotes > 0) {
@@ -916,7 +939,10 @@
 
           <div class="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 font-medium">
             <span>Total: ${q.totalVotes.toLocaleString()} votes</span>
-            <span>Margin: ${q.marginVotes > 0 ? '+' : ''}${q.marginVotes.toLocaleString()} (${q.marginPct > 0 ? '+' : ''}${q.marginPct}%)</span>
+            <a href="maps.html?q=${q.questionNumber}" onclick="event.stopPropagation()" class="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-semibold inline-flex items-center gap-0.5" title="View interactive map for Question ${q.questionNumber}">
+              <span>View Map</span>
+              <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            </a>
           </div>
         `;
 

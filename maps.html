@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberta Referendum 2026 - All Question Maps</title>
+  <script>
+    // Immediate Theme Initialization to avoid flash of wrong theme
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || 'auto';
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (savedTheme === 'dark' || (savedTheme === 'auto' && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <!-- Chart.js & Lucide Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .pulse-dot {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .transition-width { transition: width 0.5s ease-in-out; }
+    .leaflet-container {
+      background-color: transparent !important;
+      font-family: 'Inter', sans-serif !important;
+    }
+    .leaflet-bar a {
+      background-color: rgba(255, 255, 255, 0.9) !important;
+      color: #334155 !important;
+      border-bottom: 1px solid #e2e8f0 !important;
+    }
+    .dark .leaflet-bar a {
+      background-color: rgba(15, 23, 42, 0.9) !important;
+      color: #cbd5e1 !important;
+      border-bottom: 1px solid #334155 !important;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white transition-colors duration-200">
+
+  <!-- TOP NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors duration-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center space-x-3">
+        <a href="index.html" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 border border-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:hover:text-white dark:border-slate-700 transition shadow-sm">
+          <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+          <span>Dashboard</span>
+        </a>
+        <div class="h-6 w-px bg-slate-300 dark:bg-slate-700"></div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <h1 class="text-lg font-bold tracking-tight text-slate-900 dark:text-white">Referendum Maps (All 10 Questions)</h1>
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-blue-500/10 text-blue-600 dark:text-blue-400 border border-blue-500/20">
+              Interactive Atlas
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Click through questions below to view province-wide riding returns</p>
+        </div>
+      </div>
+
+      <!-- Live Sync, Controls & Theme Switcher -->
+      <div class="flex items-center flex-wrap gap-2.5">
+        <div class="text-right hidden sm:block mr-1">
+          <div class="text-xs text-slate-500 dark:text-slate-400">EAB: <span id="eab-time" class="font-medium text-slate-700 dark:text-slate-200">Syncing...</span></div>
+          <div class="text-[11px] text-slate-400 dark:text-slate-500">Auto-refresh in <span id="timer-sec" class="font-semibold text-blue-600 dark:text-blue-400">30</span>s</div>
+        </div>
+
+        <!-- 3-Way Theme Switcher -->
+        <div class="flex items-center bg-slate-200/80 dark:bg-slate-800 p-0.5 rounded-lg border border-slate-300/80 dark:border-slate-700 shadow-inner">
+          <button id="theme-btn-light" onclick="setTheme('light')" title="Light Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="sun" class="w-3.5 h-3.5"></i>
+            <span class="hidden md:inline text-[11px]">Light</span>
+          </button>
+          <button id="theme-btn-dark" onclick="setTheme('dark')" title="Dark Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="moon" class="w-3.5 h-3.5"></i>
+            <span class="hidden md:inline text-[11px]">Dark</span>
+          </button>
+          <button id="theme-btn-auto" onclick="setTheme('auto')" title="System Auto Mode" class="px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white">
+            <i data-lucide="monitor" class="w-3.5 h-3.5"></i>
+            <span class="hidden md:inline text-[11px]">Auto</span>
+          </button>
+        </div>
+
+        <button id="btn-refresh" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-white hover:bg-slate-100 text-slate-700 hover:text-slate-900 border border-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:hover:text-white dark:border-slate-700 transition shadow-sm active:scale-95">
+          <i data-lucide="refresh-cw" id="icon-refresh" class="w-3.5 h-3.5"></i>
+          <span>Refresh</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+    <!-- QUESTION SELECTION CAROUSEL / PILLS -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-sm space-y-3 transition-colors">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
+          <i data-lucide="layers" class="w-3.5 h-3.5 text-blue-500"></i>
+          <span>Select Referendum Question to Map:</span>
+        </h2>
+        <span class="text-xs text-slate-400 font-medium" id="polls-summary-badge">0 / 5,599 Polls Reporting</span>
+      </div>
+
+      <!-- Pills Container -->
+      <div class="grid grid-cols-2 sm:grid-cols-5 lg:grid-cols-10 gap-2" id="question-tabs">
+        <!-- Rendered via JS -->
+      </div>
+    </section>
+
+    <!-- ACTIVE QUESTION HEADER & SUMMARY CARD -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-4 transition-colors" id="active-question-card">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div class="space-y-1 max-w-3xl">
+          <div class="flex items-center space-x-2">
+            <span class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase tracking-wider bg-blue-100 text-blue-700 dark:bg-blue-500/20 dark:text-blue-300 border border-blue-200 dark:border-blue-500/30" id="q-number-badge">
+              Question 1
+            </span>
+            <span id="q-leader-badge" class="px-2 py-0.5 rounded-md text-xs font-bold bg-slate-100 text-slate-600 border border-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700">
+              Awaiting Results
+            </span>
+          </div>
+          <h2 class="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white tracking-tight" id="q-title">
+            Loading question...
+          </h2>
+          <p class="text-xs text-slate-600 dark:text-slate-300 line-clamp-2" id="q-full-text"></p>
+        </div>
+
+        <!-- Province Scoreboard Box -->
+        <div class="w-full lg:w-auto flex-shrink-0 bg-slate-50 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 rounded-xl p-3.5 min-w-[300px]">
+          <div class="flex justify-between items-center text-xs font-semibold mb-1">
+            <span class="text-emerald-600 dark:text-emerald-400" id="score-yes-label">YES</span>
+            <span class="text-red-600 dark:text-red-400" id="score-no-label">NO</span>
+          </div>
+          <div class="flex items-baseline justify-between mb-2">
+            <div class="text-xl font-black text-emerald-600 dark:text-emerald-400" id="score-yes-pct">0.0%</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400 font-medium" id="score-total-votes">0 votes</div>
+            <div class="text-xl font-black text-red-600 dark:text-red-400" id="score-no-pct">0.0%</div>
+          </div>
+          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2.5 rounded-full flex overflow-hidden">
+            <div id="score-bar-yes" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+            <div id="score-bar-no" class="bg-red-500 h-full transition-width" style="width: 50%"></div>
+          </div>
+          <div class="flex justify-between items-center text-[11px] text-slate-500 dark:text-slate-400 mt-1.5 font-medium">
+            <span id="score-yes-count">0 votes</span>
+            <span id="score-margin">Margin: 0</span>
+            <span id="score-no-count">0 votes</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAP CONTAINER -->
+      <div class="space-y-2">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div class="flex items-center space-x-2">
+            <i data-lucide="map" class="w-4 h-4 text-blue-500 dark:text-blue-400"></i>
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300">Riding Choropleth (87 Divisions)</span>
+          </div>
+          <!-- Quick Zoom Presets -->
+          <div class="flex items-center flex-wrap gap-1.5 text-xs">
+            <span class="text-slate-400 text-[11px] mr-1 hidden sm:inline font-medium">Zoom to:</span>
+            <button onclick="zoomMap('ab')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Alberta</button>
+            <button onclick="zoomMap('calgary')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Calgary</button>
+            <button onclick="zoomMap('edmonton')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm">Edmonton</button>
+            <button onclick="zoomMap('reddeer')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm hidden md:inline">Red Deer</button>
+            <button onclick="zoomMap('lethbridge')" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium transition border border-slate-200 dark:border-slate-700 shadow-sm hidden md:inline">Lethbridge</button>
+          </div>
+        </div>
+
+        <div class="relative w-full rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-950">
+          <div id="map" class="w-full h-[580px] z-10"></div>
+
+          <!-- Floating Info Box on Hover -->
+          <div id="map-info-box" class="absolute top-3 right-3 z-20 max-w-xs bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 rounded-xl p-3.5 shadow-xl text-xs pointer-events-none transition-all duration-150">
+            <div class="text-slate-400 font-medium text-[11px]">Hover over a riding</div>
+            <div class="text-slate-900 dark:text-white font-bold text-sm mt-0.5">Alberta (87 Ridings)</div>
+          </div>
+
+          <!-- Map Legend -->
+          <div class="absolute bottom-3 left-3 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200 dark:border-slate-700 rounded-lg p-2.5 shadow-lg text-[11px] flex flex-col gap-1.5 pointer-events-none">
+            <div class="font-bold text-slate-700 dark:text-slate-300 text-[10px] uppercase tracking-wider">Map Legend</div>
+            <div class="flex items-center gap-1">
+              <span class="w-4 h-3 rounded-sm bg-emerald-700" title="Yes >= 65%"></span>
+              <span class="w-4 h-3 rounded-sm bg-emerald-600" title="Yes 58-65%"></span>
+              <span class="w-4 h-3 rounded-sm bg-emerald-500" title="Yes 53-58%"></span>
+              <span class="w-4 h-3 rounded-sm bg-emerald-400" title="Lean Yes"></span>
+              <span class="w-3 h-3 rounded-sm bg-slate-300 dark:bg-slate-600" title="Awaiting / Tied"></span>
+              <span class="w-4 h-3 rounded-sm bg-red-400" title="Lean No"></span>
+              <span class="w-4 h-3 rounded-sm bg-red-500" title="No 53-58%"></span>
+              <span class="w-4 h-3 rounded-sm bg-red-600" title="No 58-65%"></span>
+              <span class="w-4 h-3 rounded-sm bg-red-700" title="No >= 65%"></span>
+            </div>
+            <div class="flex justify-between text-[10px] text-slate-500 dark:text-slate-400 font-medium">
+              <span id="legend-yes-label">Yes Lead</span>
+              <span>Awaiting</span>
+              <span id="legend-no-label">No Lead</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- REGIONAL SUMMARY CARDS -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-500 dark:text-blue-400"></i>
+              <span>Calgary (26 Ridings)</span>
+            </span>
+            <span id="calg-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+          </div>
+          <div class="flex items-baseline justify-between mb-2">
+            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="calg-yes">0.0% YES</div>
+            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="calg-no">0.0% NO</div>
+          </div>
+          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+            <div id="calg-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+            <div class="bg-red-500 h-full flex-1"></div>
+          </div>
+        </div>
+
+        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-indigo-500 dark:text-indigo-400"></i>
+              <span>Edmonton (20 Ridings)</span>
+            </span>
+            <span id="edm-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+          </div>
+          <div class="flex items-baseline justify-between mb-2">
+            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="edm-yes">0.0% YES</div>
+            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="edm-no">0.0% NO</div>
+          </div>
+          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+            <div id="edm-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+            <div class="bg-red-500 h-full flex-1"></div>
+          </div>
+        </div>
+
+        <div class="bg-slate-50 dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider flex items-center space-x-1.5">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-500 dark:text-amber-400"></i>
+              <span>Regional / Rural (41 Ridings)</span>
+            </span>
+            <span id="oth-votes" class="text-xs text-slate-500 dark:text-slate-400">0 votes</span>
+          </div>
+          <div class="flex items-baseline justify-between mb-2">
+            <div class="text-lg font-extrabold text-emerald-600 dark:text-emerald-400" id="oth-yes">0.0% YES</div>
+            <div class="text-lg font-extrabold text-red-600 dark:text-red-400" id="oth-no">0.0% NO</div>
+          </div>
+          <div class="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full flex overflow-hidden">
+            <div id="oth-bar" class="bg-emerald-500 h-full transition-width" style="width: 50%"></div>
+            <div class="bg-red-500 h-full flex-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIDING BREAKDOWN TABLE -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm space-y-3 transition-colors" id="table-section">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div class="flex items-center space-x-2">
+          <h3 class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">Riding Results Table (<span id="ridings-count">87</span> Ridings)</h3>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <input type="text" id="search-riding" placeholder="Search riding name or number..." class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-1.5 text-xs text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm">
+          <select id="filter-region" class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white rounded-lg px-2.5 py-1.5 text-xs font-medium focus:ring-2 focus:ring-blue-500 shadow-sm">
+            <option value="ALL">All Regions</option>
+            <option value="Calgary">Calgary</option>
+            <option value="Edmonton">Edmonton</option>
+            <option value="Regional / Other">Regional / Rural</option>
+          </select>
+          <select id="filter-outcome" class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white rounded-lg px-2.5 py-1.5 text-xs font-medium focus:ring-2 focus:ring-blue-500 shadow-sm">
+            <option value="ALL">All Outcomes</option>
+            <option value="YES">Yes Leading</option>
+            <option value="NO">No Leading</option>
+            <option value="Awaiting">Awaiting</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-xl max-h-[500px] overflow-y-auto shadow-sm">
+        <table class="w-full text-left text-xs text-slate-700 dark:text-slate-300">
+          <thead class="bg-slate-100 text-slate-600 dark:bg-slate-800/90 dark:text-slate-400 uppercase tracking-wider text-[11px] sticky top-0 backdrop-blur-md transition-colors">
+            <tr>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white" onclick="sortTable('ward')">Code</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white" onclick="sortTable('wardName')">Riding Name</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white" onclick="sortTable('region')">Region</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white" onclick="sortTable('pollsPct')">Polls Rep.</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white text-right" onclick="sortTable('yesPct')">Yes %</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white text-right" onclick="sortTable('noPct')">No %</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white text-right" onclick="sortTable('marginVotes')">Margin</th>
+              <th class="py-2.5 px-3 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white text-right" onclick="sortTable('totalVotes')">Total Votes</th>
+              <th class="py-2.5 px-3 font-semibold text-center">Status</th>
+            </tr>
+          </thead>
+          <tbody id="ridings-tbody" class="divide-y divide-slate-200 dark:divide-slate-800/60 font-mono">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/60 text-slate-500 dark:text-slate-400 text-xs py-5 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center space-x-2">
+        <i data-lucide="shield-check" class="w-4 h-4 text-slate-400 dark:text-slate-500"></i>
+        <span>Data direct from <a href="https://results.elections.ab.ca/8400" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline">Elections Alberta Unofficial Results Portal</a></span>
+      </div>
+      <div class="flex items-center space-x-4 text-[11px]">
+        <a href="index.html" class="text-blue-600 dark:text-blue-400 hover:underline">&larr; Return to Dashboard</a>
+        <span>•</span>
+        <a href="data/latest.json" target="_blank" class="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">API Snapshot</a>
+        <span>•</span>
+        <a href="data/riding_results.csv" download class="text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">Riding CSV</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    let currentData = null;
+    let geojsonData = null;
+    let mapInstance = null;
+    let currentTileLayer = null;
+    let geoJsonLayer = null;
+    let ridingLayerLookup = {};
+
+    let activeQuestionId = 1; // Default to Question 1 on the All Maps page
+    let sortColumn = 'ward';
+    let sortAsc = true;
+    let timerCountdown = 30;
+
+    // Check URL param for initial question
+    const urlParams = new URLSearchParams(window.location.search);
+    const qParam = urlParams.get('q');
+    if (qParam) {
+      const qNum = parseInt(qParam);
+      if (qNum === 10) activeQuestionId = 11;
+      else if (qNum >= 1 && qNum <= 9) activeQuestionId = qNum;
+    }
+
+    // Theme Management
+    function getSystemTheme() {
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+
+    function applyTheme(theme) {
+      const effective = (theme === 'auto') ? getSystemTheme() : theme;
+      if (effective === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+
+      ['light', 'dark', 'auto'].forEach(mode => {
+        const btn = document.getElementById(`theme-btn-${mode}`);
+        if (btn) {
+          if (mode === theme) {
+            btn.className = "px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 bg-white text-slate-900 shadow-sm dark:bg-slate-700 dark:text-white font-semibold";
+          } else {
+            btn.className = "px-2 py-1 rounded-md text-xs transition-all flex items-center gap-1 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white";
+          }
+        }
+      });
+
+      updateMapTiles();
+      if (geoJsonLayer) updateMapChoropleth();
+    }
+
+    function setTheme(theme) {
+      localStorage.setItem('theme', theme);
+      applyTheme(theme);
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      const saved = localStorage.getItem('theme') || 'auto';
+      if (saved === 'auto') applyTheme('auto');
+    });
+
+    const initialTheme = localStorage.getItem('theme') || 'auto';
+    applyTheme(initialTheme);
+    lucide.createIcons();
+
+    // Map Setup
+    const AB_BOUNDS = [[48.9, -120.2], [60.1, -109.8]];
+    const ZOOM_PRESETS = {
+      ab: { bounds: AB_BOUNDS },
+      calgary: { center: [51.0447, -114.0719], zoom: 11 },
+      edmonton: { center: [53.5461, -113.4938], zoom: 11 },
+      reddeer: { center: [52.2681, -113.8112], zoom: 12 },
+      lethbridge: { center: [49.6956, -112.8451], zoom: 12 }
+    };
+
+    function initMap() {
+      if (mapInstance) return;
+
+      mapInstance = L.map('map', {
+        zoomControl: true,
+        scrollWheelZoom: false,
+        attributionControl: false
+      });
+
+      mapInstance.fitBounds(AB_BOUNDS);
+      updateMapTiles();
+
+      fetch('data/alberta_ridings.geojson')
+        .then(res => res.json())
+        .then(data => {
+          geojsonData = data;
+          geoJsonLayer = L.geoJSON(geojsonData, {
+            style: styleRidingFeature,
+            onEachFeature: onEachRidingFeature
+          }).addTo(mapInstance);
+
+          updateMapChoropleth();
+        })
+        .catch(err => console.error('Failed to load GeoJSON:', err));
+    }
+
+    function updateMapTiles() {
+      if (!mapInstance) return;
+      const isDark = document.documentElement.classList.contains('dark');
+      // Esri World Canvas Tiles: No API key, zero watermarks
+      const tileUrl = isDark 
+        ? 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+        : 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}';
+
+      if (currentTileLayer) {
+        mapInstance.removeLayer(currentTileLayer);
+      }
+      currentTileLayer = L.tileLayer(tileUrl, {
+        attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+        maxZoom: 16
+      }).addTo(mapInstance);
+
+      if (geoJsonLayer) {
+        geoJsonLayer.bringToFront();
+      }
+    }
+
+    function zoomMap(presetKey) {
+      if (!mapInstance) return;
+      const p = ZOOM_PRESETS[presetKey];
+      if (p.bounds) mapInstance.fitBounds(p.bounds);
+      else if (p.center) mapInstance.setView(p.center, p.zoom);
+    }
+
+    function getActiveQuestionWardLookup() {
+      if (!currentData) return {};
+      const q = (currentData.questions || []).find(x => x.questionID === activeQuestionId);
+      if (!q) return {};
+      const lookup = {};
+      (q.wards || []).forEach(w => { lookup[w.ward] = w; });
+      return lookup;
+    }
+
+    function getRidingFillColor(w) {
+      const isDark = document.documentElement.classList.contains('dark');
+      if (!w || !w.totalVotes || w.totalVotes === 0) {
+        return isDark ? '#1e293b' : '#e2e8f0';
+      }
+
+      const yVal = w.yesVotes || 0;
+      const nVal = w.noVotes || 0;
+      const yesPct = w.yesPct || 0;
+      const noPct = w.noPct || 0;
+
+      if (yVal > nVal) {
+        if (yesPct >= 65) return '#047857';
+        if (yesPct >= 58) return '#059669';
+        if (yesPct >= 53) return '#10b981';
+        return '#34d399';
+      } else if (nVal > yVal) {
+        if (noPct >= 65) return '#b91c1c';
+        if (noPct >= 58) return '#dc2626';
+        if (noPct >= 53) return '#ef4444';
+        return '#f87171';
+      } else {
+        return isDark ? '#475569' : '#94a3b8';
+      }
+    }
+
+    function styleRidingFeature(feature) {
+      const isDark = document.documentElement.classList.contains('dark');
+      const wardCode = feature.properties.ward;
+      const lookup = getActiveQuestionWardLookup();
+      const w = lookup[wardCode];
+
+      return {
+        fillColor: getRidingFillColor(w),
+        weight: 1.2,
+        opacity: 0.9,
+        color: isDark ? '#334155' : '#cbd5e1',
+        fillOpacity: (w && w.totalVotes > 0) ? 0.8 : 0.45
+      };
+    }
+
+    function onEachRidingFeature(feature, layer) {
+      const wardCode = feature.properties.ward;
+      ridingLayerLookup[wardCode] = layer;
+
+      layer.on({
+        mouseover: (e) => highlightRiding(e.target, feature),
+        mouseout: (e) => resetRidingHighlight(e.target),
+        click: () => selectRidingFromMap(feature.properties)
+      });
+    }
+
+    function highlightRiding(layer, feature) {
+      const isDark = document.documentElement.classList.contains('dark');
+      layer.setStyle({
+        weight: 2.8,
+        color: isDark ? '#60a5fa' : '#2563eb',
+        fillOpacity: 0.92
+      });
+      layer.bringToFront();
+
+      const wardCode = feature.properties.ward;
+      const lookup = getActiveQuestionWardLookup();
+      const w = lookup[wardCode];
+
+      const infoBox = document.getElementById('map-info-box');
+      if (infoBox) {
+        const isQ10 = (activeQuestionId === 11);
+        const yesLabel = isQ10 ? 'Option 1 (Remain)' : 'YES';
+        const noLabel = isQ10 ? 'Option 2 (Separate)' : 'NO';
+
+        let statsHtml = '';
+        if (w && w.totalVotes > 0) {
+          statsHtml = `
+            <div class="mt-2 pt-2 border-t border-slate-200 dark:border-slate-800 space-y-1">
+              <div class="flex justify-between items-center text-[11px]">
+                <span class="text-emerald-600 dark:text-emerald-400 font-semibold">${yesLabel}:</span>
+                <span class="font-bold text-slate-800 dark:text-slate-100">${w.yesPct}% (${(w.yesVotes || 0).toLocaleString()})</span>
+              </div>
+              <div class="flex justify-between items-center text-[11px]">
+                <span class="text-red-600 dark:text-red-400 font-semibold">${noLabel}:</span>
+                <span class="font-bold text-slate-800 dark:text-slate-100">${w.noPct}% (${(w.noVotes || 0).toLocaleString()})</span>
+              </div>
+              <div class="flex justify-between items-center text-[10px] text-slate-500 dark:text-slate-400 pt-1">
+                <span>Polls: ${w.pollsReporting}/${w.totalPolls} (${w.pollsPct}%)</span>
+                <span>Margin: ${w.marginVotes > 0 ? '+' : ''}${w.marginVotes.toLocaleString()}</span>
+              </div>
+            </div>
+          `;
+        } else {
+          statsHtml = `
+            <div class="mt-2 pt-1 text-[11px] text-slate-400 italic">
+              Awaiting returns from this division (${w ? w.totalPolls : 0} polls)
+            </div>
+          `;
+        }
+
+        infoBox.innerHTML = `
+          <div class="flex items-center justify-between">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">${feature.properties.wardName || 'Electoral Division'}</span>
+            <span class="text-[10px] text-slate-400 font-medium">${w?.region || ''}</span>
+          </div>
+          <div class="text-slate-900 dark:text-white font-extrabold text-sm">${feature.properties.name}</div>
+          ${statsHtml}
+          <div class="text-[10px] text-blue-500 dark:text-blue-400 mt-1.5 font-medium flex items-center gap-1">
+            <i data-lucide="mouse-pointer" class="w-3 h-3"></i>
+            <span>Click to filter table</span>
+          </div>
+        `;
+        lucide.createIcons();
+      }
+    }
+
+    function resetRidingHighlight(layer) {
+      if (geoJsonLayer) geoJsonLayer.resetStyle(layer);
+      const infoBox = document.getElementById('map-info-box');
+      if (infoBox) {
+        infoBox.innerHTML = `
+          <div class="text-slate-400 font-medium text-[11px]">Hover over a riding</div>
+          <div class="text-slate-900 dark:text-white font-bold text-sm mt-0.5">Alberta (87 Ridings)</div>
+        `;
+      }
+    }
+
+    function selectRidingFromMap(props) {
+      const searchInput = document.getElementById('search-riding');
+      if (searchInput) {
+        searchInput.value = props.name;
+        renderActiveQuestionDetail();
+        const tableSec = document.getElementById('table-section');
+        if (tableSec) tableSec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function updateMapChoropleth() {
+      if (!geoJsonLayer) return;
+      geoJsonLayer.eachLayer(layer => {
+        geoJsonLayer.resetStyle(layer);
+      });
+    }
+
+    // Data Load & Render
+    async function loadData() {
+      const refreshIcon = document.getElementById('icon-refresh');
+      if (refreshIcon) refreshIcon.classList.add('animate-spin');
+
+      try {
+        const resp = await fetch('data/latest.json?t=' + new Date().getTime());
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        const data = await resp.json();
+        currentData = data;
+        renderPage(data);
+      } catch (err) {
+        console.error('Error fetching latest.json:', err);
+      } finally {
+        if (refreshIcon) refreshIcon.classList.remove('animate-spin');
+        timerCountdown = 30;
+      }
+    }
+
+    function renderPage(data) {
+      if (!data) return;
+
+      document.getElementById('eab-time').textContent = data.lastUpdatedMountain || 'Just now';
+      const summary = data.turnout?.summary || {};
+      document.getElementById('polls-summary-badge').textContent = `${(summary.pollsReporting || 0).toLocaleString()} / ${(summary.totalPolls || 5599).toLocaleString()} Polls Reporting (${summary.pollsReportingPct || 0}%)`;
+
+      renderQuestionTabs(data.questions || []);
+      renderActiveQuestionDetail();
+      updateMapChoropleth();
+      lucide.createIcons();
+    }
+
+    function renderQuestionTabs(questions) {
+      const container = document.getElementById('question-tabs');
+      container.innerHTML = '';
+
+      questions.forEach(q => {
+        const isActive = (q.questionID === activeQuestionId);
+        const isQ10 = (q.questionNumber === 10 || q.questionID === 11);
+
+        let leaderColor = 'text-slate-400';
+        if (q.leader === 'YES') leaderColor = 'text-emerald-500 font-bold';
+        else if (q.leader === 'NO') leaderColor = 'text-red-500 font-bold';
+
+        const btn = document.createElement('button');
+        btn.onclick = () => selectQuestion(q.questionID);
+        btn.className = `p-2.5 rounded-xl border text-left transition flex flex-col justify-between ${
+          isActive 
+            ? 'bg-blue-500 text-white border-blue-600 shadow-md ring-2 ring-blue-500/30' 
+            : 'bg-slate-50 dark:bg-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200'
+        }`;
+
+        btn.innerHTML = `
+          <div class="flex items-center justify-between w-full">
+            <span class="text-xs font-black ${isActive ? 'text-white' : 'text-blue-600 dark:text-blue-400'}">
+              Q${q.questionNumber}
+            </span>
+            ${isQ10 ? `<span class="px-1 py-0.2 text-[9px] rounded font-bold ${isActive ? 'bg-white/20 text-white' : 'bg-red-500/20 text-red-400'}">Key</span>` : ''}
+          </div>
+          <div class="text-[11px] font-semibold truncate mt-1 ${isActive ? 'text-white' : 'text-slate-700 dark:text-slate-300'}">
+            ${isQ10 ? 'Separation' : q.title.split(' ')[0]}
+          </div>
+          <div class="text-[10px] mt-1 flex items-center justify-between ${isActive ? 'text-blue-100' : leaderColor}">
+            <span>${q.totalVotes > 0 ? (q.leader === 'YES' ? q.yesPct + '% Y' : q.noPct + '% N') : 'Pending'}</span>
+          </div>
+        `;
+        container.appendChild(btn);
+      });
+    }
+
+    function selectQuestion(qid) {
+      activeQuestionId = parseInt(qid);
+      if (currentData) {
+        renderQuestionTabs(currentData.questions || []);
+        renderActiveQuestionDetail();
+        updateMapChoropleth();
+      }
+    }
+
+    function renderActiveQuestionDetail() {
+      if (!currentData) return;
+      const q = (currentData.questions || []).find(x => x.questionID === activeQuestionId);
+      if (!q) return;
+
+      const isQ10 = (q.questionNumber === 10 || q.questionID === 11);
+
+      document.getElementById('q-number-badge').textContent = `Question ${q.questionNumber}`;
+      document.getElementById('q-title').textContent = q.title;
+      document.getElementById('q-full-text').textContent = q.questionText ? q.questionText.replace(/<[^>]+>/g, ' ') : '';
+
+      const badge = document.getElementById('q-leader-badge');
+      if (q.totalVotes === 0) {
+        badge.textContent = 'Awaiting Results';
+        badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-slate-100 text-slate-600 border border-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700';
+      } else if (q.yesVotes > q.noVotes) {
+        badge.textContent = isQ10 ? 'Option 1 Leading (Remain)' : 'YES Leading';
+        badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-500/30';
+      } else if (q.noVotes > q.yesVotes) {
+        badge.textContent = isQ10 ? 'Option 2 Leading (Separate)' : 'NO Leading';
+        badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-red-100 text-red-800 dark:bg-red-500/20 dark:text-red-300 border border-red-300 dark:border-red-500/30';
+      } else {
+        badge.textContent = 'Tied';
+        badge.className = 'px-2 py-0.5 rounded-md text-xs font-bold bg-amber-100 text-amber-800 dark:bg-amber-500/20 dark:text-amber-300 border border-amber-300 dark:border-amber-500/30';
+      }
+
+      // Province Scoreboard
+      document.getElementById('score-yes-label').textContent = isQ10 ? 'Option 1 (Remain)' : 'YES';
+      document.getElementById('score-no-label').textContent = isQ10 ? 'Option 2 (Separate)' : 'NO';
+      document.getElementById('score-yes-pct').textContent = `${q.yesPct}%`;
+      document.getElementById('score-no-pct').textContent = `${q.noPct}%`;
+      document.getElementById('score-total-votes').textContent = `${q.totalVotes.toLocaleString()} votes`;
+      document.getElementById('score-yes-count').textContent = `${q.yesVotes.toLocaleString()} votes`;
+      document.getElementById('score-no-count').textContent = `${q.noVotes.toLocaleString()} votes`;
+      document.getElementById('score-margin').textContent = `Margin: ${q.marginVotes > 0 ? '+' : ''}${q.marginVotes.toLocaleString()}`;
+
+      document.getElementById('score-bar-yes').style.width = `${q.totalVotes > 0 ? q.yesPct : 50}%`;
+      document.getElementById('score-bar-no').style.width = `${q.totalVotes > 0 ? q.noPct : 50}%`;
+
+      document.getElementById('legend-yes-label').textContent = isQ10 ? 'Option 1 (Remain)' : 'Yes Lead';
+      document.getElementById('legend-no-label').textContent = isQ10 ? 'Option 2 (Separate)' : 'No Lead';
+
+      // Regional Stats
+      const reg = q.regionalStats || {};
+      const calg = reg['Calgary'] || { yesPct: 0, noPct: 0, total: 0 };
+      const edm = reg['Edmonton'] || { yesPct: 0, noPct: 0, total: 0 };
+      const oth = reg['Regional / Other'] || { yesPct: 0, noPct: 0, total: 0 };
+
+      document.getElementById('calg-votes').textContent = `${(calg.total || 0).toLocaleString()} votes`;
+      document.getElementById('calg-yes').textContent = `${calg.yesPct}% YES`;
+      document.getElementById('calg-no').textContent = `${calg.noPct}% NO`;
+      document.getElementById('calg-bar').style.width = `${calg.total > 0 ? calg.yesPct : 50}%`;
+
+      document.getElementById('edm-votes').textContent = `${(edm.total || 0).toLocaleString()} votes`;
+      document.getElementById('edm-yes').textContent = `${edm.yesPct}% YES`;
+      document.getElementById('edm-no').textContent = `${edm.noPct}% NO`;
+      document.getElementById('edm-bar').style.width = `${edm.total > 0 ? edm.yesPct : 50}%`;
+
+      document.getElementById('oth-votes').textContent = `${(oth.total || 0).toLocaleString()} votes`;
+      document.getElementById('oth-yes').textContent = `${oth.yesPct}% YES`;
+      document.getElementById('oth-no').textContent = `${oth.noPct}% NO`;
+      document.getElementById('oth-bar').style.width = `${oth.total > 0 ? oth.yesPct : 50}%`;
+
+      renderRidingTable(q.wards || []);
+    }
+
+    function renderRidingTable(wards) {
+      const searchVal = (document.getElementById('search-riding')?.value || '').toLowerCase().trim();
+      const regionVal = document.getElementById('filter-region')?.value || 'ALL';
+      const outcomeVal = document.getElementById('filter-outcome')?.value || 'ALL';
+
+      let filtered = wards.filter(w => {
+        if (searchVal && !w.wardName.toLowerCase().includes(searchVal) && !w.ward.includes(searchVal)) return false;
+        if (regionVal !== 'ALL' && w.region !== regionVal) return false;
+        if (outcomeVal !== 'ALL' && w.leader !== outcomeVal) return false;
+        return true;
+      });
+
+      filtered.sort((a, b) => {
+        let valA = a[sortColumn];
+        let valB = b[sortColumn];
+        if (typeof valA === 'string') return sortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+        valA = valA || 0;
+        valB = valB || 0;
+        return sortAsc ? valA - valB : valB - valA;
+      });
+
+      document.getElementById('ridings-count').textContent = filtered.length;
+      const tbody = document.getElementById('ridings-tbody');
+      tbody.innerHTML = '';
+
+      if (filtered.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="9" class="py-8 text-center text-slate-400 font-sans">No matching ridings found.</td></tr>`;
+        return;
+      }
+
+      filtered.forEach(w => {
+        let statusBadge = '<span class="px-2 py-0.5 rounded text-[10px] bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400">Awaiting</span>';
+        if (w.leader === 'YES') {
+          statusBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-500/20 dark:text-emerald-300">YES</span>';
+        } else if (w.leader === 'NO') {
+          statusBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-red-100 text-red-800 dark:bg-red-500/20 dark:text-red-300">NO</span>';
+        }
+
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-slate-100/70 dark:hover:bg-slate-800/40 transition cursor-pointer';
+        tr.title = 'Click to focus riding on map';
+        tr.onclick = () => {
+          const layer = ridingLayerLookup[w.ward];
+          if (layer && mapInstance) {
+            mapInstance.fitBounds(layer.getBounds(), { maxZoom: 13 });
+            layer.fire('mouseover');
+            document.getElementById('map').scrollIntoView({ behavior: 'smooth' });
+          }
+        };
+
+        tr.innerHTML = `
+          <td class="py-2.5 px-3 text-slate-500 dark:text-slate-400 font-semibold">${w.ward}</td>
+          <td class="py-2.5 px-3 font-medium text-slate-900 dark:text-white font-sans">${w.wardName}</td>
+          <td class="py-2.5 px-3 text-slate-500 dark:text-slate-400 font-sans">${w.region}</td>
+          <td class="py-2.5 px-3 text-slate-600 dark:text-slate-300">
+            <span class="inline-block w-12">${w.pollsPct}%</span>
+            <span class="text-slate-400 dark:text-slate-500 text-[10px] font-sans">(${w.pollsReporting}/${w.totalPolls})</span>
+          </td>
+          <td class="py-2.5 px-3 text-right text-emerald-600 dark:text-emerald-400 font-bold">${w.yesPct}% <span class="text-[10px] font-normal text-slate-400">(${w.yesVotes != null ? w.yesVotes.toLocaleString() : '-'})</span></td>
+          <td class="py-2.5 px-3 text-right text-red-600 dark:text-red-400 font-bold">${w.noPct}% <span class="text-[10px] font-normal text-slate-400">(${w.noVotes != null ? w.noVotes.toLocaleString() : '-'})</span></td>
+          <td class="py-2.5 px-3 text-right ${w.marginVotes >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'}">
+            ${w.marginVotes > 0 ? '+' : ''}${w.marginVotes.toLocaleString()}
+          </td>
+          <td class="py-2.5 px-3 text-right text-slate-700 dark:text-slate-200">${w.totalVotes != null ? w.totalVotes.toLocaleString() : '0'}</td>
+          <td class="py-2.5 px-3 text-center">${statusBadge}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function sortTable(col) {
+      if (sortColumn === col) sortAsc = !sortAsc;
+      else {
+        sortColumn = col;
+        sortAsc = (col === 'ward' || col === 'wardName' || col === 'region');
+      }
+      renderActiveQuestionDetail();
+    }
+
+    // Event listeners
+    document.getElementById('btn-refresh').onclick = () => loadData();
+    document.getElementById('search-riding').oninput = () => renderActiveQuestionDetail();
+    document.getElementById('filter-region').onchange = () => renderActiveQuestionDetail();
+    document.getElementById('filter-outcome').onchange = () => renderActiveQuestionDetail();
+
+    setInterval(() => {
+      timerCountdown--;
+      const el = document.getElementById('timer-sec');
+      if (el) el.textContent = Math.max(0, timerCountdown);
+      if (timerCountdown <= 0) loadData();
+    }, 1000);
+
+    initMap();
+    loadData();
+  </script>
+</body>
+</html>
