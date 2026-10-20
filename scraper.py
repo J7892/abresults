@@ -482,7 +482,8 @@ def run_once():
         logger.error("Failed to fetch data from Elections Alberta.")
         return False
     enriched = process_results(raw)
-    return save_data(enriched)
+    save_data(enriched)
+    return True
 
 def main():
     parser = argparse.ArgumentParser(description="Alberta Referendum 2026 Results Scraper")
