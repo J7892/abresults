@@ -1,28 +1,28 @@
 {
-  "fetchedAt": "2026-10-20T14:21:16.179299+00:00",
-  "lastUpdatedEAB": "2026-10-20T14:20:49.7913243+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 08:20:49 AM MDT",
+  "fetchedAt": "2026-10-20T14:21:49.449906+00:00",
+  "lastUpdatedEAB": "2026-10-20T14:21:40.7292577+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 08:21:40 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 10500742,
-      "valid": 10500742,
-      "pollsReporting": 4544,
+      "votes": 10503475,
+      "valid": 10503475,
+      "pollsReporting": 4546,
       "totalPolls": 5586,
-      "pollsReportingPct": 81.35
+      "pollsReportingPct": 81.38
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 52.99,
-      "valid": 5564394,
+      "percentageOfAllVotes": 52.98,
+      "valid": 5564396,
       "pollsReporting": 238,
       "totalPolls": 269
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.19,
-      "valid": 3905522,
-      "pollsReporting": 4005,
+      "percentageOfAllVotes": 37.21,
+      "valid": 3908253,
+      "pollsReporting": 4007,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 706858,
-      "noVotes": 560000,
-      "totalVotes": 1266858,
+      "yesVotes": 707073,
+      "noVotes": 560054,
+      "totalVotes": 1267127,
       "yesPct": 55.8,
       "noPct": 44.2,
-      "marginVotes": 146858,
+      "marginVotes": 147019,
       "marginPct": 11.6,
       "leader": "YES",
       "regionalStats": {
@@ -74,12 +74,12 @@
           "noPct": 57.86
         },
         "Regional / Other": {
-          "yes": 419769,
-          "no": 197874,
-          "total": 617643,
+          "yes": 419984,
+          "no": 197928,
+          "total": 617912,
           "wards": 41,
-          "yesPct": 67.96,
-          "noPct": 32.04
+          "yesPct": 67.97,
+          "noPct": 32.03
         }
       },
       "votingMethods": [
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 285384,
-          "noVotes": 128980,
-          "totalVotes": 414364,
-          "yesPct": 68.87,
-          "noPct": 31.13,
-          "marginVotes": 156404,
-          "marginPct": 37.74,
-          "pollsReporting": 4024,
+          "yesVotes": 285599,
+          "noVotes": 129034,
+          "totalVotes": 414633,
+          "yesPct": 68.88,
+          "noPct": 31.12,
+          "marginVotes": 156565,
+          "marginPct": 37.76,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -142,8 +142,8 @@
         "40-50%": 323,
         "50-60%": 603,
         "60-70%": 774,
-        "70-80%": 766,
-        "80-90%": 643,
+        "70-80%": 767,
+        "80-90%": 644,
         "90-100%": 131
       },
       "wards": [
@@ -639,9 +639,9 @@
           "marginVotes": -732,
           "marginPct": -9.36,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -1191,17 +1191,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 7335,
-          "noVotes": 4145,
-          "totalVotes": 11480,
-          "yesPct": 63.89,
-          "noPct": 36.11,
-          "marginVotes": 3190,
-          "marginPct": 27.78,
+          "yesVotes": 7550,
+          "noVotes": 4199,
+          "totalVotes": 11749,
+          "yesPct": 64.26,
+          "noPct": 35.74,
+          "marginVotes": 3351,
+          "marginPct": 28.52,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 613277,
-      "noVotes": 470238,
-      "totalVotes": 1083515,
-      "yesPct": 56.6,
-      "noPct": 43.4,
-      "marginVotes": 143039,
-      "marginPct": 13.2,
+      "yesVotes": 613487,
+      "noVotes": 470297,
+      "totalVotes": 1083784,
+      "yesPct": 56.61,
+      "noPct": 43.39,
+      "marginVotes": 143190,
+      "marginPct": 13.22,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1572,9 +1572,9 @@
           "noPct": 58.5
         },
         "Regional / Other": {
-          "yes": 381080,
-          "no": 192944,
-          "total": 574024,
+          "yes": 381290,
+          "no": 193003,
+          "total": 574293,
           "wards": 41,
           "yesPct": 66.39,
           "noPct": 33.61
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 258742,
-          "noVotes": 137209,
-          "totalVotes": 395951,
-          "yesPct": 65.35,
-          "noPct": 34.65,
-          "marginVotes": 121533,
-          "marginPct": 30.7,
-          "pollsReporting": 4024,
+          "yesVotes": 258952,
+          "noVotes": 137268,
+          "totalVotes": 396220,
+          "yesPct": 65.36,
+          "noPct": 34.64,
+          "marginVotes": 121684,
+          "marginPct": 30.72,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -1640,7 +1640,7 @@
         "40-50%": 411,
         "50-60%": 649,
         "60-70%": 721,
-        "70-80%": 682,
+        "70-80%": 684,
         "80-90%": 474,
         "90-100%": 79
       },
@@ -2137,9 +2137,9 @@
           "marginVotes": -1487,
           "marginPct": -18.18,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -2689,17 +2689,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 5119,
-          "noVotes": 1947,
-          "totalVotes": 7066,
-          "yesPct": 72.45,
-          "noPct": 27.55,
-          "marginVotes": 3172,
-          "marginPct": 44.9,
+          "yesVotes": 5329,
+          "noVotes": 2006,
+          "totalVotes": 7335,
+          "yesPct": 72.65,
+          "noPct": 27.35,
+          "marginVotes": 3323,
+          "marginPct": 45.3,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -3044,13 +3044,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 584102,
-      "noVotes": 416027,
-      "totalVotes": 1000129,
-      "yesPct": 58.4,
-      "noPct": 41.6,
-      "marginVotes": 168075,
-      "marginPct": 16.8,
+      "yesVotes": 584316,
+      "noVotes": 416081,
+      "totalVotes": 1000397,
+      "yesPct": 58.41,
+      "noPct": 41.59,
+      "marginVotes": 168235,
+      "marginPct": 16.82,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3070,12 +3070,12 @@
           "noPct": 56.74
         },
         "Regional / Other": {
-          "yes": 363305,
-          "no": 169944,
-          "total": 533249,
+          "yes": 363519,
+          "no": 169998,
+          "total": 533517,
           "wards": 41,
-          "yesPct": 68.13,
-          "noPct": 31.87
+          "yesPct": 68.14,
+          "noPct": 31.86
         }
       },
       "votingMethods": [
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 256064,
-          "noVotes": 131596,
-          "totalVotes": 387660,
-          "yesPct": 66.05,
-          "noPct": 33.95,
-          "marginVotes": 124468,
-          "marginPct": 32.1,
-          "pollsReporting": 4024,
+          "yesVotes": 256278,
+          "noVotes": 131650,
+          "totalVotes": 387928,
+          "yesPct": 66.06,
+          "noPct": 33.94,
+          "marginVotes": 124628,
+          "marginPct": 32.12,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -3138,8 +3138,8 @@
         "40-50%": 362,
         "50-60%": 643,
         "60-70%": 689,
-        "70-80%": 697,
-        "80-90%": 503,
+        "70-80%": 698,
+        "80-90%": 504,
         "90-100%": 80
       },
       "wards": [
@@ -3635,9 +3635,9 @@
           "marginVotes": -1426,
           "marginPct": -17.3,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -4187,17 +4187,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 5126,
-          "noVotes": 1834,
-          "totalVotes": 6960,
-          "yesPct": 73.65,
-          "noPct": 26.35,
-          "marginVotes": 3292,
-          "marginPct": 47.3,
+          "yesVotes": 5340,
+          "noVotes": 1888,
+          "totalVotes": 7228,
+          "yesPct": 73.88,
+          "noPct": 26.12,
+          "marginVotes": 3452,
+          "marginPct": 47.76,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -4542,12 +4542,12 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 550380,
-      "noVotes": 411717,
-      "totalVotes": 962097,
+      "yesVotes": 550591,
+      "noVotes": 411774,
+      "totalVotes": 962365,
       "yesPct": 57.21,
       "noPct": 42.79,
-      "marginVotes": 138663,
+      "marginVotes": 138817,
       "marginPct": 14.42,
       "leader": "YES",
       "regionalStats": {
@@ -4568,9 +4568,9 @@
           "noPct": 57.28
         },
         "Regional / Other": {
-          "yes": 346519,
-          "no": 173107,
-          "total": 519626,
+          "yes": 346730,
+          "no": 173164,
+          "total": 519894,
           "wards": 41,
           "yesPct": 66.69,
           "noPct": 33.31
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 236575,
-          "noVotes": 137445,
-          "totalVotes": 374020,
-          "yesPct": 63.25,
-          "noPct": 36.75,
-          "marginVotes": 99130,
-          "marginPct": 26.5,
-          "pollsReporting": 4024,
+          "yesVotes": 236786,
+          "noVotes": 137502,
+          "totalVotes": 374288,
+          "yesPct": 63.26,
+          "noPct": 36.74,
+          "marginVotes": 99284,
+          "marginPct": 26.52,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -4636,8 +4636,8 @@
         "40-50%": 441,
         "50-60%": 655,
         "60-70%": 644,
-        "70-80%": 590,
-        "80-90%": 423,
+        "70-80%": 591,
+        "80-90%": 424,
         "90-100%": 47
       },
       "wards": [
@@ -5133,9 +5133,9 @@
           "marginVotes": -1689,
           "marginPct": -20.72,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -5685,17 +5685,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 5145,
-          "noVotes": 2041,
-          "totalVotes": 7186,
-          "yesPct": 71.6,
-          "noPct": 28.4,
-          "marginVotes": 3104,
-          "marginPct": 43.2,
+          "yesVotes": 5356,
+          "noVotes": 2098,
+          "totalVotes": 7454,
+          "yesPct": 71.85,
+          "noPct": 28.15,
+          "marginVotes": 3258,
+          "marginPct": 43.7,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -6040,13 +6040,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 589175,
-      "noVotes": 341086,
-      "totalVotes": 930261,
-      "yesPct": 63.33,
-      "noPct": 36.67,
-      "marginVotes": 248089,
-      "marginPct": 26.66,
+      "yesVotes": 589402,
+      "noVotes": 341131,
+      "totalVotes": 930533,
+      "yesPct": 63.34,
+      "noPct": 36.66,
+      "marginVotes": 248271,
+      "marginPct": 26.68,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6066,12 +6066,12 @@
           "noPct": 51.3
         },
         "Regional / Other": {
-          "yes": 355043,
-          "no": 127609,
-          "total": 482652,
+          "yes": 355270,
+          "no": 127654,
+          "total": 482924,
           "wards": 41,
-          "yesPct": 73.56,
-          "noPct": 26.44
+          "yesPct": 73.57,
+          "noPct": 26.43
         }
       },
       "votingMethods": [
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 261722,
-          "noVotes": 108053,
-          "totalVotes": 369775,
-          "yesPct": 70.78,
-          "noPct": 29.22,
-          "marginVotes": 153669,
-          "marginPct": 41.56,
-          "pollsReporting": 4024,
+          "yesVotes": 261949,
+          "noVotes": 108098,
+          "totalVotes": 370047,
+          "yesPct": 70.79,
+          "noPct": 29.21,
+          "marginVotes": 153851,
+          "marginPct": 41.58,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -6135,7 +6135,7 @@
         "50-60%": 485,
         "60-70%": 646,
         "70-80%": 723,
-        "80-90%": 696,
+        "80-90%": 698,
         "90-100%": 187
       },
       "wards": [
@@ -6631,9 +6631,9 @@
           "marginVotes": -479,
           "marginPct": -5.8,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -7183,17 +7183,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 3108,
-          "noVotes": 790,
-          "totalVotes": 3898,
-          "yesPct": 79.73,
-          "noPct": 20.27,
-          "marginVotes": 2318,
-          "marginPct": 59.46,
+          "yesVotes": 3335,
+          "noVotes": 835,
+          "totalVotes": 4170,
+          "yesPct": 79.98,
+          "noPct": 20.02,
+          "marginVotes": 2500,
+          "marginPct": 59.96,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 459823,
-      "noVotes": 436384,
-      "totalVotes": 896207,
+      "yesVotes": 460022,
+      "noVotes": 436451,
+      "totalVotes": 896473,
       "yesPct": 51.31,
       "noPct": 48.69,
-      "marginVotes": 23439,
+      "marginVotes": 23571,
       "marginPct": 2.62,
       "leader": "YES",
       "regionalStats": {
@@ -7564,12 +7564,12 @@
           "noPct": 64.8
         },
         "Regional / Other": {
-          "yes": 293648,
-          "no": 173693,
-          "total": 467341,
+          "yes": 293847,
+          "no": 173760,
+          "total": 467607,
           "wards": 41,
-          "yesPct": 62.83,
-          "noPct": 37.17
+          "yesPct": 62.84,
+          "noPct": 37.16
         }
       },
       "votingMethods": [
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 209776,
-          "noVotes": 146280,
-          "totalVotes": 356056,
-          "yesPct": 58.92,
-          "noPct": 41.08,
-          "marginVotes": 63496,
-          "marginPct": 17.84,
-          "pollsReporting": 4024,
+          "yesVotes": 209975,
+          "noVotes": 146347,
+          "totalVotes": 356322,
+          "yesPct": 58.93,
+          "noPct": 41.07,
+          "marginVotes": 63628,
+          "marginPct": 17.86,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -7632,7 +7632,7 @@
         "40-50%": 536,
         "50-60%": 583,
         "60-70%": 511,
-        "70-80%": 478,
+        "70-80%": 480,
         "80-90%": 305,
         "90-100%": 38
       },
@@ -8129,9 +8129,9 @@
           "marginVotes": -3115,
           "marginPct": -38.26,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -8681,17 +8681,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 1217,
-          "noVotes": 388,
-          "totalVotes": 1605,
-          "yesPct": 75.83,
-          "noPct": 24.17,
-          "marginVotes": 829,
-          "marginPct": 51.66,
+          "yesVotes": 1416,
+          "noVotes": 455,
+          "totalVotes": 1871,
+          "yesPct": 75.68,
+          "noPct": 24.32,
+          "marginVotes": 961,
+          "marginPct": 51.36,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 452682,
-      "noVotes": 397479,
-      "totalVotes": 850161,
+      "yesVotes": 452891,
+      "noVotes": 397539,
+      "totalVotes": 850430,
       "yesPct": 53.25,
       "noPct": 46.75,
-      "marginVotes": 55203,
+      "marginVotes": 55352,
       "marginPct": 6.5,
       "leader": "YES",
       "regionalStats": {
@@ -9062,12 +9062,12 @@
           "noPct": 62.82
         },
         "Regional / Other": {
-          "yes": 286384,
-          "no": 161850,
-          "total": 448234,
+          "yes": 286593,
+          "no": 161910,
+          "total": 448503,
           "wards": 41,
-          "yesPct": 63.89,
-          "noPct": 36.11
+          "yesPct": 63.9,
+          "noPct": 36.1
         }
       },
       "votingMethods": [
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 209260,
-          "noVotes": 141510,
-          "totalVotes": 350770,
-          "yesPct": 59.66,
-          "noPct": 40.34,
-          "marginVotes": 67750,
-          "marginPct": 19.32,
-          "pollsReporting": 4024,
+          "yesVotes": 209469,
+          "noVotes": 141570,
+          "totalVotes": 351039,
+          "yesPct": 59.67,
+          "noPct": 40.33,
+          "marginVotes": 67899,
+          "marginPct": 19.34,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -9130,7 +9130,7 @@
         "40-50%": 529,
         "50-60%": 607,
         "60-70%": 510,
-        "70-80%": 491,
+        "70-80%": 493,
         "80-90%": 308,
         "90-100%": 46
       },
@@ -9627,9 +9627,9 @@
           "marginVotes": -2835,
           "marginPct": -34.88,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -10179,17 +10179,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 1209,
-          "noVotes": 377,
-          "totalVotes": 1586,
-          "yesPct": 76.23,
-          "noPct": 23.77,
-          "marginVotes": 832,
-          "marginPct": 52.46,
+          "yesVotes": 1418,
+          "noVotes": 437,
+          "totalVotes": 1855,
+          "yesPct": 76.44,
+          "noPct": 23.56,
+          "marginVotes": 981,
+          "marginPct": 52.88,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 406628,
-      "noVotes": 430687,
-      "totalVotes": 837315,
-      "yesPct": 48.56,
-      "noPct": 51.44,
-      "marginVotes": -24059,
-      "marginPct": -2.88,
+      "yesVotes": 406818,
+      "noVotes": 430760,
+      "totalVotes": 837578,
+      "yesPct": 48.57,
+      "noPct": 51.43,
+      "marginVotes": -23942,
+      "marginPct": -2.86,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10552,20 +10552,20 @@
           "noPct": 61.05
         },
         "Edmonton": {
-          "yes": 48065,
-          "no": 101217,
-          "total": 149282,
+          "yes": 48064,
+          "no": 101214,
+          "total": 149278,
           "wards": 20,
           "yesPct": 32.2,
           "noPct": 67.8
         },
         "Regional / Other": {
-          "yes": 258432,
-          "no": 172517,
-          "total": 430949,
+          "yes": 258623,
+          "no": 172593,
+          "total": 431216,
           "wards": 41,
-          "yesPct": 59.97,
-          "noPct": 40.03
+          "yesPct": 59.98,
+          "noPct": 40.02
         }
       },
       "votingMethods": [
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 194839,
-          "noVotes": 151787,
-          "totalVotes": 346626,
-          "yesPct": 56.21,
-          "noPct": 43.79,
-          "marginVotes": 43052,
-          "marginPct": 12.42,
-          "pollsReporting": 4024,
+          "yesVotes": 195029,
+          "noVotes": 151860,
+          "totalVotes": 346889,
+          "yesPct": 56.22,
+          "noPct": 43.78,
+          "marginVotes": 43169,
+          "marginPct": 12.44,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -10627,8 +10627,8 @@
         "30-40%": 400,
         "40-50%": 551,
         "50-60%": 581,
-        "60-70%": 460,
-        "70-80%": 436,
+        "60-70%": 461,
+        "70-80%": 437,
         "80-90%": 212,
         "90-100%": 21
       },
@@ -11125,9 +11125,9 @@
           "marginVotes": -3380,
           "marginPct": -41.54,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -11149,12 +11149,12 @@
           "ward": "33",
           "wardName": "33 - Edmonton-Gold Bar",
           "region": "Edmonton",
-          "yesVotes": 4649,
-          "noVotes": 9385,
-          "totalVotes": 14034,
+          "yesVotes": 4648,
+          "noVotes": 9382,
+          "totalVotes": 14030,
           "yesPct": 33.13,
           "noPct": 66.87,
-          "marginVotes": -4736,
+          "marginVotes": -4734,
           "marginPct": -33.74,
           "leader": "NO",
           "pollsReporting": 58,
@@ -11677,17 +11677,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 1164,
-          "noVotes": 429,
-          "totalVotes": 1593,
-          "yesPct": 73.07,
-          "noPct": 26.93,
-          "marginVotes": 735,
-          "marginPct": 46.14,
+          "yesVotes": 1355,
+          "noVotes": 505,
+          "totalVotes": 1860,
+          "yesPct": 72.85,
+          "noPct": 27.15,
+          "marginVotes": 850,
+          "marginPct": 45.7,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 416163,
-      "noVotes": 406252,
-      "totalVotes": 822415,
-      "yesPct": 50.6,
-      "noPct": 49.4,
-      "marginVotes": 9911,
-      "marginPct": 1.2,
+      "yesVotes": 416360,
+      "noVotes": 406326,
+      "totalVotes": 822686,
+      "yesPct": 50.61,
+      "noPct": 49.39,
+      "marginVotes": 10034,
+      "marginPct": 1.22,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -12051,19 +12051,19 @@
         },
         "Edmonton": {
           "yes": 49686,
-          "no": 94268,
-          "total": 143954,
+          "no": 94272,
+          "total": 143958,
           "wards": 20,
-          "yesPct": 34.52,
-          "noPct": 65.48
+          "yesPct": 34.51,
+          "noPct": 65.49
         },
         "Regional / Other": {
-          "yes": 262658,
-          "no": 157262,
-          "total": 419920,
+          "yes": 262855,
+          "no": 157332,
+          "total": 420187,
           "wards": 41,
-          "yesPct": 62.55,
-          "noPct": 37.45
+          "yesPct": 62.56,
+          "noPct": 37.44
         }
       },
       "votingMethods": [
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 204439,
-          "noVotes": 144705,
-          "totalVotes": 349144,
-          "yesPct": 58.55,
-          "noPct": 41.45,
-          "marginVotes": 59734,
-          "marginPct": 17.1,
-          "pollsReporting": 4024,
+          "yesVotes": 204636,
+          "noVotes": 144779,
+          "totalVotes": 349415,
+          "yesPct": 58.57,
+          "noPct": 41.43,
+          "marginVotes": 59857,
+          "marginPct": 17.14,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -12126,7 +12126,7 @@
         "40-50%": 534,
         "50-60%": 594,
         "60-70%": 505,
-        "70-80%": 443,
+        "70-80%": 445,
         "80-90%": 296,
         "90-100%": 35
       },
@@ -12623,9 +12623,9 @@
           "marginVotes": -3067,
           "marginPct": -38.26,
           "leader": "NO",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -12648,12 +12648,12 @@
           "wardName": "33 - Edmonton-Gold Bar",
           "region": "Edmonton",
           "yesVotes": 4827,
-          "noVotes": 9051,
-          "totalVotes": 13878,
-          "yesPct": 34.78,
-          "noPct": 65.22,
-          "marginVotes": -4224,
-          "marginPct": -30.44,
+          "noVotes": 9055,
+          "totalVotes": 13882,
+          "yesPct": 34.77,
+          "noPct": 65.23,
+          "marginVotes": -4228,
+          "marginPct": -30.46,
           "leader": "NO",
           "pollsReporting": 58,
           "totalPolls": 58,
@@ -13175,17 +13175,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 1198,
-          "noVotes": 394,
-          "totalVotes": 1592,
-          "yesPct": 75.25,
-          "noPct": 24.75,
-          "marginVotes": 804,
-          "marginPct": 50.5,
+          "yesVotes": 1395,
+          "noVotes": 464,
+          "totalVotes": 1859,
+          "yesPct": 75.04,
+          "noPct": 24.96,
+          "marginVotes": 931,
+          "marginPct": 50.08,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -13530,12 +13530,12 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1398757,
-      "noVotes": 453027,
-      "totalVotes": 1851784,
+      "yesVotes": 1398987,
+      "noVotes": 453115,
+      "totalVotes": 1852102,
       "yesPct": 75.54,
       "noPct": 24.46,
-      "marginVotes": 945730,
+      "marginVotes": 945872,
       "marginPct": 51.08,
       "leader": "YES",
       "regionalStats": {
@@ -13548,17 +13548,17 @@
           "noPct": 17.14
         },
         "Edmonton": {
-          "yes": 319183,
-          "no": 50425,
-          "total": 369608,
+          "yes": 319342,
+          "no": 50444,
+          "total": 369786,
           "wards": 20,
           "yesPct": 86.36,
           "noPct": 13.64
         },
         "Regional / Other": {
-          "yes": 604714,
-          "no": 304362,
-          "total": 909076,
+          "yes": 604785,
+          "no": 304431,
+          "total": 909216,
           "wards": 41,
           "yesPct": 66.52,
           "noPct": 33.48
@@ -13568,9 +13568,9 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 542260,
-          "noVotes": 216095,
-          "totalVotes": 758355,
+          "yesVotes": 542261,
+          "noVotes": 216096,
+          "totalVotes": 758357,
           "yesPct": 71.5,
           "noPct": 28.5,
           "marginVotes": 326165,
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 371473,
-          "noVotes": 189683,
-          "totalVotes": 561156,
+          "yesVotes": 371702,
+          "noVotes": 189770,
+          "totalVotes": 561472,
           "yesPct": 66.2,
           "noPct": 33.8,
-          "marginVotes": 181790,
+          "marginVotes": 181932,
           "marginPct": 32.4,
-          "pollsReporting": 4024,
+          "pollsReporting": 4026,
           "totalPolls": 4904
         },
         {
@@ -13622,10 +13622,10 @@
         "<30%": 62,
         "30-40%": 233,
         "40-50%": 422,
-        "50-60%": 588,
+        "50-60%": 589,
         "60-70%": 785,
         "70-80%": 1210,
-        "80-90%": 889,
+        "80-90%": 890,
         "90-100%": 265
       },
       "wards": [
@@ -14113,17 +14113,17 @@
           "ward": "31",
           "wardName": "31 - Edmonton-Ellerslie",
           "region": "Edmonton",
-          "yesVotes": 14812,
-          "noVotes": 2703,
-          "totalVotes": 17515,
-          "yesPct": 84.57,
-          "noPct": 15.43,
-          "marginVotes": 12109,
-          "marginPct": 69.14,
+          "yesVotes": 14971,
+          "noVotes": 2722,
+          "totalVotes": 17693,
+          "yesPct": 84.62,
+          "noPct": 15.38,
+          "marginVotes": 12249,
+          "marginPct": 69.24,
           "leader": "YES",
-          "pollsReporting": 28,
+          "pollsReporting": 29,
           "totalPolls": 52,
-          "pollsPct": 53.8
+          "pollsPct": 55.8
         },
         {
           "ward": "32",
@@ -14673,17 +14673,17 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 10038,
-          "noVotes": 6568,
-          "totalVotes": 16606,
-          "yesPct": 60.45,
-          "noPct": 39.55,
-          "marginVotes": 3470,
-          "marginPct": 20.9,
+          "yesVotes": 10108,
+          "noVotes": 6636,
+          "totalVotes": 16744,
+          "yesPct": 60.37,
+          "noPct": 39.63,
+          "marginVotes": 3472,
+          "marginPct": 20.74,
           "leader": "YES",
-          "pollsReporting": 48,
+          "pollsReporting": 49,
           "totalPolls": 73,
-          "pollsPct": 65.8
+          "pollsPct": 67.1
         },
         {
           "ward": "67",
@@ -14833,9 +14833,9 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 15212,
-          "noVotes": 12299,
-          "totalVotes": 27511,
+          "yesVotes": 15213,
+          "noVotes": 12300,
+          "totalVotes": 27513,
           "yesPct": 55.29,
           "noPct": 44.71,
           "marginVotes": 2913,
