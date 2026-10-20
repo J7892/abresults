@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-20T20:41:58.090327+00:00",
-  "lastUpdatedEAB": "2026-10-20T20:41:37.9982421+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 02:41:37 PM MDT",
+  "fetchedAt": "2026-10-20T20:43:14.913486+00:00",
+  "lastUpdatedEAB": "2026-10-20T20:42:28.0150930+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 02:42:28 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 12864497,
-      "valid": 12864497,
-      "pollsReporting": 4905,
+      "votes": 12865120,
+      "valid": 12865120,
+      "pollsReporting": 4906,
       "totalPolls": 5583,
-      "pollsReportingPct": 87.86
+      "pollsReportingPct": 87.87
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 39.42,
-      "valid": 5071290,
-      "pollsReporting": 4334,
+      "valid": 5071913,
+      "pollsReporting": 4335,
       "totalPolls": 4904
     },
     "vbm": {
@@ -106,7 +106,7 @@
           "noPct": 32.06,
           "marginVotes": 188718,
           "marginPct": 35.88,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -511,9 +511,9 @@
           "marginVotes": -843,
           "marginPct": -4.9,
           "leader": "NO",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -1546,30 +1546,30 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 747571,
-      "noVotes": 602253,
-      "totalVotes": 1349824,
-      "yesPct": 55.38,
-      "noPct": 44.62,
-      "marginVotes": 145318,
-      "marginPct": 10.76,
+      "yesVotes": 747758,
+      "noVotes": 602348,
+      "totalVotes": 1350106,
+      "yesPct": 55.39,
+      "noPct": 44.61,
+      "marginVotes": 145410,
+      "marginPct": 10.78,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 189632,
-          "no": 207824,
-          "total": 397456,
+          "yes": 189716,
+          "no": 207875,
+          "total": 397591,
           "wards": 26,
-          "yesPct": 47.71,
-          "noPct": 52.29
+          "yesPct": 47.72,
+          "noPct": 52.28
         },
         "Edmonton": {
-          "yes": 114508,
-          "no": 166946,
-          "total": 281454,
+          "yes": 114611,
+          "no": 166990,
+          "total": 281601,
           "wards": 20,
-          "yesPct": 40.68,
-          "noPct": 59.32
+          "yesPct": 40.7,
+          "noPct": 59.3
         },
         "Regional / Other": {
           "yes": 443431,
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 333912,
-          "noVotes": 186376,
-          "totalVotes": 520288,
+          "yesVotes": 334099,
+          "noVotes": 186471,
+          "totalVotes": 520570,
           "yesPct": 64.18,
           "noPct": 35.82,
-          "marginVotes": 147536,
+          "marginVotes": 147628,
           "marginPct": 28.36,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -1639,8 +1639,8 @@
         "30-40%": 210,
         "40-50%": 546,
         "50-60%": 896,
-        "60-70%": 925,
-        "70-80%": 813,
+        "60-70%": 926,
+        "70-80%": 814,
         "80-90%": 568,
         "90-100%": 94
       },
@@ -1649,13 +1649,13 @@
           "ward": "01",
           "wardName": "01 - Calgary-Acadia",
           "region": "Calgary",
-          "yesVotes": 7657,
-          "noVotes": 9489,
-          "totalVotes": 17146,
-          "yesPct": 44.66,
-          "noPct": 55.34,
-          "marginVotes": -1832,
-          "marginPct": -10.68,
+          "yesVotes": 7741,
+          "noVotes": 9540,
+          "totalVotes": 17281,
+          "yesPct": 44.79,
+          "noPct": 55.21,
+          "marginVotes": -1799,
+          "marginPct": -10.42,
           "leader": "NO",
           "pollsReporting": 49,
           "totalPolls": 57,
@@ -2009,9 +2009,9 @@
           "marginVotes": -71,
           "marginPct": -0.72,
           "leader": "NO",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -2321,13 +2321,13 @@
           "ward": "43",
           "wardName": "43 - Edmonton-South West",
           "region": "Edmonton",
-          "yesVotes": 10793,
-          "noVotes": 12970,
-          "totalVotes": 23763,
-          "yesPct": 45.42,
-          "noPct": 54.58,
-          "marginVotes": -2177,
-          "marginPct": -9.16,
+          "yesVotes": 10896,
+          "noVotes": 13014,
+          "totalVotes": 23910,
+          "yesPct": 45.57,
+          "noPct": 54.43,
+          "marginVotes": -2118,
+          "marginPct": -8.86,
           "leader": "NO",
           "pollsReporting": 75,
           "totalPolls": 76,
@@ -3102,7 +3102,7 @@
           "noPct": 35.16,
           "marginVotes": 151990,
           "marginPct": 29.68,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -3507,9 +3507,9 @@
           "marginVotes": 84,
           "marginPct": 0.86,
           "leader": "YES",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -4600,7 +4600,7 @@
           "noPct": 37.65,
           "marginVotes": 123958,
           "marginPct": 24.7,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -5005,9 +5005,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -6040,22 +6040,22 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 757622,
-      "noVotes": 435445,
-      "totalVotes": 1193067,
+      "yesVotes": 757634,
+      "noVotes": 435434,
+      "totalVotes": 1193068,
       "yesPct": 63.5,
       "noPct": 36.5,
-      "marginVotes": 322177,
+      "marginVotes": 322200,
       "marginPct": 27.0,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 185169,
-          "no": 151857,
-          "total": 337026,
+          "yes": 185181,
+          "no": 151846,
+          "total": 337027,
           "wards": 26,
-          "yesPct": 54.94,
-          "noPct": 45.06
+          "yesPct": 54.95,
+          "noPct": 45.05
         },
         "Edmonton": {
           "yes": 105375,
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 346609,
-          "noVotes": 148223,
-          "totalVotes": 494832,
+          "yesVotes": 346621,
+          "noVotes": 148212,
+          "totalVotes": 494833,
           "yesPct": 70.05,
           "noPct": 29.95,
-          "marginVotes": 198386,
+          "marginVotes": 198409,
           "marginPct": 40.1,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -6131,8 +6131,8 @@
       "pollDistribution": {
         "<30%": 45,
         "30-40%": 66,
-        "40-50%": 280,
-        "50-60%": 628,
+        "40-50%": 279,
+        "50-60%": 629,
         "60-70%": 882,
         "70-80%": 945,
         "80-90%": 854,
@@ -6271,13 +6271,13 @@
           "ward": "09",
           "wardName": "09 - Calgary-Elbow",
           "region": "Calgary",
-          "yesVotes": 5569,
-          "noVotes": 5865,
-          "totalVotes": 11434,
-          "yesPct": 48.71,
-          "noPct": 51.29,
-          "marginVotes": -296,
-          "marginPct": -2.58,
+          "yesVotes": 5581,
+          "noVotes": 5854,
+          "totalVotes": 11435,
+          "yesPct": 48.81,
+          "noPct": 51.19,
+          "marginVotes": -273,
+          "marginPct": -2.38,
           "leader": "NO",
           "pollsReporting": 60,
           "totalPolls": 60,
@@ -6503,9 +6503,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -7538,19 +7538,19 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 588544,
-      "noVotes": 555103,
-      "totalVotes": 1143647,
+      "yesVotes": 588607,
+      "noVotes": 555168,
+      "totalVotes": 1143775,
       "yesPct": 51.46,
       "noPct": 48.54,
-      "marginVotes": 33441,
+      "marginVotes": 33439,
       "marginPct": 2.92,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 137343,
-          "no": 200148,
-          "total": 337491,
+          "yes": 137406,
+          "no": 200213,
+          "total": 337619,
           "wards": 26,
           "yesPct": 40.7,
           "noPct": 59.3
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 282830,
-          "noVotes": 204334,
-          "totalVotes": 487164,
-          "yesPct": 58.06,
-          "noPct": 41.94,
-          "marginVotes": 78496,
-          "marginPct": 16.12,
-          "pollsReporting": 4348,
+          "yesVotes": 282893,
+          "noVotes": 204399,
+          "totalVotes": 487292,
+          "yesPct": 58.05,
+          "noPct": 41.95,
+          "marginVotes": 78494,
+          "marginPct": 16.1,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -7629,7 +7629,7 @@
       "pollDistribution": {
         "<30%": 204,
         "30-40%": 459,
-        "40-50%": 715,
+        "40-50%": 716,
         "50-60%": 786,
         "60-70%": 684,
         "70-80%": 638,
@@ -7769,13 +7769,13 @@
           "ward": "09",
           "wardName": "09 - Calgary-Elbow",
           "region": "Calgary",
-          "yesVotes": 4229,
-          "noVotes": 6897,
-          "totalVotes": 11126,
-          "yesPct": 38.01,
-          "noPct": 61.99,
-          "marginVotes": -2668,
-          "marginPct": -23.98,
+          "yesVotes": 4292,
+          "noVotes": 6962,
+          "totalVotes": 11254,
+          "yesPct": 38.14,
+          "noPct": 61.86,
+          "marginVotes": -2670,
+          "marginPct": -23.72,
           "leader": "NO",
           "pollsReporting": 60,
           "totalPolls": 60,
@@ -8001,9 +8001,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -9094,7 +9094,7 @@
           "noPct": 41.09,
           "marginVotes": 84586,
           "marginPct": 17.82,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -9499,9 +9499,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -10592,7 +10592,7 @@
           "noPct": 44.31,
           "marginVotes": 53866,
           "marginPct": 11.38,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -10997,9 +10997,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -12090,7 +12090,7 @@
           "noPct": 42.04,
           "marginVotes": 74736,
           "marginPct": 15.92,
-          "pollsReporting": 4348,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -12495,9 +12495,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
@@ -13530,19 +13530,19 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1445779,
-      "noVotes": 475499,
-      "totalVotes": 1921278,
+      "yesVotes": 1445936,
+      "noVotes": 475554,
+      "totalVotes": 1921490,
       "yesPct": 75.25,
       "noPct": 24.75,
-      "marginVotes": 970280,
+      "marginVotes": 970382,
       "marginPct": 50.5,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 487893,
-          "no": 102958,
-          "total": 590851,
+          "yes": 488050,
+          "no": 103013,
+          "total": 591063,
           "wards": 26,
           "yesPct": 82.57,
           "noPct": 17.43
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 406679,
-          "noVotes": 205121,
-          "totalVotes": 611800,
-          "yesPct": 66.47,
-          "noPct": 33.53,
-          "marginVotes": 201558,
-          "marginPct": 32.94,
-          "pollsReporting": 4348,
+          "yesVotes": 406836,
+          "noVotes": 205176,
+          "totalVotes": 612012,
+          "yesPct": 66.48,
+          "noPct": 33.52,
+          "marginVotes": 201660,
+          "marginPct": 32.96,
+          "pollsReporting": 4349,
           "totalPolls": 4904
         },
         {
@@ -13624,7 +13624,7 @@
         "40-50%": 454,
         "50-60%": 618,
         "60-70%": 851,
-        "70-80%": 1350,
+        "70-80%": 1351,
         "80-90%": 953,
         "90-100%": 283
       },
@@ -13985,17 +13985,17 @@
           "ward": "23",
           "wardName": "23 - Calgary-Shaw",
           "region": "Calgary",
-          "yesVotes": 23111,
-          "noVotes": 6417,
-          "totalVotes": 29528,
-          "yesPct": 78.27,
-          "noPct": 21.73,
-          "marginVotes": 16694,
-          "marginPct": 56.54,
+          "yesVotes": 23268,
+          "noVotes": 6472,
+          "totalVotes": 29740,
+          "yesPct": 78.24,
+          "noPct": 21.76,
+          "marginVotes": 16796,
+          "marginPct": 56.48,
           "leader": "YES",
-          "pollsReporting": 60,
+          "pollsReporting": 61,
           "totalPolls": 71,
-          "pollsPct": 84.5
+          "pollsPct": 85.9
         },
         {
           "ward": "24",
