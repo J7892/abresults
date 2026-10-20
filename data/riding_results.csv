@@ -21,7 +21,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,1,Immigration Control & Alberta Priority,6535,7361,13896,47.03,52.97,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,1,Immigration Control & Alberta Priority,12044,13155,25199,47.8,52.2,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,1,Immigration Control & Alberta Priority,10968,10141,21109,51.96,48.04,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,1,Immigration Control & Alberta Priority,5066,4647,9713,52.16,47.84,YES,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,1,Immigration Control & Alberta Priority,5066,4647,9713,52.16,47.84,YES,49,71,69.0
 24,24 - Calgary-South East,Calgary,1,Immigration Control & Alberta Priority,18424,14132,32556,56.59,43.41,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,1,Immigration Control & Alberta Priority,6612,41644,48256,13.7,86.3,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,1,Immigration Control & Alberta Priority,12417,12706,25123,49.42,50.58,NO,54,54,100.0
@@ -48,7 +48,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 47,47 - Airdrie-Cochrane,Regional / Other,1,Immigration Control & Alberta Priority,7927,2964,10891,72.78,27.22,YES,92,92,100.0
 48,48 - Airdrie-East,Regional / Other,1,Immigration Control & Alberta Priority,15923,6845,22768,69.94,30.06,YES,73,73,100.0
 49,49 - Athabasca-Barrhead-Westlock,Regional / Other,1,Immigration Control & Alberta Priority,16337,6520,22857,71.47,28.53,YES,62,62,100.0
-50,50 - Banff-Kananaskis,Regional / Other,1,Immigration Control & Alberta Priority,11981,14439,26420,45.35,54.65,NO,57,64,89.1
+50,50 - Banff-Kananaskis,Regional / Other,1,Immigration Control & Alberta Priority,12098,14491,26589,45.5,54.5,NO,57,64,89.1
 51,51 - Bonnyville-Cold Lake-St. Paul,Regional / Other,1,Immigration Control & Alberta Priority,6598,3871,10469,63.02,36.98,YES,36,74,48.6
 52,52 - Brooks-Medicine Hat,Regional / Other,1,Immigration Control & Alberta Priority,15021,7065,22086,68.01,31.99,YES,71,73,97.3
 53,53 - Camrose,Regional / Other,1,Immigration Control & Alberta Priority,15357,7099,22456,68.39,31.61,YES,64,70,91.4
@@ -108,7 +108,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,2,Citizenship/PR Requirement for Provincial Services,7604,10271,17875,42.54,57.46,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,2,Citizenship/PR Requirement for Provincial Services,9205,9108,18313,50.26,49.74,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,2,Citizenship/PR Requirement for Provincial Services,8301,6631,14932,55.59,44.41,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,2,Citizenship/PR Requirement for Provincial Services,4873,4944,9817,49.64,50.36,NO,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,2,Citizenship/PR Requirement for Provincial Services,4873,4944,9817,49.64,50.36,NO,49,71,69.0
 24,24 - Calgary-South East,Calgary,2,Citizenship/PR Requirement for Provincial Services,14322,9879,24201,59.18,40.82,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,2,Citizenship/PR Requirement for Provincial Services,3494,5675,9169,38.11,61.89,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,2,Citizenship/PR Requirement for Provincial Services,8926,7463,16389,54.46,45.54,YES,54,54,100.0
@@ -135,7 +135,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 47,47 - Airdrie-Cochrane,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,8655,4031,12686,68.22,31.78,YES,92,92,100.0
 48,48 - Airdrie-East,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15207,7568,22775,66.77,33.23,YES,73,73,100.0
 49,49 - Athabasca-Barrhead-Westlock,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15942,6971,22913,69.58,30.42,YES,62,62,100.0
-50,50 - Banff-Kananaskis,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,7644,8577,16221,47.12,52.88,NO,57,64,89.1
+50,50 - Banff-Kananaskis,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,7765,8626,16391,47.37,52.63,NO,57,64,89.1
 51,51 - Bonnyville-Cold Lake-St. Paul,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,6386,4079,10465,61.02,38.98,YES,36,74,48.6
 52,52 - Brooks-Medicine Hat,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,14263,7673,21936,65.02,34.98,YES,71,73,97.3
 53,53 - Camrose,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15081,7485,22566,66.83,33.17,YES,64,70,91.4
@@ -191,11 +191,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,3,12-Month Residency Rule for Non-Permanent Support,10855,10201,21056,51.55,48.45,YES,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,3,12-Month Residency Rule for Non-Permanent Support,5024,8101,13125,38.28,61.72,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,3,12-Month Residency Rule for Non-Permanent Support,6866,10728,17594,39.02,60.98,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,3,12-Month Residency Rule for Non-Permanent Support,7199,8357,15556,46.28,53.72,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,3,12-Month Residency Rule for Non-Permanent Support,7262,8408,15670,46.34,53.66,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,3,12-Month Residency Rule for Non-Permanent Support,7772,10249,18021,43.13,56.87,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,3,12-Month Residency Rule for Non-Permanent Support,9369,9087,18456,50.76,49.24,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,3,12-Month Residency Rule for Non-Permanent Support,8384,6501,14885,56.33,43.67,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,3,12-Month Residency Rule for Non-Permanent Support,4931,4847,9778,50.43,49.57,YES,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,3,12-Month Residency Rule for Non-Permanent Support,4931,4847,9778,50.43,49.57,YES,49,71,69.0
 24,24 - Calgary-South East,Calgary,3,12-Month Residency Rule for Non-Permanent Support,14475,9680,24155,59.93,40.07,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,3,12-Month Residency Rule for Non-Permanent Support,3520,5641,9161,38.42,61.58,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,3,12-Month Residency Rule for Non-Permanent Support,8967,7469,16436,54.56,45.44,YES,54,54,100.0
@@ -222,7 +222,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 47,47 - Airdrie-Cochrane,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,8685,3977,12662,68.59,31.41,YES,92,92,100.0
 48,48 - Airdrie-East,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15307,7407,22714,67.39,32.61,YES,73,73,100.0
 49,49 - Athabasca-Barrhead-Westlock,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,16284,6728,23012,70.76,29.24,YES,62,62,100.0
-50,50 - Banff-Kananaskis,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,8926,8868,17794,50.16,49.84,YES,57,64,89.1
+50,50 - Banff-Kananaskis,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,9052,8912,17964,50.39,49.61,YES,57,64,89.1
 51,51 - Bonnyville-Cold Lake-St. Paul,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,6533,3885,10418,62.71,37.29,YES,36,74,48.6
 52,52 - Brooks-Medicine Hat,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,14603,7521,22124,66.01,33.99,YES,71,73,97.3
 53,53 - Camrose,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15105,7379,22484,67.18,32.82,YES,64,70,91.4
@@ -241,7 +241,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,16961,4999,21960,77.24,22.76,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15035,5576,20611,72.95,27.05,YES,73,75,97.3
 68,68 - Lacombe-Ponoka,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15654,5160,20814,75.21,24.79,YES,71,72,98.6
-69,69 - Leduc-Beaumont,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,14647,7315,21962,66.69,33.31,YES,68,68,100.0
+69,69 - Leduc-Beaumont,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,14777,7355,22132,66.77,33.23,YES,68,68,100.0
 70,70 - Lesser Slave Lake,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,1999,1961,3960,50.48,49.52,YES,34,48,70.8
 71,71 - Lethbridge-East,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,10329,8174,18503,55.82,44.18,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,7596,6704,14300,53.12,46.88,YES,67,67,100.0
@@ -278,11 +278,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,8300,7163,15463,53.68,46.32,YES,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,4441,8714,13155,33.76,66.24,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,6720,8813,15533,43.26,56.74,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,5337,5907,11244,47.47,52.53,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,5389,5969,11358,47.45,52.55,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,4194,4884,9078,46.2,53.8,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,9115,9266,18381,49.59,50.41,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,8142,6781,14923,54.56,45.44,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,13977,10194,24171,57.83,42.17,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,3543,5627,9170,38.64,61.36,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,8926,7594,16520,54.03,45.97,YES,54,54,100.0
@@ -309,7 +309,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 47,47 - Airdrie-Cochrane,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15244,8814,24058,63.36,36.64,YES,92,92,100.0
 48,48 - Airdrie-East,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14932,7816,22748,65.64,34.36,YES,73,73,100.0
 49,49 - Athabasca-Barrhead-Westlock,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15951,7089,23040,69.23,30.77,YES,62,62,100.0
-50,50 - Banff-Kananaskis,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,8574,8904,17478,49.06,50.94,NO,57,64,89.1
+50,50 - Banff-Kananaskis,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,8698,8950,17648,49.29,50.71,NO,57,64,89.1
 51,51 - Bonnyville-Cold Lake-St. Paul,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,6176,4224,10400,59.38,40.62,YES,36,74,48.6
 52,52 - Brooks-Medicine Hat,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,13923,7963,21886,63.62,36.38,YES,71,73,97.3
 53,53 - Camrose,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,13212,5523,18735,70.52,29.48,YES,64,70,91.4
@@ -328,7 +328,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14976,5194,20170,74.25,25.75,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14645,5817,20462,71.57,28.43,YES,73,75,97.3
 68,68 - Lacombe-Ponoka,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15344,5622,20966,73.19,26.81,YES,71,72,98.6
-69,69 - Leduc-Beaumont,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14214,7787,22001,64.61,35.39,YES,68,68,100.0
+69,69 - Leduc-Beaumont,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14202,7795,21997,64.56,35.44,YES,68,68,100.0
 70,70 - Lesser Slave Lake,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,1779,2079,3858,46.11,53.89,NO,34,48,70.8
 71,71 - Lethbridge-East,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,9848,8622,18470,53.32,46.68,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,7239,7244,14483,49.98,50.02,NO,67,67,100.0
@@ -365,11 +365,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,9196,5885,15081,60.98,39.02,YES,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,5709,7475,13184,43.3,56.7,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,7832,9769,17601,44.5,55.5,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,6014,5242,11256,53.43,46.57,YES,47,52,90.4
+19,19 - Calgary-North,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,6076,5294,11370,53.44,46.56,YES,47,52,90.4
 20,20 - Calgary-North East,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,10861,9853,20714,52.43,47.57,YES,62,65,95.4
 21,21 - Calgary-North West,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,10236,8247,18483,55.38,44.62,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,9012,5934,14946,60.3,39.7,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,15798,8399,24197,65.29,34.71,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,4048,5115,9163,44.18,55.82,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,9787,6451,16238,60.27,39.73,YES,54,54,100.0
@@ -389,7 +389,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 40,40 - Edmonton-Riverview,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,6096,6868,12964,47.02,52.98,NO,51,53,96.2
 41,41 - Edmonton-Rutherford,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,6440,6812,13252,48.6,51.4,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,6106,5874,11980,50.97,49.03,YES,86,88,97.7
-43,43 - Edmonton-South West,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,9044,5034,14078,64.24,35.76,YES,75,76,98.7
+43,43 - Edmonton-South West,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,9117,5080,14197,64.22,35.78,YES,75,76,98.7
 44,44 - Edmonton-Strathcona,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,4840,8124,12964,37.33,62.67,NO,50,50,100.0
 45,45 - Edmonton-West Henday,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,4443,2909,7352,60.43,39.57,YES,57,59,96.6
 46,46 - Edmonton-Whitemud,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,6926,6755,13681,50.62,49.38,YES,51,51,100.0
@@ -415,7 +415,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,17808,4450,22258,80.01,19.99,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,15826,5045,20871,75.83,24.17,YES,73,75,97.3
 68,68 - Lacombe-Ponoka,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16545,4293,20838,79.4,20.6,YES,71,72,98.6
-69,69 - Leduc-Beaumont,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,15465,6273,21738,71.14,28.86,YES,68,68,100.0
+69,69 - Leduc-Beaumont,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,15598,6311,21909,71.19,28.81,YES,68,68,100.0
 70,70 - Lesser Slave Lake,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,1771,1508,3279,54.01,45.99,YES,34,48,70.8
 71,71 - Lethbridge-East,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,11357,7236,18593,61.08,38.92,YES,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,8542,5984,14526,58.8,41.2,YES,67,67,100.0
@@ -452,11 +452,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7258,7690,14948,48.55,51.45,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,3624,9480,13104,27.66,72.34,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7327,21053,28380,25.82,74.18,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,4558,7184,11742,38.82,61.18,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,4606,7249,11855,38.85,61.15,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7395,13190,20585,35.92,64.08,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7851,10503,18354,42.78,57.22,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,3157,2642,5799,54.44,45.56,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,11382,10410,21792,52.23,47.77,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,3063,6063,9126,33.56,66.44,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7813,8539,16352,47.78,52.22,NO,54,54,100.0
@@ -539,11 +539,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,7,Abolition of the Federal Senate,7562,7383,14945,50.6,49.4,YES,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,7,Abolition of the Federal Senate,3700,9421,13121,28.2,71.8,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,7,Abolition of the Federal Senate,6004,11383,17387,34.53,65.47,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,7,Abolition of the Federal Senate,4356,6165,10521,41.4,58.6,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,7,Abolition of the Federal Senate,4407,6226,10633,41.45,58.55,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,7,Abolition of the Federal Senate,6561,9600,16161,40.6,59.4,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,7,Abolition of the Federal Senate,8219,10102,18321,44.86,55.14,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,7,Abolition of the Federal Senate,3218,2564,5782,55.66,44.34,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,7,Abolition of the Federal Senate,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,7,Abolition of the Federal Senate,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,7,Abolition of the Federal Senate,12926,11099,24025,53.8,46.2,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,7,Abolition of the Federal Senate,3271,5843,9114,35.89,64.11,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,7,Abolition of the Federal Senate,7986,7835,15821,50.48,49.52,YES,54,54,100.0
@@ -589,7 +589,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,7,Abolition of the Federal Senate,15699,6113,21812,71.97,28.03,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,7,Abolition of the Federal Senate,13850,6400,20250,68.4,31.6,YES,73,75,97.3
 68,68 - Lacombe-Ponoka,Regional / Other,7,Abolition of the Federal Senate,14717,5925,20642,71.3,28.7,YES,71,72,98.6
-69,69 - Leduc-Beaumont,Regional / Other,7,Abolition of the Federal Senate,12806,8957,21763,58.84,41.16,YES,68,68,100.0
+69,69 - Leduc-Beaumont,Regional / Other,7,Abolition of the Federal Senate,12928,9005,21933,58.94,41.06,YES,68,68,100.0
 70,70 - Lesser Slave Lake,Regional / Other,7,Abolition of the Federal Senate,1347,1849,3196,42.15,57.85,NO,34,48,70.8
 71,71 - Lethbridge-East,Regional / Other,7,Abolition of the Federal Senate,8955,9172,18127,49.4,50.6,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,7,Abolition of the Federal Senate,5434,6259,11693,46.47,53.53,NO,67,67,100.0
@@ -620,17 +620,17 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 10,10 - Calgary-Falconridge,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2323,4588,6911,33.61,66.39,NO,51,51,100.0
 11,11 - Calgary-Fish Creek,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7811,8918,16729,46.69,53.31,NO,59,59,100.0
 12,12 - Calgary-Foothills,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,269,414,683,39.39,60.61,NO,9,62,14.5
-13,13 - Calgary-Glenmore,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5225,7634,12859,40.63,59.37,NO,59,59,100.0
+13,13 - Calgary-Glenmore,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5280,7685,12965,40.73,59.27,NO,59,59,100.0
 14,14 - Calgary-Hays,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,8355,9484,17839,46.84,53.16,NO,58,58,100.0
 15,15 - Calgary-Klein,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,6044,9155,15199,39.77,60.23,NO,53,53,100.0
 16,16 - Calgary-Lougheed,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,6652,7768,14420,46.13,53.87,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,3464,9617,13081,26.48,73.52,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,5338,12292,17630,30.28,69.72,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2545,4213,6758,37.66,62.34,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2600,4271,6871,37.84,62.16,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7093,13515,20608,34.42,65.58,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7381,11017,18398,40.12,59.88,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2933,2855,5788,50.67,49.33,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,11933,12118,24051,49.62,50.38,NO,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,2812,6321,9133,30.79,69.21,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7830,9034,16864,46.43,53.57,NO,54,54,100.0
@@ -702,7 +702,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 05,05 - Calgary-Cross,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,4981,7278,12259,40.63,59.37,NO,48,48,100.0
 06,06 - Calgary-Currie,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,6150,9733,15883,38.72,61.28,NO,56,58,96.6
 07,07 - Calgary-East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,1836,2049,3885,47.26,52.74,NO,57,74,77.0
-08,08 - Calgary-Edgemont,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,679,771,1450,46.83,53.17,NO,53,57,93.0
+08,08 - Calgary-Edgemont,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,742,823,1565,47.41,52.59,NO,53,57,93.0
 09,09 - Calgary-Elbow,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,3868,6687,10555,36.65,63.35,NO,60,60,100.0
 10,10 - Calgary-Falconridge,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,2452,4259,6711,36.54,63.46,NO,51,51,100.0
 11,11 - Calgary-Fish Creek,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7993,8636,16629,48.07,51.93,NO,59,59,100.0
@@ -713,11 +713,11 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 16,16 - Calgary-Lougheed,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,6829,7222,14051,48.6,51.4,NO,45,45,100.0
 17,17 - Calgary-Bhullar-McCall,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,3657,9335,12992,28.15,71.85,NO,39,39,100.0
 18,18 - Calgary-Mountain View,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,5546,11979,17525,31.65,68.35,NO,90,90,100.0
-19,19 - Calgary-North,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,2738,4276,7014,39.04,60.96,NO,47,52,90.4
+19,19 - Calgary-North,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,2790,4336,7126,39.15,60.85,NO,47,52,90.4
 20,20 - Calgary-North East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7559,13050,20609,36.68,63.32,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7626,10739,18365,41.52,58.48,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,3141,2659,5800,54.16,45.84,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,0,0,0,0.0,0.0,Awaiting,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,0,0,0,0.0,0.0,Awaiting,49,71,69.0
 24,24 - Calgary-South East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,12364,11707,24071,51.36,48.64,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,2890,6231,9121,31.69,68.31,NO,4,51,7.8
 26,26 - Calgary-West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7515,8853,16368,45.91,54.09,NO,54,54,100.0
@@ -763,7 +763,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 66,66 - Innisfail-Sylvan Lake,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11780,4945,16725,70.43,29.57,YES,72,73,98.6
 67,67 - Lac Ste. Anne-Parkland,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,13530,6593,20123,67.24,32.76,YES,73,75,97.3
 68,68 - Lacombe-Ponoka,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,14356,6688,21044,68.22,31.78,YES,71,72,98.6
-69,69 - Leduc-Beaumont,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,12386,9288,21674,57.15,42.85,YES,68,68,100.0
+69,69 - Leduc-Beaumont,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,12507,9341,21848,57.25,42.75,YES,68,68,100.0
 70,70 - Lesser Slave Lake,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,1381,1798,3179,43.44,56.56,NO,34,48,70.8
 71,71 - Lethbridge-East,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,8956,9594,18550,48.28,51.72,NO,67,69,97.1
 72,72 - Lethbridge-West,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,5336,6458,11794,45.24,54.76,NO,67,67,100.0
@@ -804,7 +804,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,10,Alberta Independence / Separation Referendum Process,21265,3619,24884,85.46,14.54,YES,62,65,95.4
 21,21 - Calgary-North West,Calgary,10,Alberta Independence / Separation Referendum Process,21943,4792,26735,82.08,17.92,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,10,Alberta Independence / Separation Referendum Process,18825,4908,23733,79.32,20.68,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,10,Alberta Independence / Separation Referendum Process,21487,5868,27355,78.55,21.45,YES,48,71,67.6
+23,23 - Calgary-Shaw,Calgary,10,Alberta Independence / Separation Referendum Process,21562,5896,27458,78.53,21.47,YES,49,71,69.0
 24,24 - Calgary-South East,Calgary,10,Alberta Independence / Separation Referendum Process,24597,7455,32052,76.74,23.26,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,10,Alberta Independence / Separation Referendum Process,17880,2408,20288,88.13,11.87,YES,4,51,7.8
 26,26 - Calgary-West,Calgary,10,Alberta Independence / Separation Referendum Process,20609,4644,25253,81.61,18.39,YES,54,54,100.0
