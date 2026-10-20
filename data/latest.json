@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-20T18:40:20.775988+00:00",
-  "lastUpdatedEAB": "2026-10-20T18:39:27.5600472+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 12:39:27 PM MDT",
+  "fetchedAt": "2026-10-20T18:40:53.184926+00:00",
+  "lastUpdatedEAB": "2026-10-20T18:40:14.7332555+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 12:40:14 PM MDT",
   "turnout": {
     "summary": {
       "votes": 12110514,
@@ -159,9 +159,9 @@
           "marginVotes": -3037,
           "marginPct": -17.1,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -1572,9 +1572,9 @@
           "noPct": 58.55
         },
         "Regional / Other": {
-          "yes": 428149,
-          "no": 217483,
-          "total": 645632,
+          "yes": 428257,
+          "no": 217556,
+          "total": 645813,
           "wards": 41,
           "yesPct": 66.31,
           "noPct": 33.69
@@ -1657,9 +1657,9 @@
           "marginVotes": -319,
           "marginPct": -3.48,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -2961,13 +2961,13 @@
           "ward": "83",
           "wardName": "83 - St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 6382,
-          "noVotes": 6970,
-          "totalVotes": 13352,
-          "yesPct": 47.8,
-          "noPct": 52.2,
-          "marginVotes": -588,
-          "marginPct": -4.4,
+          "yesVotes": 6490,
+          "noVotes": 7043,
+          "totalVotes": 13533,
+          "yesPct": 47.96,
+          "noPct": 52.04,
+          "marginVotes": -553,
+          "marginPct": -4.08,
           "leader": "NO",
           "pollsReporting": 59,
           "totalPolls": 60,
@@ -3054,25 +3054,25 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 174967,
-          "no": 179626,
-          "total": 354593,
+          "yes": 175046,
+          "no": 179686,
+          "total": 354732,
           "wards": 26,
-          "yesPct": 49.34,
-          "noPct": 50.66
+          "yesPct": 49.35,
+          "noPct": 50.65
         },
         "Edmonton": {
-          "yes": 88937,
-          "no": 114955,
-          "total": 203892,
+          "yes": 89000,
+          "no": 115061,
+          "total": 204061,
           "wards": 20,
-          "yesPct": 43.62,
-          "noPct": 56.38
+          "yesPct": 43.61,
+          "noPct": 56.39
         },
         "Regional / Other": {
-          "yes": 421569,
-          "no": 200624,
-          "total": 622193,
+          "yes": 421693,
+          "no": 200657,
+          "total": 622350,
           "wards": 41,
           "yesPct": 67.76,
           "noPct": 32.24
@@ -3155,9 +3155,9 @@
           "marginVotes": -95,
           "marginPct": -1.24,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -3275,13 +3275,13 @@
           "ward": "09",
           "wardName": "09 - Calgary-Elbow",
           "region": "Calgary",
-          "yesVotes": 6941,
-          "noVotes": 8101,
-          "totalVotes": 15042,
-          "yesPct": 46.14,
-          "noPct": 53.86,
-          "marginVotes": -1160,
-          "marginPct": -7.72,
+          "yesVotes": 7020,
+          "noVotes": 8161,
+          "totalVotes": 15181,
+          "yesPct": 46.24,
+          "noPct": 53.76,
+          "marginVotes": -1141,
+          "marginPct": -7.52,
           "leader": "NO",
           "pollsReporting": 60,
           "totalPolls": 60,
@@ -3643,13 +3643,13 @@
           "ward": "32",
           "wardName": "32 - Edmonton-Glenora",
           "region": "Edmonton",
-          "yesVotes": 5684,
-          "noVotes": 6981,
-          "totalVotes": 12665,
-          "yesPct": 44.88,
-          "noPct": 55.12,
-          "marginVotes": -1297,
-          "marginPct": -10.24,
+          "yesVotes": 5747,
+          "noVotes": 7087,
+          "totalVotes": 12834,
+          "yesPct": 44.78,
+          "noPct": 55.22,
+          "marginVotes": -1340,
+          "marginPct": -10.44,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 52,
@@ -4235,13 +4235,13 @@
           "ward": "69",
           "wardName": "69 - Leduc-Beaumont",
           "region": "Regional / Other",
-          "yesVotes": 14204,
-          "noVotes": 7139,
-          "totalVotes": 21343,
-          "yesPct": 66.55,
-          "noPct": 33.45,
-          "marginVotes": 7065,
-          "marginPct": 33.1,
+          "yesVotes": 14328,
+          "noVotes": 7172,
+          "totalVotes": 21500,
+          "yesPct": 66.64,
+          "noPct": 33.36,
+          "marginVotes": 7156,
+          "marginPct": 33.28,
           "leader": "YES",
           "pollsReporting": 68,
           "totalPolls": 68,
@@ -4560,12 +4560,12 @@
           "noPct": 51.67
         },
         "Edmonton": {
-          "yes": 76850,
-          "no": 101114,
-          "total": 177964,
+          "yes": 76953,
+          "no": 101180,
+          "total": 178133,
           "wards": 20,
-          "yesPct": 43.18,
-          "noPct": 56.82
+          "yesPct": 43.2,
+          "noPct": 56.8
         },
         "Regional / Other": {
           "yes": 406394,
@@ -4653,9 +4653,9 @@
           "marginVotes": -718,
           "marginPct": -8.24,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -5141,13 +5141,13 @@
           "ward": "32",
           "wardName": "32 - Edmonton-Glenora",
           "region": "Edmonton",
-          "yesVotes": 5213,
-          "noVotes": 7347,
-          "totalVotes": 12560,
-          "yesPct": 41.5,
-          "noPct": 58.5,
-          "marginVotes": -2134,
-          "marginPct": -17.0,
+          "yesVotes": 5316,
+          "noVotes": 7413,
+          "totalVotes": 12729,
+          "yesPct": 41.76,
+          "noPct": 58.24,
+          "marginVotes": -2097,
+          "marginPct": -16.48,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 52,
@@ -6066,12 +6066,12 @@
           "noPct": 49.89
         },
         "Regional / Other": {
-          "yes": 430817,
-          "no": 154739,
-          "total": 585556,
+          "yes": 431660,
+          "no": 155020,
+          "total": 586680,
           "wards": 41,
-          "yesPct": 73.57,
-          "noPct": 26.43
+          "yesPct": 73.58,
+          "noPct": 26.42
         }
       },
       "votingMethods": [
@@ -6151,9 +6151,9 @@
           "marginVotes": 542,
           "marginPct": 5.94,
           "leader": "YES",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -7503,13 +7503,13 @@
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 3856,
-          "noVotes": 762,
-          "totalVotes": 4618,
-          "yesPct": 83.5,
-          "noPct": 16.5,
-          "marginVotes": 3094,
-          "marginPct": 67.0,
+          "yesVotes": 4699,
+          "noVotes": 1043,
+          "totalVotes": 5742,
+          "yesPct": 81.84,
+          "noPct": 18.16,
+          "marginVotes": 3656,
+          "marginPct": 63.68,
           "leader": "YES",
           "pollsReporting": 55,
           "totalPolls": 66,
@@ -7649,9 +7649,9 @@
           "marginVotes": -4270,
           "marginPct": -35.34,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -9147,9 +9147,9 @@
           "marginVotes": -245,
           "marginPct": -2.92,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -10544,9 +10544,9 @@
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 119226,
+          "yes": 119227,
           "no": 182211,
-          "total": 301437,
+          "total": 301438,
           "wards": 26,
           "yesPct": 39.55,
           "noPct": 60.45
@@ -10645,9 +10645,9 @@
           "marginVotes": -1897,
           "marginPct": -21.08,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -11005,13 +11005,13 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 11932,
+          "yesVotes": 11933,
           "noVotes": 12118,
-          "totalVotes": 24050,
-          "yesPct": 49.61,
-          "noPct": 50.39,
-          "marginVotes": -186,
-          "marginPct": -0.78,
+          "totalVotes": 24051,
+          "yesPct": 49.62,
+          "noPct": 50.38,
+          "marginVotes": -185,
+          "marginPct": -0.76,
           "leader": "NO",
           "pollsReporting": 76,
           "totalPolls": 76,
@@ -12042,9 +12042,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 123000,
-          "no": 178401,
-          "total": 301401,
+          "yes": 123004,
+          "no": 178404,
+          "total": 301408,
           "wards": 26,
           "yesPct": 40.81,
           "noPct": 59.19
@@ -12143,9 +12143,9 @@
           "marginVotes": -1548,
           "marginPct": -17.04,
           "leader": "NO",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -12503,12 +12503,12 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 12360,
-          "noVotes": 11704,
-          "totalVotes": 24064,
+          "yesVotes": 12364,
+          "noVotes": 11707,
+          "totalVotes": 24071,
           "yesPct": 51.36,
           "noPct": 48.64,
-          "marginVotes": 656,
+          "marginVotes": 657,
           "marginPct": 2.72,
           "leader": "YES",
           "pollsReporting": 76,
@@ -13540,12 +13540,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 479668,
-          "no": 99739,
-          "total": 579407,
+          "yes": 479788,
+          "no": 99777,
+          "total": 579565,
           "wards": 26,
-          "yesPct": 82.79,
-          "noPct": 17.21
+          "yesPct": 82.78,
+          "noPct": 17.22
         },
         "Edmonton": {
           "yes": 331849,
@@ -13633,17 +13633,17 @@
           "ward": "01",
           "wardName": "01 - Calgary-Acadia",
           "region": "Calgary",
-          "yesVotes": 15819,
-          "noVotes": 3124,
-          "totalVotes": 18943,
-          "yesPct": 83.51,
-          "noPct": 16.49,
-          "marginVotes": 12695,
-          "marginPct": 67.02,
+          "yesVotes": 15933,
+          "noVotes": 3158,
+          "totalVotes": 19091,
+          "yesPct": 83.46,
+          "noPct": 16.54,
+          "marginVotes": 12775,
+          "marginPct": 66.92,
           "leader": "YES",
-          "pollsReporting": 12,
+          "pollsReporting": 13,
           "totalPolls": 57,
-          "pollsPct": 21.1
+          "pollsPct": 22.8
         },
         {
           "ward": "02",
@@ -14001,13 +14001,13 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 24591,
-          "noVotes": 7451,
-          "totalVotes": 32042,
-          "yesPct": 76.75,
-          "noPct": 23.25,
-          "marginVotes": 17140,
-          "marginPct": 53.5,
+          "yesVotes": 24597,
+          "noVotes": 7455,
+          "totalVotes": 32052,
+          "yesPct": 76.74,
+          "noPct": 23.26,
+          "marginVotes": 17142,
+          "marginPct": 53.48,
           "leader": "YES",
           "pollsReporting": 76,
           "totalPolls": 76,
