@@ -23,7 +23,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 METADATA_FILE = os.path.join(BASE_DIR, "metadata.json")
 
 EAB_DATA_URL = "https://results.elections.ab.ca/data/8400"
-CURRENT_VERSION = "3.1.0"
+CURRENT_VERSION = "3.2.0"
 QUESTION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
 ALL_WARDS = [f"{i:02d}" for i in range(1, 88)]
 
