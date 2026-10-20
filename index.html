@@ -916,13 +916,13 @@
       const vbm = data.turnout?.vbm || {};
 
       document.getElementById('stat-advance-polls').textContent = adv.pollsReporting != null ? `${adv.pollsReporting} / ${adv.totalPolls || 269}` : 'Pending';
-      document.getElementById('stat-advance-sub').textContent = adv.votes ? `${adv.votes.toLocaleString()} votes` : '269 Total Polls';
+      document.getElementById('stat-advance-sub').textContent = (adv.valid || adv.votes) ? `${(adv.valid || adv.votes).toLocaleString()} votes` : '269 Total Polls';
 
       document.getElementById('stat-votingday-polls').textContent = vd.pollsReporting != null ? `${vd.pollsReporting} / ${vd.totalPolls || 4904}` : 'Pending';
-      document.getElementById('stat-votingday-sub').textContent = vd.votes ? `${vd.votes.toLocaleString()} votes` : '4,904 Total Polls';
+      document.getElementById('stat-votingday-sub').textContent = (vd.valid || vd.votes) ? `${(vd.valid || vd.votes).toLocaleString()} votes` : '4,904 Total Polls';
 
       document.getElementById('stat-vbm-polls').textContent = vbm.pollsReporting != null ? `${vbm.pollsReporting} / ${vbm.totalPolls || 87}` : 'Pending';
-      document.getElementById('stat-vbm-sub').textContent = vbm.valid ? `${vbm.valid.toLocaleString()} votes` : '87 Special / Mail Polls';
+      document.getElementById('stat-vbm-sub').textContent = (vbm.valid || vbm.votes) ? `${(vbm.valid || vbm.votes).toLocaleString()} votes` : '87 Special / Mail Polls';
 
       // Render Spotlight Question 10 (ID 11)
       const q10 = (data.questions || []).find(q => q.questionID === 11 || q.questionNumber === 10);
