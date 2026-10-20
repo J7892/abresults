@@ -23,7 +23,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 METADATA_FILE = os.path.join(BASE_DIR, "metadata.json")
 
 EAB_DATA_URL = "https://results.elections.ab.ca/data/8400"
-CURRENT_VERSION = "3.2.0"
+CURRENT_VERSION = "3.3.0"
 QUESTION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
 ALL_WARDS = [f"{i:02d}" for i in range(1, 88)]
 
@@ -154,6 +154,13 @@ def fetch_api_data(questions=None, wards=None, timeout=20):
                     return data
                 else:
                     logger.warning(f"API returned success=false on attempt {attempt}")
+            elif resp.status_code in [503, 500, 403, 404]:
+                logger.warning(f"HTTP {resp.status_code} on attempt {attempt}. Checking portal for updated version...")
+                new_ver = get_latest_version(session)
+                if new_ver != CURRENT_VERSION:
+                    logger.info(f"Updated version to {new_ver}; retrying...")
+                    CURRENT_VERSION = new_ver
+                    params["version"] = CURRENT_VERSION
             else:
                 logger.warning(f"HTTP {resp.status_code} on attempt {attempt}")
         except Exception as e:
