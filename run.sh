@@ -10,9 +10,10 @@ echo " Alberta Referendum 2026 Live Scraper & Server"
 echo "=============================================="
 
 usage() {
-  echo "Usage: $0 [scrape|loop|serve|all]"
+  echo "Usage: $0 [scrape|loop|serve|sync|all]"
   echo "  scrape : Run scraper once"
-  echo "  loop   : Run scraper daemon (every 30s)"
+  echo "  loop   : Run scraper daemon locally (every 30s)"
+  echo "  sync   : Run scraper daemon and auto-push new results to GitHub Pages"
   echo "  serve  : Start local dashboard web server on port 8000"
   echo "  all    : Start scraper daemon and web server simultaneously"
   exit 1
@@ -26,6 +27,9 @@ case "$MODE" in
     ;;
   loop)
     python3 scraper.py --loop --interval 30
+    ;;
+  sync)
+    ./auto_update_and_push.sh "${2:-60}"
     ;;
   serve)
     echo "Starting local web server at http://localhost:8000"
