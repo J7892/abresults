@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-20T06:34:51.514437+00:00",
-  "lastUpdatedEAB": "2026-10-20T06:34:32.5372896+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 12:34:32 AM MDT",
+  "fetchedAt": "2026-10-20T06:35:58.596966+00:00",
+  "lastUpdatedEAB": "2026-10-20T06:35:19.8993446+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 12:35:19 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 3464239,
-      "valid": 3464239,
-      "pollsReporting": 2088,
+      "votes": 3475697,
+      "valid": 3475697,
+      "pollsReporting": 2101,
       "totalPolls": 5587,
-      "pollsReportingPct": 37.37
+      "pollsReportingPct": 37.61
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 66.19,
+      "percentageOfAllVotes": 65.98,
       "valid": 2293138,
       "pollsReporting": 176,
       "totalPolls": 269
@@ -20,24 +20,24 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 18.63,
-      "valid": 645482,
-      "pollsReporting": 1743,
+      "percentageOfAllVotes": 18.74,
+      "valid": 651327,
+      "pollsReporting": 1756,
       "totalPolls": 4904
     },
     "vbm": {
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.59,
-      "valid": 470644,
+      "percentageOfAllVotes": 13.7,
+      "valid": 476221,
       "pollsReporting": 73,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 1.59,
-      "valid": 54975,
+      "percentageOfAllVotes": 1.58,
+      "valid": 55011,
       "pollsReporting": 96,
       "totalPolls": 327
     }
@@ -48,38 +48,38 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 334224,
-      "noVotes": 251305,
-      "totalVotes": 585529,
-      "yesPct": 57.08,
-      "noPct": 42.92,
-      "marginVotes": 82919,
-      "marginPct": 14.16,
+      "yesVotes": 336624,
+      "noVotes": 255211,
+      "totalVotes": 591835,
+      "yesPct": 56.88,
+      "noPct": 43.12,
+      "marginVotes": 81413,
+      "marginPct": 13.76,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 101944,
-          "no": 100441,
-          "total": 202385,
+          "yes": 102019,
+          "no": 100479,
+          "total": 202498,
           "wards": 26,
-          "yesPct": 50.37,
-          "noPct": 49.63
+          "yesPct": 50.38,
+          "noPct": 49.62
         },
         "Edmonton": {
-          "yes": 29653,
-          "no": 42538,
-          "total": 72191,
+          "yes": 31699,
+          "no": 46316,
+          "total": 78015,
           "wards": 20,
-          "yesPct": 41.08,
-          "noPct": 58.92
+          "yesPct": 40.63,
+          "noPct": 59.37
         },
         "Regional / Other": {
-          "yes": 202627,
-          "no": 108326,
-          "total": 310953,
+          "yes": 202906,
+          "no": 108416,
+          "total": 311322,
           "wards": 41,
-          "yesPct": 65.16,
-          "noPct": 34.84
+          "yesPct": 65.18,
+          "noPct": 34.82
         }
       },
       "votingMethods": [
@@ -99,26 +99,26 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 62619,
-          "noVotes": 24190,
-          "totalVotes": 86809,
-          "yesPct": 72.13,
-          "noPct": 27.87,
-          "marginVotes": 38429,
-          "marginPct": 44.26,
-          "pollsReporting": 1754,
+          "yesVotes": 63089,
+          "noVotes": 24449,
+          "totalVotes": 87538,
+          "yesPct": 72.07,
+          "noPct": 27.93,
+          "marginVotes": 38640,
+          "marginPct": 44.14,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 22000,
-          "noVotes": 31340,
-          "totalVotes": 53340,
-          "yesPct": 41.24,
-          "noPct": 58.76,
-          "marginVotes": -9340,
-          "marginPct": -17.52,
+          "yesVotes": 23930,
+          "noVotes": 34987,
+          "totalVotes": 58917,
+          "yesPct": 40.62,
+          "noPct": 59.38,
+          "marginVotes": -11057,
+          "marginPct": -18.76,
           "pollsReporting": 72,
           "totalPolls": 87
         },
@@ -173,13 +173,13 @@
           "ward": "03",
           "wardName": "03 - Calgary-Bow",
           "region": "Calgary",
-          "yesVotes": 7913,
-          "noVotes": 7225,
-          "totalVotes": 15138,
-          "yesPct": 52.27,
-          "noPct": 47.73,
-          "marginVotes": 688,
-          "marginPct": 4.54,
+          "yesVotes": 7988,
+          "noVotes": 7263,
+          "totalVotes": 15251,
+          "yesPct": 52.38,
+          "noPct": 47.62,
+          "marginVotes": 725,
+          "marginPct": 4.76,
           "leader": "YES",
           "pollsReporting": 57,
           "totalPolls": 69,
@@ -389,9 +389,9 @@
           "marginVotes": 703,
           "marginPct": 10.24,
           "leader": "YES",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -733,14 +733,14 @@
           "ward": "38",
           "wardName": "38 - Edmonton-Mill Woods",
           "region": "Edmonton",
-          "yesVotes": 137,
-          "noVotes": 112,
-          "totalVotes": 249,
-          "yesPct": 55.02,
-          "noPct": 44.98,
-          "marginVotes": 25,
-          "marginPct": 10.04,
-          "leader": "YES",
+          "yesVotes": 2067,
+          "noVotes": 3759,
+          "totalVotes": 5826,
+          "yesPct": 35.48,
+          "noPct": 64.52,
+          "marginVotes": -1692,
+          "marginPct": -29.04,
+          "leader": "NO",
           "pollsReporting": 4,
           "totalPolls": 53,
           "pollsPct": 7.5
@@ -813,17 +813,17 @@
           "ward": "43",
           "wardName": "43 - Edmonton-South West",
           "region": "Edmonton",
-          "yesVotes": 253,
-          "noVotes": 206,
-          "totalVotes": 459,
-          "yesPct": 55.12,
-          "noPct": 44.88,
-          "marginVotes": 47,
-          "marginPct": 10.24,
+          "yesVotes": 369,
+          "noVotes": 337,
+          "totalVotes": 706,
+          "yesPct": 52.27,
+          "noPct": 47.73,
+          "marginVotes": 32,
+          "marginPct": 4.54,
           "leader": "YES",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -877,13 +877,13 @@
           "ward": "47",
           "wardName": "47 - Airdrie-Cochrane",
           "region": "Regional / Other",
-          "yesVotes": 3042,
-          "noVotes": 1148,
-          "totalVotes": 4190,
-          "yesPct": 72.6,
-          "noPct": 27.4,
-          "marginVotes": 1894,
-          "marginPct": 45.2,
+          "yesVotes": 3119,
+          "noVotes": 1181,
+          "totalVotes": 4300,
+          "yesPct": 72.53,
+          "noPct": 27.47,
+          "marginVotes": 1938,
+          "marginPct": 45.06,
           "leader": "YES",
           "pollsReporting": 79,
           "totalPolls": 92,
@@ -949,9 +949,9 @@
           "marginVotes": 1549,
           "marginPct": 22.96,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -1053,17 +1053,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 12706,
-          "noVotes": 5030,
-          "totalVotes": 17736,
-          "yesPct": 71.64,
-          "noPct": 28.36,
-          "marginVotes": 7676,
-          "marginPct": 43.28,
+          "yesVotes": 12813,
+          "noVotes": 5058,
+          "totalVotes": 17871,
+          "yesPct": 71.7,
+          "noPct": 28.3,
+          "marginVotes": 7755,
+          "marginPct": 43.4,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -1173,9 +1173,9 @@
           "marginVotes": 326,
           "marginPct": 55.26,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -1237,9 +1237,9 @@
           "marginVotes": 3696,
           "marginPct": 28.84,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -1293,17 +1293,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 12222,
-          "noVotes": 4971,
-          "totalVotes": 17193,
-          "yesPct": 71.09,
-          "noPct": 28.91,
-          "marginVotes": 7251,
-          "marginPct": 42.18,
+          "yesVotes": 12317,
+          "noVotes": 5000,
+          "totalVotes": 17317,
+          "yesPct": 71.13,
+          "noPct": 28.87,
+          "marginVotes": 7317,
+          "marginPct": 42.26,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -1381,9 +1381,9 @@
           "marginVotes": 3296,
           "marginPct": 31.44,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -1429,9 +1429,9 @@
           "marginVotes": 1351,
           "marginPct": 9.76,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -1536,22 +1536,22 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 260825,
-      "noVotes": 213753,
-      "totalVotes": 474578,
-      "yesPct": 54.96,
-      "noPct": 45.04,
-      "marginVotes": 47072,
-      "marginPct": 9.92,
+      "yesVotes": 261414,
+      "noVotes": 214138,
+      "totalVotes": 475552,
+      "yesPct": 54.97,
+      "noPct": 45.03,
+      "marginVotes": 47276,
+      "marginPct": 9.94,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 92412,
-          "no": 101735,
-          "total": 194147,
+          "yes": 92809,
+          "no": 102054,
+          "total": 194863,
           "wards": 26,
-          "yesPct": 47.6,
-          "noPct": 52.4
+          "yesPct": 47.63,
+          "noPct": 52.37
         },
         "Edmonton": {
           "yes": 22650,
@@ -1562,12 +1562,12 @@
           "noPct": 61.4
         },
         "Regional / Other": {
-          "yes": 145763,
-          "no": 75989,
-          "total": 221752,
+          "yes": 145955,
+          "no": 76055,
+          "total": 222010,
           "wards": 41,
-          "yesPct": 65.73,
-          "noPct": 34.27
+          "yesPct": 65.74,
+          "noPct": 34.26
         }
       },
       "votingMethods": [
@@ -1587,14 +1587,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 48348,
-          "noVotes": 20433,
-          "totalVotes": 68781,
-          "yesPct": 70.29,
-          "noPct": 29.71,
-          "marginVotes": 27915,
-          "marginPct": 40.58,
-          "pollsReporting": 1754,
+          "yesVotes": 48937,
+          "noVotes": 20818,
+          "totalVotes": 69755,
+          "yesPct": 70.16,
+          "noPct": 29.84,
+          "marginVotes": 28119,
+          "marginPct": 40.32,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -1725,13 +1725,13 @@
           "ward": "07",
           "wardName": "07 - Calgary-East",
           "region": "Calgary",
-          "yesVotes": 1402,
-          "noVotes": 1887,
-          "totalVotes": 3289,
-          "yesPct": 42.63,
-          "noPct": 57.37,
-          "marginVotes": -485,
-          "marginPct": -14.74,
+          "yesVotes": 1502,
+          "noVotes": 1965,
+          "totalVotes": 3467,
+          "yesPct": 43.32,
+          "noPct": 56.68,
+          "marginVotes": -463,
+          "marginPct": -13.36,
           "leader": "NO",
           "pollsReporting": 29,
           "totalPolls": 74,
@@ -1877,9 +1877,9 @@
           "marginVotes": 353,
           "marginPct": 5.16,
           "leader": "YES",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -1901,13 +1901,13 @@
           "ward": "18",
           "wardName": "18 - Calgary-Mountain View",
           "region": "Calgary",
-          "yesVotes": 1861,
-          "noVotes": 3492,
-          "totalVotes": 5353,
-          "yesPct": 34.77,
-          "noPct": 65.23,
-          "marginVotes": -1631,
-          "marginPct": -30.46,
+          "yesVotes": 1933,
+          "noVotes": 3572,
+          "totalVotes": 5505,
+          "yesPct": 35.11,
+          "noPct": 64.89,
+          "marginVotes": -1639,
+          "marginPct": -29.78,
           "leader": "NO",
           "pollsReporting": 34,
           "totalPolls": 90,
@@ -1933,13 +1933,13 @@
           "ward": "20",
           "wardName": "20 - Calgary-North East",
           "region": "Calgary",
-          "yesVotes": 906,
-          "noVotes": 921,
-          "totalVotes": 1827,
-          "yesPct": 49.59,
-          "noPct": 50.41,
-          "marginVotes": -15,
-          "marginPct": -0.82,
+          "yesVotes": 962,
+          "noVotes": 982,
+          "totalVotes": 1944,
+          "yesPct": 49.49,
+          "noPct": 50.51,
+          "marginVotes": -20,
+          "marginPct": -1.02,
           "leader": "NO",
           "pollsReporting": 44,
           "totalPolls": 65,
@@ -1997,13 +1997,13 @@
           "ward": "24",
           "wardName": "24 - Calgary-South East",
           "region": "Calgary",
-          "yesVotes": 8409,
-          "noVotes": 6544,
-          "totalVotes": 14953,
-          "yesPct": 56.24,
-          "noPct": 43.76,
-          "marginVotes": 1865,
-          "marginPct": 12.48,
+          "yesVotes": 8578,
+          "noVotes": 6644,
+          "totalVotes": 15222,
+          "yesPct": 56.35,
+          "noPct": 43.65,
+          "marginVotes": 1934,
+          "marginPct": 12.7,
           "leader": "YES",
           "pollsReporting": 47,
           "totalPolls": 76,
@@ -2309,9 +2309,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -2437,9 +2437,9 @@
           "marginVotes": 863,
           "marginPct": 20.58,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -2541,17 +2541,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 10374,
-          "noVotes": 3236,
-          "totalVotes": 13610,
+          "yesVotes": 10476,
+          "noVotes": 3268,
+          "totalVotes": 13744,
           "yesPct": 76.22,
           "noPct": 23.78,
-          "marginVotes": 7138,
+          "marginVotes": 7208,
           "marginPct": 52.44,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -2661,9 +2661,9 @@
           "marginVotes": 299,
           "marginPct": 50.76,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -2725,9 +2725,9 @@
           "marginVotes": 3202,
           "marginPct": 24.96,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -2781,17 +2781,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 11750,
-          "noVotes": 5251,
-          "totalVotes": 17001,
-          "yesPct": 69.11,
-          "noPct": 30.89,
-          "marginVotes": 6499,
-          "marginPct": 38.22,
+          "yesVotes": 11840,
+          "noVotes": 5285,
+          "totalVotes": 17125,
+          "yesPct": 69.14,
+          "noPct": 30.86,
+          "marginVotes": 6555,
+          "marginPct": 38.28,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -2869,9 +2869,9 @@
           "marginVotes": 2545,
           "marginPct": 25.78,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -2917,9 +2917,9 @@
           "marginVotes": 515,
           "marginPct": 3.92,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -3024,13 +3024,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 178694,
-      "noVotes": 136203,
-      "totalVotes": 314897,
-      "yesPct": 56.75,
-      "noPct": 43.25,
-      "marginVotes": 42491,
-      "marginPct": 13.5,
+      "yesVotes": 178881,
+      "noVotes": 136274,
+      "totalVotes": 315155,
+      "yesPct": 56.76,
+      "noPct": 43.24,
+      "marginVotes": 42607,
+      "marginPct": 13.52,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3050,12 +3050,12 @@
           "noPct": 62.21
         },
         "Regional / Other": {
-          "yes": 100771,
-          "no": 43407,
-          "total": 144178,
+          "yes": 100958,
+          "no": 43478,
+          "total": 144436,
           "wards": 41,
-          "yesPct": 69.89,
-          "noPct": 30.11
+          "yesPct": 69.9,
+          "noPct": 30.1
         }
       },
       "votingMethods": [
@@ -3075,14 +3075,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 35566,
-          "noVotes": 12807,
-          "totalVotes": 48373,
+          "yesVotes": 35753,
+          "noVotes": 12878,
+          "totalVotes": 48631,
           "yesPct": 73.52,
           "noPct": 26.48,
-          "marginVotes": 22759,
+          "marginVotes": 22875,
           "marginPct": 47.04,
-          "pollsReporting": 1754,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -3365,9 +3365,9 @@
           "marginVotes": 431,
           "marginPct": 6.28,
           "leader": "YES",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -3797,9 +3797,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -3925,9 +3925,9 @@
           "marginVotes": 866,
           "marginPct": 51.48,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -4029,17 +4029,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 10212,
-          "noVotes": 2892,
-          "totalVotes": 13104,
-          "yesPct": 77.93,
-          "noPct": 22.07,
-          "marginVotes": 7320,
-          "marginPct": 55.86,
+          "yesVotes": 10313,
+          "noVotes": 2925,
+          "totalVotes": 13238,
+          "yesPct": 77.9,
+          "noPct": 22.1,
+          "marginVotes": 7388,
+          "marginPct": 55.8,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -4149,9 +4149,9 @@
           "marginVotes": 238,
           "marginPct": 47.98,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -4213,9 +4213,9 @@
           "marginVotes": 3628,
           "marginPct": 28.06,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -4269,17 +4269,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 10627,
-          "noVotes": 4474,
-          "totalVotes": 15101,
-          "yesPct": 70.37,
-          "noPct": 29.63,
-          "marginVotes": 6153,
-          "marginPct": 40.74,
+          "yesVotes": 10713,
+          "noVotes": 4512,
+          "totalVotes": 15225,
+          "yesPct": 70.36,
+          "noPct": 29.64,
+          "marginVotes": 6201,
+          "marginPct": 40.72,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -4357,9 +4357,9 @@
           "marginVotes": 2767,
           "marginPct": 27.62,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -4405,9 +4405,9 @@
           "marginVotes": 474,
           "marginPct": 8.36,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -4512,13 +4512,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 123822,
-      "noVotes": 103590,
-      "totalVotes": 227412,
-      "yesPct": 54.45,
-      "noPct": 45.55,
-      "marginVotes": 20232,
-      "marginPct": 8.9,
+      "yesVotes": 124016,
+      "noVotes": 103653,
+      "totalVotes": 227669,
+      "yesPct": 54.47,
+      "noPct": 45.53,
+      "marginVotes": 20363,
+      "marginPct": 8.94,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4538,12 +4538,12 @@
           "noPct": 61.18
         },
         "Regional / Other": {
-          "yes": 71797,
-          "no": 36906,
-          "total": 108703,
+          "yes": 71991,
+          "no": 36969,
+          "total": 108960,
           "wards": 41,
-          "yesPct": 66.05,
-          "noPct": 33.95
+          "yesPct": 66.07,
+          "noPct": 33.93
         }
       },
       "votingMethods": [
@@ -4563,14 +4563,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 28411,
-          "noVotes": 11035,
-          "totalVotes": 39446,
-          "yesPct": 72.03,
-          "noPct": 27.97,
-          "marginVotes": 17376,
-          "marginPct": 44.06,
-          "pollsReporting": 1754,
+          "yesVotes": 28605,
+          "noVotes": 11098,
+          "totalVotes": 39703,
+          "yesPct": 72.05,
+          "noPct": 27.95,
+          "marginVotes": 17507,
+          "marginPct": 44.1,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -4853,9 +4853,9 @@
           "marginVotes": 147,
           "marginPct": 2.14,
           "leader": "YES",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -5285,9 +5285,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -5413,9 +5413,9 @@
           "marginVotes": 673,
           "marginPct": 44.96,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -5517,17 +5517,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 9334,
-          "noVotes": 2858,
-          "totalVotes": 12192,
-          "yesPct": 76.56,
-          "noPct": 23.44,
-          "marginVotes": 6476,
-          "marginPct": 53.12,
+          "yesVotes": 9439,
+          "noVotes": 2886,
+          "totalVotes": 12325,
+          "yesPct": 76.58,
+          "noPct": 23.42,
+          "marginVotes": 6553,
+          "marginPct": 53.16,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -5637,9 +5637,9 @@
           "marginVotes": 226,
           "marginPct": 40.8,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -5701,9 +5701,9 @@
           "marginVotes": 3201,
           "marginPct": 24.62,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -5757,17 +5757,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 11326,
-          "noVotes": 5276,
-          "totalVotes": 16602,
-          "yesPct": 68.22,
-          "noPct": 31.78,
-          "marginVotes": 6050,
-          "marginPct": 36.44,
+          "yesVotes": 11415,
+          "noVotes": 5311,
+          "totalVotes": 16726,
+          "yesPct": 68.25,
+          "noPct": 31.75,
+          "marginVotes": 6104,
+          "marginPct": 36.5,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -5845,9 +5845,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -5893,9 +5893,9 @@
           "marginVotes": 350,
           "marginPct": 6.56,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -6000,13 +6000,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 82955,
-      "noVotes": 55202,
-      "totalVotes": 138157,
-      "yesPct": 60.04,
-      "noPct": 39.96,
-      "marginVotes": 27753,
-      "marginPct": 20.08,
+      "yesVotes": 83319,
+      "noVotes": 55265,
+      "totalVotes": 138584,
+      "yesPct": 60.12,
+      "noPct": 39.88,
+      "marginVotes": 28054,
+      "marginPct": 20.24,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6026,12 +6026,12 @@
           "noPct": 59.72
         },
         "Regional / Other": {
-          "yes": 51992,
-          "no": 19279,
-          "total": 71271,
+          "yes": 52356,
+          "no": 19342,
+          "total": 71698,
           "wards": 41,
-          "yesPct": 72.95,
-          "noPct": 27.05
+          "yesPct": 73.02,
+          "noPct": 26.98
         }
       },
       "votingMethods": [
@@ -6051,14 +6051,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 27910,
-          "noVotes": 7976,
-          "totalVotes": 35886,
-          "yesPct": 77.77,
-          "noPct": 22.23,
-          "marginVotes": 19934,
-          "marginPct": 55.54,
-          "pollsReporting": 1754,
+          "yesVotes": 28274,
+          "noVotes": 8039,
+          "totalVotes": 36313,
+          "yesPct": 77.86,
+          "noPct": 22.14,
+          "marginVotes": 20235,
+          "marginPct": 55.72,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -6341,9 +6341,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -6773,9 +6773,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -6901,9 +6901,9 @@
           "marginVotes": 824,
           "marginPct": 57.38,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -7005,17 +7005,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 6861,
-          "noVotes": 1309,
-          "totalVotes": 8170,
-          "yesPct": 83.98,
-          "noPct": 16.02,
-          "marginVotes": 5552,
-          "marginPct": 67.96,
+          "yesVotes": 6971,
+          "noVotes": 1334,
+          "totalVotes": 8305,
+          "yesPct": 83.94,
+          "noPct": 16.06,
+          "marginVotes": 5637,
+          "marginPct": 67.88,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -7125,9 +7125,9 @@
           "marginVotes": 303,
           "marginPct": 54.4,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -7189,9 +7189,9 @@
           "marginVotes": 8,
           "marginPct": 66.66,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -7245,17 +7245,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 5096,
-          "noVotes": 1959,
-          "totalVotes": 7055,
-          "yesPct": 72.23,
-          "noPct": 27.77,
-          "marginVotes": 3137,
-          "marginPct": 44.46,
+          "yesVotes": 5200,
+          "noVotes": 1979,
+          "totalVotes": 7179,
+          "yesPct": 72.43,
+          "noPct": 27.57,
+          "marginVotes": 3221,
+          "marginPct": 44.86,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -7277,13 +7277,13 @@
           "ward": "75",
           "wardName": "75 - Morinville-St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 650,
-          "noVotes": 241,
-          "totalVotes": 891,
-          "yesPct": 72.95,
-          "noPct": 27.05,
-          "marginVotes": 409,
-          "marginPct": 45.9,
+          "yesVotes": 800,
+          "noVotes": 259,
+          "totalVotes": 1059,
+          "yesPct": 75.54,
+          "noPct": 24.46,
+          "marginVotes": 541,
+          "marginPct": 51.08,
           "leader": "YES",
           "pollsReporting": 36,
           "totalPolls": 64,
@@ -7333,9 +7333,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -7381,9 +7381,9 @@
           "marginVotes": 871,
           "marginPct": 16.56,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -7488,13 +7488,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 50345,
-      "noVotes": 55158,
-      "totalVotes": 105503,
-      "yesPct": 47.72,
-      "noPct": 52.28,
-      "marginVotes": -4813,
-      "marginPct": -4.56,
+      "yesVotes": 50529,
+      "noVotes": 55231,
+      "totalVotes": 105760,
+      "yesPct": 47.78,
+      "noPct": 52.22,
+      "marginVotes": -4702,
+      "marginPct": -4.44,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -7514,12 +7514,12 @@
           "noPct": 71.58
         },
         "Regional / Other": {
-          "yes": 32306,
-          "no": 17974,
-          "total": 50280,
+          "yes": 32490,
+          "no": 18047,
+          "total": 50537,
           "wards": 41,
-          "yesPct": 64.25,
-          "noPct": 35.75
+          "yesPct": 64.29,
+          "noPct": 35.71
         }
       },
       "votingMethods": [
@@ -7539,14 +7539,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 23267,
-          "noVotes": 10313,
-          "totalVotes": 33580,
-          "yesPct": 69.29,
-          "noPct": 30.71,
-          "marginVotes": 12954,
-          "marginPct": 38.58,
-          "pollsReporting": 1754,
+          "yesVotes": 23451,
+          "noVotes": 10386,
+          "totalVotes": 33837,
+          "yesPct": 69.31,
+          "noPct": 30.69,
+          "marginVotes": 13065,
+          "marginPct": 38.62,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -7829,9 +7829,9 @@
           "marginVotes": -500,
           "marginPct": -7.3,
           "leader": "NO",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -8261,9 +8261,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -8389,9 +8389,9 @@
           "marginVotes": 638,
           "marginPct": 39.48,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -8493,17 +8493,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 3418,
-          "noVotes": 1212,
-          "totalVotes": 4630,
-          "yesPct": 73.82,
-          "noPct": 26.18,
-          "marginVotes": 2206,
-          "marginPct": 47.64,
+          "yesVotes": 3518,
+          "noVotes": 1245,
+          "totalVotes": 4763,
+          "yesPct": 73.86,
+          "noPct": 26.14,
+          "marginVotes": 2273,
+          "marginPct": 47.72,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -8613,9 +8613,9 @@
           "marginVotes": 177,
           "marginPct": 36.8,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -8677,9 +8677,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "TIED",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -8733,17 +8733,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 3436,
-          "noVotes": 1545,
-          "totalVotes": 4981,
-          "yesPct": 68.98,
-          "noPct": 31.02,
-          "marginVotes": 1891,
-          "marginPct": 37.96,
+          "yesVotes": 3520,
+          "noVotes": 1585,
+          "totalVotes": 5105,
+          "yesPct": 68.95,
+          "noPct": 31.05,
+          "marginVotes": 1935,
+          "marginPct": 37.9,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -8821,9 +8821,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -8869,9 +8869,9 @@
           "marginVotes": -11,
           "marginPct": -28.2,
           "leader": "NO",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -8976,13 +8976,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 60867,
-      "noVotes": 61400,
-      "totalVotes": 122267,
-      "yesPct": 49.78,
-      "noPct": 50.22,
-      "marginVotes": -533,
-      "marginPct": -0.44,
+      "yesVotes": 61122,
+      "noVotes": 61509,
+      "totalVotes": 122631,
+      "yesPct": 49.84,
+      "noPct": 50.16,
+      "marginVotes": -387,
+      "marginPct": -0.32,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -9002,12 +9002,12 @@
           "noPct": 67.15
         },
         "Regional / Other": {
-          "yes": 37216,
-          "no": 20615,
-          "total": 57831,
+          "yes": 37471,
+          "no": 20724,
+          "total": 58195,
           "wards": 41,
-          "yesPct": 64.35,
-          "noPct": 35.65
+          "yesPct": 64.39,
+          "noPct": 35.61
         }
       },
       "votingMethods": [
@@ -9027,14 +9027,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 20250,
-          "noVotes": 9523,
-          "totalVotes": 29773,
-          "yesPct": 68.01,
-          "noPct": 31.99,
-          "marginVotes": 10727,
-          "marginPct": 36.02,
-          "pollsReporting": 1754,
+          "yesVotes": 20505,
+          "noVotes": 9632,
+          "totalVotes": 30137,
+          "yesPct": 68.04,
+          "noPct": 31.96,
+          "marginVotes": 10873,
+          "marginPct": 36.08,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -9317,9 +9317,9 @@
           "marginVotes": -288,
           "marginPct": -4.2,
           "leader": "NO",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -9749,9 +9749,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -9877,9 +9877,9 @@
           "marginVotes": 442,
           "marginPct": 38.16,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -9981,17 +9981,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 2520,
-          "noVotes": 700,
-          "totalVotes": 3220,
-          "yesPct": 78.26,
-          "noPct": 21.74,
-          "marginVotes": 1820,
-          "marginPct": 56.52,
+          "yesVotes": 2626,
+          "noVotes": 728,
+          "totalVotes": 3354,
+          "yesPct": 78.29,
+          "noPct": 21.71,
+          "marginVotes": 1898,
+          "marginPct": 56.58,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -10101,9 +10101,9 @@
           "marginVotes": 139,
           "marginPct": 32.7,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -10165,9 +10165,9 @@
           "marginVotes": 8,
           "marginPct": 57.14,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -10189,13 +10189,13 @@
           "ward": "71",
           "wardName": "71 - Lethbridge-East",
           "region": "Regional / Other",
-          "yesVotes": 802,
-          "noVotes": 654,
-          "totalVotes": 1456,
-          "yesPct": 55.08,
-          "noPct": 44.92,
-          "marginVotes": 148,
-          "marginPct": 10.16,
+          "yesVotes": 863,
+          "noVotes": 699,
+          "totalVotes": 1562,
+          "yesPct": 55.25,
+          "noPct": 44.75,
+          "marginVotes": 164,
+          "marginPct": 10.5,
           "leader": "YES",
           "pollsReporting": 60,
           "totalPolls": 69,
@@ -10221,17 +10221,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 4583,
-          "noVotes": 2490,
-          "totalVotes": 7073,
-          "yesPct": 64.8,
-          "noPct": 35.2,
-          "marginVotes": 2093,
-          "marginPct": 29.6,
+          "yesVotes": 4671,
+          "noVotes": 2526,
+          "totalVotes": 7197,
+          "yesPct": 64.9,
+          "noPct": 35.1,
+          "marginVotes": 2145,
+          "marginPct": 29.8,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -10309,9 +10309,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -10357,9 +10357,9 @@
           "marginVotes": -7,
           "marginPct": -17.94,
           "leader": "NO",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -10464,13 +10464,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 48318,
-      "noVotes": 58334,
-      "totalVotes": 106652,
-      "yesPct": 45.3,
-      "noPct": 54.7,
-      "marginVotes": -10016,
-      "marginPct": -9.4,
+      "yesVotes": 48550,
+      "noVotes": 58463,
+      "totalVotes": 107013,
+      "yesPct": 45.37,
+      "noPct": 54.63,
+      "marginVotes": -9913,
+      "marginPct": -9.26,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10490,12 +10490,12 @@
           "noPct": 72.38
         },
         "Regional / Other": {
-          "yes": 32513,
-          "no": 22093,
-          "total": 54606,
+          "yes": 32745,
+          "no": 22222,
+          "total": 54967,
           "wards": 41,
-          "yesPct": 59.54,
-          "noPct": 40.46
+          "yesPct": 59.57,
+          "noPct": 40.43
         }
       },
       "votingMethods": [
@@ -10515,14 +10515,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 21019,
-          "noVotes": 11534,
-          "totalVotes": 32553,
+          "yesVotes": 21251,
+          "noVotes": 11663,
+          "totalVotes": 32914,
           "yesPct": 64.57,
           "noPct": 35.43,
-          "marginVotes": 9485,
+          "marginVotes": 9588,
           "marginPct": 29.14,
-          "pollsReporting": 1754,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -10805,9 +10805,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -11237,9 +11237,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -11365,9 +11365,9 @@
           "marginVotes": 579,
           "marginPct": 35.8,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -11469,17 +11469,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 2806,
-          "noVotes": 984,
-          "totalVotes": 3790,
-          "yesPct": 74.04,
-          "noPct": 25.96,
-          "marginVotes": 1822,
-          "marginPct": 48.08,
+          "yesVotes": 2903,
+          "noVotes": 1020,
+          "totalVotes": 3923,
+          "yesPct": 74.0,
+          "noPct": 26.0,
+          "marginVotes": 1883,
+          "marginPct": 48.0,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -11589,9 +11589,9 @@
           "marginVotes": 112,
           "marginPct": 26.42,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -11653,9 +11653,9 @@
           "marginVotes": -1,
           "marginPct": -9.1,
           "leader": "NO",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -11677,13 +11677,13 @@
           "ward": "71",
           "wardName": "71 - Lethbridge-East",
           "region": "Regional / Other",
-          "yesVotes": 865,
-          "noVotes": 939,
-          "totalVotes": 1804,
-          "yesPct": 47.95,
-          "noPct": 52.05,
-          "marginVotes": -74,
-          "marginPct": -4.1,
+          "yesVotes": 918,
+          "noVotes": 990,
+          "totalVotes": 1908,
+          "yesPct": 48.11,
+          "noPct": 51.89,
+          "marginVotes": -72,
+          "marginPct": -3.78,
           "leader": "NO",
           "pollsReporting": 60,
           "totalPolls": 69,
@@ -11709,17 +11709,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 2275,
-          "noVotes": 1238,
-          "totalVotes": 3513,
-          "yesPct": 64.76,
-          "noPct": 35.24,
-          "marginVotes": 1037,
-          "marginPct": 29.52,
+          "yesVotes": 2357,
+          "noVotes": 1280,
+          "totalVotes": 3637,
+          "yesPct": 64.81,
+          "noPct": 35.19,
+          "marginVotes": 1077,
+          "marginPct": 29.62,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -11797,9 +11797,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -11845,9 +11845,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -11952,22 +11952,22 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 64507,
-      "noVotes": 72348,
-      "totalVotes": 136855,
-      "yesPct": 47.14,
-      "noPct": 52.86,
-      "marginVotes": -7841,
-      "marginPct": -5.72,
+      "yesVotes": 64861,
+      "noVotes": 72623,
+      "totalVotes": 137484,
+      "yesPct": 47.18,
+      "noPct": 52.82,
+      "marginVotes": -7762,
+      "marginPct": -5.64,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 9740,
-          "no": 16309,
-          "total": 26049,
+          "yes": 9821,
+          "no": 16378,
+          "total": 26199,
           "wards": 26,
-          "yesPct": 37.39,
-          "noPct": 62.61
+          "yesPct": 37.49,
+          "noPct": 62.51
         },
         "Edmonton": {
           "yes": 11261,
@@ -11978,12 +11978,12 @@
           "noPct": 69.61
         },
         "Regional / Other": {
-          "yes": 43506,
-          "no": 30240,
-          "total": 73746,
+          "yes": 43779,
+          "no": 30446,
+          "total": 74225,
           "wards": 41,
-          "yesPct": 58.99,
-          "noPct": 41.01
+          "yesPct": 58.98,
+          "noPct": 41.02
         }
       },
       "votingMethods": [
@@ -12003,14 +12003,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 22964,
-          "noVotes": 11976,
-          "totalVotes": 34940,
-          "yesPct": 65.72,
-          "noPct": 34.28,
-          "marginVotes": 10988,
-          "marginPct": 31.44,
-          "pollsReporting": 1754,
+          "yesVotes": 23300,
+          "noVotes": 12233,
+          "totalVotes": 35533,
+          "yesPct": 65.57,
+          "noPct": 34.43,
+          "marginVotes": 11067,
+          "marginPct": 31.14,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -12029,13 +12029,13 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 2248,
-          "noVotes": 2393,
-          "totalVotes": 4641,
-          "yesPct": 48.44,
-          "noPct": 51.56,
+          "yesVotes": 2266,
+          "noVotes": 2411,
+          "totalVotes": 4677,
+          "yesPct": 48.45,
+          "noPct": 51.55,
           "marginVotes": -145,
-          "marginPct": -3.12,
+          "marginPct": -3.1,
           "pollsReporting": 97,
           "totalPolls": 327
         }
@@ -12269,13 +12269,13 @@
           "ward": "15",
           "wardName": "15 - Calgary-Klein",
           "region": "Calgary",
-          "yesVotes": 700,
-          "noVotes": 790,
-          "totalVotes": 1490,
-          "yesPct": 46.98,
-          "noPct": 53.02,
-          "marginVotes": -90,
-          "marginPct": -6.04,
+          "yesVotes": 781,
+          "noVotes": 859,
+          "totalVotes": 1640,
+          "yesPct": 47.62,
+          "noPct": 52.38,
+          "marginVotes": -78,
+          "marginPct": -4.76,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 53,
@@ -12293,9 +12293,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -12725,9 +12725,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -12853,9 +12853,9 @@
           "marginVotes": 705,
           "marginPct": 43.88,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -12957,17 +12957,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 3248,
-          "noVotes": 1003,
-          "totalVotes": 4251,
-          "yesPct": 76.41,
-          "noPct": 23.59,
-          "marginVotes": 2245,
-          "marginPct": 52.82,
+          "yesVotes": 3346,
+          "noVotes": 1038,
+          "totalVotes": 4384,
+          "yesPct": 76.32,
+          "noPct": 23.68,
+          "marginVotes": 2308,
+          "marginPct": 52.64,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -13077,9 +13077,9 @@
           "marginVotes": 201,
           "marginPct": 29.86,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -13117,13 +13117,13 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 4688,
-          "noVotes": 3035,
-          "totalVotes": 7723,
-          "yesPct": 60.7,
-          "noPct": 39.3,
+          "yesVotes": 4706,
+          "noVotes": 3053,
+          "totalVotes": 7759,
+          "yesPct": 60.65,
+          "noPct": 39.35,
           "marginVotes": 1653,
-          "marginPct": 21.4,
+          "marginPct": 21.3,
           "leader": "YES",
           "pollsReporting": 64,
           "totalPolls": 72,
@@ -13141,9 +13141,9 @@
           "marginVotes": 7,
           "marginPct": 63.64,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -13165,13 +13165,13 @@
           "ward": "71",
           "wardName": "71 - Lethbridge-East",
           "region": "Regional / Other",
-          "yesVotes": 972,
-          "noVotes": 841,
-          "totalVotes": 1813,
-          "yesPct": 53.61,
-          "noPct": 46.39,
-          "marginVotes": 131,
-          "marginPct": 7.22,
+          "yesVotes": 1034,
+          "noVotes": 884,
+          "totalVotes": 1918,
+          "yesPct": 53.91,
+          "noPct": 46.09,
+          "marginVotes": 150,
+          "marginPct": 7.82,
           "leader": "YES",
           "pollsReporting": 60,
           "totalPolls": 69,
@@ -13197,17 +13197,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 2400,
-          "noVotes": 1195,
-          "totalVotes": 3595,
-          "yesPct": 66.76,
-          "noPct": 33.24,
-          "marginVotes": 1205,
-          "marginPct": 33.52,
+          "yesVotes": 2489,
+          "noVotes": 1230,
+          "totalVotes": 3719,
+          "yesPct": 66.93,
+          "noPct": 33.07,
+          "marginVotes": 1259,
+          "marginPct": 33.86,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -13261,13 +13261,13 @@
           "ward": "77",
           "wardName": "77 - Peace River",
           "region": "Regional / Other",
-          "yesVotes": 742,
-          "noVotes": 430,
-          "totalVotes": 1172,
-          "yesPct": 63.31,
-          "noPct": 36.69,
-          "marginVotes": 312,
-          "marginPct": 26.62,
+          "yesVotes": 748,
+          "noVotes": 505,
+          "totalVotes": 1253,
+          "yesPct": 59.7,
+          "noPct": 40.3,
+          "marginVotes": 243,
+          "marginPct": 19.4,
           "leader": "YES",
           "pollsReporting": 45,
           "totalPolls": 69,
@@ -13285,9 +13285,9 @@
           "marginVotes": 0,
           "marginPct": 0.0,
           "leader": "Awaiting",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -13333,9 +13333,9 @@
           "marginVotes": 14,
           "marginPct": 8.98,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
@@ -13440,19 +13440,19 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 956651,
-      "noVotes": 295738,
-      "totalVotes": 1252389,
-      "yesPct": 76.39,
-      "noPct": 23.61,
-      "marginVotes": 660913,
-      "marginPct": 52.78,
+      "yesVotes": 957485,
+      "noVotes": 296529,
+      "totalVotes": 1254014,
+      "yesPct": 76.35,
+      "noPct": 23.65,
+      "marginVotes": 660956,
+      "marginPct": 52.7,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 330022,
-          "no": 66102,
-          "total": 396124,
+          "yes": 330100,
+          "no": 66136,
+          "total": 396236,
           "wards": 26,
           "yesPct": 83.31,
           "noPct": 16.69
@@ -13466,12 +13466,12 @@
           "noPct": 11.59
         },
         "Regional / Other": {
-          "yes": 406703,
-          "no": 200808,
-          "total": 607511,
+          "yes": 407459,
+          "no": 201565,
+          "total": 609024,
           "wards": 41,
-          "yesPct": 66.95,
-          "noPct": 33.05
+          "yesPct": 66.9,
+          "noPct": 33.1
         }
       },
       "votingMethods": [
@@ -13491,14 +13491,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 146247,
-          "noVotes": 89094,
-          "totalVotes": 235341,
-          "yesPct": 62.14,
-          "noPct": 37.86,
-          "marginVotes": 57153,
-          "marginPct": 24.28,
-          "pollsReporting": 1754,
+          "yesVotes": 147081,
+          "noVotes": 89885,
+          "totalVotes": 236966,
+          "yesPct": 62.07,
+          "noPct": 37.93,
+          "marginVotes": 57196,
+          "marginPct": 24.14,
+          "pollsReporting": 1767,
           "totalPolls": 4904
         },
         {
@@ -13773,17 +13773,17 @@
           "ward": "16",
           "wardName": "16 - Calgary-Lougheed",
           "region": "Calgary",
-          "yesVotes": 10116,
-          "noVotes": 2288,
-          "totalVotes": 12404,
-          "yesPct": 81.55,
-          "noPct": 18.45,
-          "marginVotes": 7828,
-          "marginPct": 63.1,
+          "yesVotes": 10194,
+          "noVotes": 2322,
+          "totalVotes": 12516,
+          "yesPct": 81.45,
+          "noPct": 18.55,
+          "marginVotes": 7872,
+          "marginPct": 62.9,
           "leader": "YES",
-          "pollsReporting": 2,
+          "pollsReporting": 3,
           "totalPolls": 46,
-          "pollsPct": 4.3
+          "pollsPct": 6.5
         },
         {
           "ward": "17",
@@ -14213,9 +14213,9 @@
           "marginVotes": 8514,
           "marginPct": 82.38,
           "leader": "YES",
-          "pollsReporting": 7,
+          "pollsReporting": 9,
           "totalPolls": 76,
-          "pollsPct": 9.2
+          "pollsPct": 11.8
         },
         {
           "ward": "44",
@@ -14333,17 +14333,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 4910,
-          "noVotes": 2482,
-          "totalVotes": 7392,
-          "yesPct": 66.42,
-          "noPct": 33.58,
-          "marginVotes": 2428,
-          "marginPct": 32.84,
+          "yesVotes": 5075,
+          "noVotes": 2838,
+          "totalVotes": 7913,
+          "yesPct": 64.13,
+          "noPct": 35.87,
+          "marginVotes": 2237,
+          "marginPct": 28.26,
           "leader": "YES",
-          "pollsReporting": 19,
+          "pollsReporting": 21,
           "totalPolls": 74,
-          "pollsPct": 25.7
+          "pollsPct": 28.4
         },
         {
           "ward": "52",
@@ -14445,17 +14445,17 @@
           "ward": "58",
           "wardName": "58 - Drayton Valley-Devon",
           "region": "Regional / Other",
-          "yesVotes": 12003,
-          "noVotes": 9882,
-          "totalVotes": 21885,
-          "yesPct": 54.85,
-          "noPct": 45.15,
-          "marginVotes": 2121,
-          "marginPct": 9.7,
+          "yesVotes": 12066,
+          "noVotes": 9954,
+          "totalVotes": 22020,
+          "yesPct": 54.8,
+          "noPct": 45.2,
+          "marginVotes": 2112,
+          "marginPct": 9.6,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 68,
-          "pollsPct": 77.9
+          "pollsPct": 79.4
         },
         {
           "ward": "59",
@@ -14557,17 +14557,17 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 9352,
-          "noVotes": 3678,
-          "totalVotes": 13030,
-          "yesPct": 71.77,
-          "noPct": 28.23,
-          "marginVotes": 5674,
-          "marginPct": 43.54,
+          "yesVotes": 9450,
+          "noVotes": 3755,
+          "totalVotes": 13205,
+          "yesPct": 71.56,
+          "noPct": 28.44,
+          "marginVotes": 5695,
+          "marginPct": 43.12,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 45,
           "totalPolls": 112,
-          "pollsPct": 38.4
+          "pollsPct": 40.2
         },
         {
           "ward": "66",
@@ -14621,17 +14621,17 @@
           "ward": "69",
           "wardName": "69 - Leduc-Beaumont",
           "region": "Regional / Other",
-          "yesVotes": 9003,
-          "noVotes": 4295,
-          "totalVotes": 13298,
-          "yesPct": 67.7,
-          "noPct": 32.3,
-          "marginVotes": 4708,
-          "marginPct": 35.4,
+          "yesVotes": 9053,
+          "noVotes": 4336,
+          "totalVotes": 13389,
+          "yesPct": 67.62,
+          "noPct": 32.38,
+          "marginVotes": 4717,
+          "marginPct": 35.24,
           "leader": "YES",
-          "pollsReporting": 8,
+          "pollsReporting": 9,
           "totalPolls": 68,
-          "pollsPct": 11.8
+          "pollsPct": 13.2
         },
         {
           "ward": "70",
@@ -14685,17 +14685,17 @@
           "ward": "73",
           "wardName": "73 - Livingstone-Macleod",
           "region": "Regional / Other",
-          "yesVotes": 15599,
-          "noVotes": 9269,
-          "totalVotes": 24868,
-          "yesPct": 62.73,
-          "noPct": 37.27,
-          "marginVotes": 6330,
-          "marginPct": 25.46,
+          "yesVotes": 15669,
+          "noVotes": 9322,
+          "totalVotes": 24991,
+          "yesPct": 62.7,
+          "noPct": 37.3,
+          "marginVotes": 6347,
+          "marginPct": 25.4,
           "leader": "YES",
-          "pollsReporting": 62,
+          "pollsReporting": 63,
           "totalPolls": 94,
-          "pollsPct": 66.0
+          "pollsPct": 67.0
         },
         {
           "ward": "74",
@@ -14765,17 +14765,17 @@
           "ward": "78",
           "wardName": "78 - Red Deer-North",
           "region": "Regional / Other",
-          "yesVotes": 12115,
-          "noVotes": 4989,
-          "totalVotes": 17104,
-          "yesPct": 70.83,
-          "noPct": 29.17,
-          "marginVotes": 7126,
-          "marginPct": 41.66,
+          "yesVotes": 12312,
+          "noVotes": 5097,
+          "totalVotes": 17409,
+          "yesPct": 70.72,
+          "noPct": 29.28,
+          "marginVotes": 7215,
+          "marginPct": 41.44,
           "leader": "YES",
-          "pollsReporting": 25,
+          "pollsReporting": 27,
           "totalPolls": 64,
-          "pollsPct": 39.1
+          "pollsPct": 42.2
         },
         {
           "ward": "79",
@@ -14813,17 +14813,17 @@
           "ward": "81",
           "wardName": "81 - Sherwood Park",
           "region": "Regional / Other",
-          "yesVotes": 14438,
-          "noVotes": 4806,
-          "totalVotes": 19244,
-          "yesPct": 75.03,
-          "noPct": 24.97,
-          "marginVotes": 9632,
-          "marginPct": 50.06,
+          "yesVotes": 14551,
+          "noVotes": 4856,
+          "totalVotes": 19407,
+          "yesPct": 74.98,
+          "noPct": 25.02,
+          "marginVotes": 9695,
+          "marginPct": 49.96,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 61,
-          "pollsPct": 86.9
+          "pollsPct": 88.5
         },
         {
           "ward": "82",
