@@ -10,6 +10,7 @@ import csv
 import json
 import logging
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -22,7 +23,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 METADATA_FILE = os.path.join(BASE_DIR, "metadata.json")
 
 EAB_DATA_URL = "https://results.elections.ab.ca/data/8400"
-API_VERSION = "3.0.0"
+CURRENT_VERSION = "3.1.0"
 QUESTION_IDS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11]
 
 # Short question titles for compact display and CSVs
@@ -76,13 +77,34 @@ def load_metadata():
 METADATA = load_metadata()
 WARD_LOOKUP = {w["ward"]: w["wardName"] for w in METADATA.get("wards", [])}
 
+def get_latest_version(session=None):
+    """
+    Fetches the Elections Alberta HTML landing page to auto-detect the active API version.
+    """
+    global CURRENT_VERSION
+    try:
+        s = session or requests.Session()
+        resp = s.get("https://results.elections.ab.ca/8400", headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        }, timeout=10)
+        if resp.status_code == 200:
+            m = re.search(r"version:\s*['\"]([^'\"]+)['\"]", resp.text)
+            if m:
+                new_ver = m.group(1)
+                if new_ver != CURRENT_VERSION:
+                    logger.info(f"Auto-detected updated API version from portal: {new_ver} (was {CURRENT_VERSION})")
+                    CURRENT_VERSION = new_ver
+                return CURRENT_VERSION
+    except Exception as e:
+        logger.warning(f"Could not auto-detect API version from HTML: {e}")
+    return CURRENT_VERSION
+
 def fetch_api_data(questions=None, wards=None, timeout=15):
     """
-    Fetches raw JSON from Elections Alberta API with robust headers and retry mechanism.
+    Fetches raw JSON from Elections Alberta API with auto-version detection and retry mechanism.
     """
-    params = {
-        "version": API_VERSION
-    }
+    global CURRENT_VERSION
+    params = {}
     if questions:
         params["questions"] = ",".join(str(q) for q in questions)
     else:
@@ -102,10 +124,22 @@ def fetch_api_data(questions=None, wards=None, timeout=15):
     session = requests.Session()
     for attempt in range(1, 4):
         try:
+            params["version"] = CURRENT_VERSION
             resp = session.get(EAB_DATA_URL, params=params, headers=headers, timeout=timeout)
             if resp.status_code == 200:
                 data = resp.json()
-                if data.get("success"):
+                if data.get("forceFullRefresh"):
+                    logger.warning("Elections Alberta returned forceFullRefresh=true. Refreshing version from portal...")
+                    CURRENT_VERSION = get_latest_version(session)
+                    params["version"] = CURRENT_VERSION
+                    time.sleep(1)
+                    # Retry immediately with detected version
+                    retry_resp = session.get(EAB_DATA_URL, params=params, headers=headers, timeout=timeout)
+                    if retry_resp.status_code == 200:
+                        retry_data = retry_resp.json()
+                        if retry_data.get("success"):
+                            return retry_data
+                elif data.get("success"):
                     return data
                 else:
                     logger.warning(f"API returned success=false on attempt {attempt}")
