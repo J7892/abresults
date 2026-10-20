@@ -122,7 +122,7 @@
           </h2>
           <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
             The official Elections Alberta portal presents each referendum question in isolation. This experimental dashboard analyzes 
-            <strong>cross-question alignment, the urban-rural divide, historical ballot arrival trajectories, and polling station polarization</strong> across 87 electoral divisions and over 2,200 reporting stations.
+            <strong>cross-question ideological alignment and the urban-rural divide</strong> across 87 electoral divisions.
           </p>
         </div>
 
@@ -278,101 +278,6 @@
       </div>
     </section>
 
-    <!-- SECTION 3: TIME-SERIES VOTE COUNTING TRAJECTORY -->
-    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-5 transition-colors">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
-        <div>
-          <div class="flex items-center space-x-2">
-            <i data-lucide="trending-up" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">3. Counting Trajectory & Timeline Progression</h3>
-          </div>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Tracking Question 10 (Separation) margin evolution across historical check-in snapshots as polls reported.
-          </p>
-        </div>
-        <div class="flex items-center space-x-2">
-          <span class="text-xs text-slate-500 dark:text-slate-400 font-medium" id="trajectory-snapshots-count">0 Snapshots</span>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <!-- Margin Trajectory Line Chart (2 cols) -->
-        <div class="lg:col-span-2">
-          <div class="flex items-center justify-between mb-2">
-            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">Option 1 vs Option 2 % Progression</span>
-            <div class="flex items-center space-x-3 text-xs">
-              <span class="flex items-center text-emerald-600 dark:text-emerald-400 font-semibold"><span class="w-2 h-2 bg-emerald-500 rounded-full mr-1.5"></span> Option 1 (Remain)</span>
-              <span class="flex items-center text-red-600 dark:text-red-400 font-semibold"><span class="w-2 h-2 bg-red-500 rounded-full mr-1.5"></span> Option 2 (Separation)</span>
-            </div>
-          </div>
-          <div class="h-64 sm:h-72 w-full relative">
-            <canvas id="timelineChart"></canvas>
-          </div>
-        </div>
-
-        <!-- Cumulative Votes & Reporting Speed (1 col) -->
-        <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4 flex flex-col justify-between">
-          <div>
-            <span class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider block mb-2">Cumulative Ballots Counted</span>
-            <div class="h-52 w-full relative">
-              <canvas id="velocityChart"></canvas>
-            </div>
-          </div>
-          <div class="pt-3 border-t border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 dark:text-slate-400 flex justify-between">
-            <span>First Count: <strong id="traj-first-time">-</strong></span>
-            <span>Latest: <strong id="traj-latest-time">-</strong></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 4: POLLING STATION POLARIZATION & MARGIN DISTRIBUTION -->
-    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-5 transition-colors">
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 dark:border-slate-800 pb-4">
-        <div>
-          <div class="flex items-center space-x-2">
-            <i data-lucide="bar-chart-2" class="w-4 h-4 text-blue-600 dark:text-blue-400"></i>
-            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">4. Polling Station Polarization (Margin Distribution)</h3>
-          </div>
-          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Frequency distribution of reporting voting stations by Option 1 / Yes % bracket. Reveals whether returns are polarized or consensus.
-          </p>
-        </div>
-        <div class="flex items-center space-x-2">
-          <label for="hist-question-select" class="text-xs text-slate-500 dark:text-slate-400 font-medium">Question:</label>
-          <select id="hist-question-select" class="bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
-            <!-- Populated via JS -->
-          </select>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-        <!-- Histogram Bar Chart -->
-        <div class="lg:col-span-2 h-64 sm:h-72 w-full relative">
-          <canvas id="histogramChart"></canvas>
-        </div>
-
-        <!-- Polarization Index & Stat Cards -->
-        <div class="space-y-3">
-          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
-            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">Modal Distribution Peak</span>
-            <div class="text-xl font-black text-slate-900 dark:text-white" id="hist-peak-bracket">70% – 80% Bracket</div>
-            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" id="hist-peak-desc">
-              The highest density of individual voting stations across Alberta voted in the 70%–80% Option 1 bracket.
-            </p>
-          </div>
-
-          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
-            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-wider block mb-1">Landslide Consensus Ratio</span>
-            <div class="text-xl font-black text-emerald-600 dark:text-emerald-400" id="hist-landslide-stat">&gt; 79% of Polls</div>
-            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
-              Stations where Option 1 (Remain) won by absolute majority (&gt;50%).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <!-- FOOTER -->
@@ -392,18 +297,13 @@
   <!-- JAVASCRIPT LOGIC -->
   <script>
     let currentData = null;
-    let historyData = [];
     let timerCountdown = 30;
 
     let urbanRuralChartInstance = null;
     let scatterChartInstance = null;
-    let timelineChartInstance = null;
-    let velocityChartInstance = null;
-    let histogramChartInstance = null;
 
     let activeScatterX = 1;
     let activeScatterY = 10;
-    let activeHistQ = 10;
 
     // --- THEME MANAGEMENT ---
     function getSystemTheme() {
@@ -429,12 +329,12 @@
         }
       });
 
-      // Update all chart themes
+      // Update chart themes
       const isDark = document.documentElement.classList.contains('dark');
       const textColor = isDark ? '#94a3b8' : '#475569';
       const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
 
-      [urbanRuralChartInstance, scatterChartInstance, timelineChartInstance, velocityChartInstance, histogramChartInstance].forEach(inst => {
+      [urbanRuralChartInstance, scatterChartInstance].forEach(inst => {
         if (inst) {
           if (inst.options.plugins?.legend?.labels) inst.options.plugins.legend.labels.color = textColor;
           if (inst.options.scales?.x?.ticks) inst.options.scales.x.ticks.color = textColor;
@@ -457,23 +357,10 @@
       if (icon) icon.classList.add('animate-spin');
 
       try {
-        const [latestResp, histResp] = await Promise.all([
-          fetch(`data/latest.json?t=${Date.now()}`),
-          fetch(`data/history.jsonl?t=${Date.now()}`)
-        ]);
-
-        if (latestResp.ok) {
-          currentData = await latestResp.json();
+        const resp = await fetch(`data/latest.json?t=${Date.now()}`);
+        if (resp.ok) {
+          currentData = await resp.json();
           renderLatestInsights(currentData);
-        }
-
-        if (histResp.ok) {
-          const text = await histResp.text();
-          historyData = text.trim().split('\n').filter(Boolean).map(line => {
-            try { return JSON.parse(line); } catch(e) { return null; }
-          }).filter(Boolean);
-
-          renderTimelineInsights(historyData);
         }
       } catch (err) {
         console.error('Error fetching data for deepdive:', err);
@@ -845,245 +732,6 @@
       }
     }
 
-    // --- SECTION 3: TIMELINE PROGRESSION ---
-    function renderTimelineInsights(history) {
-      if (!history || history.length === 0) return;
-
-      document.getElementById('trajectory-snapshots-count').textContent = `${history.length} Snapshots`;
-
-      const labels = [];
-      const yesPctData = [];
-      const noPctData = [];
-      const votesData = [];
-
-      history.forEach((h, idx) => {
-        let label = `#${idx + 1}`;
-        if (h.timestamp) {
-          const d = new Date(h.timestamp);
-          label = d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        }
-        labels.push(label);
-
-        const q10 = h.questions?.Q10 || {};
-        yesPctData.push(q10.yesPct || 0);
-        noPctData.push(q10.noPct || 0);
-        votesData.push(h.totalVotes || 0);
-      });
-
-      if (history[0].timestamp) {
-        document.getElementById('traj-first-time').textContent = new Date(history[0].timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-        document.getElementById('traj-latest-time').textContent = new Date(history[history.length - 1].timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-      }
-
-      const isDark = document.documentElement.classList.contains('dark');
-      const textColor = isDark ? '#94a3b8' : '#475569';
-      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
-
-      // Timeline Margin Line Chart
-      const ctxLine = document.getElementById('timelineChart');
-      if (ctxLine) {
-        if (timelineChartInstance) {
-          timelineChartInstance.data.labels = labels;
-          timelineChartInstance.data.datasets[0].data = yesPctData;
-          timelineChartInstance.data.datasets[1].data = noPctData;
-          timelineChartInstance.update();
-        } else {
-          timelineChartInstance = new Chart(ctxLine, {
-            type: 'line',
-            data: {
-              labels: labels,
-              datasets: [
-                {
-                  label: 'Option 1 (Remain) %',
-                  data: yesPctData,
-                  borderColor: 'rgba(16, 185, 129, 1)',
-                  backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                  borderWidth: 2.5,
-                  tension: 0.3,
-                  pointRadius: history.length > 40 ? 0 : 2
-                },
-                {
-                  label: 'Option 2 (Separation) %',
-                  data: noPctData,
-                  borderColor: 'rgba(239, 68, 68, 1)',
-                  backgroundColor: 'rgba(239, 68, 68, 0.1)',
-                  borderWidth: 2.5,
-                  tension: 0.3,
-                  pointRadius: history.length > 40 ? 0 : 2
-                }
-              ]
-            },
-            options: {
-              responsive: true,
-              maintainAspectRatio: false,
-              plugins: {
-                legend: { display: false }
-              },
-              scales: {
-                x: {
-                  ticks: { color: textColor, font: { size: 10 }, maxTicksLimit: 12 },
-                  grid: { display: false }
-                },
-                y: {
-                  min: 0,
-                  max: 100,
-                  ticks: { color: textColor, callback: v => v + '%', font: { size: 10 } },
-                  grid: { color: gridColor }
-                }
-              }
-            }
-          });
-        }
-      }
-
-      // Velocity Area Chart
-      const ctxVel = document.getElementById('velocityChart');
-      if (ctxVel) {
-        if (velocityChartInstance) {
-          velocityChartInstance.data.labels = labels;
-          velocityChartInstance.data.datasets[0].data = votesData;
-          velocityChartInstance.update();
-        } else {
-          velocityChartInstance = new Chart(ctxVel, {
-            type: 'line',
-            data: {
-              labels: labels,
-              datasets: [{
-                label: 'Cumulative Ballots',
-                data: votesData,
-                borderColor: 'rgba(99, 102, 241, 1)',
-                backgroundColor: 'rgba(99, 102, 241, 0.15)',
-                borderWidth: 2,
-                fill: true,
-                tension: 0.3,
-                pointRadius: 0
-              }]
-            },
-            options: {
-              responsive: true,
-              maintainAspectRatio: false,
-              plugins: { legend: { display: false } },
-              scales: {
-                x: { display: false },
-                y: {
-                  ticks: { color: textColor, font: { size: 9 }, callback: v => (v / 1e6).toFixed(1) + 'M' },
-                  grid: { color: gridColor }
-                }
-              }
-            }
-          });
-        }
-      }
-    }
-
-    // --- SECTION 4: HISTOGRAM ---
-    function renderHistogram(questions) {
-      const sel = document.getElementById('hist-question-select');
-      if (sel.options.length === 0) {
-        questions.forEach(q => {
-          const opt = document.createElement('option');
-          opt.value = q.questionNumber;
-          opt.textContent = `Q${q.questionNumber}: ${q.title.substring(0, 30)}`;
-          if (q.questionNumber === activeHistQ) opt.selected = true;
-          sel.appendChild(opt);
-        });
-
-        sel.onchange = () => {
-          activeHistQ = parseInt(sel.value);
-          updateHistogramChart();
-        };
-      }
-
-      updateHistogramChart();
-    }
-
-    function updateHistogramChart() {
-      if (!currentData) return;
-      const q = (currentData.questions || []).find(x => x.questionNumber === activeHistQ);
-      if (!q) return;
-
-      const dist = q.pollDistribution || {
-        "<30%": 0, "30-40%": 0, "40-50%": 0, "50-60%": 0,
-        "60-70%": 0, "70-80%": 0, "80-90%": 0, "90-100%": 0
-      };
-
-      const labels = Object.keys(dist);
-      const dataVals = Object.values(dist);
-      const totalPolls = dataVals.reduce((a, b) => a + b, 0);
-
-      // Find peak
-      let maxVal = -1;
-      let peakKey = '';
-      labels.forEach(k => {
-        if (dist[k] > maxVal) {
-          maxVal = dist[k];
-          peakKey = k;
-        }
-      });
-
-      const peakPct = totalPolls > 0 ? (maxVal / totalPolls * 100).toFixed(1) : 0;
-      document.getElementById('hist-peak-bracket').textContent = `${peakKey} Bracket (${maxVal} Polls)`;
-      document.getElementById('hist-peak-desc').textContent = `${peakPct}% of reporting voting stations fall into the ${peakKey} bracket.`;
-
-      const ctx = document.getElementById('histogramChart');
-      if (!ctx) return;
-
-      const isDark = document.documentElement.classList.contains('dark');
-      const textColor = isDark ? '#94a3b8' : '#475569';
-      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
-
-      const colors = labels.map(k => {
-        if (k.includes('<') || k.startsWith('30') || k.startsWith('40')) {
-          return 'rgba(239, 68, 68, 0.85)';
-        }
-        return 'rgba(16, 185, 129, 0.85)';
-      });
-
-      if (histogramChartInstance) {
-        histogramChartInstance.data.labels = labels;
-        histogramChartInstance.data.datasets[0].data = dataVals;
-        histogramChartInstance.data.datasets[0].backgroundColor = colors;
-        histogramChartInstance.update();
-      } else {
-        histogramChartInstance = new Chart(ctx, {
-          type: 'bar',
-          data: {
-            labels: labels,
-            datasets: [{
-              label: 'Reporting Polling Stations',
-              data: dataVals,
-              backgroundColor: colors,
-              borderRadius: 4
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-              legend: { display: false },
-              tooltip: {
-                callbacks: {
-                  label: (ctx) => `${ctx.parsed.y} polls (${totalPolls > 0 ? (ctx.parsed.y / totalPolls * 100).toFixed(1) : 0}%)`
-                }
-              }
-            },
-            scales: {
-              x: {
-                title: { display: true, text: 'Vote Share Bracket (Option 1 / Yes %)', color: textColor, font: { size: 10 } },
-                ticks: { color: textColor, font: { size: 10 } },
-                grid: { display: false }
-              },
-              y: {
-                title: { display: true, text: 'Number of Stations', color: textColor, font: { size: 10 } },
-                ticks: { color: textColor, font: { size: 10 } },
-                grid: { color: gridColor }
-              }
-            }
-          }
-        });
-      }
-    }
-
     function renderLatestInsights(data) {
       if (!data) return;
 
@@ -1095,7 +743,6 @@
       const questions = data.questions || [];
       renderUrbanRuralDivide(questions);
       renderCorrelationMatrix(questions);
-      renderHistogram(questions);
 
       lucide.createIcons();
     }
