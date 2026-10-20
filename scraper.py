@@ -298,12 +298,28 @@ def process_results(raw_data):
 def save_data(enriched):
     """
     Saves latest.json, appends to history.jsonl, and updates CSV exports.
+    Returns True if data changed, False otherwise.
     """
     os.makedirs(DATA_DIR, exist_ok=True)
     latest_path = os.path.join(DATA_DIR, "latest.json")
     history_path = os.path.join(DATA_DIR, "history.jsonl")
     summary_csv_path = os.path.join(DATA_DIR, "referendum_summary.csv")
     ridings_csv_path = os.path.join(DATA_DIR, "riding_results.csv")
+
+    # Check if data actually changed compared to existing latest.json
+    if os.path.exists(latest_path):
+        try:
+            with open(latest_path, "r", encoding="utf-8") as f:
+                prev = json.load(f)
+            prev_sum = prev.get("turnout", {}).get("summary", {})
+            curr_sum = enriched.get("turnout", {}).get("summary", {})
+            if (prev.get("lastUpdatedEAB") == enriched.get("lastUpdatedEAB") and
+                prev_sum.get("votes") == curr_sum.get("votes") and
+                prev_sum.get("pollsReporting") == curr_sum.get("pollsReporting")):
+                logger.info("No vote changes from Elections Alberta; data unchanged.")
+                return False
+        except Exception as e:
+            logger.debug(f"Error checking previous latest.json: {e}")
 
     # 1. Save latest.json
     with open(latest_path, "w", encoding="utf-8") as f:
@@ -423,6 +439,7 @@ def save_data(enriched):
         logger.error(f"Error writing ridings CSV: {e}")
 
     logger.info(f"Saved latest data. Polls: {enriched['turnout']['summary']['pollsReporting']}/{enriched['turnout']['summary']['totalPolls']}, Votes: {enriched['turnout']['summary']['votes']}")
+    return True
 
 def run_once():
     logger.info("Fetching referendum data from Elections Alberta...")
@@ -431,8 +448,7 @@ def run_once():
         logger.error("Failed to fetch data from Elections Alberta.")
         return False
     enriched = process_results(raw)
-    save_data(enriched)
-    return True
+    return save_data(enriched)
 
 def main():
     parser = argparse.ArgumentParser(description="Alberta Referendum 2026 Results Scraper")
