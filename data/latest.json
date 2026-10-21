@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T11:06:05.466362+00:00",
-  "lastUpdatedEAB": "2026-10-21T11:05:51.6937205+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:05:51 AM MDT",
+  "fetchedAt": "2026-10-21T11:07:10.836891+00:00",
+  "lastUpdatedEAB": "2026-10-21T11:06:41.6146678+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:06:41 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15957622,
-      "valid": 15957622,
+      "votes": 15966278,
+      "valid": 15966278,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.29,
+      "percentageOfAllVotes": 46.27,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.22,
+      "percentageOfAllVotes": 38.2,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.4,
-      "valid": 2297383,
+      "percentageOfAllVotes": 14.44,
+      "valid": 2306039,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -4542,22 +4542,22 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 842222,
-      "noVotes": 681161,
-      "totalVotes": 1523383,
-      "yesPct": 55.29,
-      "noPct": 44.71,
-      "marginVotes": 161061,
-      "marginPct": 10.58,
+      "yesVotes": 845371,
+      "noVotes": 686668,
+      "totalVotes": 1532039,
+      "yesPct": 55.18,
+      "noPct": 44.82,
+      "marginVotes": 158703,
+      "marginPct": 10.36,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 213304,
-          "no": 235060,
-          "total": 448364,
+          "yes": 216453,
+          "no": 240567,
+          "total": 457020,
           "wards": 26,
-          "yesPct": 47.57,
-          "noPct": 52.43
+          "yesPct": 47.36,
+          "noPct": 52.64
         },
         "Edmonton": {
           "yes": 132154,
@@ -4606,12 +4606,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 61941,
-          "noVotes": 108246,
-          "totalVotes": 170187,
+          "yesVotes": 65090,
+          "noVotes": 113753,
+          "totalVotes": 178843,
           "yesPct": 36.4,
           "noPct": 63.6,
-          "marginVotes": -46305,
+          "marginVotes": -48663,
           "marginPct": -27.2,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -4632,7 +4632,7 @@
       ],
       "pollDistribution": {
         "<30%": 116,
-        "30-40%": 321,
+        "30-40%": 322,
         "40-50%": 766,
         "50-60%": 1118,
         "60-70%": 996,
@@ -5045,14 +5045,14 @@
           "ward": "26",
           "wardName": "26 - Calgary-West",
           "region": "Calgary",
-          "yesVotes": 8926,
-          "noVotes": 7594,
-          "totalVotes": 16520,
-          "yesPct": 54.03,
-          "noPct": 45.97,
-          "marginVotes": 1332,
-          "marginPct": 8.06,
-          "leader": "YES",
+          "yesVotes": 12075,
+          "noVotes": 13101,
+          "totalVotes": 25176,
+          "yesPct": 47.96,
+          "noPct": 52.04,
+          "marginVotes": -1026,
+          "marginPct": -4.08,
+          "leader": "NO",
           "pollsReporting": 54,
           "totalPolls": 54,
           "pollsPct": 100.0
