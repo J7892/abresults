@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T08:50:00.473170+00:00",
-  "lastUpdatedEAB": "2026-10-21T08:49:33.5880476+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 02:49:33 AM MDT",
+  "fetchedAt": "2026-10-21T08:51:25.823523+00:00",
+  "lastUpdatedEAB": "2026-10-21T08:50:22.1004706+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 02:50:22 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15825190,
-      "valid": 15825190,
+      "votes": 15829003,
+      "valid": 15829003,
       "pollsReporting": 5173,
       "totalPolls": 5583,
       "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.61,
+      "percentageOfAllVotes": 46.6,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.52,
+      "percentageOfAllVotes": 38.51,
       "valid": 6095194,
       "pollsReporting": 4577,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.77,
-      "valid": 2179295,
+      "percentageOfAllVotes": 13.79,
+      "valid": 2183108,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1028028,
-      "noVotes": 896162,
-      "totalVotes": 1924190,
-      "yesPct": 53.43,
-      "noPct": 46.57,
-      "marginVotes": 131866,
-      "marginPct": 6.86,
+      "yesVotes": 1029891,
+      "noVotes": 898112,
+      "totalVotes": 1928003,
+      "yesPct": 53.42,
+      "noPct": 46.58,
+      "marginVotes": 131779,
+      "marginPct": 6.84,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -74,12 +74,12 @@
           "noPct": 58.08
         },
         "Regional / Other": {
-          "yes": 580062,
-          "no": 321624,
-          "total": 901686,
+          "yes": 581925,
+          "no": 323574,
+          "total": 905499,
           "wards": 41,
-          "yesPct": 64.33,
-          "noPct": 35.67
+          "yesPct": 64.27,
+          "noPct": 35.73
         }
       },
       "votingMethods": [
@@ -112,13 +112,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 177359,
-          "noVotes": 328716,
-          "totalVotes": 506075,
-          "yesPct": 35.05,
-          "noPct": 64.95,
-          "marginVotes": -151357,
-          "marginPct": -29.9,
+          "yesVotes": 179222,
+          "noVotes": 330666,
+          "totalVotes": 509888,
+          "yesPct": 35.15,
+          "noPct": 64.85,
+          "marginVotes": -151444,
+          "marginPct": -29.7,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -139,7 +139,7 @@
       "pollDistribution": {
         "<30%": 69,
         "30-40%": 153,
-        "40-50%": 495,
+        "40-50%": 496,
         "50-60%": 992,
         "60-70%": 1155,
         "70-80%": 1010,
@@ -1351,13 +1351,13 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 18733,
-          "noVotes": 4845,
-          "totalVotes": 23578,
-          "yesPct": 79.45,
-          "noPct": 20.55,
-          "marginVotes": 13888,
-          "marginPct": 58.9,
+          "yesVotes": 20596,
+          "noVotes": 6795,
+          "totalVotes": 27391,
+          "yesPct": 75.19,
+          "noPct": 24.81,
+          "marginVotes": 13801,
+          "marginPct": 50.38,
           "leader": "YES",
           "pollsReporting": 71,
           "totalPolls": 71,
