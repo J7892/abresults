@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T11:39:48.609948+00:00",
-  "lastUpdatedEAB": "2026-10-21T11:39:00.5288605+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:39:00 AM MDT",
+  "fetchedAt": "2026-10-21T11:40:22.012611+00:00",
+  "lastUpdatedEAB": "2026-10-21T11:39:48.8549513+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:39:48 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16018218,
-      "valid": 16018218,
+      "votes": 16027766,
+      "valid": 16027766,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.12,
+      "percentageOfAllVotes": 46.09,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.07,
+      "percentageOfAllVotes": 38.05,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.72,
-      "valid": 2357979,
+      "percentageOfAllVotes": 14.77,
+      "valid": 2367527,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -3044,13 +3044,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 925061,
-      "noVotes": 760985,
-      "totalVotes": 1686046,
-      "yesPct": 54.87,
-      "noPct": 45.13,
-      "marginVotes": 164076,
-      "marginPct": 9.74,
+      "yesVotes": 927204,
+      "noVotes": 768390,
+      "totalVotes": 1695594,
+      "yesPct": 54.68,
+      "noPct": 45.32,
+      "marginVotes": 158814,
+      "marginPct": 9.36,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3062,12 +3062,12 @@
           "noPct": 52.49
         },
         "Edmonton": {
-          "yes": 150175,
-          "no": 205608,
-          "total": 355783,
+          "yes": 152318,
+          "no": 213013,
+          "total": 365331,
           "wards": 20,
-          "yesPct": 42.21,
-          "noPct": 57.79
+          "yesPct": 41.69,
+          "noPct": 58.31
         },
         "Regional / Other": {
           "yes": 529618,
@@ -3108,13 +3108,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 113803,
-          "noVotes": 199311,
-          "totalVotes": 313114,
-          "yesPct": 36.35,
-          "noPct": 63.65,
-          "marginVotes": -85508,
-          "marginPct": -27.3,
+          "yesVotes": 115946,
+          "noVotes": 206716,
+          "totalVotes": 322662,
+          "yesPct": 35.93,
+          "noPct": 64.07,
+          "marginVotes": -90770,
+          "marginPct": -28.14,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -3133,7 +3133,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 81,
+        "<30%": 82,
         "30-40%": 234,
         "40-50%": 624,
         "50-60%": 1152,
@@ -3771,13 +3771,13 @@
           "ward": "40",
           "wardName": "40 - Edmonton-Riverview",
           "region": "Edmonton",
-          "yesVotes": 5472,
-          "noVotes": 7521,
-          "totalVotes": 12993,
-          "yesPct": 42.11,
-          "noPct": 57.89,
-          "marginVotes": -2049,
-          "marginPct": -15.78,
+          "yesVotes": 7615,
+          "noVotes": 14926,
+          "totalVotes": 22541,
+          "yesPct": 33.78,
+          "noPct": 66.22,
+          "marginVotes": -7311,
+          "marginPct": -32.44,
           "leader": "NO",
           "pollsReporting": 51,
           "totalPolls": 53,
