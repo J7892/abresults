@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T19:17:44.058637+00:00",
-  "lastUpdatedEAB": "2026-10-21T19:17:36.9407267+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 01:17:36 PM MDT",
+  "fetchedAt": "2026-10-21T19:18:50.239679+00:00",
+  "lastUpdatedEAB": "2026-10-21T19:18:26.4314092+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 01:18:26 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 16912745,
-      "valid": 16912745,
+      "votes": 16914272,
+      "valid": 16914272,
       "pollsReporting": 5294,
       "totalPolls": 5575,
       "pollsReportingPct": 94.96
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 44.59,
+      "percentageOfAllVotes": 44.58,
       "valid": 7540642,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,8 +20,8 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.51,
-      "valid": 6344688,
+      "percentageOfAllVotes": 37.52,
+      "valid": 6346215,
       "pollsReporting": 4676,
       "totalPolls": 4904
     },
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1049908,
-      "noVotes": 911267,
-      "totalVotes": 1961175,
-      "yesPct": 53.53,
-      "noPct": 46.47,
-      "marginVotes": 138641,
-      "marginPct": 7.06,
+      "yesVotes": 1050019,
+      "noVotes": 911283,
+      "totalVotes": 1961302,
+      "yesPct": 53.54,
+      "noPct": 46.46,
+      "marginVotes": 138736,
+      "marginPct": 7.08,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -74,9 +74,9 @@
           "noPct": 57.61
         },
         "Regional / Other": {
-          "yes": 589911,
-          "no": 326933,
-          "total": 916844,
+          "yes": 590022,
+          "no": 326949,
+          "total": 916971,
           "wards": 41,
           "yesPct": 64.34,
           "noPct": 35.66
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 425402,
-          "noVotes": 210270,
-          "totalVotes": 635672,
-          "yesPct": 66.92,
-          "noPct": 33.08,
-          "marginVotes": 215132,
-          "marginPct": 33.84,
-          "pollsReporting": 4690,
+          "yesVotes": 425513,
+          "noVotes": 210286,
+          "totalVotes": 635799,
+          "yesPct": 66.93,
+          "noPct": 33.07,
+          "marginVotes": 215227,
+          "marginPct": 33.86,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -143,7 +143,7 @@
         "50-60%": 1033,
         "60-70%": 1199,
         "70-80%": 1043,
-        "80-90%": 842,
+        "80-90%": 843,
         "90-100%": 169
       },
       "wards": [
@@ -1159,17 +1159,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 8281,
-          "noVotes": 2846,
-          "totalVotes": 11127,
-          "yesPct": 74.42,
-          "noPct": 25.58,
-          "marginVotes": 5435,
-          "marginPct": 48.84,
+          "yesVotes": 8392,
+          "noVotes": 2862,
+          "totalVotes": 11254,
+          "yesPct": 74.57,
+          "noPct": 25.43,
+          "marginVotes": 5530,
+          "marginPct": 49.14,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 990150,
-      "noVotes": 912340,
-      "totalVotes": 1902490,
-      "yesPct": 52.04,
-      "noPct": 47.96,
-      "marginVotes": 77810,
-      "marginPct": 4.08,
+      "yesVotes": 990260,
+      "noVotes": 912356,
+      "totalVotes": 1902616,
+      "yesPct": 52.05,
+      "noPct": 47.95,
+      "marginVotes": 77904,
+      "marginPct": 4.1,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1572,9 +1572,9 @@
           "noPct": 60.04
         },
         "Regional / Other": {
-          "yes": 565676,
-          "no": 344562,
-          "total": 910238,
+          "yes": 565786,
+          "no": 344578,
+          "total": 910364,
           "wards": 41,
           "yesPct": 62.15,
           "noPct": 37.85
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 401608,
-          "noVotes": 234849,
-          "totalVotes": 636457,
-          "yesPct": 63.1,
-          "noPct": 36.9,
-          "marginVotes": 166759,
-          "marginPct": 26.2,
-          "pollsReporting": 4690,
+          "yesVotes": 401718,
+          "noVotes": 234865,
+          "totalVotes": 636583,
+          "yesPct": 63.11,
+          "noPct": 36.89,
+          "marginVotes": 166853,
+          "marginPct": 26.22,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -1641,7 +1641,7 @@
         "50-60%": 1194,
         "60-70%": 1086,
         "70-80%": 933,
-        "80-90%": 634,
+        "80-90%": 635,
         "90-100%": 99
       },
       "wards": [
@@ -2657,17 +2657,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 7697,
-          "noVotes": 3184,
-          "totalVotes": 10881,
-          "yesPct": 70.74,
-          "noPct": 29.26,
-          "marginVotes": 4513,
-          "marginPct": 41.48,
+          "yesVotes": 7807,
+          "noVotes": 3200,
+          "totalVotes": 11007,
+          "yesPct": 70.93,
+          "noPct": 29.07,
+          "marginVotes": 4607,
+          "marginPct": 41.86,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 989797,
-      "noVotes": 862288,
-      "totalVotes": 1852085,
+      "yesVotes": 989906,
+      "noVotes": 862306,
+      "totalVotes": 1852212,
       "yesPct": 53.44,
       "noPct": 46.56,
-      "marginVotes": 127509,
+      "marginVotes": 127600,
       "marginPct": 6.88,
       "leader": "YES",
       "regionalStats": {
@@ -3070,9 +3070,9 @@
           "noPct": 58.72
         },
         "Regional / Other": {
-          "yes": 561903,
-          "no": 316933,
-          "total": 878836,
+          "yes": 562012,
+          "no": 316951,
+          "total": 878963,
           "wards": 41,
           "yesPct": 63.94,
           "noPct": 36.06
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 404384,
-          "noVotes": 230118,
-          "totalVotes": 634502,
-          "yesPct": 63.73,
-          "noPct": 36.27,
-          "marginVotes": 174266,
-          "marginPct": 27.46,
-          "pollsReporting": 4690,
+          "yesVotes": 404493,
+          "noVotes": 230136,
+          "totalVotes": 634629,
+          "yesPct": 63.74,
+          "noPct": 36.26,
+          "marginVotes": 174357,
+          "marginPct": 27.48,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -3139,7 +3139,7 @@
         "50-60%": 1202,
         "60-70%": 1100,
         "70-80%": 941,
-        "80-90%": 683,
+        "80-90%": 684,
         "90-100%": 103
       },
       "wards": [
@@ -4155,17 +4155,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 7901,
-          "noVotes": 3188,
-          "totalVotes": 11089,
-          "yesPct": 71.25,
-          "noPct": 28.75,
-          "marginVotes": 4713,
-          "marginPct": 42.5,
+          "yesVotes": 8010,
+          "noVotes": 3206,
+          "totalVotes": 11216,
+          "yesPct": 71.42,
+          "noPct": 28.58,
+          "marginVotes": 4804,
+          "marginPct": 42.84,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -4542,12 +4542,12 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 912234,
-      "noVotes": 779409,
-      "totalVotes": 1691643,
+      "yesVotes": 912344,
+      "noVotes": 779427,
+      "totalVotes": 1691771,
       "yesPct": 53.93,
       "noPct": 46.07,
-      "marginVotes": 132825,
+      "marginVotes": 132917,
       "marginPct": 7.86,
       "leader": "YES",
       "regionalStats": {
@@ -4568,12 +4568,12 @@
           "noPct": 58.93
         },
         "Regional / Other": {
-          "yes": 533557,
-          "no": 301499,
-          "total": 835056,
+          "yes": 533667,
+          "no": 301517,
+          "total": 835184,
           "wards": 41,
-          "yesPct": 63.89,
-          "noPct": 36.11
+          "yesPct": 63.9,
+          "noPct": 36.1
         }
       },
       "votingMethods": [
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 383272,
-          "noVotes": 244439,
-          "totalVotes": 627711,
+          "yesVotes": 383382,
+          "noVotes": 244457,
+          "totalVotes": 627839,
           "yesPct": 61.06,
           "noPct": 38.94,
-          "marginVotes": 138833,
+          "marginVotes": 138925,
           "marginPct": 22.12,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -4637,7 +4637,7 @@
         "50-60%": 1163,
         "60-70%": 1030,
         "70-80%": 858,
-        "80-90%": 546,
+        "80-90%": 547,
         "90-100%": 71
       },
       "wards": [
@@ -5653,17 +5653,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 14537,
-          "noVotes": 5651,
-          "totalVotes": 20188,
-          "yesPct": 72.01,
-          "noPct": 27.99,
-          "marginVotes": 8886,
-          "marginPct": 44.02,
+          "yesVotes": 14647,
+          "noVotes": 5669,
+          "totalVotes": 20316,
+          "yesPct": 72.1,
+          "noPct": 27.9,
+          "marginVotes": 8978,
+          "marginPct": 44.2,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -6040,19 +6040,19 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 977759,
-      "noVotes": 623957,
-      "totalVotes": 1601716,
-      "yesPct": 61.04,
-      "noPct": 38.96,
-      "marginVotes": 353802,
-      "marginPct": 22.08,
+      "yesVotes": 978040,
+      "noVotes": 624059,
+      "totalVotes": 1602099,
+      "yesPct": 61.05,
+      "noPct": 38.95,
+      "marginVotes": 353981,
+      "marginPct": 22.1,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 247195,
-          "no": 217315,
-          "total": 464510,
+          "yes": 247358,
+          "no": 217407,
+          "total": 464765,
           "wards": 26,
           "yesPct": 53.22,
           "noPct": 46.78
@@ -6066,12 +6066,12 @@
           "noPct": 51.96
         },
         "Regional / Other": {
-          "yes": 571252,
-          "no": 234320,
-          "total": 805572,
+          "yes": 571370,
+          "no": 234330,
+          "total": 805700,
           "wards": 41,
-          "yesPct": 70.91,
-          "noPct": 29.09
+          "yesPct": 70.92,
+          "noPct": 29.08
         }
       },
       "votingMethods": [
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 431689,
-          "noVotes": 194779,
-          "totalVotes": 626468,
+          "yesVotes": 431970,
+          "noVotes": 194881,
+          "totalVotes": 626851,
           "yesPct": 68.91,
           "noPct": 31.09,
-          "marginVotes": 236910,
+          "marginVotes": 237089,
           "marginPct": 37.82,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -6133,10 +6133,10 @@
         "30-40%": 84,
         "40-50%": 352,
         "50-60%": 893,
-        "60-70%": 1193,
+        "60-70%": 1195,
         "70-80%": 1107,
         "80-90%": 980,
-        "90-100%": 259
+        "90-100%": 260
       },
       "wards": [
         {
@@ -6159,13 +6159,13 @@
           "ward": "02",
           "wardName": "02 - Calgary-Beddington",
           "region": "Calgary",
-          "yesVotes": 8643,
-          "noVotes": 9486,
-          "totalVotes": 18129,
-          "yesPct": 47.67,
-          "noPct": 52.33,
-          "marginVotes": -843,
-          "marginPct": -4.66,
+          "yesVotes": 8806,
+          "noVotes": 9578,
+          "totalVotes": 18384,
+          "yesPct": 47.9,
+          "noPct": 52.1,
+          "marginVotes": -772,
+          "marginPct": -4.2,
           "leader": "NO",
           "pollsReporting": 53,
           "totalPolls": 53,
@@ -7151,17 +7151,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 15804,
-          "noVotes": 4549,
-          "totalVotes": 20353,
-          "yesPct": 77.65,
-          "noPct": 22.35,
-          "marginVotes": 11255,
-          "marginPct": 55.3,
+          "yesVotes": 15922,
+          "noVotes": 4559,
+          "totalVotes": 20481,
+          "yesPct": 77.74,
+          "noPct": 22.26,
+          "marginVotes": 11363,
+          "marginPct": 55.48,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 760866,
-      "noVotes": 784302,
-      "totalVotes": 1545168,
+      "yesVotes": 760974,
+      "noVotes": 784320,
+      "totalVotes": 1545294,
       "yesPct": 49.24,
       "noPct": 50.76,
-      "marginVotes": -23436,
+      "marginVotes": -23346,
       "marginPct": -1.52,
       "leader": "NO",
       "regionalStats": {
@@ -7564,12 +7564,12 @@
           "noPct": 65.66
         },
         "Regional / Other": {
-          "yes": 472671,
-          "no": 311286,
-          "total": 783957,
+          "yes": 472779,
+          "no": 311304,
+          "total": 784083,
           "wards": 41,
-          "yesPct": 60.29,
-          "noPct": 39.71
+          "yesPct": 60.3,
+          "noPct": 39.7
         }
       },
       "votingMethods": [
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 353717,
-          "noVotes": 273681,
-          "totalVotes": 627398,
+          "yesVotes": 353825,
+          "noVotes": 273699,
+          "totalVotes": 627524,
           "yesPct": 56.38,
           "noPct": 43.62,
-          "marginVotes": 80036,
+          "marginVotes": 80126,
           "marginPct": 12.76,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -7633,7 +7633,7 @@
         "50-60%": 998,
         "60-70%": 801,
         "70-80%": 736,
-        "80-90%": 396,
+        "80-90%": 397,
         "90-100%": 57
       },
       "wards": [
@@ -8649,17 +8649,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 13321,
-          "noVotes": 4828,
-          "totalVotes": 18149,
-          "yesPct": 73.4,
-          "noPct": 26.6,
-          "marginVotes": 8493,
-          "marginPct": 46.8,
+          "yesVotes": 13429,
+          "noVotes": 4846,
+          "totalVotes": 18275,
+          "yesPct": 73.48,
+          "noPct": 26.52,
+          "marginVotes": 8583,
+          "marginPct": 46.96,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 766641,
-      "noVotes": 704399,
-      "totalVotes": 1471040,
+      "yesVotes": 766744,
+      "noVotes": 704422,
+      "totalVotes": 1471166,
       "yesPct": 52.12,
       "noPct": 47.88,
-      "marginVotes": 62242,
+      "marginVotes": 62322,
       "marginPct": 4.24,
       "leader": "YES",
       "regionalStats": {
@@ -9062,9 +9062,9 @@
           "noPct": 62.29
         },
         "Regional / Other": {
-          "yes": 473084,
-          "no": 286872,
-          "total": 759956,
+          "yes": 473187,
+          "no": 286895,
+          "total": 760082,
           "wards": 41,
           "yesPct": 62.25,
           "noPct": 37.75
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 360136,
-          "noVotes": 266112,
-          "totalVotes": 626248,
+          "yesVotes": 360239,
+          "noVotes": 266135,
+          "totalVotes": 626374,
           "yesPct": 57.51,
           "noPct": 42.49,
-          "marginVotes": 94024,
+          "marginVotes": 94104,
           "marginPct": 15.02,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -9131,7 +9131,7 @@
         "50-60%": 1111,
         "60-70%": 814,
         "70-80%": 752,
-        "80-90%": 423,
+        "80-90%": 424,
         "90-100%": 66
       },
       "wards": [
@@ -10147,17 +10147,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 13688,
-          "noVotes": 4796,
-          "totalVotes": 18484,
-          "yesPct": 74.05,
-          "noPct": 25.95,
-          "marginVotes": 8892,
-          "marginPct": 48.1,
+          "yesVotes": 13791,
+          "noVotes": 4819,
+          "totalVotes": 18610,
+          "yesPct": 74.11,
+          "noPct": 25.89,
+          "marginVotes": 8972,
+          "marginPct": 48.22,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -10534,12 +10534,12 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 700273,
-      "noVotes": 748949,
-      "totalVotes": 1449222,
+      "yesVotes": 700372,
+      "noVotes": 748975,
+      "totalVotes": 1449347,
       "yesPct": 48.32,
       "noPct": 51.68,
-      "marginVotes": -48676,
+      "marginVotes": -48603,
       "marginPct": -3.36,
       "leader": "NO",
       "regionalStats": {
@@ -10560,9 +10560,9 @@
           "noPct": 65.11
         },
         "Regional / Other": {
-          "yes": 438083,
-          "no": 313926,
-          "total": 752009,
+          "yes": 438182,
+          "no": 313952,
+          "total": 752134,
           "wards": 41,
           "yesPct": 58.26,
           "noPct": 41.74
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 344258,
-          "noVotes": 289281,
-          "totalVotes": 633539,
+          "yesVotes": 344357,
+          "noVotes": 289307,
+          "totalVotes": 633664,
           "yesPct": 54.34,
           "noPct": 45.66,
-          "marginVotes": 54977,
+          "marginVotes": 55050,
           "marginPct": 8.68,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -10628,7 +10628,7 @@
         "40-50%": 1112,
         "50-60%": 998,
         "60-70%": 763,
-        "70-80%": 649,
+        "70-80%": 650,
         "80-90%": 273,
         "90-100%": 35
       },
@@ -11645,17 +11645,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 10222,
-          "noVotes": 4325,
-          "totalVotes": 14547,
-          "yesPct": 70.27,
-          "noPct": 29.73,
-          "marginVotes": 5897,
-          "marginPct": 40.54,
+          "yesVotes": 10320,
+          "noVotes": 4351,
+          "totalVotes": 14671,
+          "yesPct": 70.34,
+          "noPct": 29.66,
+          "marginVotes": 5969,
+          "marginPct": 40.68,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -11997,12 +11997,12 @@
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 11648,
+          "yesVotes": 11649,
           "noVotes": 5092,
-          "totalVotes": 16740,
+          "totalVotes": 16741,
           "yesPct": 69.58,
           "noPct": 30.42,
-          "marginVotes": 6556,
+          "marginVotes": 6557,
           "marginPct": 39.16,
           "leader": "YES",
           "pollsReporting": 55,
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 723022,
-      "noVotes": 708887,
-      "totalVotes": 1431909,
-      "yesPct": 50.49,
-      "noPct": 49.51,
-      "marginVotes": 14135,
-      "marginPct": 0.98,
+      "yesVotes": 723126,
+      "noVotes": 708907,
+      "totalVotes": 1432033,
+      "yesPct": 50.5,
+      "noPct": 49.5,
+      "marginVotes": 14219,
+      "marginPct": 1.0,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -12058,9 +12058,9 @@
           "noPct": 61.9
         },
         "Regional / Other": {
-          "yes": 440440,
-          "no": 282210,
-          "total": 722650,
+          "yes": 440544,
+          "no": 282230,
+          "total": 722774,
           "wards": 41,
           "yesPct": 60.95,
           "noPct": 39.05
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 351739,
-          "noVotes": 272944,
-          "totalVotes": 624683,
+          "yesVotes": 351843,
+          "noVotes": 272964,
+          "totalVotes": 624807,
           "yesPct": 56.31,
           "noPct": 43.69,
-          "marginVotes": 78795,
+          "marginVotes": 78879,
           "marginPct": 12.62,
-          "pollsReporting": 4690,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -12127,7 +12127,7 @@
         "50-60%": 1037,
         "60-70%": 803,
         "70-80%": 692,
-        "80-90%": 386,
+        "80-90%": 387,
         "90-100%": 54
       },
       "wards": [
@@ -13143,17 +13143,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 6049,
-          "noVotes": 1955,
-          "totalVotes": 8004,
-          "yesPct": 75.57,
-          "noPct": 24.43,
-          "marginVotes": 4094,
-          "marginPct": 51.14,
+          "yesVotes": 6153,
+          "noVotes": 1975,
+          "totalVotes": 8128,
+          "yesPct": 75.7,
+          "noPct": 24.3,
+          "marginVotes": 4178,
+          "marginPct": 51.4,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
@@ -13530,13 +13530,13 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1509750,
-      "noVotes": 497760,
-      "totalVotes": 2007510,
-      "yesPct": 75.21,
-      "noPct": 24.79,
-      "marginVotes": 1011990,
-      "marginPct": 50.42,
+      "yesVotes": 1509812,
+      "noVotes": 497833,
+      "totalVotes": 2007645,
+      "yesPct": 75.2,
+      "noPct": 24.8,
+      "marginVotes": 1011979,
+      "marginPct": 50.4,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -13556,12 +13556,12 @@
           "noPct": 14.47
         },
         "Regional / Other": {
-          "yes": 631934,
-          "no": 326034,
-          "total": 957968,
+          "yes": 631996,
+          "no": 326107,
+          "total": 958103,
           "wards": 41,
-          "yesPct": 65.97,
-          "noPct": 34.03
+          "yesPct": 65.96,
+          "noPct": 34.04
         }
       },
       "votingMethods": [
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 449681,
-          "noVotes": 222329,
-          "totalVotes": 672010,
-          "yesPct": 66.92,
-          "noPct": 33.08,
-          "marginVotes": 227352,
-          "marginPct": 33.84,
-          "pollsReporting": 4690,
+          "yesVotes": 449743,
+          "noVotes": 222402,
+          "totalVotes": 672145,
+          "yesPct": 66.91,
+          "noPct": 33.09,
+          "marginVotes": 227341,
+          "marginPct": 33.82,
+          "pollsReporting": 4691,
           "totalPolls": 4904
         },
         {
@@ -13621,7 +13621,7 @@
       "pollDistribution": {
         "<30%": 68,
         "30-40%": 250,
-        "40-50%": 480,
+        "40-50%": 481,
         "50-60%": 650,
         "60-70%": 906,
         "70-80%": 1498,
@@ -14641,17 +14641,17 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 6246,
-          "noVotes": 5082,
-          "totalVotes": 11328,
-          "yesPct": 55.14,
-          "noPct": 44.86,
-          "marginVotes": 1164,
-          "marginPct": 10.28,
+          "yesVotes": 6308,
+          "noVotes": 5155,
+          "totalVotes": 11463,
+          "yesPct": 55.03,
+          "noPct": 44.97,
+          "marginVotes": 1153,
+          "marginPct": 10.06,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 81,
-          "pollsPct": 81.5
+          "pollsPct": 82.7
         },
         {
           "ward": "65",
