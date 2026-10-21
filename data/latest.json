@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-21T05:01:22.500483+00:00",
-  "lastUpdatedEAB": "2026-10-21T05:01:06.3845194+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 11:01:06 PM MDT",
+  "fetchedAt": "2026-10-21T05:02:40.906283+00:00",
+  "lastUpdatedEAB": "2026-10-21T05:01:55.9092856+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 11:01:55 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 15346651,
-      "valid": 15346651,
-      "pollsReporting": 5150,
+      "votes": 15347288,
+      "valid": 15347288,
+      "pollsReporting": 5151,
       "totalPolls": 5583,
-      "pollsReportingPct": 92.24
+      "pollsReportingPct": 92.26
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 38.88,
-      "valid": 5966115,
-      "pollsReporting": 4559,
+      "valid": 5966752,
+      "pollsReporting": 4560,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,22 +48,22 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1002813,
-      "noVotes": 855015,
-      "totalVotes": 1857828,
+      "yesVotes": 1002833,
+      "noVotes": 855077,
+      "totalVotes": 1857910,
       "yesPct": 53.98,
       "noPct": 46.02,
-      "marginVotes": 147798,
+      "marginVotes": 147756,
       "marginPct": 7.96,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 277679,
-          "no": 341074,
-          "total": 618753,
+          "yes": 277699,
+          "no": 341136,
+          "total": 618835,
           "wards": 26,
-          "yesPct": 44.88,
-          "noPct": 55.12
+          "yesPct": 44.87,
+          "noPct": 55.13
         },
         "Edmonton": {
           "yes": 156305,
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 403228,
-          "noVotes": 196111,
-          "totalVotes": 599339,
-          "yesPct": 67.28,
-          "noPct": 32.72,
-          "marginVotes": 207117,
-          "marginPct": 34.56,
-          "pollsReporting": 4531,
+          "yesVotes": 403248,
+          "noVotes": 196173,
+          "totalVotes": 599421,
+          "yesPct": 67.27,
+          "noPct": 32.73,
+          "marginVotes": 207075,
+          "marginPct": 34.54,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -140,10 +140,10 @@
         "<30%": 64,
         "30-40%": 141,
         "40-50%": 472,
-        "50-60%": 958,
+        "50-60%": 959,
         "60-70%": 1125,
         "70-80%": 999,
-        "80-90%": 814,
+        "80-90%": 813,
         "90-100%": 163
       },
       "wards": [
@@ -167,13 +167,13 @@
           "ward": "02",
           "wardName": "02 - Calgary-Beddington",
           "region": "Calgary",
-          "yesVotes": 9431,
-          "noVotes": 7855,
-          "totalVotes": 17286,
-          "yesPct": 54.56,
-          "noPct": 45.44,
-          "marginVotes": 1576,
-          "marginPct": 9.12,
+          "yesVotes": 9451,
+          "noVotes": 7917,
+          "totalVotes": 17368,
+          "yesPct": 54.42,
+          "noPct": 45.58,
+          "marginVotes": 1534,
+          "marginPct": 8.84,
           "leader": "YES",
           "pollsReporting": 53,
           "totalPolls": 53,
@@ -959,9 +959,9 @@
           "marginVotes": 3198,
           "marginPct": 28.24,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -1604,7 +1604,7 @@
           "noPct": 36.63,
           "marginVotes": 162047,
           "marginPct": 26.74,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -2457,9 +2457,9 @@
           "marginVotes": 2722,
           "marginPct": 24.04,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -3102,7 +3102,7 @@
           "noPct": 35.83,
           "marginVotes": 170799,
           "marginPct": 28.34,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -3955,9 +3955,9 @@
           "marginVotes": 3099,
           "marginPct": 27.5,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -4600,7 +4600,7 @@
           "noPct": 38.48,
           "marginVotes": 135562,
           "marginPct": 23.04,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -5453,9 +5453,9 @@
           "marginVotes": 2327,
           "marginPct": 20.68,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -6098,7 +6098,7 @@
           "noPct": 30.64,
           "marginVotes": 227491,
           "marginPct": 38.72,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -6951,9 +6951,9 @@
           "marginVotes": 4081,
           "marginPct": 36.48,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 694165,
-      "noVotes": 670064,
-      "totalVotes": 1364229,
+      "yesVotes": 694251,
+      "noVotes": 670117,
+      "totalVotes": 1364368,
       "yesPct": 50.88,
       "noPct": 49.12,
-      "marginVotes": 24101,
+      "marginVotes": 24134,
       "marginPct": 1.76,
       "leader": "YES",
       "regionalStats": {
@@ -7564,9 +7564,9 @@
           "noPct": 63.64
         },
         "Regional / Other": {
-          "yes": 438173,
-          "no": 272726,
-          "total": 710899,
+          "yes": 438259,
+          "no": 272779,
+          "total": 711038,
           "wards": 41,
           "yesPct": 61.64,
           "noPct": 38.36
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 331983,
-          "noVotes": 250876,
-          "totalVotes": 582859,
+          "yesVotes": 332069,
+          "noVotes": 250929,
+          "totalVotes": 582998,
           "yesPct": 56.96,
           "noPct": 43.04,
-          "marginVotes": 81107,
+          "marginVotes": 81140,
           "marginPct": 13.92,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -7631,7 +7631,7 @@
         "30-40%": 566,
         "40-50%": 938,
         "50-60%": 950,
-        "60-70%": 767,
+        "60-70%": 768,
         "70-80%": 694,
         "80-90%": 381,
         "90-100%": 56
@@ -8441,17 +8441,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 6206,
-          "noVotes": 5046,
-          "totalVotes": 11252,
-          "yesPct": 55.15,
-          "noPct": 44.85,
-          "marginVotes": 1160,
-          "marginPct": 10.3,
+          "yesVotes": 6292,
+          "noVotes": 5099,
+          "totalVotes": 11391,
+          "yesPct": 55.24,
+          "noPct": 44.76,
+          "marginVotes": 1193,
+          "marginPct": 10.48,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 711814,
-      "noVotes": 631978,
-      "totalVotes": 1343792,
+      "yesVotes": 711897,
+      "noVotes": 632034,
+      "totalVotes": 1343931,
       "yesPct": 52.97,
       "noPct": 47.03,
-      "marginVotes": 79836,
+      "marginVotes": 79863,
       "marginPct": 5.94,
       "leader": "YES",
       "regionalStats": {
@@ -9062,9 +9062,9 @@
           "noPct": 61.45
         },
         "Regional / Other": {
-          "yes": 442522,
-          "no": 260097,
-          "total": 702619,
+          "yes": 442605,
+          "no": 260153,
+          "total": 702758,
           "wards": 41,
           "yesPct": 62.98,
           "noPct": 37.02
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 338221,
-          "noVotes": 244212,
-          "totalVotes": 582433,
+          "yesVotes": 338304,
+          "noVotes": 244268,
+          "totalVotes": 582572,
           "yesPct": 58.07,
           "noPct": 41.93,
-          "marginVotes": 94009,
+          "marginVotes": 94036,
           "marginPct": 16.14,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -9128,7 +9128,7 @@
         "<30%": 191,
         "30-40%": 445,
         "40-50%": 939,
-        "50-60%": 1029,
+        "50-60%": 1030,
         "60-70%": 783,
         "70-80%": 720,
         "80-90%": 404,
@@ -9939,17 +9939,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 6380,
-          "noVotes": 4843,
-          "totalVotes": 11223,
-          "yesPct": 56.85,
-          "noPct": 43.15,
-          "marginVotes": 1537,
-          "marginPct": 13.7,
+          "yesVotes": 6463,
+          "noVotes": 4899,
+          "totalVotes": 11362,
+          "yesPct": 56.88,
+          "noPct": 43.12,
+          "marginVotes": 1564,
+          "marginPct": 13.76,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -10534,12 +10534,12 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 651487,
-      "noVotes": 676518,
-      "totalVotes": 1328005,
+      "yesVotes": 651566,
+      "noVotes": 676578,
+      "totalVotes": 1328144,
       "yesPct": 49.06,
       "noPct": 50.94,
-      "marginVotes": -25031,
+      "marginVotes": -25012,
       "marginPct": -1.88,
       "leader": "NO",
       "regionalStats": {
@@ -10560,9 +10560,9 @@
           "noPct": 64.76
         },
         "Regional / Other": {
-          "yes": 409806,
-          "no": 284832,
-          "total": 694638,
+          "yes": 409885,
+          "no": 284892,
+          "total": 694777,
           "wards": 41,
           "yesPct": 59.0,
           "noPct": 41.0
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 323472,
-          "noVotes": 265640,
-          "totalVotes": 589112,
+          "yesVotes": 323551,
+          "noVotes": 265700,
+          "totalVotes": 589251,
           "yesPct": 54.91,
           "noPct": 45.09,
-          "marginVotes": 57832,
+          "marginVotes": 57851,
           "marginPct": 9.82,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -10626,7 +10626,7 @@
         "<30%": 294,
         "30-40%": 676,
         "40-50%": 1022,
-        "50-60%": 939,
+        "50-60%": 940,
         "60-70%": 719,
         "70-80%": 624,
         "80-90%": 263,
@@ -11437,17 +11437,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 5197,
-          "noVotes": 3819,
-          "totalVotes": 9016,
-          "yesPct": 57.64,
-          "noPct": 42.36,
-          "marginVotes": 1378,
-          "marginPct": 15.28,
+          "yesVotes": 5276,
+          "noVotes": 3879,
+          "totalVotes": 9155,
+          "yesPct": 57.63,
+          "noPct": 42.37,
+          "marginVotes": 1397,
+          "marginPct": 15.26,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -12032,12 +12032,12 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 675061,
-      "noVotes": 640757,
-      "totalVotes": 1315818,
+      "yesVotes": 675147,
+      "noVotes": 640809,
+      "totalVotes": 1315956,
       "yesPct": 51.3,
       "noPct": 48.7,
-      "marginVotes": 34304,
+      "marginVotes": 34338,
       "marginPct": 2.6,
       "leader": "YES",
       "regionalStats": {
@@ -12058,9 +12058,9 @@
           "noPct": 61.06
         },
         "Regional / Other": {
-          "yes": 417918,
-          "no": 263092,
-          "total": 681010,
+          "yes": 418004,
+          "no": 263144,
+          "total": 681148,
           "wards": 41,
           "yesPct": 61.37,
           "noPct": 38.63
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 329679,
-          "noVotes": 249522,
-          "totalVotes": 579201,
+          "yesVotes": 329765,
+          "noVotes": 249574,
+          "totalVotes": 579339,
           "yesPct": 56.92,
           "noPct": 43.08,
-          "marginVotes": 80157,
+          "marginVotes": 80191,
           "marginPct": 13.84,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -12125,7 +12125,7 @@
         "30-40%": 544,
         "40-50%": 970,
         "50-60%": 979,
-        "60-70%": 773,
+        "60-70%": 774,
         "70-80%": 656,
         "80-90%": 370,
         "90-100%": 52
@@ -12935,17 +12935,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 5418,
-          "noVotes": 3580,
-          "totalVotes": 8998,
-          "yesPct": 60.21,
-          "noPct": 39.79,
-          "marginVotes": 1838,
-          "marginPct": 20.42,
+          "yesVotes": 5504,
+          "noVotes": 3632,
+          "totalVotes": 9136,
+          "yesPct": 60.25,
+          "noPct": 39.75,
+          "marginVotes": 1872,
+          "marginPct": 20.5,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
@@ -13588,7 +13588,7 @@
           "noPct": 33.17,
           "marginVotes": 218202,
           "marginPct": 33.66,
-          "pollsReporting": 4531,
+          "pollsReporting": 4532,
           "totalPolls": 4904
         },
         {
@@ -14441,9 +14441,9 @@
           "marginVotes": 2960,
           "marginPct": 25.96,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 74,
-          "pollsPct": 59.5
+          "pollsPct": 60.8
         },
         {
           "ward": "52",
