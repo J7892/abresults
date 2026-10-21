@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T14:54:41.106963+00:00",
-  "lastUpdatedEAB": "2026-10-21T14:54:13.8314224+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 08:54:13 AM MDT",
+  "fetchedAt": "2026-10-21T14:55:15.414613+00:00",
+  "lastUpdatedEAB": "2026-10-21T14:55:02.9523743+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 08:55:02 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16218056,
-      "valid": 16218056,
+      "votes": 16223371,
+      "valid": 16223371,
       "pollsReporting": 5191,
       "totalPolls": 5583,
       "pollsReportingPct": 92.98
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.55,
+      "percentageOfAllVotes": 45.54,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.75,
+      "percentageOfAllVotes": 37.74,
       "valid": 6123037,
       "pollsReporting": 4588,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 15.6,
-      "valid": 2529606,
+      "percentageOfAllVotes": 15.63,
+      "valid": 2534921,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 667872,
-      "noVotes": 709399,
-      "totalVotes": 1377271,
-      "yesPct": 48.49,
-      "noPct": 51.51,
-      "marginVotes": -41527,
-      "marginPct": -3.02,
+      "yesVotes": 668884,
+      "noVotes": 713702,
+      "totalVotes": 1382586,
+      "yesPct": 48.38,
+      "noPct": 51.62,
+      "marginVotes": -44818,
+      "marginPct": -3.24,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10552,12 +10552,12 @@
           "noPct": 60.5
         },
         "Edmonton": {
-          "yes": 90673,
-          "no": 168926,
-          "total": 259599,
+          "yes": 91685,
+          "no": 173229,
+          "total": 264914,
           "wards": 20,
-          "yesPct": 34.93,
-          "noPct": 65.07
+          "yesPct": 34.61,
+          "noPct": 65.39
         },
         "Regional / Other": {
           "yes": 414932,
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 10384,
-          "noVotes": 31205,
-          "totalVotes": 41589,
-          "yesPct": 24.97,
-          "noPct": 75.03,
-          "marginVotes": -20821,
-          "marginPct": -50.06,
+          "yesVotes": 11396,
+          "noVotes": 35508,
+          "totalVotes": 46904,
+          "yesPct": 24.3,
+          "noPct": 75.7,
+          "marginVotes": -24112,
+          "marginPct": -51.4,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 322,
+        "<30%": 323,
         "30-40%": 729,
         "40-50%": 1061,
         "50-60%": 955,
@@ -11181,13 +11181,13 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 1201,
-          "noVotes": 1592,
-          "totalVotes": 2793,
-          "yesPct": 43.0,
-          "noPct": 57.0,
-          "marginVotes": -391,
-          "marginPct": -14.0,
+          "yesVotes": 2213,
+          "noVotes": 5895,
+          "totalVotes": 8108,
+          "yesPct": 27.29,
+          "noPct": 72.71,
+          "marginVotes": -3682,
+          "marginPct": -45.42,
           "leader": "NO",
           "pollsReporting": 19,
           "totalPolls": 59,
