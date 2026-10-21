@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T14:48:42.370286+00:00",
-  "lastUpdatedEAB": "2026-10-21T14:48:31.1128786+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 08:48:31 AM MDT",
+  "fetchedAt": "2026-10-21T14:50:05.474111+00:00",
+  "lastUpdatedEAB": "2026-10-21T14:49:19.7810903+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 08:49:19 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16210786,
-      "valid": 16210786,
+      "votes": 16214305,
+      "valid": 16214305,
       "pollsReporting": 5189,
       "totalPolls": 5583,
       "pollsReportingPct": 92.94
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.57,
+      "percentageOfAllVotes": 45.56,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.75,
+      "percentageOfAllVotes": 37.74,
       "valid": 6120060,
       "pollsReporting": 4586,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 15.58,
-      "valid": 2525313,
+      "percentageOfAllVotes": 15.6,
+      "valid": 2528832,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -7538,13 +7538,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 719210,
-      "noVotes": 728633,
-      "totalVotes": 1447843,
-      "yesPct": 49.67,
-      "noPct": 50.33,
-      "marginVotes": -9423,
-      "marginPct": -0.66,
+      "yesVotes": 720341,
+      "noVotes": 731021,
+      "totalVotes": 1451362,
+      "yesPct": 49.63,
+      "noPct": 50.37,
+      "marginVotes": -10680,
+      "marginPct": -0.74,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -7564,12 +7564,12 @@
           "noPct": 65.32
         },
         "Regional / Other": {
-          "yes": 448359,
-          "no": 290363,
-          "total": 738722,
+          "yes": 449490,
+          "no": 292751,
+          "total": 742241,
           "wards": 41,
-          "yesPct": 60.69,
-          "noPct": 39.31
+          "yesPct": 60.56,
+          "noPct": 39.44
         }
       },
       "votingMethods": [
@@ -7602,13 +7602,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 29978,
-          "noVotes": 86580,
-          "totalVotes": 116558,
-          "yesPct": 25.72,
-          "noPct": 74.28,
-          "marginVotes": -56602,
-          "marginPct": -48.56,
+          "yesVotes": 31109,
+          "noVotes": 88968,
+          "totalVotes": 120077,
+          "yesPct": 25.91,
+          "noPct": 74.09,
+          "marginVotes": -57859,
+          "marginPct": -48.18,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -7628,7 +7628,7 @@
       ],
       "pollDistribution": {
         "<30%": 253,
-        "30-40%": 612,
+        "30-40%": 613,
         "40-50%": 968,
         "50-60%": 963,
         "60-70%": 777,
@@ -8713,13 +8713,13 @@
           "ward": "68",
           "wardName": "68 - Lacombe-Ponoka",
           "region": "Regional / Other",
-          "yesVotes": 14543,
-          "noVotes": 6166,
-          "totalVotes": 20709,
-          "yesPct": 70.23,
-          "noPct": 29.77,
-          "marginVotes": 8377,
-          "marginPct": 40.46,
+          "yesVotes": 15674,
+          "noVotes": 8554,
+          "totalVotes": 24228,
+          "yesPct": 64.69,
+          "noPct": 35.31,
+          "marginVotes": 7120,
+          "marginPct": 29.38,
           "leader": "YES",
           "pollsReporting": 72,
           "totalPolls": 72,
