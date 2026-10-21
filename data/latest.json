@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T16:05:08.795685+00:00",
-  "lastUpdatedEAB": "2026-10-21T16:04:06.9535906+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 10:04:06 AM MDT",
+  "fetchedAt": "2026-10-21T16:05:54.109322+00:00",
+  "lastUpdatedEAB": "2026-10-21T16:04:56.1441658+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 10:04:56 AM MDT",
   "turnout": {
     "summary": {
       "votes": 16326504,
@@ -66,12 +66,12 @@
           "noPct": 54.97
         },
         "Edmonton": {
-          "yes": 168946,
-          "no": 232841,
-          "total": 401787,
+          "yes": 169067,
+          "no": 232915,
+          "total": 401982,
           "wards": 20,
-          "yesPct": 42.05,
-          "noPct": 57.95
+          "yesPct": 42.06,
+          "noPct": 57.94
         },
         "Regional / Other": {
           "yes": 584015,
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 415108,
-          "noVotes": 204844,
-          "totalVotes": 619952,
+          "yesVotes": 415229,
+          "noVotes": 204918,
+          "totalVotes": 620147,
           "yesPct": 66.96,
           "noPct": 33.04,
-          "marginVotes": 210264,
+          "marginVotes": 210311,
           "marginPct": 33.92,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -141,7 +141,7 @@
         "30-40%": 154,
         "40-50%": 504,
         "50-60%": 1005,
-        "60-70%": 1165,
+        "60-70%": 1166,
         "70-80%": 1017,
         "80-90%": 818,
         "90-100%": 166
@@ -695,17 +695,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 4405,
-          "noVotes": 5372,
-          "totalVotes": 9777,
-          "yesPct": 45.05,
-          "noPct": 54.95,
-          "marginVotes": -967,
-          "marginPct": -9.9,
+          "yesVotes": 4526,
+          "noVotes": 5446,
+          "totalVotes": 9972,
+          "yesPct": 45.39,
+          "noPct": 54.61,
+          "marginVotes": -920,
+          "marginPct": -9.22,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -1564,12 +1564,12 @@
           "noPct": 55.36
         },
         "Edmonton": {
-          "yes": 158064,
-          "no": 238846,
-          "total": 396910,
+          "yes": 158167,
+          "no": 238938,
+          "total": 397105,
           "wards": 20,
-          "yesPct": 39.82,
-          "noPct": 60.18
+          "yesPct": 39.83,
+          "noPct": 60.17
         },
         "Regional / Other": {
           "yes": 554712,
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 393155,
-          "noVotes": 229905,
-          "totalVotes": 623060,
+          "yesVotes": 393258,
+          "noVotes": 229997,
+          "totalVotes": 623255,
           "yesPct": 63.1,
           "noPct": 36.9,
-          "marginVotes": 163250,
+          "marginVotes": 163261,
           "marginPct": 26.2,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -1638,7 +1638,7 @@
         "<30%": 98,
         "30-40%": 250,
         "40-50%": 727,
-        "50-60%": 1165,
+        "50-60%": 1166,
         "60-70%": 1065,
         "70-80%": 905,
         "80-90%": 609,
@@ -2193,17 +2193,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 4177,
-          "noVotes": 5543,
-          "totalVotes": 9720,
-          "yesPct": 42.97,
-          "noPct": 57.03,
-          "marginVotes": -1366,
-          "marginPct": -14.06,
+          "yesVotes": 4280,
+          "noVotes": 5635,
+          "totalVotes": 9915,
+          "yesPct": 43.17,
+          "noPct": 56.83,
+          "marginVotes": -1355,
+          "marginPct": -13.66,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -3062,9 +3062,9 @@
           "noPct": 53.34
         },
         "Edmonton": {
-          "yes": 158425,
-          "no": 225124,
-          "total": 383549,
+          "yes": 158532,
+          "no": 225212,
+          "total": 383744,
           "wards": 20,
           "yesPct": 41.31,
           "noPct": 58.69
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 396744,
-          "noVotes": 224412,
-          "totalVotes": 621156,
+          "yesVotes": 396851,
+          "noVotes": 224500,
+          "totalVotes": 621351,
           "yesPct": 63.87,
           "noPct": 36.13,
-          "marginVotes": 172332,
+          "marginVotes": 172351,
           "marginPct": 27.74,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -3136,7 +3136,7 @@
         "<30%": 84,
         "30-40%": 242,
         "40-50%": 636,
-        "50-60%": 1171,
+        "50-60%": 1172,
         "60-70%": 1070,
         "70-80%": 915,
         "80-90%": 658,
@@ -3691,17 +3691,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 4020,
-          "noVotes": 4903,
-          "totalVotes": 8923,
-          "yesPct": 45.05,
-          "noPct": 54.95,
-          "marginVotes": -883,
-          "marginPct": -9.9,
+          "yesVotes": 4127,
+          "noVotes": 4991,
+          "totalVotes": 9118,
+          "yesPct": 45.26,
+          "noPct": 54.74,
+          "marginVotes": -864,
+          "marginPct": -9.48,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -4560,9 +4560,9 @@
           "noPct": 53.42
         },
         "Edmonton": {
-          "yes": 142261,
-          "no": 194956,
-          "total": 337217,
+          "yes": 142349,
+          "no": 195060,
+          "total": 337409,
           "wards": 20,
           "yesPct": 42.19,
           "noPct": 57.81
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 372466,
-          "noVotes": 236752,
-          "totalVotes": 609218,
-          "yesPct": 61.14,
-          "noPct": 38.86,
-          "marginVotes": 135714,
-          "marginPct": 22.28,
-          "pollsReporting": 4618,
+          "yesVotes": 372554,
+          "noVotes": 236856,
+          "totalVotes": 609410,
+          "yesPct": 61.13,
+          "noPct": 38.87,
+          "marginVotes": 135698,
+          "marginPct": 22.26,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -4633,7 +4633,7 @@
       "pollDistribution": {
         "<30%": 119,
         "30-40%": 332,
-        "40-50%": 782,
+        "40-50%": 783,
         "50-60%": 1133,
         "60-70%": 1002,
         "70-80%": 826,
@@ -5189,17 +5189,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 3995,
-          "noVotes": 5778,
-          "totalVotes": 9773,
-          "yesPct": 40.88,
-          "noPct": 59.12,
-          "marginVotes": -1783,
-          "marginPct": -18.24,
+          "yesVotes": 4083,
+          "noVotes": 5882,
+          "totalVotes": 9965,
+          "yesPct": 40.97,
+          "noPct": 59.03,
+          "marginVotes": -1799,
+          "marginPct": -18.06,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -6058,9 +6058,9 @@
           "noPct": 45.86
         },
         "Edmonton": {
-          "yes": 149806,
-          "no": 161788,
-          "total": 311594,
+          "yes": 149919,
+          "no": 161871,
+          "total": 311790,
           "wards": 20,
           "yesPct": 48.08,
           "noPct": 51.92
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 419379,
-          "noVotes": 188239,
-          "totalVotes": 607618,
+          "yesVotes": 419492,
+          "noVotes": 188322,
+          "totalVotes": 607814,
           "yesPct": 69.02,
           "noPct": 30.98,
-          "marginVotes": 231140,
+          "marginVotes": 231170,
           "marginPct": 38.04,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -6132,7 +6132,7 @@
         "<30%": 51,
         "30-40%": 77,
         "40-50%": 341,
-        "50-60%": 861,
+        "50-60%": 862,
         "60-70%": 1157,
         "70-80%": 1082,
         "80-90%": 937,
@@ -6687,17 +6687,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 4754,
-          "noVotes": 5021,
-          "totalVotes": 9775,
-          "yesPct": 48.63,
-          "noPct": 51.37,
-          "marginVotes": -267,
-          "marginPct": -2.74,
+          "yesVotes": 4867,
+          "noVotes": 5104,
+          "totalVotes": 9971,
+          "yesPct": 48.81,
+          "noPct": 51.19,
+          "marginVotes": -237,
+          "marginPct": -2.38,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -7556,12 +7556,12 @@
           "noPct": 59.42
         },
         "Edmonton": {
-          "yes": 100449,
-          "no": 188526,
-          "total": 288975,
+          "yes": 100543,
+          "no": 188627,
+          "total": 289170,
           "wards": 20,
-          "yesPct": 34.76,
-          "noPct": 65.24
+          "yesPct": 34.77,
+          "noPct": 65.23
         },
         "Regional / Other": {
           "yes": 450894,
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 341498,
-          "noVotes": 262274,
-          "totalVotes": 603772,
+          "yesVotes": 341592,
+          "noVotes": 262375,
+          "totalVotes": 603967,
           "yesPct": 56.56,
           "noPct": 43.44,
-          "marginVotes": 79224,
+          "marginVotes": 79217,
           "marginPct": 13.12,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -7629,7 +7629,7 @@
       "pollDistribution": {
         "<30%": 253,
         "30-40%": 621,
-        "40-50%": 982,
+        "40-50%": 983,
         "50-60%": 969,
         "60-70%": 780,
         "70-80%": 705,
@@ -8185,17 +8185,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 3053,
-          "noVotes": 6697,
-          "totalVotes": 9750,
-          "yesPct": 31.31,
-          "noPct": 68.69,
-          "marginVotes": -3644,
-          "marginPct": -37.38,
+          "yesVotes": 3147,
+          "noVotes": 6798,
+          "totalVotes": 9945,
+          "yesPct": 31.64,
+          "noPct": 68.36,
+          "marginVotes": -3651,
+          "marginPct": -36.72,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -9054,9 +9054,9 @@
           "noPct": 55.83
         },
         "Edmonton": {
-          "yes": 103396,
-          "no": 168868,
-          "total": 272264,
+          "yes": 103487,
+          "no": 168972,
+          "total": 272459,
           "wards": 20,
           "yesPct": 37.98,
           "noPct": 62.02
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 349575,
-          "noVotes": 256925,
-          "totalVotes": 606500,
-          "yesPct": 57.64,
-          "noPct": 42.36,
-          "marginVotes": 92650,
-          "marginPct": 15.28,
-          "pollsReporting": 4618,
+          "yesVotes": 349666,
+          "noVotes": 257029,
+          "totalVotes": 606695,
+          "yesPct": 57.63,
+          "noPct": 42.37,
+          "marginVotes": 92637,
+          "marginPct": 15.26,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -9127,7 +9127,7 @@
       "pollDistribution": {
         "<30%": 206,
         "30-40%": 486,
-        "40-50%": 1001,
+        "40-50%": 1002,
         "50-60%": 1072,
         "60-70%": 798,
         "70-80%": 728,
@@ -9683,17 +9683,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 3356,
-          "noVotes": 6365,
-          "totalVotes": 9721,
-          "yesPct": 34.52,
-          "noPct": 65.48,
-          "marginVotes": -3009,
-          "marginPct": -30.96,
+          "yesVotes": 3447,
+          "noVotes": 6469,
+          "totalVotes": 9916,
+          "yesPct": 34.76,
+          "noPct": 65.24,
+          "marginVotes": -3022,
+          "marginPct": -30.48,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -10552,12 +10552,12 @@
           "noPct": 60.49
         },
         "Edmonton": {
-          "yes": 92829,
-          "no": 174883,
-          "total": 267712,
+          "yes": 92912,
+          "no": 174995,
+          "total": 267907,
           "wards": 20,
-          "yesPct": 34.67,
-          "noPct": 65.33
+          "yesPct": 34.68,
+          "noPct": 65.32
         },
         "Regional / Other": {
           "yes": 415924,
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 333599,
-          "noVotes": 279169,
-          "totalVotes": 612768,
+          "yesVotes": 333682,
+          "noVotes": 279281,
+          "totalVotes": 612963,
           "yesPct": 54.44,
           "noPct": 45.56,
-          "marginVotes": 54430,
+          "marginVotes": 54401,
           "marginPct": 8.88,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -10625,7 +10625,7 @@
       "pollDistribution": {
         "<30%": 323,
         "30-40%": 737,
-        "40-50%": 1073,
+        "40-50%": 1074,
         "50-60%": 959,
         "60-70%": 736,
         "70-80%": 627,
@@ -11181,17 +11181,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 2849,
-          "noVotes": 6881,
-          "totalVotes": 9730,
-          "yesPct": 29.28,
-          "noPct": 70.72,
-          "marginVotes": -4032,
-          "marginPct": -41.44,
+          "yesVotes": 2932,
+          "noVotes": 6993,
+          "totalVotes": 9925,
+          "yesPct": 29.54,
+          "noPct": 70.46,
+          "marginVotes": -4061,
+          "marginPct": -40.92,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -12050,9 +12050,9 @@
           "noPct": 58.82
         },
         "Edmonton": {
-          "yes": 100590,
-          "no": 162779,
-          "total": 263369,
+          "yes": 100643,
+          "no": 162863,
+          "total": 263506,
           "wards": 20,
           "yesPct": 38.19,
           "noPct": 61.81
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 340408,
-          "noVotes": 262703,
-          "totalVotes": 603111,
+          "yesVotes": 340461,
+          "noVotes": 262787,
+          "totalVotes": 603248,
           "yesPct": 56.44,
           "noPct": 43.56,
-          "marginVotes": 77705,
+          "marginVotes": 77674,
           "marginPct": 12.88,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -12122,7 +12122,7 @@
       ],
       "pollDistribution": {
         "<30%": 227,
-        "30-40%": 590,
+        "30-40%": 591,
         "40-50%": 1035,
         "50-60%": 1003,
         "60-70%": 787,
@@ -12679,17 +12679,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 1973,
-          "noVotes": 2653,
-          "totalVotes": 4626,
-          "yesPct": 42.65,
-          "noPct": 57.35,
-          "marginVotes": -680,
-          "marginPct": -14.7,
+          "yesVotes": 2026,
+          "noVotes": 2737,
+          "totalVotes": 4763,
+          "yesPct": 42.54,
+          "noPct": 57.46,
+          "marginVotes": -711,
+          "marginPct": -14.92,
           "leader": "NO",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
@@ -13540,17 +13540,17 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 513422,
+          "yes": 513423,
           "no": 110043,
-          "total": 623465,
+          "total": 623466,
           "wards": 26,
           "yesPct": 82.35,
           "noPct": 17.65
         },
         "Edmonton": {
-          "yes": 360561,
-          "no": 60601,
-          "total": 421162,
+          "yes": 360666,
+          "no": 60648,
+          "total": 421314,
           "wards": 20,
           "yesPct": 85.61,
           "noPct": 14.39
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 443321,
-          "noVotes": 218266,
-          "totalVotes": 661587,
+          "yesVotes": 443427,
+          "noVotes": 218313,
+          "totalVotes": 661740,
           "yesPct": 67.01,
           "noPct": 32.99,
-          "marginVotes": 225055,
+          "marginVotes": 225114,
           "marginPct": 34.02,
-          "pollsReporting": 4618,
+          "pollsReporting": 4619,
           "totalPolls": 4904
         },
         {
@@ -13623,7 +13623,7 @@
         "30-40%": 243,
         "40-50%": 470,
         "50-60%": 636,
-        "60-70%": 883,
+        "60-70%": 884,
         "70-80%": 1473,
         "80-90%": 1069,
         "90-100%": 301
@@ -13969,12 +13969,12 @@
           "ward": "22",
           "wardName": "22 - Calgary-Peigan",
           "region": "Calgary",
-          "yesVotes": 18825,
+          "yesVotes": 18826,
           "noVotes": 4908,
-          "totalVotes": 23733,
+          "totalVotes": 23734,
           "yesPct": 79.32,
           "noPct": 20.68,
-          "marginVotes": 13917,
+          "marginVotes": 13918,
           "marginPct": 58.64,
           "leader": "YES",
           "pollsReporting": 52,
@@ -14177,17 +14177,17 @@
           "ward": "35",
           "wardName": "35 - Edmonton-Manning",
           "region": "Edmonton",
-          "yesVotes": 8678,
-          "noVotes": 1360,
-          "totalVotes": 10038,
-          "yesPct": 86.45,
-          "noPct": 13.55,
-          "marginVotes": 7318,
-          "marginPct": 72.9,
+          "yesVotes": 8783,
+          "noVotes": 1407,
+          "totalVotes": 10190,
+          "yesPct": 86.19,
+          "noPct": 13.81,
+          "marginVotes": 7376,
+          "marginPct": 72.38,
           "leader": "YES",
-          "pollsReporting": 27,
+          "pollsReporting": 28,
           "totalPolls": 59,
-          "pollsPct": 45.8
+          "pollsPct": 47.5
         },
         {
           "ward": "36",
