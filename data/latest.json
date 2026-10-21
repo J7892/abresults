@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T15:06:55.972603+00:00",
-  "lastUpdatedEAB": "2026-10-21T15:06:35.9050993+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 09:06:35 AM MDT",
+  "fetchedAt": "2026-10-21T15:08:13.962987+00:00",
+  "lastUpdatedEAB": "2026-10-21T15:07:25.9274268+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 09:07:25 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16231399,
-      "valid": 16231399,
+      "votes": 16238682,
+      "valid": 16238682,
       "pollsReporting": 5193,
       "totalPolls": 5583,
       "pollsReportingPct": 93.01
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.51,
+      "percentageOfAllVotes": 45.49,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.77,
+      "percentageOfAllVotes": 37.76,
       "valid": 6131054,
       "pollsReporting": 4590,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 15.62,
-      "valid": 2534932,
+      "percentageOfAllVotes": 15.66,
+      "valid": 2542215,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -3044,13 +3044,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 950478,
-      "noVotes": 806633,
-      "totalVotes": 1757111,
-      "yesPct": 54.09,
-      "noPct": 45.91,
-      "marginVotes": 143845,
-      "marginPct": 8.18,
+      "yesVotes": 953854,
+      "noVotes": 810540,
+      "totalVotes": 1764394,
+      "yesPct": 54.06,
+      "noPct": 45.94,
+      "marginVotes": 143314,
+      "marginPct": 8.12,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3070,12 +3070,12 @@
           "noPct": 58.33
         },
         "Regional / Other": {
-          "yes": 541058,
-          "no": 300771,
-          "total": 841829,
+          "yes": 544434,
+          "no": 304678,
+          "total": 849112,
           "wards": 41,
-          "yesPct": 64.27,
-          "noPct": 35.73
+          "yesPct": 64.12,
+          "noPct": 35.88
         }
       },
       "votingMethods": [
@@ -3108,13 +3108,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 137224,
-          "noVotes": 243155,
-          "totalVotes": 380379,
-          "yesPct": 36.08,
-          "noPct": 63.92,
-          "marginVotes": -105931,
-          "marginPct": -27.84,
+          "yesVotes": 140600,
+          "noVotes": 247062,
+          "totalVotes": 387662,
+          "yesPct": 36.27,
+          "noPct": 63.73,
+          "marginVotes": -106462,
+          "marginPct": -27.46,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -3135,7 +3135,7 @@
       "pollDistribution": {
         "<30%": 83,
         "30-40%": 240,
-        "40-50%": 633,
+        "40-50%": 634,
         "50-60%": 1163,
         "60-70%": 1067,
         "70-80%": 911,
@@ -3899,13 +3899,13 @@
           "ward": "48",
           "wardName": "48 - Airdrie-East",
           "region": "Regional / Other",
-          "yesVotes": 15307,
-          "noVotes": 7407,
-          "totalVotes": 22714,
-          "yesPct": 67.39,
-          "noPct": 32.61,
-          "marginVotes": 7900,
-          "marginPct": 34.78,
+          "yesVotes": 18683,
+          "noVotes": 11314,
+          "totalVotes": 29997,
+          "yesPct": 62.28,
+          "noPct": 37.72,
+          "marginVotes": 7369,
+          "marginPct": 24.56,
           "leader": "YES",
           "pollsReporting": 73,
           "totalPolls": 73,
