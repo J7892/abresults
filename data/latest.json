@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T17:05:45.912406+00:00",
-  "lastUpdatedEAB": "2026-10-21T17:05:28.5028554+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 11:05:28 AM MDT",
+  "fetchedAt": "2026-10-21T17:06:52.274574+00:00",
+  "lastUpdatedEAB": "2026-10-21T17:06:18.0295785+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 11:06:18 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16446415,
-      "valid": 16446415,
+      "votes": 16451056,
+      "valid": 16451056,
       "pollsReporting": 5255,
       "totalPolls": 5581,
       "pollsReportingPct": 94.16
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.0,
+      "percentageOfAllVotes": 44.99,
       "valid": 7400926,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.86,
+      "percentageOfAllVotes": 37.85,
       "valid": 6227407,
       "pollsReporting": 4648,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 16.04,
-      "valid": 2638081,
+      "percentageOfAllVotes": 16.06,
+      "valid": 2642722,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 676404,
-      "noVotes": 723854,
-      "totalVotes": 1400258,
-      "yesPct": 48.31,
-      "noPct": 51.69,
-      "marginVotes": -47450,
-      "marginPct": -3.38,
+      "yesVotes": 677607,
+      "noVotes": 727292,
+      "totalVotes": 1404899,
+      "yesPct": 48.23,
+      "noPct": 51.77,
+      "marginVotes": -49685,
+      "marginPct": -3.54,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,12 +10560,12 @@
           "noPct": 65.16
         },
         "Regional / Other": {
-          "yes": 417760,
-          "no": 293654,
-          "total": 711414,
+          "yes": 418963,
+          "no": 297092,
+          "total": 716055,
           "wards": 41,
-          "yesPct": 58.72,
-          "noPct": 41.28
+          "yesPct": 58.51,
+          "noPct": 41.49
         }
       },
       "votingMethods": [
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 12755,
-          "noVotes": 39666,
-          "totalVotes": 52421,
-          "yesPct": 24.33,
-          "noPct": 75.67,
-          "marginVotes": -26911,
-          "marginPct": -51.34,
+          "yesVotes": 13958,
+          "noVotes": 43104,
+          "totalVotes": 57062,
+          "yesPct": 24.46,
+          "noPct": 75.54,
+          "marginVotes": -29146,
+          "marginPct": -51.08,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 325,
+        "<30%": 326,
         "30-40%": 742,
         "40-50%": 1091,
         "50-60%": 972,
@@ -11533,13 +11533,13 @@
           "ward": "57",
           "wardName": "57 - Cypress-Medicine Hat",
           "region": "Regional / Other",
-          "yesVotes": 11122,
-          "noVotes": 8535,
-          "totalVotes": 19657,
-          "yesPct": 56.58,
-          "noPct": 43.42,
-          "marginVotes": 2587,
-          "marginPct": 13.16,
+          "yesVotes": 12325,
+          "noVotes": 11973,
+          "totalVotes": 24298,
+          "yesPct": 50.72,
+          "noPct": 49.28,
+          "marginVotes": 352,
+          "marginPct": 1.44,
           "leader": "YES",
           "pollsReporting": 59,
           "totalPolls": 59,
