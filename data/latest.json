@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T09:26:53.543339+00:00",
-  "lastUpdatedEAB": "2026-10-21T09:26:14.4712897+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 03:26:14 AM MDT",
+  "fetchedAt": "2026-10-21T09:27:42.428404+00:00",
+  "lastUpdatedEAB": "2026-10-21T09:27:02.5710169+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 03:27:02 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15854221,
-      "valid": 15854221,
+      "votes": 15858015,
+      "valid": 15858015,
       "pollsReporting": 5173,
       "totalPolls": 5583,
       "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.52,
+      "percentageOfAllVotes": 46.51,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.45,
+      "percentageOfAllVotes": 38.44,
       "valid": 6095194,
       "pollsReporting": 4577,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.93,
-      "valid": 2208326,
+      "percentageOfAllVotes": 13.95,
+      "valid": 2212120,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 956887,
-      "noVotes": 881381,
-      "totalVotes": 1838268,
+      "yesVotes": 958729,
+      "noVotes": 883333,
+      "totalVotes": 1842062,
       "yesPct": 52.05,
       "noPct": 47.95,
-      "marginVotes": 75506,
+      "marginVotes": 75396,
       "marginPct": 4.1,
       "leader": "YES",
       "regionalStats": {
@@ -1572,12 +1572,12 @@
           "noPct": 60.29
         },
         "Regional / Other": {
-          "yes": 541704,
-          "no": 326211,
-          "total": 867915,
+          "yes": 543546,
+          "no": 328163,
+          "total": 871709,
           "wards": 41,
-          "yesPct": 62.41,
-          "noPct": 37.59
+          "yesPct": 62.35,
+          "noPct": 37.65
         }
       },
       "votingMethods": [
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 156301,
-          "noVotes": 306138,
-          "totalVotes": 462439,
-          "yesPct": 33.8,
-          "noPct": 66.2,
-          "marginVotes": -149837,
-          "marginPct": -32.4,
+          "yesVotes": 158143,
+          "noVotes": 308090,
+          "totalVotes": 466233,
+          "yesPct": 33.92,
+          "noPct": 66.08,
+          "marginVotes": -149947,
+          "marginPct": -32.16,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -1637,7 +1637,7 @@
       "pollDistribution": {
         "<30%": 97,
         "30-40%": 245,
-        "40-50%": 713,
+        "40-50%": 714,
         "50-60%": 1149,
         "60-70%": 1059,
         "70-80%": 900,
@@ -2849,13 +2849,13 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 18156,
-          "noVotes": 5400,
-          "totalVotes": 23556,
-          "yesPct": 77.08,
-          "noPct": 22.92,
-          "marginVotes": 12756,
-          "marginPct": 54.16,
+          "yesVotes": 19998,
+          "noVotes": 7352,
+          "totalVotes": 27350,
+          "yesPct": 73.12,
+          "noPct": 26.88,
+          "marginVotes": 12646,
+          "marginPct": 46.24,
           "leader": "YES",
           "pollsReporting": 71,
           "totalPolls": 71,
