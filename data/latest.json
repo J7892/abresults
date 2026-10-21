@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T16:26:07.736761+00:00",
-  "lastUpdatedEAB": "2026-10-21T16:25:42.7752252+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 10:25:42 AM MDT",
+  "fetchedAt": "2026-10-21T16:26:54.702852+00:00",
+  "lastUpdatedEAB": "2026-10-21T16:26:32.5364807+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 10:26:32 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16354397,
-      "valid": 16354397,
+      "votes": 16361462,
+      "valid": 16361462,
       "pollsReporting": 5221,
       "totalPolls": 5581,
       "pollsReportingPct": 93.55
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.16,
+      "percentageOfAllVotes": 45.15,
       "valid": 7386389,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.83,
+      "percentageOfAllVotes": 37.82,
       "valid": 6187095,
       "pollsReporting": 4616,
       "totalPolls": 4904
@@ -29,15 +29,15 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 15.91,
-      "valid": 2602531,
+      "percentageOfAllVotes": 15.95,
+      "valid": 2609607,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
       "percentageOfAllVotes": 1.09,
-      "valid": 178382,
+      "valid": 178371,
       "pollsReporting": 264,
       "totalPolls": 321
     }
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1036383,
-      "noVotes": 902080,
-      "totalVotes": 1938463,
+      "yesVotes": 1036368,
+      "noVotes": 902084,
+      "totalVotes": 1938452,
       "yesPct": 53.46,
       "noPct": 46.54,
-      "marginVotes": 134303,
+      "marginVotes": 134284,
       "marginPct": 6.92,
       "leader": "YES",
       "regionalStats": {
@@ -66,9 +66,9 @@
           "noPct": 54.97
         },
         "Edmonton": {
-          "yes": 169353,
-          "no": 233111,
-          "total": 402464,
+          "yes": 169338,
+          "no": 233115,
+          "total": 402453,
           "wards": 20,
           "yesPct": 42.08,
           "noPct": 57.92
@@ -125,13 +125,13 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 10579,
-          "noVotes": 7792,
-          "totalVotes": 18371,
-          "yesPct": 57.59,
-          "noPct": 42.41,
-          "marginVotes": 2787,
-          "marginPct": 15.18,
+          "yesVotes": 10564,
+          "noVotes": 7796,
+          "totalVotes": 18360,
+          "yesPct": 57.54,
+          "noPct": 42.46,
+          "marginVotes": 2768,
+          "marginPct": 15.08,
           "pollsReporting": 263,
           "totalPolls": 321
         }
@@ -142,9 +142,9 @@
         "40-50%": 504,
         "50-60%": 1010,
         "60-70%": 1167,
-        "70-80%": 1026,
+        "70-80%": 1027,
         "80-90%": 819,
-        "90-100%": 167
+        "90-100%": 166
       },
       "wards": [
         {
@@ -711,13 +711,13 @@
           "ward": "36",
           "wardName": "36 - Edmonton-McClung",
           "region": "Edmonton",
-          "yesVotes": 8247,
-          "noVotes": 9903,
-          "totalVotes": 18150,
-          "yesPct": 45.44,
-          "noPct": 54.56,
-          "marginVotes": -1656,
-          "marginPct": -9.12,
+          "yesVotes": 8232,
+          "noVotes": 9907,
+          "totalVotes": 18139,
+          "yesPct": 45.38,
+          "noPct": 54.62,
+          "marginVotes": -1675,
+          "marginPct": -9.24,
           "leader": "NO",
           "pollsReporting": 50,
           "totalPolls": 51,
@@ -9036,22 +9036,22 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 734970,
-      "noVotes": 667366,
-      "totalVotes": 1402336,
-      "yesPct": 52.41,
-      "noPct": 47.59,
-      "marginVotes": 67604,
-      "marginPct": 4.82,
+      "yesVotes": 736901,
+      "noVotes": 672511,
+      "totalVotes": 1409412,
+      "yesPct": 52.28,
+      "noPct": 47.72,
+      "marginVotes": 64390,
+      "marginPct": 4.56,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 178485,
-          "no": 225573,
-          "total": 404058,
+          "yes": 180416,
+          "no": 230718,
+          "total": 411134,
           "wards": 26,
-          "yesPct": 44.17,
-          "noPct": 55.83
+          "yesPct": 43.88,
+          "noPct": 56.12
         },
         "Edmonton": {
           "yes": 104042,
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 18972,
-          "noVotes": 42529,
-          "totalVotes": 61501,
-          "yesPct": 30.85,
-          "noPct": 69.15,
-          "marginVotes": -23557,
-          "marginPct": -38.3,
+          "yesVotes": 20903,
+          "noVotes": 47674,
+          "totalVotes": 68577,
+          "yesPct": 30.48,
+          "noPct": 69.52,
+          "marginVotes": -26771,
+          "marginPct": -39.04,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9125,7 +9125,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 206,
+        "<30%": 207,
         "30-40%": 488,
         "40-50%": 1007,
         "50-60%": 1074,
@@ -9155,13 +9155,13 @@
           "ward": "02",
           "wardName": "02 - Calgary-Beddington",
           "region": "Calgary",
-          "yesVotes": 6798,
-          "noVotes": 8913,
-          "totalVotes": 15711,
-          "yesPct": 43.27,
-          "noPct": 56.73,
-          "marginVotes": -2115,
-          "marginPct": -13.46,
+          "yesVotes": 8729,
+          "noVotes": 14058,
+          "totalVotes": 22787,
+          "yesPct": 38.31,
+          "noPct": 61.69,
+          "marginVotes": -5329,
+          "marginPct": -23.38,
           "leader": "NO",
           "pollsReporting": 53,
           "totalPolls": 53,
