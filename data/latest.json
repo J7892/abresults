@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-21T18:24:15.187275+00:00",
-  "lastUpdatedEAB": "2026-10-21T18:23:33.5312641+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 12:23:33 PM MDT",
+  "fetchedAt": "2026-10-21T18:24:50.354863+00:00",
+  "lastUpdatedEAB": "2026-10-21T18:24:22.1555300+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 12:24:22 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 16743606,
-      "valid": 16743606,
+      "votes": 16743732,
+      "valid": 16743732,
       "pollsReporting": 5283,
       "totalPolls": 5575,
       "pollsReportingPct": 94.76
@@ -13,7 +13,7 @@
     "advance": {
       "votes": null,
       "percentageOfAllVotes": 44.62,
-      "valid": 7470215,
+      "valid": 7470341,
       "pollsReporting": 254,
       "totalPolls": 269
     },
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 967933,
-      "noVotes": 618086,
-      "totalVotes": 1586019,
+      "yesVotes": 967974,
+      "noVotes": 618171,
+      "totalVotes": 1586145,
       "yesPct": 61.03,
       "noPct": 38.97,
-      "marginVotes": 349847,
+      "marginVotes": 349803,
       "marginPct": 22.06,
       "leader": "YES",
       "regionalStats": {
@@ -6066,24 +6066,24 @@
           "noPct": 51.96
         },
         "Regional / Other": {
-          "yes": 562151,
-          "no": 228850,
-          "total": 791001,
+          "yes": 562192,
+          "no": 228935,
+          "total": 791127,
           "wards": 41,
-          "yesPct": 71.07,
-          "noPct": 28.93
+          "yesPct": 71.06,
+          "noPct": 28.94
         }
       },
       "votingMethods": [
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 440200,
-          "noVotes": 295507,
-          "totalVotes": 735707,
+          "yesVotes": 440241,
+          "noVotes": 295592,
+          "totalVotes": 735833,
           "yesPct": 59.83,
           "noPct": 40.17,
-          "marginVotes": 144693,
+          "marginVotes": 144649,
           "marginPct": 19.66,
           "pollsReporting": 254,
           "totalPolls": 269
@@ -6130,7 +6130,7 @@
       ],
       "pollDistribution": {
         "<30%": 53,
-        "30-40%": 83,
+        "30-40%": 84,
         "40-50%": 352,
         "50-60%": 889,
         "60-70%": 1189,
@@ -7103,13 +7103,13 @@
           "ward": "61",
           "wardName": "61 - Fort McMurray-Wood Buffalo",
           "region": "Regional / Other",
-          "yesVotes": 4666,
-          "noVotes": 1811,
-          "totalVotes": 6477,
-          "yesPct": 72.04,
-          "noPct": 27.96,
-          "marginVotes": 2855,
-          "marginPct": 44.08,
+          "yesVotes": 4707,
+          "noVotes": 1896,
+          "totalVotes": 6603,
+          "yesPct": 71.29,
+          "noPct": 28.71,
+          "marginVotes": 2811,
+          "marginPct": 42.58,
           "leader": "YES",
           "pollsReporting": 13,
           "totalPolls": 40,
