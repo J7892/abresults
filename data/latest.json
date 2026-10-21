@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T04:19:32.082289+00:00",
-  "lastUpdatedEAB": "2026-10-21T04:19:11.1322552+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 10:19:11 PM MDT",
+  "fetchedAt": "2026-10-21T04:20:05.899990+00:00",
+  "lastUpdatedEAB": "2026-10-21T04:20:00.0549777+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 10:20:00 PM MDT",
   "turnout": {
     "summary": {
       "votes": 15271275,
@@ -58,9 +58,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 276064,
-          "no": 339999,
-          "total": 616063,
+          "yes": 276162,
+          "no": 340085,
+          "total": 616247,
           "wards": 26,
           "yesPct": 44.81,
           "noPct": 55.19
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 400975,
-          "noVotes": 194789,
-          "totalVotes": 595764,
+          "yesVotes": 401073,
+          "noVotes": 194875,
+          "totalVotes": 595948,
           "yesPct": 67.3,
           "noPct": 32.7,
-          "marginVotes": 206186,
+          "marginVotes": 206198,
           "marginPct": 34.6,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -140,7 +140,7 @@
         "<30%": 64,
         "30-40%": 141,
         "40-50%": 470,
-        "50-60%": 951,
+        "50-60%": 952,
         "60-70%": 1116,
         "70-80%": 993,
         "80-90%": 812,
@@ -327,17 +327,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 10548,
-          "noVotes": 12560,
-          "totalVotes": 23108,
-          "yesPct": 45.65,
-          "noPct": 54.35,
-          "marginVotes": -2012,
-          "marginPct": -8.7,
+          "yesVotes": 10646,
+          "noVotes": 12646,
+          "totalVotes": 23292,
+          "yesPct": 45.71,
+          "noPct": 54.29,
+          "marginVotes": -2000,
+          "marginPct": -8.58,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -1556,9 +1556,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 250373,
-          "no": 300513,
-          "total": 550886,
+          "yes": 250456,
+          "no": 300616,
+          "total": 551072,
           "wards": 26,
           "yesPct": 45.45,
           "noPct": 54.55
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 382070,
-          "noVotes": 220700,
-          "totalVotes": 602770,
-          "yesPct": 63.39,
-          "noPct": 36.61,
-          "marginVotes": 161370,
-          "marginPct": 26.78,
-          "pollsReporting": 4510,
+          "yesVotes": 382153,
+          "noVotes": 220803,
+          "totalVotes": 602956,
+          "yesPct": 63.38,
+          "noPct": 36.62,
+          "marginVotes": 161350,
+          "marginPct": 26.76,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -1637,7 +1637,7 @@
       "pollDistribution": {
         "<30%": 89,
         "30-40%": 229,
-        "40-50%": 677,
+        "40-50%": 678,
         "50-60%": 1124,
         "60-70%": 1042,
         "70-80%": 887,
@@ -1825,17 +1825,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 10084,
-          "noVotes": 12979,
-          "totalVotes": 23063,
-          "yesPct": 43.72,
-          "noPct": 56.28,
-          "marginVotes": -2895,
-          "marginPct": -12.56,
+          "yesVotes": 10167,
+          "noVotes": 13082,
+          "totalVotes": 23249,
+          "yesPct": 43.73,
+          "noPct": 56.27,
+          "marginVotes": -2915,
+          "marginPct": -12.54,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -3054,9 +3054,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 235363,
-          "no": 255919,
-          "total": 491282,
+          "yes": 235459,
+          "no": 256013,
+          "total": 491472,
           "wards": 26,
           "yesPct": 47.91,
           "noPct": 52.09
@@ -3070,9 +3070,9 @@
           "noPct": 57.16
         },
         "Regional / Other": {
-          "yes": 506208,
-          "no": 253689,
-          "total": 759897,
+          "yes": 506352,
+          "no": 253721,
+          "total": 760073,
           "wards": 41,
           "yesPct": 66.62,
           "noPct": 33.38
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 384380,
-          "noVotes": 214346,
-          "totalVotes": 598726,
+          "yesVotes": 384620,
+          "noVotes": 214472,
+          "totalVotes": 599092,
           "yesPct": 64.2,
           "noPct": 35.8,
-          "marginVotes": 170034,
+          "marginVotes": 170148,
           "marginPct": 28.4,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -3136,10 +3136,10 @@
         "<30%": 71,
         "30-40%": 219,
         "40-50%": 584,
-        "50-60%": 1111,
+        "50-60%": 1112,
         "60-70%": 1048,
         "70-80%": 893,
-        "80-90%": 648,
+        "80-90%": 649,
         "90-100%": 103
       },
       "wards": [
@@ -3323,17 +3323,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 8042,
-          "noVotes": 8225,
-          "totalVotes": 16267,
-          "yesPct": 49.44,
-          "noPct": 50.56,
-          "marginVotes": -183,
-          "marginPct": -1.12,
+          "yesVotes": 8138,
+          "noVotes": 8319,
+          "totalVotes": 16457,
+          "yesPct": 49.45,
+          "noPct": 50.55,
+          "marginVotes": -181,
+          "marginPct": -1.1,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -3947,13 +3947,13 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 6612,
-          "noVotes": 3906,
-          "totalVotes": 10518,
-          "yesPct": 62.86,
-          "noPct": 37.14,
-          "marginVotes": 2706,
-          "marginPct": 25.72,
+          "yesVotes": 6756,
+          "noVotes": 3938,
+          "totalVotes": 10694,
+          "yesPct": 63.18,
+          "noPct": 36.82,
+          "marginVotes": 2818,
+          "marginPct": 26.36,
           "leader": "YES",
           "pollsReporting": 39,
           "totalPolls": 74,
@@ -4552,9 +4552,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 200356,
-          "no": 214054,
-          "total": 414410,
+          "yes": 200535,
+          "no": 214207,
+          "total": 414742,
           "wards": 26,
           "yesPct": 48.35,
           "noPct": 51.65
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 359769,
-          "noVotes": 224751,
-          "totalVotes": 584520,
+          "yesVotes": 359948,
+          "noVotes": 224904,
+          "totalVotes": 584852,
           "yesPct": 61.55,
           "noPct": 38.45,
-          "marginVotes": 135018,
+          "marginVotes": 135044,
           "marginPct": 23.1,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -4633,9 +4633,9 @@
       "pollDistribution": {
         "<30%": 104,
         "30-40%": 298,
-        "40-50%": 720,
+        "40-50%": 721,
         "50-60%": 1085,
-        "60-70%": 976,
+        "60-70%": 977,
         "70-80%": 810,
         "80-90%": 526,
         "90-100%": 66
@@ -4661,13 +4661,13 @@
           "ward": "02",
           "wardName": "02 - Calgary-Beddington",
           "region": "Calgary",
-          "yesVotes": 8200,
-          "noVotes": 10932,
-          "totalVotes": 19132,
-          "yesPct": 42.86,
-          "noPct": 57.14,
-          "marginVotes": -2732,
-          "marginPct": -14.28,
+          "yesVotes": 8291,
+          "noVotes": 10977,
+          "totalVotes": 19268,
+          "yesPct": 43.03,
+          "noPct": 56.97,
+          "marginVotes": -2686,
+          "marginPct": -13.94,
           "leader": "NO",
           "pollsReporting": 53,
           "totalPolls": 53,
@@ -4821,17 +4821,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 2111,
-          "noVotes": 2121,
-          "totalVotes": 4232,
-          "yesPct": 49.88,
-          "noPct": 50.12,
-          "marginVotes": -10,
-          "marginPct": -0.24,
+          "yesVotes": 2199,
+          "noVotes": 2229,
+          "totalVotes": 4428,
+          "yesPct": 49.66,
+          "noPct": 50.34,
+          "marginVotes": -30,
+          "marginPct": -0.68,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -6050,9 +6050,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 226004,
-          "no": 188080,
-          "total": 414084,
+          "yes": 226114,
+          "no": 188155,
+          "total": 414269,
           "wards": 26,
           "yesPct": 54.58,
           "noPct": 45.42
@@ -6066,12 +6066,12 @@
           "noPct": 49.62
         },
         "Regional / Other": {
-          "yes": 534873,
-          "no": 207149,
-          "total": 742022,
+          "yes": 535022,
+          "no": 207176,
+          "total": 742198,
           "wards": 41,
-          "yesPct": 72.08,
-          "noPct": 27.92
+          "yesPct": 72.09,
+          "noPct": 27.91
         }
       },
       "votingMethods": [
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 405040,
-          "noVotes": 178758,
-          "totalVotes": 583798,
+          "yesVotes": 405299,
+          "noVotes": 178860,
+          "totalVotes": 584159,
           "yesPct": 69.38,
           "noPct": 30.62,
-          "marginVotes": 226282,
+          "marginVotes": 226439,
           "marginPct": 38.76,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -6132,10 +6132,10 @@
         "<30%": 44,
         "30-40%": 70,
         "40-50%": 314,
-        "50-60%": 795,
+        "50-60%": 796,
         "60-70%": 1113,
         "70-80%": 1054,
-        "80-90%": 925,
+        "80-90%": 926,
         "90-100%": 247
       },
       "wards": [
@@ -6319,17 +6319,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 2412,
-          "noVotes": 1818,
-          "totalVotes": 4230,
-          "yesPct": 57.02,
-          "noPct": 42.98,
-          "marginVotes": 594,
-          "marginPct": 14.04,
+          "yesVotes": 2522,
+          "noVotes": 1893,
+          "totalVotes": 4415,
+          "yesPct": 57.12,
+          "noPct": 42.88,
+          "marginVotes": 629,
+          "marginPct": 14.24,
           "leader": "YES",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -6943,13 +6943,13 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 7026,
-          "noVotes": 3404,
-          "totalVotes": 10430,
-          "yesPct": 67.36,
-          "noPct": 32.64,
-          "marginVotes": 3622,
-          "marginPct": 34.72,
+          "yesVotes": 7175,
+          "noVotes": 3431,
+          "totalVotes": 10606,
+          "yesPct": 67.65,
+          "noPct": 32.35,
+          "marginVotes": 3744,
+          "marginPct": 35.3,
           "leader": "YES",
           "pollsReporting": 39,
           "totalPolls": 74,
@@ -7548,9 +7548,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 168344,
-          "no": 244735,
-          "total": 413079,
+          "yes": 168416,
+          "no": 244847,
+          "total": 413263,
           "wards": 26,
           "yesPct": 40.75,
           "noPct": 59.25
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 330157,
-          "noVotes": 249016,
-          "totalVotes": 579173,
+          "yesVotes": 330229,
+          "noVotes": 249128,
+          "totalVotes": 579357,
           "yesPct": 57.0,
           "noPct": 43.0,
-          "marginVotes": 81141,
+          "marginVotes": 81101,
           "marginPct": 14.0,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -7628,7 +7628,7 @@
       ],
       "pollDistribution": {
         "<30%": 226,
-        "30-40%": 563,
+        "30-40%": 564,
         "40-50%": 927,
         "50-60%": 942,
         "60-70%": 762,
@@ -7817,17 +7817,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 1848,
-          "noVotes": 2347,
-          "totalVotes": 4195,
-          "yesPct": 44.05,
-          "noPct": 55.95,
-          "marginVotes": -499,
-          "marginPct": -11.9,
+          "yesVotes": 1920,
+          "noVotes": 2459,
+          "totalVotes": 4379,
+          "yesPct": 43.85,
+          "noPct": 56.15,
+          "marginVotes": -539,
+          "marginPct": -12.3,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -9046,12 +9046,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 171628,
-          "no": 214268,
-          "total": 385896,
+          "yes": 171700,
+          "no": 214382,
+          "total": 386082,
           "wards": 26,
-          "yesPct": 44.48,
-          "noPct": 55.52
+          "yesPct": 44.47,
+          "noPct": 55.53
         },
         "Edmonton": {
           "yes": 93792,
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 336422,
-          "noVotes": 242537,
-          "totalVotes": 578959,
-          "yesPct": 58.11,
-          "noPct": 41.89,
-          "marginVotes": 93885,
-          "marginPct": 16.22,
-          "pollsReporting": 4510,
+          "yesVotes": 336494,
+          "noVotes": 242651,
+          "totalVotes": 579145,
+          "yesPct": 58.1,
+          "noPct": 41.9,
+          "marginVotes": 93843,
+          "marginPct": 16.2,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -9126,7 +9126,7 @@
       ],
       "pollDistribution": {
         "<30%": 189,
-        "30-40%": 443,
+        "30-40%": 444,
         "40-50%": 929,
         "50-60%": 1021,
         "60-70%": 778,
@@ -9315,17 +9315,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 1954,
-          "noVotes": 2235,
-          "totalVotes": 4189,
-          "yesPct": 46.65,
-          "noPct": 53.35,
-          "marginVotes": -281,
-          "marginPct": -6.7,
+          "yesVotes": 2026,
+          "noVotes": 2349,
+          "totalVotes": 4375,
+          "yesPct": 46.31,
+          "noPct": 53.69,
+          "marginVotes": -323,
+          "marginPct": -7.38,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -10544,9 +10544,9 @@
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 155998,
-          "no": 235141,
-          "total": 391139,
+          "yes": 156070,
+          "no": 235254,
+          "total": 391324,
           "wards": 26,
           "yesPct": 39.88,
           "noPct": 60.12
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 321665,
-          "noVotes": 263773,
-          "totalVotes": 585438,
+          "yesVotes": 321737,
+          "noVotes": 263886,
+          "totalVotes": 585623,
           "yesPct": 54.94,
           "noPct": 45.06,
-          "marginVotes": 57892,
+          "marginVotes": 57851,
           "marginPct": 9.88,
-          "pollsReporting": 4510,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -10624,7 +10624,7 @@
       ],
       "pollDistribution": {
         "<30%": 294,
-        "30-40%": 673,
+        "30-40%": 674,
         "40-50%": 1008,
         "50-60%": 931,
         "60-70%": 717,
@@ -10813,17 +10813,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 1826,
-          "noVotes": 2391,
-          "totalVotes": 4217,
-          "yesPct": 43.3,
-          "noPct": 56.7,
-          "marginVotes": -565,
-          "marginPct": -13.4,
+          "yesVotes": 1898,
+          "noVotes": 2504,
+          "totalVotes": 4402,
+          "yesPct": 43.12,
+          "noPct": 56.88,
+          "marginVotes": -606,
+          "marginPct": -13.76,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -12042,9 +12042,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 163662,
-          "no": 231647,
-          "total": 395309,
+          "yes": 163747,
+          "no": 231749,
+          "total": 395496,
           "wards": 26,
           "yesPct": 41.4,
           "noPct": 58.6
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 327904,
-          "noVotes": 247814,
-          "totalVotes": 575718,
-          "yesPct": 56.96,
-          "noPct": 43.04,
-          "marginVotes": 80090,
-          "marginPct": 13.92,
-          "pollsReporting": 4510,
+          "yesVotes": 327989,
+          "noVotes": 247916,
+          "totalVotes": 575905,
+          "yesPct": 56.95,
+          "noPct": 43.05,
+          "marginVotes": 80073,
+          "marginPct": 13.9,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -12123,7 +12123,7 @@
       "pollDistribution": {
         "<30%": 203,
         "30-40%": 541,
-        "40-50%": 957,
+        "40-50%": 958,
         "50-60%": 972,
         "60-70%": 770,
         "70-80%": 653,
@@ -12311,17 +12311,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 3313,
-          "noVotes": 7344,
-          "totalVotes": 10657,
-          "yesPct": 31.09,
-          "noPct": 68.91,
-          "marginVotes": -4031,
-          "marginPct": -37.82,
+          "yesVotes": 3398,
+          "noVotes": 7446,
+          "totalVotes": 10844,
+          "yesPct": 31.34,
+          "noPct": 68.66,
+          "marginVotes": -4048,
+          "marginPct": -37.32,
           "leader": "NO",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
@@ -13540,12 +13540,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 510431,
-          "no": 109137,
-          "total": 619568,
+          "yes": 510593,
+          "no": 109161,
+          "total": 619754,
           "wards": 26,
-          "yesPct": 82.38,
-          "noPct": 17.62
+          "yesPct": 82.39,
+          "noPct": 17.61
         },
         "Edmonton": {
           "yes": 337407,
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 430497,
-          "noVotes": 214019,
-          "totalVotes": 644516,
-          "yesPct": 66.79,
-          "noPct": 33.21,
-          "marginVotes": 216478,
-          "marginPct": 33.58,
-          "pollsReporting": 4510,
+          "yesVotes": 430659,
+          "noVotes": 214043,
+          "totalVotes": 644702,
+          "yesPct": 66.8,
+          "noPct": 33.2,
+          "marginVotes": 216616,
+          "marginPct": 33.6,
+          "pollsReporting": 4511,
           "totalPolls": 4904
         },
         {
@@ -13625,7 +13625,7 @@
         "50-60%": 628,
         "60-70%": 874,
         "70-80%": 1429,
-        "80-90%": 1025,
+        "80-90%": 1026,
         "90-100%": 287
       },
       "wards": [
@@ -13809,17 +13809,17 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 19739,
-          "noVotes": 3739,
-          "totalVotes": 23478,
-          "yesPct": 84.07,
-          "noPct": 15.93,
-          "marginVotes": 16000,
-          "marginPct": 68.14,
+          "yesVotes": 19901,
+          "noVotes": 3763,
+          "totalVotes": 23664,
+          "yesPct": 84.1,
+          "noPct": 15.9,
+          "marginVotes": 16138,
+          "marginPct": 68.2,
           "leader": "YES",
-          "pollsReporting": 32,
+          "pollsReporting": 33,
           "totalPolls": 62,
-          "pollsPct": 51.6
+          "pollsPct": 53.2
         },
         {
           "ward": "13",
