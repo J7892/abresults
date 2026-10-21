@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T18:59:37.171667+00:00",
-  "lastUpdatedEAB": "2026-10-21T18:58:40.0625605+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 12:58:40 PM MDT",
+  "fetchedAt": "2026-10-21T19:00:24.826423+00:00",
+  "lastUpdatedEAB": "2026-10-21T18:59:29.5038256+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 12:59:29 PM MDT",
   "turnout": {
     "summary": {
       "votes": 16886090,
@@ -58,12 +58,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 282699,
-          "no": 344392,
-          "total": 627091,
+          "yes": 282789,
+          "no": 344441,
+          "total": 627230,
           "wards": 26,
-          "yesPct": 45.08,
-          "noPct": 54.92
+          "yesPct": 45.09,
+          "noPct": 54.91
         },
         "Edmonton": {
           "yes": 175888,
@@ -99,12 +99,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 424004,
-          "noVotes": 209170,
-          "totalVotes": 633174,
+          "yesVotes": 424094,
+          "noVotes": 209219,
+          "totalVotes": 633313,
           "yesPct": 66.96,
           "noPct": 33.04,
-          "marginVotes": 214834,
+          "marginVotes": 214875,
           "marginPct": 33.92,
           "pollsReporting": 4688,
           "totalPolls": 4904
@@ -141,7 +141,7 @@
         "30-40%": 155,
         "40-50%": 507,
         "50-60%": 1029,
-        "60-70%": 1190,
+        "60-70%": 1191,
         "70-80%": 1040,
         "80-90%": 842,
         "90-100%": 168
@@ -503,13 +503,13 @@
           "ward": "23",
           "wardName": "23 - Calgary-Shaw",
           "region": "Calgary",
-          "yesVotes": 8289,
-          "noVotes": 9100,
-          "totalVotes": 17389,
-          "yesPct": 47.67,
-          "noPct": 52.33,
-          "marginVotes": -811,
-          "marginPct": -4.66,
+          "yesVotes": 8379,
+          "noVotes": 9149,
+          "totalVotes": 17528,
+          "yesPct": 47.8,
+          "noPct": 52.2,
+          "marginVotes": -770,
+          "marginPct": -4.4,
           "leader": "NO",
           "pollsReporting": 70,
           "totalPolls": 71,
@@ -10585,12 +10585,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 343995,
-          "noVotes": 288552,
-          "totalVotes": 632547,
+          "yesVotes": 344057,
+          "noVotes": 288610,
+          "totalVotes": 632667,
           "yesPct": 54.38,
           "noPct": 45.62,
-          "marginVotes": 55443,
+          "marginVotes": 55447,
           "marginPct": 8.76,
           "pollsReporting": 4688,
           "totalPolls": 4904
@@ -10626,7 +10626,7 @@
         "<30%": 333,
         "30-40%": 760,
         "40-50%": 1109,
-        "50-60%": 995,
+        "50-60%": 996,
         "60-70%": 761,
         "70-80%": 647,
         "80-90%": 273,
