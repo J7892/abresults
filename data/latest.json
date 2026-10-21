@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T10:50:52.970074+00:00",
+  "fetchedAt": "2026-10-21T10:51:26.207881+00:00",
   "lastUpdatedEAB": "2026-10-21T10:50:32.6020906+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 04:50:32 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15935473,
-      "valid": 15935473,
+      "votes": 15940642,
+      "valid": 15940642,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.36,
+      "percentageOfAllVotes": 46.34,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.27,
+      "percentageOfAllVotes": 38.26,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,14 +29,14 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.28,
-      "valid": 2275234,
+      "percentageOfAllVotes": 14.31,
+      "valid": 2280403,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 1.1,
+      "percentageOfAllVotes": 1.09,
       "valid": 174542,
       "pollsReporting": 255,
       "totalPolls": 323
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 838038,
-      "noVotes": 672842,
-      "totalVotes": 1510880,
-      "yesPct": 55.47,
-      "noPct": 44.53,
-      "marginVotes": 165196,
-      "marginPct": 10.94,
+      "yesVotes": 838946,
+      "noVotes": 676525,
+      "totalVotes": 1515471,
+      "yesPct": 55.36,
+      "noPct": 44.64,
+      "marginVotes": 162421,
+      "marginPct": 10.72,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4560,12 +4560,12 @@
           "noPct": 52.32
         },
         "Edmonton": {
-          "yes": 131246,
-          "no": 174884,
-          "total": 306130,
+          "yes": 132154,
+          "no": 178567,
+          "total": 310721,
           "wards": 20,
-          "yesPct": 42.87,
-          "noPct": 57.13
+          "yesPct": 42.53,
+          "noPct": 57.47
         },
         "Regional / Other": {
           "yes": 496764,
@@ -5141,13 +5141,13 @@
           "ward": "32",
           "wardName": "32 - Edmonton-Glenora",
           "region": "Edmonton",
-          "yesVotes": 6470,
-          "noVotes": 10386,
-          "totalVotes": 16856,
-          "yesPct": 38.38,
-          "noPct": 61.62,
-          "marginVotes": -3916,
-          "marginPct": -23.24,
+          "yesVotes": 7378,
+          "noVotes": 14069,
+          "totalVotes": 21447,
+          "yesPct": 34.4,
+          "noPct": 65.6,
+          "marginVotes": -6691,
+          "marginPct": -31.2,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 52,
@@ -7538,13 +7538,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 712700,
-      "noVotes": 707883,
-      "totalVotes": 1420583,
-      "yesPct": 50.17,
-      "noPct": 49.83,
-      "marginVotes": 4817,
-      "marginPct": 0.34,
+      "yesVotes": 712893,
+      "noVotes": 708268,
+      "totalVotes": 1421161,
+      "yesPct": 50.16,
+      "noPct": 49.84,
+      "marginVotes": 4625,
+      "marginPct": 0.32,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -7564,12 +7564,12 @@
           "noPct": 64.41
         },
         "Regional / Other": {
-          "yes": 447955,
-          "no": 289796,
-          "total": 737751,
+          "yes": 448148,
+          "no": 290181,
+          "total": 738329,
           "wards": 41,
-          "yesPct": 60.72,
-          "noPct": 39.28
+          "yesPct": 60.7,
+          "noPct": 39.3
         }
       },
       "votingMethods": [
@@ -8745,14 +8745,14 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4631,
-          "noVotes": 4504,
-          "totalVotes": 9135,
-          "yesPct": 50.7,
-          "noPct": 49.3,
-          "marginVotes": 127,
-          "marginPct": 1.4,
-          "leader": "YES",
+          "yesVotes": 4824,
+          "noVotes": 4889,
+          "totalVotes": 9713,
+          "yesPct": 49.67,
+          "noPct": 50.33,
+          "marginVotes": -65,
+          "marginPct": -0.66,
+          "leader": "NO",
           "pollsReporting": 45,
           "totalPolls": 48,
           "pollsPct": 93.8
