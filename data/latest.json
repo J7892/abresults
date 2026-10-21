@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T08:12:37.707391+00:00",
-  "lastUpdatedEAB": "2026-10-21T08:11:56.5724517+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 02:11:56 AM MDT",
+  "fetchedAt": "2026-10-21T08:13:10.938292+00:00",
+  "lastUpdatedEAB": "2026-10-21T08:12:45.3543337+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 02:12:45 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15733250,
-      "valid": 15733250,
+      "votes": 15744471,
+      "valid": 15744471,
       "pollsReporting": 5170,
       "totalPolls": 5583,
       "pollsReportingPct": 92.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.77,
+      "percentageOfAllVotes": 46.73,
       "valid": 7357948,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.65,
+      "percentageOfAllVotes": 38.62,
       "valid": 6080858,
       "pollsReporting": 4575,
       "totalPolls": 4904
@@ -29,14 +29,14 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.48,
-      "valid": 2120506,
+      "percentageOfAllVotes": 13.54,
+      "valid": 2131727,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 1.11,
+      "percentageOfAllVotes": 1.1,
       "valid": 173938,
       "pollsReporting": 254,
       "totalPolls": 323
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1020347,
-      "noVotes": 879256,
-      "totalVotes": 1899603,
-      "yesPct": 53.71,
-      "noPct": 46.29,
-      "marginVotes": 141091,
-      "marginPct": 7.42,
+      "yesVotes": 1022627,
+      "noVotes": 888197,
+      "totalVotes": 1910824,
+      "yesPct": 53.52,
+      "noPct": 46.48,
+      "marginVotes": 134430,
+      "marginPct": 7.04,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -66,12 +66,12 @@
           "noPct": 54.98
         },
         "Edmonton": {
-          "yes": 164394,
-          "no": 222032,
-          "total": 386426,
+          "yes": 166674,
+          "no": 230973,
+          "total": 397647,
           "wards": 20,
-          "yesPct": 42.54,
-          "noPct": 57.46
+          "yesPct": 41.92,
+          "noPct": 58.08
         },
         "Regional / Other": {
           "yes": 574665,
@@ -112,13 +112,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 171853,
-          "noVotes": 313153,
-          "totalVotes": 485006,
-          "yesPct": 35.43,
-          "noPct": 64.57,
-          "marginVotes": -141300,
-          "marginPct": -29.14,
+          "yesVotes": 174133,
+          "noVotes": 322094,
+          "totalVotes": 496227,
+          "yesPct": 35.09,
+          "noPct": 64.91,
+          "marginVotes": -147961,
+          "marginPct": -29.82,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -137,7 +137,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 65,
+        "<30%": 66,
         "30-40%": 151,
         "40-50%": 492,
         "50-60%": 992,
@@ -663,13 +663,13 @@
           "ward": "33",
           "wardName": "33 - Edmonton-Gold Bar",
           "region": "Edmonton",
-          "yesVotes": 6831,
-          "noVotes": 8019,
-          "totalVotes": 14850,
-          "yesPct": 46.0,
-          "noPct": 54.0,
-          "marginVotes": -1188,
-          "marginPct": -8.0,
+          "yesVotes": 9111,
+          "noVotes": 16960,
+          "totalVotes": 26071,
+          "yesPct": 34.95,
+          "noPct": 65.05,
+          "marginVotes": -7849,
+          "marginPct": -30.1,
           "leader": "NO",
           "pollsReporting": 58,
           "totalPolls": 58,
