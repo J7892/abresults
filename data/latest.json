@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T18:57:11.773577+00:00",
-  "lastUpdatedEAB": "2026-10-21T18:56:13.0584364+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 12:56:13 PM MDT",
+  "fetchedAt": "2026-10-21T18:57:45.069007+00:00",
+  "lastUpdatedEAB": "2026-10-21T18:57:02.1077046+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 12:57:02 PM MDT",
   "turnout": {
     "summary": {
       "votes": 16886090,
@@ -3054,12 +3054,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 262277,
-          "no": 307131,
-          "total": 569408,
+          "yes": 265287,
+          "no": 314338,
+          "total": 579625,
           "wards": 26,
-          "yesPct": 46.06,
-          "noPct": 53.94
+          "yesPct": 45.77,
+          "noPct": 54.23
         },
         "Edmonton": {
           "yes": 162174,
@@ -3108,13 +3108,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 152725,
-          "noVotes": 276187,
-          "totalVotes": 428912,
-          "yesPct": 35.61,
-          "noPct": 64.39,
-          "marginVotes": -123462,
-          "marginPct": -28.78,
+          "yesVotes": 155735,
+          "noVotes": 283394,
+          "totalVotes": 439129,
+          "yesPct": 35.46,
+          "noPct": 64.54,
+          "marginVotes": -127659,
+          "marginPct": -29.08,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -3133,7 +3133,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 86,
+        "<30%": 87,
         "30-40%": 243,
         "40-50%": 651,
         "50-60%": 1198,
@@ -3275,13 +3275,13 @@
           "ward": "09",
           "wardName": "09 - Calgary-Elbow",
           "region": "Calgary",
-          "yesVotes": 7760,
-          "noVotes": 8767,
-          "totalVotes": 16527,
-          "yesPct": 46.95,
-          "noPct": 53.05,
-          "marginVotes": -1007,
-          "marginPct": -6.1,
+          "yesVotes": 10770,
+          "noVotes": 15974,
+          "totalVotes": 26744,
+          "yesPct": 40.27,
+          "noPct": 59.73,
+          "marginVotes": -5204,
+          "marginPct": -19.46,
           "leader": "NO",
           "pollsReporting": 60,
           "totalPolls": 60,
@@ -9054,12 +9054,12 @@
           "noPct": 56.24
         },
         "Edmonton": {
-          "yes": 108806,
-          "no": 177842,
-          "total": 286648,
+          "yes": 110112,
+          "no": 181848,
+          "total": 291960,
           "wards": 20,
-          "yesPct": 37.96,
-          "noPct": 62.04
+          "yesPct": 37.71,
+          "noPct": 62.29
         },
         "Regional / Other": {
           "yes": 471710,
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 27184,
-          "noVotes": 59922,
-          "totalVotes": 87106,
-          "yesPct": 31.21,
-          "noPct": 68.79,
-          "marginVotes": -32738,
-          "marginPct": -37.58,
+          "yesVotes": 28490,
+          "noVotes": 63928,
+          "totalVotes": 92418,
+          "yesPct": 30.83,
+          "noPct": 69.17,
+          "marginVotes": -35438,
+          "marginPct": -38.34,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9125,7 +9125,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 212,
+        "<30%": 213,
         "30-40%": 509,
         "40-50%": 1035,
         "50-60%": 1108,
@@ -9747,13 +9747,13 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 770,
-          "noVotes": 1085,
-          "totalVotes": 1855,
-          "yesPct": 41.51,
-          "noPct": 58.49,
-          "marginVotes": -315,
-          "marginPct": -16.98,
+          "yesVotes": 2076,
+          "noVotes": 5091,
+          "totalVotes": 7167,
+          "yesPct": 28.97,
+          "noPct": 71.03,
+          "marginVotes": -3015,
+          "marginPct": -42.06,
           "leader": "NO",
           "pollsReporting": 59,
           "totalPolls": 68,
