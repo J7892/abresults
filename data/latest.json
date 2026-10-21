@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T09:07:35.674865+00:00",
+  "fetchedAt": "2026-10-21T09:08:23.905020+00:00",
   "lastUpdatedEAB": "2026-10-21T09:07:26.4623880+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 03:07:26 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15847043,
-      "valid": 15847043,
+      "votes": 15850627,
+      "valid": 15850627,
       "pollsReporting": 5173,
       "totalPolls": 5583,
       "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.55,
+      "percentageOfAllVotes": 46.54,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.46,
+      "percentageOfAllVotes": 38.45,
       "valid": 6095194,
       "pollsReporting": 4577,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.89,
-      "valid": 2201148,
+      "percentageOfAllVotes": 13.91,
+      "valid": 2204732,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -6040,13 +6040,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 908854,
-      "noVotes": 543148,
-      "totalVotes": 1452002,
-      "yesPct": 62.59,
-      "noPct": 37.41,
-      "marginVotes": 365706,
-      "marginPct": 25.18,
+      "yesVotes": 910546,
+      "noVotes": 545040,
+      "totalVotes": 1455586,
+      "yesPct": 62.56,
+      "noPct": 37.44,
+      "marginVotes": 365506,
+      "marginPct": 25.12,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6104,13 +6104,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 46748,
-          "noVotes": 59932,
-          "totalVotes": 106680,
-          "yesPct": 43.82,
-          "noPct": 56.18,
-          "marginVotes": -13184,
-          "marginPct": -12.36,
+          "yesVotes": 48440,
+          "noVotes": 61824,
+          "totalVotes": 110264,
+          "yesPct": 43.93,
+          "noPct": 56.07,
+          "marginVotes": -13384,
+          "marginPct": -12.14,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -6131,7 +6131,7 @@
       "pollDistribution": {
         "<30%": 47,
         "30-40%": 74,
-        "40-50%": 335,
+        "40-50%": 336,
         "50-60%": 842,
         "60-70%": 1140,
         "70-80%": 1075,
