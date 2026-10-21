@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-21T10:52:46.813939+00:00",
-  "lastUpdatedEAB": "2026-10-21T10:52:10.6662883+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 04:52:10 AM MDT",
+  "fetchedAt": "2026-10-21T10:53:21.120206+00:00",
+  "lastUpdatedEAB": "2026-10-21T10:52:59.1065667+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 04:52:59 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15940642,
-      "valid": 15940642,
+      "votes": 15941209,
+      "valid": 15941209,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
@@ -30,7 +30,7 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 14.31,
-      "valid": 2280403,
+      "valid": 2280970,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -9036,13 +9036,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 724617,
-      "noVotes": 648353,
-      "totalVotes": 1372970,
-      "yesPct": 52.78,
-      "noPct": 47.22,
-      "marginVotes": 76264,
-      "marginPct": 5.56,
+      "yesVotes": 724833,
+      "noVotes": 648704,
+      "totalVotes": 1373537,
+      "yesPct": 52.77,
+      "noPct": 47.23,
+      "marginVotes": 76129,
+      "marginPct": 5.54,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -9062,12 +9062,12 @@
           "noPct": 61.49
         },
         "Regional / Other": {
-          "yes": 447386,
-          "no": 265007,
-          "total": 712393,
+          "yes": 447602,
+          "no": 265358,
+          "total": 712960,
           "wards": 41,
-          "yesPct": 62.8,
-          "noPct": 37.2
+          "yesPct": 62.78,
+          "noPct": 37.22
         }
       },
       "votingMethods": [
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 13440,
-          "noVotes": 28494,
-          "totalVotes": 41934,
-          "yesPct": 32.05,
-          "noPct": 67.95,
-          "marginVotes": -15054,
-          "marginPct": -35.9,
+          "yesVotes": 13656,
+          "noVotes": 28845,
+          "totalVotes": 42501,
+          "yesPct": 32.13,
+          "noPct": 67.87,
+          "marginVotes": -15189,
+          "marginPct": -35.74,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9126,7 +9126,7 @@
       ],
       "pollDistribution": {
         "<30%": 203,
-        "30-40%": 472,
+        "30-40%": 473,
         "40-50%": 983,
         "50-60%": 1059,
         "60-70%": 793,
@@ -10243,14 +10243,14 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4640,
-          "noVotes": 4516,
-          "totalVotes": 9156,
-          "yesPct": 50.68,
-          "noPct": 49.32,
-          "marginVotes": 124,
-          "marginPct": 1.36,
-          "leader": "YES",
+          "yesVotes": 4856,
+          "noVotes": 4867,
+          "totalVotes": 9723,
+          "yesPct": 49.94,
+          "noPct": 50.06,
+          "marginVotes": -11,
+          "marginPct": -0.12,
+          "leader": "NO",
           "pollsReporting": 45,
           "totalPolls": 48,
           "pollsPct": 93.8
