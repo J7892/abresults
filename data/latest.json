@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T23:25:25.417011+00:00",
-  "lastUpdatedEAB": "2026-10-21T23:24:29.8057314+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:24:29 PM MDT",
+  "fetchedAt": "2026-10-21T23:26:09.611760+00:00",
+  "lastUpdatedEAB": "2026-10-21T23:25:18.9388866+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:25:18 PM MDT",
   "turnout": {
     "summary": {
       "votes": 17910631,
@@ -59,8 +59,8 @@
       "regionalStats": {
         "Calgary": {
           "yes": 290648,
-          "no": 321610,
-          "total": 612258,
+          "no": 321611,
+          "total": 612259,
           "wards": 26,
           "yesPct": 47.47,
           "noPct": 52.53
@@ -360,11 +360,11 @@
           "wardName": "14 - Calgary-Hays",
           "region": "Calgary",
           "yesVotes": 14085,
-          "noVotes": 10920,
-          "totalVotes": 25005,
+          "noVotes": 10921,
+          "totalVotes": 25006,
           "yesPct": 56.33,
           "noPct": 43.67,
-          "marginVotes": 3165,
+          "marginVotes": 3164,
           "marginPct": 12.66,
           "leader": "YES",
           "pollsReporting": 58,
@@ -6050,9 +6050,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 266252,
-          "no": 236463,
-          "total": 502715,
+          "yes": 266254,
+          "no": 236467,
+          "total": 502721,
           "wards": 26,
           "yesPct": 52.96,
           "noPct": 47.04
@@ -6159,12 +6159,12 @@
           "ward": "02",
           "wardName": "02 - Calgary-Beddington",
           "region": "Calgary",
-          "yesVotes": 10688,
-          "noVotes": 10824,
-          "totalVotes": 21512,
+          "yesVotes": 10690,
+          "noVotes": 10828,
+          "totalVotes": 21518,
           "yesPct": 49.68,
           "noPct": 50.32,
-          "marginVotes": -136,
+          "marginVotes": -138,
           "marginPct": -0.64,
           "leader": "NO",
           "pollsReporting": 53,
@@ -9087,12 +9087,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 373946,
-          "noVotes": 278231,
-          "totalVotes": 652177,
+          "yesVotes": 373996,
+          "noVotes": 278303,
+          "totalVotes": 652299,
           "yesPct": 57.34,
           "noPct": 42.66,
-          "marginVotes": 95715,
+          "marginVotes": 95693,
           "marginPct": 14.68,
           "pollsReporting": 4738,
           "totalPolls": 4904
@@ -9127,7 +9127,7 @@
       "pollDistribution": {
         "<30%": 228,
         "30-40%": 554,
-        "40-50%": 1097,
+        "40-50%": 1098,
         "50-60%": 1153,
         "60-70%": 832,
         "70-80%": 779,
