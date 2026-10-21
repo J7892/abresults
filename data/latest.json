@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T10:53:21.120206+00:00",
-  "lastUpdatedEAB": "2026-10-21T10:52:59.1065667+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 04:52:59 AM MDT",
+  "fetchedAt": "2026-10-21T10:54:43.319514+00:00",
+  "lastUpdatedEAB": "2026-10-21T10:54:34.4762733+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 04:54:34 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15941209,
-      "valid": 15941209,
+      "votes": 15949077,
+      "valid": 15949077,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.34,
+      "percentageOfAllVotes": 46.32,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -6050,12 +6050,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 234161,
-          "no": 197131,
-          "total": 431292,
+          "yes": 237734,
+          "no": 201426,
+          "total": 439160,
           "wards": 26,
-          "yesPct": 54.29,
-          "noPct": 45.71
+          "yesPct": 54.13,
+          "noPct": 45.87
         },
         "Edmonton": {
           "yes": 136778,
@@ -6104,13 +6104,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 51307,
-          "noVotes": 65380,
-          "totalVotes": 116687,
-          "yesPct": 43.97,
-          "noPct": 56.03,
-          "marginVotes": -14073,
-          "marginPct": -12.06,
+          "yesVotes": 54880,
+          "noVotes": 69675,
+          "totalVotes": 124555,
+          "yesPct": 44.06,
+          "noPct": 55.94,
+          "marginVotes": -14795,
+          "marginPct": -11.88,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -6131,7 +6131,7 @@
       "pollDistribution": {
         "<30%": 49,
         "30-40%": 74,
-        "40-50%": 337,
+        "40-50%": 338,
         "50-60%": 842,
         "60-70%": 1140,
         "70-80%": 1076,
@@ -6495,14 +6495,14 @@
           "ward": "23",
           "wardName": "23 - Calgary-Shaw",
           "region": "Calgary",
-          "yesVotes": 1236,
-          "noVotes": 692,
-          "totalVotes": 1928,
-          "yesPct": 64.11,
-          "noPct": 35.89,
-          "marginVotes": 544,
-          "marginPct": 28.22,
-          "leader": "YES",
+          "yesVotes": 4809,
+          "noVotes": 4987,
+          "totalVotes": 9796,
+          "yesPct": 49.09,
+          "noPct": 50.91,
+          "marginVotes": -178,
+          "marginPct": -1.82,
+          "leader": "NO",
           "pollsReporting": 70,
           "totalPolls": 71,
           "pollsPct": 98.6
