@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T11:44:07.739805+00:00",
-  "lastUpdatedEAB": "2026-10-21T11:43:53.3148804+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:43:53 AM MDT",
+  "fetchedAt": "2026-10-21T11:45:27.614786+00:00",
+  "lastUpdatedEAB": "2026-10-21T11:44:41.9559042+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:44:41 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16056760,
-      "valid": 16056760,
+      "votes": 16059129,
+      "valid": 16059129,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.01,
+      "percentageOfAllVotes": 46.0,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.98,
+      "percentageOfAllVotes": 37.97,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.93,
-      "valid": 2396521,
+      "percentageOfAllVotes": 14.94,
+      "valid": 2398890,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 966060,
-      "noVotes": 894356,
-      "totalVotes": 1860416,
+      "yesVotes": 967286,
+      "noVotes": 895499,
+      "totalVotes": 1862785,
       "yesPct": 51.93,
       "noPct": 48.07,
-      "marginVotes": 71704,
+      "marginVotes": 71787,
       "marginPct": 3.86,
       "leader": "YES",
       "regionalStats": {
@@ -1572,12 +1572,12 @@
           "noPct": 60.29
         },
         "Regional / Other": {
-          "yes": 547483,
-          "no": 331812,
-          "total": 879295,
+          "yes": 548709,
+          "no": 332955,
+          "total": 881664,
           "wards": 41,
-          "yesPct": 62.26,
-          "noPct": 37.74
+          "yesPct": 62.24,
+          "noPct": 37.76
         }
       },
       "votingMethods": [
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 164610,
-          "noVotes": 318391,
-          "totalVotes": 483001,
-          "yesPct": 34.08,
-          "noPct": 65.92,
-          "marginVotes": -153781,
-          "marginPct": -31.84,
+          "yesVotes": 165836,
+          "noVotes": 319534,
+          "totalVotes": 485370,
+          "yesPct": 34.17,
+          "noPct": 65.83,
+          "marginVotes": -153698,
+          "marginPct": -31.66,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -1635,8 +1635,8 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 99,
-        "30-40%": 246,
+        "<30%": 98,
+        "30-40%": 247,
         "40-50%": 714,
         "50-60%": 1150,
         "60-70%": 1060,
@@ -2961,13 +2961,13 @@
           "ward": "83",
           "wardName": "83 - St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 10645,
-          "noVotes": 12409,
-          "totalVotes": 23054,
-          "yesPct": 46.17,
-          "noPct": 53.83,
-          "marginVotes": -1764,
-          "marginPct": -7.66,
+          "yesVotes": 11871,
+          "noVotes": 13552,
+          "totalVotes": 25423,
+          "yesPct": 46.69,
+          "noPct": 53.31,
+          "marginVotes": -1681,
+          "marginPct": -6.62,
           "leader": "NO",
           "pollsReporting": 59,
           "totalPolls": 60,
