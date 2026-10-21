@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T11:27:18.296776+00:00",
-  "lastUpdatedEAB": "2026-10-21T11:26:54.6604147+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:26:54 AM MDT",
+  "fetchedAt": "2026-10-21T11:27:52.693964+00:00",
+  "lastUpdatedEAB": "2026-10-21T11:27:42.5063546+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:27:42 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15994845,
-      "valid": 15994845,
+      "votes": 16001250,
+      "valid": 16001250,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.19,
+      "percentageOfAllVotes": 46.17,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.13,
+      "percentageOfAllVotes": 38.11,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.6,
-      "valid": 2334606,
+      "percentageOfAllVotes": 14.63,
+      "valid": 2341011,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -6040,13 +6040,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 917917,
-      "noVotes": 553521,
-      "totalVotes": 1471438,
-      "yesPct": 62.38,
-      "noPct": 37.62,
-      "marginVotes": 364396,
-      "marginPct": 24.76,
+      "yesVotes": 919403,
+      "noVotes": 558440,
+      "totalVotes": 1477843,
+      "yesPct": 62.21,
+      "noPct": 37.79,
+      "marginVotes": 360963,
+      "marginPct": 24.42,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6058,12 +6058,12 @@
           "noPct": 45.87
         },
         "Edmonton": {
-          "yes": 136778,
-          "no": 138277,
-          "total": 275055,
+          "yes": 138264,
+          "no": 143196,
+          "total": 281460,
           "wards": 20,
-          "yesPct": 49.73,
-          "noPct": 50.27
+          "yesPct": 49.12,
+          "noPct": 50.88
         },
         "Regional / Other": {
           "yes": 543405,
@@ -6104,13 +6104,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 54880,
-          "noVotes": 69675,
-          "totalVotes": 124555,
-          "yesPct": 44.06,
-          "noPct": 55.94,
-          "marginVotes": -14795,
-          "marginPct": -11.88,
+          "yesVotes": 56366,
+          "noVotes": 74594,
+          "totalVotes": 130960,
+          "yesPct": 43.04,
+          "noPct": 56.96,
+          "marginVotes": -18228,
+          "marginPct": -13.92,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -6129,7 +6129,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 49,
+        "<30%": 50,
         "30-40%": 74,
         "40-50%": 338,
         "50-60%": 842,
@@ -6591,13 +6591,13 @@
           "ward": "29",
           "wardName": "29 - Edmonton-City Centre",
           "region": "Edmonton",
-          "yesVotes": 5518,
-          "noVotes": 7895,
-          "totalVotes": 13413,
-          "yesPct": 41.14,
-          "noPct": 58.86,
-          "marginVotes": -2377,
-          "marginPct": -17.72,
+          "yesVotes": 7004,
+          "noVotes": 12814,
+          "totalVotes": 19818,
+          "yesPct": 35.34,
+          "noPct": 64.66,
+          "marginVotes": -5810,
+          "marginPct": -29.32,
           "leader": "NO",
           "pollsReporting": 75,
           "totalPolls": 79,
