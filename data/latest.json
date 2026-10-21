@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T09:04:34.170304+00:00",
-  "lastUpdatedEAB": "2026-10-21T09:04:13.2229738+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 03:04:13 AM MDT",
+  "fetchedAt": "2026-10-21T09:05:07.993471+00:00",
+  "lastUpdatedEAB": "2026-10-21T09:05:01.4842702+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 03:05:01 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15835973,
-      "valid": 15835973,
+      "votes": 15847043,
+      "valid": 15847043,
       "pollsReporting": 5173,
       "totalPolls": 5583,
       "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.58,
+      "percentageOfAllVotes": 46.55,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.49,
+      "percentageOfAllVotes": 38.46,
       "valid": 6095194,
       "pollsReporting": 4577,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.83,
-      "valid": 2190078,
+      "percentageOfAllVotes": 13.89,
+      "valid": 2201148,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 953222,
-      "noVotes": 870382,
-      "totalVotes": 1823604,
-      "yesPct": 52.27,
-      "noPct": 47.73,
-      "marginVotes": 82840,
-      "marginPct": 4.54,
+      "yesVotes": 955453,
+      "noVotes": 879221,
+      "totalVotes": 1834674,
+      "yesPct": 52.08,
+      "noPct": 47.92,
+      "marginVotes": 76232,
+      "marginPct": 4.16,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 152636,
-          "noVotes": 295139,
-          "totalVotes": 447775,
-          "yesPct": 34.09,
-          "noPct": 65.91,
-          "marginVotes": -142503,
-          "marginPct": -31.82,
+          "yesVotes": 154867,
+          "noVotes": 303978,
+          "totalVotes": 458845,
+          "yesPct": 33.75,
+          "noPct": 66.25,
+          "marginVotes": -149111,
+          "marginPct": -32.5,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -1635,7 +1635,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 96,
+        "<30%": 97,
         "30-40%": 244,
         "40-50%": 713,
         "50-60%": 1149,
