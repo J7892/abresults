@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T06:05:54.282550+00:00",
-  "lastUpdatedEAB": "2026-10-21T06:05:15.1519874+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 12:05:15 AM MDT",
+  "fetchedAt": "2026-10-21T06:06:42.136503+00:00",
+  "lastUpdatedEAB": "2026-10-21T06:06:03.5427128+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 12:06:03 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15571933,
-      "valid": 15571933,
+      "votes": 15575331,
+      "valid": 15575331,
       "pollsReporting": 5167,
       "totalPolls": 5583,
       "pollsReportingPct": 92.55
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 47.25,
+      "percentageOfAllVotes": 47.24,
       "valid": 7357948,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.82,
+      "percentageOfAllVotes": 38.81,
       "valid": 6045260,
       "pollsReporting": 4573,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 12.81,
-      "valid": 1994879,
+      "percentageOfAllVotes": 12.83,
+      "valid": 1998277,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 823264,
-      "noVotes": 645894,
-      "totalVotes": 1469158,
-      "yesPct": 56.04,
-      "noPct": 43.96,
-      "marginVotes": 177370,
-      "marginPct": 12.08,
+      "yesVotes": 824099,
+      "noVotes": 648457,
+      "totalVotes": 1472556,
+      "yesPct": 55.96,
+      "noPct": 44.04,
+      "marginVotes": 175642,
+      "marginPct": 11.92,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4560,12 +4560,12 @@
           "noPct": 51.75
         },
         "Edmonton": {
-          "yes": 127993,
-          "no": 165842,
-          "total": 293835,
+          "yes": 128828,
+          "no": 168405,
+          "total": 297233,
           "wards": 20,
-          "yesPct": 43.56,
-          "noPct": 56.44
+          "yesPct": 43.34,
+          "noPct": 56.66
         },
         "Regional / Other": {
           "yes": 490294,
@@ -4606,13 +4606,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 47502,
-          "noVotes": 76845,
-          "totalVotes": 124347,
-          "yesPct": 38.2,
-          "noPct": 61.8,
-          "marginVotes": -29343,
-          "marginPct": -23.6,
+          "yesVotes": 48337,
+          "noVotes": 79408,
+          "totalVotes": 127745,
+          "yesPct": 37.84,
+          "noPct": 62.16,
+          "marginVotes": -31071,
+          "marginPct": -24.32,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -4631,7 +4631,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 107,
+        "<30%": 108,
         "30-40%": 317,
         "40-50%": 753,
         "50-60%": 1108,
@@ -5141,13 +5141,13 @@
           "ward": "32",
           "wardName": "32 - Edmonton-Glenora",
           "region": "Edmonton",
-          "yesVotes": 5635,
-          "noVotes": 7823,
-          "totalVotes": 13458,
-          "yesPct": 41.87,
-          "noPct": 58.13,
-          "marginVotes": -2188,
-          "marginPct": -16.26,
+          "yesVotes": 6470,
+          "noVotes": 10386,
+          "totalVotes": 16856,
+          "yesPct": 38.38,
+          "noPct": 61.62,
+          "marginVotes": -3916,
+          "marginPct": -23.24,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 52,
