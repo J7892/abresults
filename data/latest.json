@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T10:00:25.761479+00:00",
-  "lastUpdatedEAB": "2026-10-21T10:00:15.0579868+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 04:00:15 AM MDT",
+  "fetchedAt": "2026-10-21T10:01:46.110445+00:00",
+  "lastUpdatedEAB": "2026-10-21T10:01:05.0405811+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 04:01:05 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15895578,
-      "valid": 15895578,
+      "votes": 15901578,
+      "valid": 15901578,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.47,
+      "percentageOfAllVotes": 46.46,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.35,
+      "percentageOfAllVotes": 38.34,
       "valid": 6096527,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.07,
-      "valid": 2237149,
+      "percentageOfAllVotes": 14.11,
+      "valid": 2243149,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 962967,
-      "noVotes": 891246,
-      "totalVotes": 1854213,
+      "yesVotes": 966040,
+      "noVotes": 894173,
+      "totalVotes": 1860213,
       "yesPct": 51.93,
       "noPct": 48.07,
-      "marginVotes": 71721,
+      "marginVotes": 71867,
       "marginPct": 3.86,
       "leader": "YES",
       "regionalStats": {
@@ -1572,12 +1572,12 @@
           "noPct": 60.29
         },
         "Regional / Other": {
-          "yes": 544390,
-          "no": 328702,
-          "total": 873092,
+          "yes": 547463,
+          "no": 331629,
+          "total": 879092,
           "wards": 41,
-          "yesPct": 62.35,
-          "noPct": 37.65
+          "yesPct": 62.28,
+          "noPct": 37.72
         }
       },
       "votingMethods": [
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 161537,
-          "noVotes": 315464,
-          "totalVotes": 477001,
-          "yesPct": 33.87,
-          "noPct": 66.13,
-          "marginVotes": -153927,
-          "marginPct": -32.26,
+          "yesVotes": 164610,
+          "noVotes": 318391,
+          "totalVotes": 483001,
+          "yesPct": 34.08,
+          "noPct": 65.92,
+          "marginVotes": -153781,
+          "marginPct": -31.84,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -1638,7 +1638,7 @@
         "<30%": 98,
         "30-40%": 246,
         "40-50%": 714,
-        "50-60%": 1149,
+        "50-60%": 1150,
         "60-70%": 1060,
         "70-80%": 900,
         "80-90%": 606,
@@ -2529,13 +2529,13 @@
           "ward": "56",
           "wardName": "56 - Chestermere-Strathmore",
           "region": "Regional / Other",
-          "yesVotes": 14949,
-          "noVotes": 7539,
-          "totalVotes": 22488,
-          "yesPct": 66.48,
-          "noPct": 33.52,
-          "marginVotes": 7410,
-          "marginPct": 32.96,
+          "yesVotes": 18022,
+          "noVotes": 10466,
+          "totalVotes": 28488,
+          "yesPct": 63.26,
+          "noPct": 36.74,
+          "marginVotes": 7556,
+          "marginPct": 26.52,
           "leader": "YES",
           "pollsReporting": 69,
           "totalPolls": 71,
