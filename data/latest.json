@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T08:59:58.580058+00:00",
-  "lastUpdatedEAB": "2026-10-21T08:59:19.8046474+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 02:59:19 AM MDT",
+  "fetchedAt": "2026-10-21T09:00:44.304732+00:00",
+  "lastUpdatedEAB": "2026-10-21T09:00:08.0565107+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 03:00:08 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15833367,
-      "valid": 15833367,
+      "votes": 15835973,
+      "valid": 15835973,
       "pollsReporting": 5173,
       "totalPolls": 5583,
       "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.59,
+      "percentageOfAllVotes": 46.58,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.5,
+      "percentageOfAllVotes": 38.49,
       "valid": 6095194,
       "pollsReporting": 4577,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.82,
-      "valid": 2187472,
+      "percentageOfAllVotes": 13.83,
+      "valid": 2190078,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -7538,13 +7538,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 708389,
-      "noVotes": 698654,
-      "totalVotes": 1407043,
-      "yesPct": 50.35,
-      "noPct": 49.65,
-      "marginVotes": 9735,
-      "marginPct": 0.7,
+      "yesVotes": 709139,
+      "noVotes": 700510,
+      "totalVotes": 1409649,
+      "yesPct": 50.31,
+      "noPct": 49.69,
+      "marginVotes": 8629,
+      "marginPct": 0.62,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -7564,12 +7564,12 @@
           "noPct": 64.17
         },
         "Regional / Other": {
-          "yes": 444963,
-          "no": 284709,
-          "total": 729672,
+          "yes": 445713,
+          "no": 286565,
+          "total": 732278,
           "wards": 41,
-          "yesPct": 60.98,
-          "noPct": 39.02
+          "yesPct": 60.87,
+          "noPct": 39.13
         }
       },
       "votingMethods": [
@@ -7602,13 +7602,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 21103,
-          "noVotes": 58947,
-          "totalVotes": 80050,
-          "yesPct": 26.36,
-          "noPct": 73.64,
-          "marginVotes": -37844,
-          "marginPct": -47.28,
+          "yesVotes": 21853,
+          "noVotes": 60803,
+          "totalVotes": 82656,
+          "yesPct": 26.44,
+          "noPct": 73.56,
+          "marginVotes": -38950,
+          "marginPct": -47.12,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -7627,7 +7627,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 244,
+        "<30%": 245,
         "30-40%": 603,
         "40-50%": 962,
         "50-60%": 958,
@@ -8633,13 +8633,13 @@
           "ward": "63",
           "wardName": "63 - Grande Prairie",
           "region": "Regional / Other",
-          "yesVotes": 9924,
-          "noVotes": 5561,
-          "totalVotes": 15485,
-          "yesPct": 64.09,
-          "noPct": 35.91,
-          "marginVotes": 4363,
-          "marginPct": 28.18,
+          "yesVotes": 10674,
+          "noVotes": 7417,
+          "totalVotes": 18091,
+          "yesPct": 59.0,
+          "noPct": 41.0,
+          "marginVotes": 3257,
+          "marginPct": 18.0,
           "leader": "YES",
           "pollsReporting": 44,
           "totalPolls": 52,
