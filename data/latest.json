@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T11:56:43.342394+00:00",
-  "lastUpdatedEAB": "2026-10-21T11:55:58.3688307+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 05:55:58 AM MDT",
+  "fetchedAt": "2026-10-21T11:57:16.588432+00:00",
+  "lastUpdatedEAB": "2026-10-21T11:56:48.0003414+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 05:56:48 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 16073034,
-      "valid": 16073034,
+      "votes": 16076595,
+      "valid": 16076595,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 45.96,
+      "percentageOfAllVotes": 45.95,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 37.94,
+      "percentageOfAllVotes": 37.93,
       "valid": 6098363,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 15.01,
-      "valid": 2412769,
+      "percentageOfAllVotes": 15.03,
+      "valid": 2416330,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 847890,
-      "noVotes": 691121,
-      "totalVotes": 1539011,
-      "yesPct": 55.09,
-      "noPct": 44.91,
-      "marginVotes": 156769,
-      "marginPct": 10.18,
+      "yesVotes": 849669,
+      "noVotes": 692903,
+      "totalVotes": 1542572,
+      "yesPct": 55.08,
+      "noPct": 44.92,
+      "marginVotes": 156766,
+      "marginPct": 10.16,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4568,12 +4568,12 @@
           "noPct": 57.61
         },
         "Regional / Other": {
-          "yes": 496764,
-          "no": 267534,
-          "total": 764298,
+          "yes": 498543,
+          "no": 269316,
+          "total": 767859,
           "wards": 41,
-          "yesPct": 65.0,
-          "noPct": 35.0
+          "yesPct": 64.93,
+          "noPct": 35.07
         }
       },
       "votingMethods": [
@@ -4606,13 +4606,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 67609,
-          "noVotes": 118206,
-          "totalVotes": 185815,
-          "yesPct": 36.39,
-          "noPct": 63.61,
-          "marginVotes": -50597,
-          "marginPct": -27.22,
+          "yesVotes": 69388,
+          "noVotes": 119988,
+          "totalVotes": 189376,
+          "yesPct": 36.64,
+          "noPct": 63.36,
+          "marginVotes": -50600,
+          "marginPct": -26.72,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -4633,7 +4633,7 @@
       "pollDistribution": {
         "<30%": 116,
         "30-40%": 323,
-        "40-50%": 766,
+        "40-50%": 767,
         "50-60%": 1118,
         "60-70%": 996,
         "70-80%": 820,
@@ -5813,13 +5813,13 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 5937,
-          "noVotes": 2757,
-          "totalVotes": 8694,
-          "yesPct": 68.29,
-          "noPct": 31.71,
-          "marginVotes": 3180,
-          "marginPct": 36.58,
+          "yesVotes": 7716,
+          "noVotes": 4539,
+          "totalVotes": 12255,
+          "yesPct": 62.96,
+          "noPct": 37.04,
+          "marginVotes": 3177,
+          "marginPct": 25.92,
           "leader": "YES",
           "pollsReporting": 53,
           "totalPolls": 57,
