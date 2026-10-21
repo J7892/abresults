@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T10:34:59.805808+00:00",
-  "lastUpdatedEAB": "2026-10-21T10:34:24.2737182+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 04:34:24 AM MDT",
+  "fetchedAt": "2026-10-21T10:35:44.193171+00:00",
+  "lastUpdatedEAB": "2026-10-21T10:35:12.3294258+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 04:35:12 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15924512,
-      "valid": 15924512,
+      "votes": 15929973,
+      "valid": 15929973,
       "pollsReporting": 5174,
       "totalPolls": 5583,
       "pollsReportingPct": 92.67
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.39,
+      "percentageOfAllVotes": 46.37,
       "valid": 7387360,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.3,
+      "percentageOfAllVotes": 38.28,
       "valid": 6098337,
       "pollsReporting": 4578,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 14.22,
-      "valid": 2264273,
+      "percentageOfAllVotes": 14.25,
+      "valid": 2269734,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -7538,13 +7538,13 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 711381,
-      "noVotes": 703741,
-      "totalVotes": 1415122,
-      "yesPct": 50.27,
-      "noPct": 49.73,
-      "marginVotes": 7640,
-      "marginPct": 0.54,
+      "yesVotes": 712700,
+      "noVotes": 707883,
+      "totalVotes": 1420583,
+      "yesPct": 50.17,
+      "noPct": 49.83,
+      "marginVotes": 4817,
+      "marginPct": 0.34,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -7556,12 +7556,12 @@
           "noPct": 59.2
         },
         "Edmonton": {
-          "yes": 93118,
-          "no": 166784,
-          "total": 259902,
+          "yes": 94437,
+          "no": 170926,
+          "total": 265363,
           "wards": 20,
-          "yesPct": 35.83,
-          "noPct": 64.17
+          "yesPct": 35.59,
+          "noPct": 64.41
         },
         "Regional / Other": {
           "yes": 447955,
@@ -7602,13 +7602,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 23334,
-          "noVotes": 63206,
-          "totalVotes": 86540,
-          "yesPct": 26.96,
-          "noPct": 73.04,
-          "marginVotes": -39872,
-          "marginPct": -46.08,
+          "yesVotes": 24653,
+          "noVotes": 67348,
+          "totalVotes": 92001,
+          "yesPct": 26.8,
+          "noPct": 73.2,
+          "marginVotes": -42695,
+          "marginPct": -46.4,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -7627,7 +7627,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 247,
+        "<30%": 248,
         "30-40%": 604,
         "40-50%": 962,
         "50-60%": 959,
@@ -8073,13 +8073,13 @@
           "ward": "28",
           "wardName": "28 - Edmonton-Castle Downs",
           "region": "Edmonton",
-          "yesVotes": 5523,
-          "noVotes": 8078,
-          "totalVotes": 13601,
-          "yesPct": 40.61,
-          "noPct": 59.39,
-          "marginVotes": -2555,
-          "marginPct": -18.78,
+          "yesVotes": 6842,
+          "noVotes": 12220,
+          "totalVotes": 19062,
+          "yesPct": 35.89,
+          "noPct": 64.11,
+          "marginVotes": -5378,
+          "marginPct": -28.22,
           "leader": "NO",
           "pollsReporting": 37,
           "totalPolls": 69,
