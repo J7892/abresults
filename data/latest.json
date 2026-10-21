@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T14:08:19.937065+00:00",
-  "lastUpdatedEAB": "2026-10-21T14:07:30.4945336+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 08:07:30 AM MDT",
+  "fetchedAt": "2026-10-21T14:09:07.068383+00:00",
+  "lastUpdatedEAB": "2026-10-21T14:08:20.2887970+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 08:08:20 AM MDT",
   "turnout": {
     "summary": {
       "votes": 16158269,
@@ -3054,12 +3054,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 250088,
-          "no": 281332,
-          "total": 531420,
+          "yes": 253813,
+          "no": 288011,
+          "total": 541824,
           "wards": 26,
-          "yesPct": 47.06,
-          "noPct": 52.94
+          "yesPct": 46.84,
+          "noPct": 53.16
         },
         "Edmonton": {
           "yes": 154058,
@@ -3108,13 +3108,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 131589,
-          "noVotes": 234568,
-          "totalVotes": 366157,
-          "yesPct": 35.94,
-          "noPct": 64.06,
-          "marginVotes": -102979,
-          "marginPct": -28.12,
+          "yesVotes": 135314,
+          "noVotes": 241247,
+          "totalVotes": 376561,
+          "yesPct": 35.93,
+          "noPct": 64.07,
+          "marginVotes": -105933,
+          "marginPct": -28.14,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -3134,7 +3134,7 @@
       ],
       "pollDistribution": {
         "<30%": 83,
-        "30-40%": 238,
+        "30-40%": 239,
         "40-50%": 626,
         "50-60%": 1153,
         "60-70%": 1065,
@@ -3307,14 +3307,14 @@
           "ward": "11",
           "wardName": "11 - Calgary-Fish Creek",
           "region": "Calgary",
-          "yesVotes": 9465,
-          "noVotes": 7221,
-          "totalVotes": 16686,
-          "yesPct": 56.72,
-          "noPct": 43.28,
-          "marginVotes": 2244,
-          "marginPct": 13.44,
-          "leader": "YES",
+          "yesVotes": 13190,
+          "noVotes": 13900,
+          "totalVotes": 27090,
+          "yesPct": 48.69,
+          "noPct": 51.31,
+          "marginVotes": -710,
+          "marginPct": -2.62,
+          "leader": "NO",
           "pollsReporting": 59,
           "totalPolls": 59,
           "pollsPct": 100.0
