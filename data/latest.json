@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T03:38:16.777937+00:00",
-  "lastUpdatedEAB": "2026-10-21T03:37:23.3379337+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 09:37:23 PM MDT",
+  "fetchedAt": "2026-10-21T03:38:50.342115+00:00",
+  "lastUpdatedEAB": "2026-10-21T03:38:11.2834489+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 09:38:11 PM MDT",
   "turnout": {
     "summary": {
       "votes": 15189914,
@@ -1597,12 +1597,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 380723,
-          "noVotes": 219790,
-          "totalVotes": 600513,
+          "yesVotes": 380812,
+          "noVotes": 219852,
+          "totalVotes": 600664,
           "yesPct": 63.4,
           "noPct": 36.6,
-          "marginVotes": 160933,
+          "marginVotes": 160960,
           "marginPct": 26.8,
           "pollsReporting": 4501,
           "totalPolls": 4904
@@ -1638,7 +1638,7 @@
         "<30%": 89,
         "30-40%": 228,
         "40-50%": 675,
-        "50-60%": 1119,
+        "50-60%": 1120,
         "60-70%": 1036,
         "70-80%": 885,
         "80-90%": 597,
@@ -3108,13 +3108,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 78354,
-          "noVotes": 135987,
-          "totalVotes": 214341,
-          "yesPct": 36.56,
-          "noPct": 63.44,
-          "marginVotes": -57633,
-          "marginPct": -26.88,
+          "yesVotes": 79246,
+          "noVotes": 136965,
+          "totalVotes": 216211,
+          "yesPct": 36.65,
+          "noPct": 63.35,
+          "marginVotes": -57719,
+          "marginPct": -26.7,
           "pollsReporting": 86,
           "totalPolls": 87
         },
@@ -3135,7 +3135,7 @@
       "pollDistribution": {
         "<30%": 70,
         "30-40%": 217,
-        "40-50%": 582,
+        "40-50%": 583,
         "50-60%": 1106,
         "60-70%": 1045,
         "70-80%": 892,
