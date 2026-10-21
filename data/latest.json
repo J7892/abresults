@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T08:27:11.268811+00:00",
-  "lastUpdatedEAB": "2026-10-21T08:26:33.3544220+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 02:26:33 AM MDT",
+  "fetchedAt": "2026-10-21T08:27:59.964382+00:00",
+  "lastUpdatedEAB": "2026-10-21T08:27:22.1135858+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 02:27:22 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15775895,
-      "valid": 15775895,
-      "pollsReporting": 5172,
+      "votes": 15781436,
+      "valid": 15781436,
+      "pollsReporting": 5173,
       "totalPolls": 5583,
-      "pollsReportingPct": 92.64
+      "pollsReportingPct": 92.66
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.76,
+      "percentageOfAllVotes": 46.74,
       "valid": 7376159,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -21,16 +21,16 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 38.57,
-      "valid": 6084554,
-      "pollsReporting": 4576,
+      "valid": 6086583,
+      "pollsReporting": 4577,
       "totalPolls": 4904
     },
     "vbm": {
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.57,
-      "valid": 2140640,
+      "percentageOfAllVotes": 13.59,
+      "valid": 2144152,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1025752,
-      "noVotes": 891037,
-      "totalVotes": 1916789,
+      "yesVotes": 1025818,
+      "noVotes": 891172,
+      "totalVotes": 1916990,
       "yesPct": 53.51,
       "noPct": 46.49,
-      "marginVotes": 134715,
+      "marginVotes": 134646,
       "marginPct": 7.02,
       "leader": "YES",
       "regionalStats": {
@@ -74,12 +74,12 @@
           "noPct": 58.08
         },
         "Regional / Other": {
-          "yes": 577786,
-          "no": 316499,
-          "total": 894285,
+          "yes": 577852,
+          "no": 316634,
+          "total": 894486,
           "wards": 41,
-          "yesPct": 64.61,
-          "noPct": 35.39
+          "yesPct": 64.6,
+          "noPct": 35.4
         }
       },
       "votingMethods": [
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 410944,
-          "noVotes": 201647,
-          "totalVotes": 612591,
-          "yesPct": 67.08,
-          "noPct": 32.92,
-          "marginVotes": 209297,
-          "marginPct": 34.16,
-          "pollsReporting": 4590,
+          "yesVotes": 411010,
+          "noVotes": 201782,
+          "totalVotes": 612792,
+          "yesPct": 67.07,
+          "noPct": 32.93,
+          "marginVotes": 209228,
+          "marginPct": 34.14,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -138,7 +138,7 @@
       ],
       "pollDistribution": {
         "<30%": 66,
-        "30-40%": 151,
+        "30-40%": 152,
         "40-50%": 494,
         "50-60%": 992,
         "60-70%": 1155,
@@ -1255,17 +1255,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4308,
-          "noVotes": 2738,
-          "totalVotes": 7046,
-          "yesPct": 61.14,
-          "noPct": 38.86,
-          "marginVotes": 1570,
-          "marginPct": 22.28,
+          "yesVotes": 4374,
+          "noVotes": 2873,
+          "totalVotes": 7247,
+          "yesPct": 60.36,
+          "noPct": 39.64,
+          "marginVotes": 1501,
+          "marginPct": 20.72,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 945662,
-      "noVotes": 858904,
-      "totalVotes": 1804566,
+      "yesVotes": 945718,
+      "noVotes": 859052,
+      "totalVotes": 1804770,
       "yesPct": 52.4,
       "noPct": 47.6,
-      "marginVotes": 86758,
+      "marginVotes": 86666,
       "marginPct": 4.8,
       "leader": "YES",
       "regionalStats": {
@@ -1572,12 +1572,12 @@
           "noPct": 59.72
         },
         "Regional / Other": {
-          "yes": 532713,
-          "no": 312578,
-          "total": 845291,
+          "yes": 532769,
+          "no": 312726,
+          "total": 845495,
           "wards": 41,
-          "yesPct": 63.02,
-          "noPct": 36.98
+          "yesPct": 63.01,
+          "noPct": 36.99
         }
       },
       "votingMethods": [
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 388775,
-          "noVotes": 226077,
-          "totalVotes": 614852,
-          "yesPct": 63.23,
-          "noPct": 36.77,
-          "marginVotes": 162698,
-          "marginPct": 26.46,
-          "pollsReporting": 4590,
+          "yesVotes": 388831,
+          "noVotes": 226225,
+          "totalVotes": 615056,
+          "yesPct": 63.22,
+          "noPct": 36.78,
+          "marginVotes": 162606,
+          "marginPct": 26.44,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -1635,7 +1635,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 93,
+        "<30%": 94,
         "30-40%": 242,
         "40-50%": 711,
         "50-60%": 1149,
@@ -2753,17 +2753,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4077,
-          "noVotes": 2949,
-          "totalVotes": 7026,
-          "yesPct": 58.03,
-          "noPct": 41.97,
-          "marginVotes": 1128,
-          "marginPct": 16.06,
+          "yesVotes": 4133,
+          "noVotes": 3097,
+          "totalVotes": 7230,
+          "yesPct": 57.16,
+          "noPct": 42.84,
+          "marginVotes": 1036,
+          "marginPct": 14.32,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -3044,13 +3044,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 904800,
-      "noVotes": 727314,
-      "totalVotes": 1632114,
-      "yesPct": 55.44,
-      "noPct": 44.56,
-      "marginVotes": 177486,
-      "marginPct": 10.88,
+      "yesVotes": 904858,
+      "noVotes": 727459,
+      "totalVotes": 1632317,
+      "yesPct": 55.43,
+      "noPct": 44.57,
+      "marginVotes": 177399,
+      "marginPct": 10.86,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3070,12 +3070,12 @@
           "noPct": 57.41
         },
         "Regional / Other": {
-          "yes": 515514,
-          "no": 264547,
-          "total": 780061,
+          "yes": 515572,
+          "no": 264692,
+          "total": 780264,
           "wards": 41,
-          "yesPct": 66.09,
-          "noPct": 33.91
+          "yesPct": 66.08,
+          "noPct": 33.92
         }
       },
       "votingMethods": [
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 392181,
-          "noVotes": 220566,
-          "totalVotes": 612747,
-          "yesPct": 64.0,
-          "noPct": 36.0,
-          "marginVotes": 171615,
-          "marginPct": 28.0,
-          "pollsReporting": 4590,
+          "yesVotes": 392239,
+          "noVotes": 220711,
+          "totalVotes": 612950,
+          "yesPct": 63.99,
+          "noPct": 36.01,
+          "marginVotes": 171528,
+          "marginPct": 27.98,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -3133,7 +3133,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 73,
+        "<30%": 74,
         "30-40%": 232,
         "40-50%": 620,
         "50-60%": 1151,
@@ -4251,17 +4251,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4146,
-          "noVotes": 2909,
-          "totalVotes": 7055,
-          "yesPct": 58.77,
-          "noPct": 41.23,
-          "marginVotes": 1237,
-          "marginPct": 17.54,
+          "yesVotes": 4204,
+          "noVotes": 3054,
+          "totalVotes": 7258,
+          "yesPct": 57.92,
+          "noPct": 42.08,
+          "marginVotes": 1150,
+          "marginPct": 15.84,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 834758,
-      "noVotes": 668610,
-      "totalVotes": 1503368,
-      "yesPct": 55.53,
-      "noPct": 44.47,
-      "marginVotes": 166148,
-      "marginPct": 11.06,
+      "yesVotes": 834815,
+      "noVotes": 668755,
+      "totalVotes": 1503570,
+      "yesPct": 55.52,
+      "noPct": 44.48,
+      "marginVotes": 166060,
+      "marginPct": 11.04,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4568,12 +4568,12 @@
           "noPct": 57.13
         },
         "Regional / Other": {
-          "yes": 493484,
-          "no": 263302,
-          "total": 756786,
+          "yes": 493541,
+          "no": 263447,
+          "total": 756988,
           "wards": 41,
-          "yesPct": 65.21,
-          "noPct": 34.79
+          "yesPct": 65.2,
+          "noPct": 34.8
         }
       },
       "votingMethods": [
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 367885,
-          "noVotes": 232246,
-          "totalVotes": 600131,
-          "yesPct": 61.3,
-          "noPct": 38.7,
-          "marginVotes": 135639,
-          "marginPct": 22.6,
-          "pollsReporting": 4590,
+          "yesVotes": 367942,
+          "noVotes": 232391,
+          "totalVotes": 600333,
+          "yesPct": 61.29,
+          "noPct": 38.71,
+          "marginVotes": 135551,
+          "marginPct": 22.58,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -4631,7 +4631,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 110,
+        "<30%": 111,
         "30-40%": 321,
         "40-50%": 763,
         "50-60%": 1118,
@@ -5749,17 +5749,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 3904,
-          "noVotes": 3180,
-          "totalVotes": 7084,
-          "yesPct": 55.11,
-          "noPct": 44.89,
-          "marginVotes": 724,
-          "marginPct": 10.22,
+          "yesVotes": 3961,
+          "noVotes": 3325,
+          "totalVotes": 7286,
+          "yesPct": 54.36,
+          "noPct": 45.64,
+          "marginVotes": 636,
+          "marginPct": 8.72,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -6040,13 +6040,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 908312,
-      "noVotes": 542532,
-      "totalVotes": 1450844,
-      "yesPct": 62.61,
-      "noPct": 37.39,
-      "marginVotes": 365780,
-      "marginPct": 25.22,
+      "yesVotes": 908373,
+      "noVotes": 542674,
+      "totalVotes": 1451047,
+      "yesPct": 62.6,
+      "noPct": 37.4,
+      "marginVotes": 365699,
+      "marginPct": 25.2,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6066,12 +6066,12 @@
           "noPct": 50.27
         },
         "Regional / Other": {
-          "yes": 540241,
-          "no": 210675,
-          "total": 750916,
+          "yes": 540302,
+          "no": 210817,
+          "total": 751119,
           "wards": 41,
-          "yesPct": 71.94,
-          "noPct": 28.06
+          "yesPct": 71.93,
+          "noPct": 28.07
         }
       },
       "votingMethods": [
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 414141,
-          "noVotes": 184532,
-          "totalVotes": 598673,
-          "yesPct": 69.18,
-          "noPct": 30.82,
-          "marginVotes": 229609,
-          "marginPct": 38.36,
-          "pollsReporting": 4590,
+          "yesVotes": 414202,
+          "noVotes": 184674,
+          "totalVotes": 598876,
+          "yesPct": 69.16,
+          "noPct": 30.84,
+          "marginVotes": 229528,
+          "marginPct": 38.32,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -6130,7 +6130,7 @@
       ],
       "pollDistribution": {
         "<30%": 45,
-        "30-40%": 72,
+        "30-40%": 73,
         "40-50%": 334,
         "50-60%": 842,
         "60-70%": 1140,
@@ -7247,17 +7247,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 4484,
-          "noVotes": 2648,
-          "totalVotes": 7132,
-          "yesPct": 62.87,
-          "noPct": 37.13,
-          "marginVotes": 1836,
-          "marginPct": 25.74,
+          "yesVotes": 4545,
+          "noVotes": 2790,
+          "totalVotes": 7335,
+          "yesPct": 61.96,
+          "noPct": 38.04,
+          "marginVotes": 1755,
+          "marginPct": 23.92,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 707845,
-      "noVotes": 698028,
-      "totalVotes": 1405873,
+      "yesVotes": 707996,
+      "noVotes": 698081,
+      "totalVotes": 1406077,
       "yesPct": 50.35,
       "noPct": 49.65,
-      "marginVotes": 9817,
+      "marginVotes": 9915,
       "marginPct": 0.7,
       "leader": "YES",
       "regionalStats": {
@@ -7564,12 +7564,12 @@
           "noPct": 64.17
         },
         "Regional / Other": {
-          "yes": 444422,
-          "no": 284090,
-          "total": 728512,
+          "yes": 444573,
+          "no": 284143,
+          "total": 728716,
           "wards": 41,
-          "yesPct": 61.0,
-          "noPct": 39.0
+          "yesPct": 61.01,
+          "noPct": 38.99
         }
       },
       "votingMethods": [
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 336787,
-          "noVotes": 256899,
-          "totalVotes": 593686,
+          "yesVotes": 336938,
+          "noVotes": 256952,
+          "totalVotes": 593890,
           "yesPct": 56.73,
           "noPct": 43.27,
-          "marginVotes": 79888,
+          "marginVotes": 79986,
           "marginPct": 13.46,
-          "pollsReporting": 4590,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -7632,7 +7632,7 @@
         "40-50%": 962,
         "50-60%": 958,
         "60-70%": 773,
-        "70-80%": 700,
+        "70-80%": 701,
         "80-90%": 383,
         "90-100%": 56
       },
@@ -8745,17 +8745,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 3329,
-          "noVotes": 3057,
-          "totalVotes": 6386,
-          "yesPct": 52.13,
-          "noPct": 47.87,
-          "marginVotes": 272,
-          "marginPct": 4.26,
+          "yesVotes": 3480,
+          "noVotes": 3110,
+          "totalVotes": 6590,
+          "yesPct": 52.81,
+          "noPct": 47.19,
+          "marginVotes": 370,
+          "marginPct": 5.62,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 723392,
-      "noVotes": 646830,
-      "totalVotes": 1370222,
+      "yesVotes": 723442,
+      "noVotes": 646984,
+      "totalVotes": 1370426,
       "yesPct": 52.79,
       "noPct": 47.21,
-      "marginVotes": 76562,
+      "marginVotes": 76458,
       "marginPct": 5.58,
       "leader": "YES",
       "regionalStats": {
@@ -9062,12 +9062,12 @@
           "noPct": 61.49
         },
         "Regional / Other": {
-          "yes": 446164,
-          "no": 263491,
-          "total": 709655,
+          "yes": 446214,
+          "no": 263645,
+          "total": 709859,
           "wards": 41,
-          "yesPct": 62.87,
-          "noPct": 37.13
+          "yesPct": 62.86,
+          "noPct": 37.14
         }
       },
       "votingMethods": [
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 345462,
-          "noVotes": 252079,
-          "totalVotes": 597541,
-          "yesPct": 57.81,
-          "noPct": 42.19,
-          "marginVotes": 93383,
-          "marginPct": 15.62,
-          "pollsReporting": 4590,
+          "yesVotes": 345512,
+          "noVotes": 252233,
+          "totalVotes": 597745,
+          "yesPct": 57.8,
+          "noPct": 42.2,
+          "marginVotes": 93279,
+          "marginPct": 15.6,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -9125,7 +9125,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 197,
+        "<30%": 198,
         "30-40%": 471,
         "40-50%": 983,
         "50-60%": 1059,
@@ -10243,17 +10243,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 3418,
-          "noVotes": 3000,
-          "totalVotes": 6418,
-          "yesPct": 53.26,
-          "noPct": 46.74,
-          "marginVotes": 418,
-          "marginPct": 6.52,
+          "yesVotes": 3468,
+          "noVotes": 3154,
+          "totalVotes": 6622,
+          "yesPct": 52.37,
+          "noPct": 47.63,
+          "marginVotes": 314,
+          "marginPct": 4.74,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -10534,22 +10534,22 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 663426,
-      "noVotes": 700603,
-      "totalVotes": 1364029,
-      "yesPct": 48.64,
-      "noPct": 51.36,
-      "marginVotes": -37177,
-      "marginPct": -2.72,
+      "yesVotes": 664357,
+      "noVotes": 703387,
+      "totalVotes": 1367744,
+      "yesPct": 48.57,
+      "noPct": 51.43,
+      "marginVotes": -39030,
+      "marginPct": -2.86,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 161382,
-          "no": 245880,
-          "total": 407262,
+          "yes": 162267,
+          "no": 248507,
+          "total": 410774,
           "wards": 26,
-          "yesPct": 39.63,
-          "noPct": 60.37
+          "yesPct": 39.5,
+          "noPct": 60.5
         },
         "Edmonton": {
           "yes": 89582,
@@ -10560,12 +10560,12 @@
           "noPct": 65.14
         },
         "Regional / Other": {
-          "yes": 412462,
-          "no": 287315,
-          "total": 699777,
+          "yes": 412508,
+          "no": 287472,
+          "total": 699980,
           "wards": 41,
-          "yesPct": 58.94,
-          "noPct": 41.06
+          "yesPct": 58.93,
+          "noPct": 41.07
         }
       },
       "votingMethods": [
@@ -10585,26 +10585,26 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 329663,
-          "noVotes": 273959,
-          "totalVotes": 603622,
-          "yesPct": 54.61,
-          "noPct": 45.39,
-          "marginVotes": 55704,
-          "marginPct": 9.22,
-          "pollsReporting": 4590,
+          "yesVotes": 329709,
+          "noVotes": 274116,
+          "totalVotes": 603825,
+          "yesPct": 54.6,
+          "noPct": 45.4,
+          "marginVotes": 55593,
+          "marginPct": 9.2,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 8351,
-          "noVotes": 25728,
-          "totalVotes": 34079,
-          "yesPct": 24.5,
-          "noPct": 75.5,
-          "marginVotes": -17377,
-          "marginPct": -51.0,
+          "yesVotes": 9236,
+          "noVotes": 28355,
+          "totalVotes": 37591,
+          "yesPct": 24.57,
+          "noPct": 75.43,
+          "marginVotes": -19119,
+          "marginPct": -50.86,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 311,
+        "<30%": 313,
         "30-40%": 721,
         "40-50%": 1054,
         "50-60%": 950,
@@ -10925,13 +10925,13 @@
           "ward": "19",
           "wardName": "19 - Calgary-North",
           "region": "Calgary",
-          "yesVotes": 6271,
-          "noVotes": 9713,
-          "totalVotes": 15984,
-          "yesPct": 39.23,
-          "noPct": 60.77,
-          "marginVotes": -3442,
-          "marginPct": -21.54,
+          "yesVotes": 7156,
+          "noVotes": 12340,
+          "totalVotes": 19496,
+          "yesPct": 36.7,
+          "noPct": 63.3,
+          "marginVotes": -5184,
+          "marginPct": -26.6,
           "leader": "NO",
           "pollsReporting": 52,
           "totalPolls": 52,
@@ -11741,17 +11741,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 3399,
-          "noVotes": 3603,
-          "totalVotes": 7002,
-          "yesPct": 48.54,
-          "noPct": 51.46,
-          "marginVotes": -204,
-          "marginPct": -2.92,
+          "yesVotes": 3445,
+          "noVotes": 3760,
+          "totalVotes": 7205,
+          "yesPct": 47.81,
+          "noPct": 52.19,
+          "marginVotes": -315,
+          "marginPct": -4.38,
           "leader": "NO",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -12032,12 +12032,12 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 684541,
-      "noVotes": 653921,
-      "totalVotes": 1338462,
+      "yesVotes": 684588,
+      "noVotes": 654076,
+      "totalVotes": 1338664,
       "yesPct": 51.14,
       "noPct": 48.86,
-      "marginVotes": 30620,
+      "marginVotes": 30512,
       "marginPct": 2.28,
       "leader": "YES",
       "regionalStats": {
@@ -12058,12 +12058,12 @@
           "noPct": 61.3
         },
         "Regional / Other": {
-          "yes": 420234,
-          "no": 264455,
-          "total": 684689,
+          "yes": 420281,
+          "no": 264610,
+          "total": 684891,
           "wards": 41,
-          "yesPct": 61.38,
-          "noPct": 38.62
+          "yesPct": 61.36,
+          "noPct": 38.64
         }
       },
       "votingMethods": [
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 336284,
-          "noVotes": 257662,
-          "totalVotes": 593946,
-          "yesPct": 56.62,
-          "noPct": 43.38,
-          "marginVotes": 78622,
-          "marginPct": 13.24,
-          "pollsReporting": 4590,
+          "yesVotes": 336331,
+          "noVotes": 257817,
+          "totalVotes": 594148,
+          "yesPct": 56.61,
+          "noPct": 43.39,
+          "marginVotes": 78514,
+          "marginPct": 13.22,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 214,
+        "<30%": 215,
         "30-40%": 580,
         "40-50%": 1012,
         "50-60%": 994,
@@ -13239,17 +13239,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 3614,
-          "noVotes": 3402,
-          "totalVotes": 7016,
-          "yesPct": 51.51,
-          "noPct": 48.49,
-          "marginVotes": 212,
-          "marginPct": 3.02,
+          "yesVotes": 3661,
+          "noVotes": 3557,
+          "totalVotes": 7218,
+          "yesPct": 50.72,
+          "noPct": 49.28,
+          "marginVotes": 104,
+          "marginPct": 1.44,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
@@ -13530,12 +13530,12 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1498607,
-      "noVotes": 492234,
-      "totalVotes": 1990841,
+      "yesVotes": 1498791,
+      "noVotes": 492253,
+      "totalVotes": 1991044,
       "yesPct": 75.28,
       "noPct": 24.72,
-      "marginVotes": 1006373,
+      "marginVotes": 1006538,
       "marginPct": 50.56,
       "leader": "YES",
       "regionalStats": {
@@ -13556,9 +13556,9 @@
           "noPct": 14.34
         },
         "Regional / Other": {
-          "yes": 627772,
-          "no": 322417,
-          "total": 950189,
+          "yes": 627956,
+          "no": 322436,
+          "total": 950392,
           "wards": 41,
           "yesPct": 66.07,
           "noPct": 33.93
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 439675,
-          "noVotes": 217090,
-          "totalVotes": 656765,
+          "yesVotes": 439859,
+          "noVotes": 217109,
+          "totalVotes": 656968,
           "yesPct": 66.95,
           "noPct": 33.05,
-          "marginVotes": 222585,
+          "marginVotes": 222750,
           "marginPct": 33.9,
-          "pollsReporting": 4590,
+          "pollsReporting": 4591,
           "totalPolls": 4904
         },
         {
@@ -13626,7 +13626,7 @@
         "60-70%": 883,
         "70-80%": 1464,
         "80-90%": 1059,
-        "90-100%": 293
+        "90-100%": 294
       },
       "wards": [
         {
@@ -14737,17 +14737,17 @@
           "ward": "70",
           "wardName": "70 - Lesser Slave Lake",
           "region": "Regional / Other",
-          "yesVotes": 6532,
-          "noVotes": 2963,
-          "totalVotes": 9495,
-          "yesPct": 68.79,
-          "noPct": 31.21,
-          "marginVotes": 3569,
-          "marginPct": 37.58,
+          "yesVotes": 6716,
+          "noVotes": 2982,
+          "totalVotes": 9698,
+          "yesPct": 69.25,
+          "noPct": 30.75,
+          "marginVotes": 3734,
+          "marginPct": 38.5,
           "leader": "YES",
-          "pollsReporting": 43,
+          "pollsReporting": 44,
           "totalPolls": 48,
-          "pollsPct": 89.6
+          "pollsPct": 91.7
         },
         {
           "ward": "71",
