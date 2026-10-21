@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-21T22:02:12.261826+00:00",
-  "lastUpdatedEAB": "2026-10-21T22:01:10.6345879+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 04:01:10 PM MDT",
+  "fetchedAt": "2026-10-21T22:02:56.497040+00:00",
+  "lastUpdatedEAB": "2026-10-21T22:02:00.8383395+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 04:02:00 PM MDT",
   "turnout": {
     "summary": {
       "votes": 17647277,
@@ -58,9 +58,9 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 288544,
-          "no": 347823,
-          "total": 636367,
+          "yes": 288613,
+          "no": 347874,
+          "total": 636487,
           "wards": 26,
           "yesPct": 45.34,
           "noPct": 54.66
@@ -74,9 +74,9 @@
           "noPct": 57.38
         },
         "Regional / Other": {
-          "yes": 599113,
-          "no": 330788,
-          "total": 929901,
+          "yes": 599253,
+          "no": 330809,
+          "total": 930062,
           "wards": 41,
           "yesPct": 64.43,
           "noPct": 35.57
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 435800,
-          "noVotes": 215663,
-          "totalVotes": 651463,
+          "yesVotes": 436009,
+          "noVotes": 215735,
+          "totalVotes": 651744,
           "yesPct": 66.9,
           "noPct": 33.1,
-          "marginVotes": 220137,
+          "marginVotes": 220274,
           "marginPct": 33.8,
-          "pollsReporting": 4722,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -140,10 +140,10 @@
         "<30%": 77,
         "30-40%": 155,
         "40-50%": 513,
-        "50-60%": 1062,
+        "50-60%": 1063,
         "60-70%": 1231,
         "70-80%": 1068,
-        "80-90%": 861,
+        "80-90%": 862,
         "90-100%": 171
       },
       "wards": [
@@ -535,13 +535,13 @@
           "ward": "25",
           "wardName": "25 - Calgary-Varsity",
           "region": "Calgary",
-          "yesVotes": 7225,
-          "noVotes": 42135,
-          "totalVotes": 49360,
-          "yesPct": 14.64,
-          "noPct": 85.36,
-          "marginVotes": -34910,
-          "marginPct": -70.72,
+          "yesVotes": 7294,
+          "noVotes": 42186,
+          "totalVotes": 49480,
+          "yesPct": 14.74,
+          "noPct": 85.26,
+          "marginVotes": -34892,
+          "marginPct": -70.52,
           "leader": "NO",
           "pollsReporting": 51,
           "totalPolls": 51,
@@ -1095,17 +1095,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7905,
-          "noVotes": 3679,
-          "totalVotes": 11584,
-          "yesPct": 68.24,
-          "noPct": 31.76,
-          "marginVotes": 4226,
-          "marginPct": 36.48,
+          "yesVotes": 8045,
+          "noVotes": 3700,
+          "totalVotes": 11745,
+          "yesPct": 68.5,
+          "noPct": 31.5,
+          "marginVotes": 4345,
+          "marginPct": 37.0,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -1572,12 +1572,12 @@
           "noPct": 59.79
         },
         "Regional / Other": {
-          "yes": 575056,
-          "no": 348852,
-          "total": 923908,
+          "yes": 575198,
+          "no": 348870,
+          "total": 924068,
           "wards": 41,
-          "yesPct": 62.24,
-          "noPct": 37.76
+          "yesPct": 62.25,
+          "noPct": 37.75
         }
       },
       "votingMethods": [
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 410185,
-          "noVotes": 240200,
-          "totalVotes": 650385,
+          "yesVotes": 410327,
+          "noVotes": 240218,
+          "totalVotes": 650545,
           "yesPct": 63.07,
           "noPct": 36.93,
-          "marginVotes": 169985,
+          "marginVotes": 170109,
           "marginPct": 26.14,
-          "pollsReporting": 4722,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -1641,7 +1641,7 @@
         "50-60%": 1223,
         "60-70%": 1115,
         "70-80%": 943,
-        "80-90%": 647,
+        "80-90%": 648,
         "90-100%": 101
       },
       "wards": [
@@ -2593,17 +2593,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7687,
-          "noVotes": 3978,
-          "totalVotes": 11665,
-          "yesPct": 65.9,
-          "noPct": 34.1,
-          "marginVotes": 3709,
-          "marginPct": 31.8,
+          "yesVotes": 7828,
+          "noVotes": 3996,
+          "totalVotes": 11824,
+          "yesPct": 66.2,
+          "noPct": 33.8,
+          "marginVotes": 3832,
+          "marginPct": 32.4,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -2961,12 +2961,12 @@
           "ward": "83",
           "wardName": "83 - St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 11873,
+          "yesVotes": 11874,
           "noVotes": 13557,
-          "totalVotes": 25430,
+          "totalVotes": 25431,
           "yesPct": 46.69,
           "noPct": 53.31,
-          "marginVotes": -1684,
+          "marginVotes": -1683,
           "marginPct": -6.62,
           "leader": "NO",
           "pollsReporting": 59,
@@ -3070,9 +3070,9 @@
           "noPct": 58.97
         },
         "Regional / Other": {
-          "yes": 574321,
-          "no": 326326,
-          "total": 900647,
+          "yes": 574459,
+          "no": 326348,
+          "total": 900807,
           "wards": 41,
           "yesPct": 63.77,
           "noPct": 36.23
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 413961,
-          "noVotes": 236188,
-          "totalVotes": 650149,
-          "yesPct": 63.67,
-          "noPct": 36.33,
-          "marginVotes": 177773,
-          "marginPct": 27.34,
-          "pollsReporting": 4722,
+          "yesVotes": 414099,
+          "noVotes": 236210,
+          "totalVotes": 650309,
+          "yesPct": 63.68,
+          "noPct": 36.32,
+          "marginVotes": 177889,
+          "marginPct": 27.36,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -3139,7 +3139,7 @@
         "50-60%": 1234,
         "60-70%": 1127,
         "70-80%": 959,
-        "80-90%": 699,
+        "80-90%": 700,
         "90-100%": 104
       },
       "wards": [
@@ -4091,17 +4091,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7779,
-          "noVotes": 3990,
-          "totalVotes": 11769,
-          "yesPct": 66.1,
-          "noPct": 33.9,
-          "marginVotes": 3789,
-          "marginPct": 32.2,
+          "yesVotes": 7917,
+          "noVotes": 4012,
+          "totalVotes": 11929,
+          "yesPct": 66.37,
+          "noPct": 33.63,
+          "marginVotes": 3905,
+          "marginPct": 32.74,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -4568,12 +4568,12 @@
           "noPct": 59.07
         },
         "Regional / Other": {
-          "yes": 555436,
-          "no": 326606,
-          "total": 882042,
+          "yes": 555570,
+          "no": 326631,
+          "total": 882201,
           "wards": 41,
-          "yesPct": 62.97,
-          "noPct": 37.03
+          "yesPct": 62.98,
+          "noPct": 37.02
         }
       },
       "votingMethods": [
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 394590,
-          "noVotes": 253221,
-          "totalVotes": 647811,
-          "yesPct": 60.91,
-          "noPct": 39.09,
-          "marginVotes": 141369,
-          "marginPct": 21.82,
-          "pollsReporting": 4722,
+          "yesVotes": 394724,
+          "noVotes": 253246,
+          "totalVotes": 647970,
+          "yesPct": 60.92,
+          "noPct": 39.08,
+          "marginVotes": 141478,
+          "marginPct": 21.84,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -4637,7 +4637,7 @@
         "50-60%": 1223,
         "60-70%": 1045,
         "70-80%": 876,
-        "80-90%": 554,
+        "80-90%": 555,
         "90-100%": 71
       },
       "wards": [
@@ -5589,17 +5589,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7396,
-          "noVotes": 4314,
-          "totalVotes": 11710,
-          "yesPct": 63.16,
-          "noPct": 36.84,
-          "marginVotes": 3082,
-          "marginPct": 26.32,
+          "yesVotes": 7530,
+          "noVotes": 4339,
+          "totalVotes": 11869,
+          "yesPct": 63.44,
+          "noPct": 36.56,
+          "marginVotes": 3191,
+          "marginPct": 26.88,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -6066,9 +6066,9 @@
           "noPct": 52.64
         },
         "Regional / Other": {
-          "yes": 594471,
-          "no": 251759,
-          "total": 846230,
+          "yes": 594607,
+          "no": 251776,
+          "total": 846383,
           "wards": 41,
           "yesPct": 70.25,
           "noPct": 29.75
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 446325,
-          "noVotes": 202907,
-          "totalVotes": 649232,
+          "yesVotes": 446461,
+          "noVotes": 202924,
+          "totalVotes": 649385,
           "yesPct": 68.75,
           "noPct": 31.25,
-          "marginVotes": 243418,
+          "marginVotes": 243537,
           "marginPct": 37.5,
-          "pollsReporting": 4722,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -6135,7 +6135,7 @@
         "50-60%": 945,
         "60-70%": 1259,
         "70-80%": 1126,
-        "80-90%": 996,
+        "80-90%": 997,
         "90-100%": 263
       },
       "wards": [
@@ -7087,17 +7087,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 4872,
-          "noVotes": 2148,
-          "totalVotes": 7020,
-          "yesPct": 69.4,
-          "noPct": 30.6,
-          "marginVotes": 2724,
-          "marginPct": 38.8,
+          "yesVotes": 5008,
+          "noVotes": 2165,
+          "totalVotes": 7173,
+          "yesPct": 69.82,
+          "noPct": 30.18,
+          "marginVotes": 2843,
+          "marginPct": 39.64,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -7564,9 +7564,9 @@
           "noPct": 65.89
         },
         "Regional / Other": {
-          "yes": 488070,
-          "no": 331693,
-          "total": 819763,
+          "yes": 488200,
+          "no": 331721,
+          "total": 819921,
           "wards": 41,
           "yesPct": 59.54,
           "noPct": 40.46
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 363280,
-          "noVotes": 283294,
-          "totalVotes": 646574,
+          "yesVotes": 363410,
+          "noVotes": 283322,
+          "totalVotes": 646732,
           "yesPct": 56.19,
           "noPct": 43.81,
-          "marginVotes": 79986,
+          "marginVotes": 80088,
           "marginPct": 12.38,
-          "pollsReporting": 4722,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -7633,7 +7633,7 @@
         "50-60%": 1027,
         "60-70%": 809,
         "70-80%": 750,
-        "80-90%": 402,
+        "80-90%": 403,
         "90-100%": 57
       },
       "wards": [
@@ -8585,17 +8585,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 3745,
-          "noVotes": 2775,
-          "totalVotes": 6520,
-          "yesPct": 57.44,
-          "noPct": 42.56,
-          "marginVotes": 970,
-          "marginPct": 14.88,
+          "yesVotes": 3875,
+          "noVotes": 2803,
+          "totalVotes": 6678,
+          "yesPct": 58.03,
+          "noPct": 41.97,
+          "marginVotes": 1072,
+          "marginPct": 16.06,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -9062,9 +9062,9 @@
           "noPct": 63.14
         },
         "Regional / Other": {
-          "yes": 488542,
-          "no": 304474,
-          "total": 793016,
+          "yes": 488669,
+          "no": 304507,
+          "total": 793176,
           "wards": 41,
           "yesPct": 61.61,
           "noPct": 38.39
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 370403,
-          "noVotes": 275479,
-          "totalVotes": 645882,
+          "yesVotes": 370530,
+          "noVotes": 275512,
+          "totalVotes": 646042,
           "yesPct": 57.35,
           "noPct": 42.65,
-          "marginVotes": 94924,
+          "marginVotes": 95018,
           "marginPct": 14.7,
-          "pollsReporting": 4722,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -9130,7 +9130,7 @@
         "40-50%": 1082,
         "50-60%": 1147,
         "60-70%": 829,
-        "70-80%": 767,
+        "70-80%": 768,
         "80-90%": 430,
         "90-100%": 66
       },
@@ -10083,17 +10083,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 3881,
-          "noVotes": 2842,
-          "totalVotes": 6723,
-          "yesPct": 57.73,
-          "noPct": 42.27,
-          "marginVotes": 1039,
-          "marginPct": 15.46,
+          "yesVotes": 4008,
+          "noVotes": 2875,
+          "totalVotes": 6883,
+          "yesPct": 58.23,
+          "noPct": 41.77,
+          "marginVotes": 1133,
+          "marginPct": 16.46,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -10560,9 +10560,9 @@
           "noPct": 66.24
         },
         "Regional / Other": {
-          "yes": 449684,
-          "no": 326552,
-          "total": 776236,
+          "yes": 449801,
+          "no": 326595,
+          "total": 776396,
           "wards": 41,
           "yesPct": 57.93,
           "noPct": 42.07
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 350536,
-          "noVotes": 299060,
-          "totalVotes": 649596,
-          "yesPct": 53.96,
-          "noPct": 46.04,
-          "marginVotes": 51476,
-          "marginPct": 7.92,
-          "pollsReporting": 4722,
+          "yesVotes": 350653,
+          "noVotes": 299103,
+          "totalVotes": 649756,
+          "yesPct": 53.97,
+          "noPct": 46.03,
+          "marginVotes": 51550,
+          "marginPct": 7.94,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -10628,7 +10628,7 @@
         "40-50%": 1152,
         "50-60%": 1029,
         "60-70%": 776,
-        "70-80%": 665,
+        "70-80%": 666,
         "80-90%": 275,
         "90-100%": 36
       },
@@ -11581,17 +11581,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 3817,
-          "noVotes": 3206,
-          "totalVotes": 7023,
-          "yesPct": 54.35,
-          "noPct": 45.65,
-          "marginVotes": 611,
-          "marginPct": 8.7,
+          "yesVotes": 3934,
+          "noVotes": 3249,
+          "totalVotes": 7183,
+          "yesPct": 54.77,
+          "noPct": 45.23,
+          "marginVotes": 685,
+          "marginPct": 9.54,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -12042,12 +12042,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 176529,
-          "no": 252098,
-          "total": 428627,
+          "yes": 176532,
+          "no": 252099,
+          "total": 428631,
           "wards": 26,
-          "yesPct": 41.18,
-          "noPct": 58.82
+          "yesPct": 41.19,
+          "noPct": 58.81
         },
         "Edmonton": {
           "yes": 116609,
@@ -12058,12 +12058,12 @@
           "noPct": 62.11
         },
         "Regional / Other": {
-          "yes": 458373,
-          "no": 303249,
-          "total": 761622,
+          "yes": 458499,
+          "no": 303282,
+          "total": 761781,
           "wards": 41,
-          "yesPct": 60.18,
-          "noPct": 39.82
+          "yesPct": 60.19,
+          "noPct": 39.81
         }
       },
       "votingMethods": [
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 362082,
-          "noVotes": 282180,
-          "totalVotes": 644262,
-          "yesPct": 56.2,
-          "noPct": 43.8,
-          "marginVotes": 79902,
-          "marginPct": 12.4,
-          "pollsReporting": 4722,
+          "yesVotes": 362211,
+          "noVotes": 282214,
+          "totalVotes": 644425,
+          "yesPct": 56.21,
+          "noPct": 43.79,
+          "marginVotes": 79997,
+          "marginPct": 12.42,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -12126,7 +12126,7 @@
         "40-50%": 1123,
         "50-60%": 1071,
         "60-70%": 816,
-        "70-80%": 709,
+        "70-80%": 710,
         "80-90%": 393,
         "90-100%": 56
       },
@@ -12343,13 +12343,13 @@
           "ward": "14",
           "wardName": "14 - Calgary-Hays",
           "region": "Calgary",
-          "yesVotes": 9164,
-          "noVotes": 9447,
-          "totalVotes": 18611,
-          "yesPct": 49.24,
-          "noPct": 50.76,
-          "marginVotes": -283,
-          "marginPct": -1.52,
+          "yesVotes": 9167,
+          "noVotes": 9448,
+          "totalVotes": 18615,
+          "yesPct": 49.25,
+          "noPct": 50.75,
+          "marginVotes": -281,
+          "marginPct": -1.5,
           "leader": "NO",
           "pollsReporting": 58,
           "totalPolls": 58,
@@ -13079,17 +13079,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 3921,
-          "noVotes": 3064,
-          "totalVotes": 6985,
-          "yesPct": 56.13,
-          "noPct": 43.87,
-          "marginVotes": 857,
-          "marginPct": 12.26,
+          "yesVotes": 4047,
+          "noVotes": 3097,
+          "totalVotes": 7144,
+          "yesPct": 56.65,
+          "noPct": 43.35,
+          "marginVotes": 950,
+          "marginPct": 13.3,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
@@ -13556,9 +13556,9 @@
           "noPct": 14.58
         },
         "Regional / Other": {
-          "yes": 634404,
-          "no": 328274,
-          "total": 962678,
+          "yes": 634480,
+          "no": 328358,
+          "total": 962838,
           "wards": 41,
           "yesPct": 65.9,
           "noPct": 34.1
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 452207,
-          "noVotes": 224160,
-          "totalVotes": 676367,
-          "yesPct": 66.86,
-          "noPct": 33.14,
-          "marginVotes": 228047,
-          "marginPct": 33.72,
-          "pollsReporting": 4722,
+          "yesVotes": 452283,
+          "noVotes": 224244,
+          "totalVotes": 676527,
+          "yesPct": 66.85,
+          "noPct": 33.15,
+          "marginVotes": 228039,
+          "marginPct": 33.7,
+          "pollsReporting": 4723,
           "totalPolls": 4904
         },
         {
@@ -13621,7 +13621,7 @@
       "pollDistribution": {
         "<30%": 69,
         "30-40%": 257,
-        "40-50%": 489,
+        "40-50%": 490,
         "50-60%": 652,
         "60-70%": 912,
         "70-80%": 1506,
@@ -14577,17 +14577,17 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7551,
-          "noVotes": 5006,
-          "totalVotes": 12557,
-          "yesPct": 60.13,
-          "noPct": 39.87,
-          "marginVotes": 2545,
-          "marginPct": 20.26,
+          "yesVotes": 7627,
+          "noVotes": 5090,
+          "totalVotes": 12717,
+          "yesPct": 59.97,
+          "noPct": 40.03,
+          "marginVotes": 2537,
+          "marginPct": 19.94,
           "leader": "YES",
-          "pollsReporting": 49,
+          "pollsReporting": 50,
           "totalPolls": 63,
-          "pollsPct": 77.8
+          "pollsPct": 79.4
         },
         {
           "ward": "61",
