@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-21T22:57:01.933968+00:00",
+  "fetchedAt": "2026-10-21T22:57:49.682568+00:00",
   "lastUpdatedEAB": "2026-10-21T22:56:51.0636607+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 04:56:51 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 17809442,
-      "valid": 17809442,
+      "votes": 17809580,
+      "valid": 17809580,
       "pollsReporting": 5350,
       "totalPolls": 5575,
       "pollsReportingPct": 95.96
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 36.87,
-      "valid": 6566532,
+      "valid": 6566668,
       "pollsReporting": 4720,
       "totalPolls": 4904
     },
@@ -30,7 +30,7 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 18.58,
-      "valid": 3308375,
+      "valid": 3308377,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -93,7 +93,7 @@
           "noPct": 43.46,
           "marginVotes": 102878,
           "marginPct": 13.08,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -1591,7 +1591,7 @@
           "noPct": 45.69,
           "marginVotes": 66516,
           "marginPct": 8.62,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1025535,
-      "noVotes": 906335,
-      "totalVotes": 1931870,
+      "yesVotes": 1025606,
+      "noVotes": 906400,
+      "totalVotes": 1932006,
       "yesPct": 53.09,
       "noPct": 46.91,
-      "marginVotes": 119200,
+      "marginVotes": 119206,
       "marginPct": 6.18,
       "leader": "YES",
       "regionalStats": {
@@ -3089,19 +3089,19 @@
           "noPct": 44.82,
           "marginVotes": 80865,
           "marginPct": 10.36,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 417022,
-          "noVotes": 237986,
-          "totalVotes": 655008,
-          "yesPct": 63.67,
-          "noPct": 36.33,
-          "marginVotes": 179036,
-          "marginPct": 27.34,
+          "yesVotes": 417093,
+          "noVotes": 238051,
+          "totalVotes": 655144,
+          "yesPct": 63.66,
+          "noPct": 36.34,
+          "marginVotes": 179042,
+          "marginPct": 27.32,
           "pollsReporting": 4734,
           "totalPolls": 4904
         },
@@ -3109,11 +3109,11 @@
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
           "yesVotes": 166774,
-          "noVotes": 310817,
-          "totalVotes": 477591,
+          "noVotes": 310819,
+          "totalVotes": 477593,
           "yesPct": 34.92,
           "noPct": 65.08,
-          "marginVotes": -144043,
+          "marginVotes": -144045,
           "marginPct": -30.16,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -3136,7 +3136,7 @@
         "<30%": 95,
         "30-40%": 249,
         "40-50%": 671,
-        "50-60%": 1247,
+        "50-60%": 1248,
         "60-70%": 1131,
         "70-80%": 963,
         "80-90%": 708,
@@ -4543,11 +4543,11 @@
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
       "yesVotes": 981550,
-      "noVotes": 880062,
-      "totalVotes": 1861612,
+      "noVotes": 880064,
+      "totalVotes": 1861614,
       "yesPct": 52.73,
       "noPct": 47.27,
-      "marginVotes": 101488,
+      "marginVotes": 101486,
       "marginPct": 5.46,
       "leader": "YES",
       "regionalStats": {
@@ -4587,18 +4587,18 @@
           "noPct": 45.14,
           "marginVotes": 76236,
           "marginPct": 9.72,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 398446,
-          "noVotes": 255751,
-          "totalVotes": 654197,
+          "yesVotes": 398515,
+          "noVotes": 255806,
+          "totalVotes": 654321,
           "yesPct": 60.91,
           "noPct": 39.09,
-          "marginVotes": 142695,
+          "marginVotes": 142709,
           "marginPct": 21.82,
           "pollsReporting": 4734,
           "totalPolls": 4904
@@ -4607,11 +4607,11 @@
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
           "yesVotes": 142681,
-          "noVotes": 262059,
-          "totalVotes": 404740,
+          "noVotes": 262061,
+          "totalVotes": 404742,
           "yesPct": 35.25,
           "noPct": 64.75,
-          "marginVotes": -119378,
+          "marginVotes": -119380,
           "marginPct": -29.5,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -4634,7 +4634,7 @@
         "<30%": 131,
         "30-40%": 364,
         "40-50%": 864,
-        "50-60%": 1234,
+        "50-60%": 1235,
         "60-70%": 1047,
         "70-80%": 883,
         "80-90%": 562,
@@ -6085,7 +6085,7 @@
           "noPct": 40.08,
           "marginVotes": 151525,
           "marginPct": 19.84,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -7583,7 +7583,7 @@
           "noPct": 52.1,
           "marginVotes": -32426,
           "marginPct": -4.2,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -9081,7 +9081,7 @@
           "noPct": 49.86,
           "marginVotes": 2170,
           "marginPct": 0.28,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -10579,18 +10579,18 @@
           "noPct": 54.89,
           "marginVotes": -73636,
           "marginPct": -9.78,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 353880,
-          "noVotes": 302044,
-          "totalVotes": 655924,
+          "yesVotes": 353929,
+          "noVotes": 302119,
+          "totalVotes": 656048,
           "yesPct": 53.95,
           "noPct": 46.05,
-          "marginVotes": 51836,
+          "marginVotes": 51810,
           "marginPct": 7.9,
           "pollsReporting": 4734,
           "totalPolls": 4904
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 27975,
-          "noVotes": 91400,
-          "totalVotes": 119375,
-          "yesPct": 23.43,
-          "noPct": 76.57,
-          "marginVotes": -63425,
-          "marginPct": -53.14,
+          "yesVotes": 28580,
+          "noVotes": 93368,
+          "totalVotes": 121948,
+          "yesPct": 23.44,
+          "noPct": 76.56,
+          "marginVotes": -64788,
+          "marginPct": -53.12,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,8 +10623,8 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 355,
-        "30-40%": 809,
+        "<30%": 356,
+        "30-40%": 810,
         "40-50%": 1163,
         "50-60%": 1033,
         "60-70%": 782,
@@ -12077,7 +12077,7 @@
           "noPct": 52.66,
           "marginVotes": -40569,
           "marginPct": -5.32,
-          "pollsReporting": 261,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 24377,
-          "noVotes": 66081,
-          "totalVotes": 90458,
-          "yesPct": 26.95,
-          "noPct": 73.05,
-          "marginVotes": -41704,
-          "marginPct": -46.1,
+          "yesVotes": 25451,
+          "noVotes": 68518,
+          "totalVotes": 93969,
+          "yesPct": 27.08,
+          "noPct": 72.92,
+          "marginVotes": -43067,
+          "marginPct": -45.84,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12122,7 +12122,7 @@
       ],
       "pollDistribution": {
         "<30%": 248,
-        "30-40%": 657,
+        "30-40%": 658,
         "40-50%": 1136,
         "50-60%": 1077,
         "60-70%": 823,
@@ -13568,14 +13568,14 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 581767,
-          "noVotes": 229902,
-          "totalVotes": 811669,
-          "yesPct": 71.68,
-          "noPct": 28.32,
-          "marginVotes": 351865,
-          "marginPct": 43.36,
-          "pollsReporting": 261,
+          "yesVotes": 582876,
+          "noVotes": 230116,
+          "totalVotes": 812992,
+          "yesPct": 71.7,
+          "noPct": 28.3,
+          "marginVotes": 352760,
+          "marginPct": 43.4,
+          "pollsReporting": 262,
           "totalPolls": 269
         },
         {
@@ -13625,7 +13625,7 @@
         "50-60%": 653,
         "60-70%": 910,
         "70-80%": 1512,
-        "80-90%": 1095,
+        "80-90%": 1096,
         "90-100%": 308
       },
       "wards": [
