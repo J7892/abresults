@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T08:10:46.606455+00:00",
-  "lastUpdatedEAB": "2026-10-21T08:10:19.3459585+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 02:10:19 AM MDT",
+  "fetchedAt": "2026-10-21T08:11:20.475227+00:00",
+  "lastUpdatedEAB": "2026-10-21T08:11:07.8631832+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 02:11:07 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 15727577,
-      "valid": 15727577,
+      "votes": 15733250,
+      "valid": 15733250,
       "pollsReporting": 5170,
       "totalPolls": 5583,
       "pollsReportingPct": 92.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 46.78,
+      "percentageOfAllVotes": 46.77,
       "valid": 7357948,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.66,
+      "percentageOfAllVotes": 38.65,
       "valid": 6080858,
       "pollsReporting": 4575,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 13.45,
-      "valid": 2114833,
+      "percentageOfAllVotes": 13.48,
+      "valid": 2120506,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 942343,
-      "noVotes": 854192,
-      "totalVotes": 1796535,
-      "yesPct": 52.45,
-      "noPct": 47.55,
-      "marginVotes": 88151,
-      "marginPct": 4.9,
+      "yesVotes": 944069,
+      "noVotes": 858139,
+      "totalVotes": 1802208,
+      "yesPct": 52.38,
+      "noPct": 47.62,
+      "marginVotes": 85930,
+      "marginPct": 4.76,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1572,12 +1572,12 @@
           "noPct": 59.72
         },
         "Regional / Other": {
-          "yes": 529394,
-          "no": 307866,
-          "total": 837260,
+          "yes": 531120,
+          "no": 311813,
+          "total": 842933,
           "wards": 41,
-          "yesPct": 63.23,
-          "noPct": 36.77
+          "yesPct": 63.01,
+          "noPct": 36.99
         }
       },
       "votingMethods": [
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 143856,
-          "noVotes": 280365,
-          "totalVotes": 424221,
-          "yesPct": 33.91,
-          "noPct": 66.09,
-          "marginVotes": -136509,
-          "marginPct": -32.18,
+          "yesVotes": 145582,
+          "noVotes": 284312,
+          "totalVotes": 429894,
+          "yesPct": 33.86,
+          "noPct": 66.14,
+          "marginVotes": -138730,
+          "marginPct": -32.28,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -1636,7 +1636,7 @@
       ],
       "pollDistribution": {
         "<30%": 93,
-        "30-40%": 240,
+        "30-40%": 241,
         "40-50%": 711,
         "50-60%": 1149,
         "60-70%": 1058,
@@ -2769,14 +2769,14 @@
           "ward": "71",
           "wardName": "71 - Lethbridge-East",
           "region": "Regional / Other",
-          "yesVotes": 10065,
-          "noVotes": 8484,
-          "totalVotes": 18549,
-          "yesPct": 54.26,
-          "noPct": 45.74,
-          "marginVotes": 1581,
-          "marginPct": 8.52,
-          "leader": "YES",
+          "yesVotes": 11791,
+          "noVotes": 12431,
+          "totalVotes": 24222,
+          "yesPct": 48.68,
+          "noPct": 51.32,
+          "marginVotes": -640,
+          "marginPct": -2.64,
+          "leader": "NO",
           "pollsReporting": 67,
           "totalPolls": 69,
           "pollsPct": 97.1
