@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-21T04:23:22.064084+00:00",
-  "lastUpdatedEAB": "2026-10-21T04:23:16.8492416+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 10:23:16 PM MDT",
+  "fetchedAt": "2026-10-21T04:24:39.211842+00:00",
+  "lastUpdatedEAB": "2026-10-21T04:24:05.5019152+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 10:24:05 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 15277604,
-      "valid": 15277604,
-      "pollsReporting": 5131,
+      "votes": 15277790,
+      "valid": 15277790,
+      "pollsReporting": 5132,
       "totalPolls": 5583,
-      "pollsReportingPct": 91.9
+      "pollsReportingPct": 91.92
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 38.84,
-      "valid": 5933823,
-      "pollsReporting": 4540,
+      "valid": 5934009,
+      "pollsReporting": 4541,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1000726,
-      "noVotes": 853831,
-      "totalVotes": 1854557,
+      "yesVotes": 1000795,
+      "noVotes": 853855,
+      "totalVotes": 1854650,
       "yesPct": 53.96,
       "noPct": 46.04,
-      "marginVotes": 146895,
+      "marginVotes": 146940,
       "marginPct": 7.92,
       "leader": "YES",
       "regionalStats": {
@@ -74,9 +74,9 @@
           "noPct": 57.32
         },
         "Regional / Other": {
-          "yes": 568388,
-          "no": 304105,
-          "total": 872493,
+          "yes": 568457,
+          "no": 304129,
+          "total": 872586,
           "wards": 41,
           "yesPct": 65.15,
           "noPct": 34.85
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 401175,
-          "noVotes": 194932,
-          "totalVotes": 596107,
+          "yesVotes": 401244,
+          "noVotes": 194956,
+          "totalVotes": 596200,
           "yesPct": 67.3,
           "noPct": 32.7,
-          "marginVotes": 206243,
+          "marginVotes": 206288,
           "marginPct": 34.6,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -142,7 +142,7 @@
         "40-50%": 470,
         "50-60%": 952,
         "60-70%": 1117,
-        "70-80%": 993,
+        "70-80%": 994,
         "80-90%": 812,
         "90-100%": 163
       },
@@ -951,17 +951,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 6819,
-          "noVotes": 3926,
-          "totalVotes": 10745,
-          "yesPct": 63.46,
-          "noPct": 36.54,
-          "marginVotes": 2893,
-          "marginPct": 26.92,
+          "yesVotes": 6888,
+          "noVotes": 3950,
+          "totalVotes": 10838,
+          "yesPct": 63.55,
+          "noPct": 36.45,
+          "marginVotes": 2938,
+          "marginPct": 27.1,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 915405,
-      "noVotes": 803776,
-      "totalVotes": 1719181,
+      "yesVotes": 915469,
+      "noVotes": 803805,
+      "totalVotes": 1719274,
       "yesPct": 53.25,
       "noPct": 46.75,
-      "marginVotes": 111629,
+      "marginVotes": 111664,
       "marginPct": 6.5,
       "leader": "YES",
       "regionalStats": {
@@ -1572,9 +1572,9 @@
           "noPct": 59.54
         },
         "Regional / Other": {
-          "yes": 518786,
-          "no": 288171,
-          "total": 806957,
+          "yes": 518850,
+          "no": 288200,
+          "total": 807050,
           "wards": 41,
           "yesPct": 64.29,
           "noPct": 35.71
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 382383,
-          "noVotes": 220908,
-          "totalVotes": 603291,
+          "yesVotes": 382447,
+          "noVotes": 220937,
+          "totalVotes": 603384,
           "yesPct": 63.38,
           "noPct": 36.62,
-          "marginVotes": 161475,
+          "marginVotes": 161510,
           "marginPct": 26.76,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -1639,7 +1639,7 @@
         "30-40%": 229,
         "40-50%": 678,
         "50-60%": 1124,
-        "60-70%": 1043,
+        "60-70%": 1044,
         "70-80%": 888,
         "80-90%": 598,
         "90-100%": 97
@@ -2449,17 +2449,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 6598,
-          "noVotes": 4145,
-          "totalVotes": 10743,
-          "yesPct": 61.42,
-          "noPct": 38.58,
-          "marginVotes": 2453,
-          "marginPct": 22.84,
+          "yesVotes": 6662,
+          "noVotes": 4174,
+          "totalVotes": 10836,
+          "yesPct": 61.48,
+          "noPct": 38.52,
+          "marginVotes": 2488,
+          "marginPct": 22.96,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -3102,7 +3102,7 @@
           "noPct": 35.8,
           "marginVotes": 170197,
           "marginPct": 28.4,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -3955,9 +3955,9 @@
           "marginVotes": 2818,
           "marginPct": 26.36,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -4600,7 +4600,7 @@
           "noPct": 38.45,
           "marginVotes": 135153,
           "marginPct": 23.1,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -5453,9 +5453,9 @@
           "marginVotes": 2085,
           "marginPct": 19.52,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -6098,7 +6098,7 @@
           "noPct": 30.62,
           "marginVotes": 226480,
           "marginPct": 38.76,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -6951,9 +6951,9 @@
           "marginVotes": 3744,
           "marginPct": 35.3,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -7596,7 +7596,7 @@
           "noPct": 43.0,
           "marginVotes": 81101,
           "marginPct": 14.0,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -8449,9 +8449,9 @@
           "marginVotes": 985,
           "marginPct": 9.22,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -9094,7 +9094,7 @@
           "noPct": 41.9,
           "marginVotes": 93832,
           "marginPct": 16.2,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -9947,9 +9947,9 @@
           "marginVotes": 1352,
           "marginPct": 12.7,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -10592,7 +10592,7 @@
           "noPct": 45.06,
           "marginVotes": 57846,
           "marginPct": 9.88,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -11445,9 +11445,9 @@
           "marginVotes": 1222,
           "marginPct": 14.48,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -12090,7 +12090,7 @@
           "noPct": 43.05,
           "marginVotes": 80077,
           "marginPct": 13.9,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -12943,9 +12943,9 @@
           "marginVotes": 1644,
           "marginPct": 19.52,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
@@ -13588,7 +13588,7 @@
           "noPct": 33.2,
           "marginVotes": 216693,
           "marginPct": 33.6,
-          "pollsReporting": 4512,
+          "pollsReporting": 4513,
           "totalPolls": 4904
         },
         {
@@ -14441,9 +14441,9 @@
           "marginVotes": 2899,
           "marginPct": 26.8,
           "leader": "YES",
-          "pollsReporting": 39,
+          "pollsReporting": 40,
           "totalPolls": 74,
-          "pollsPct": 52.7
+          "pollsPct": 54.1
         },
         {
           "ward": "52",
