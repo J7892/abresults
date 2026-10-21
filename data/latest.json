@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T05:44:44.297241+00:00",
-  "lastUpdatedEAB": "2026-10-21T05:44:15.0236615+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 11:44:15 PM MDT",
+  "fetchedAt": "2026-10-21T05:45:17.456197+00:00",
+  "lastUpdatedEAB": "2026-10-21T05:45:03.4221911+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 11:45:03 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 15556398,
-      "valid": 15556398,
+      "votes": 15564846,
+      "valid": 15564846,
       "pollsReporting": 5163,
       "totalPolls": 5583,
       "pollsReportingPct": 92.48
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 47.3,
+      "percentageOfAllVotes": 47.27,
       "valid": 7357948,
       "pollsReporting": 254,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.79,
+      "percentageOfAllVotes": 38.77,
       "valid": 6034770,
       "pollsReporting": 4569,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 12.79,
-      "valid": 1989834,
+      "percentageOfAllVotes": 12.84,
+      "valid": 1998282,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1011806,
-      "noVotes": 867826,
-      "totalVotes": 1879632,
-      "yesPct": 53.83,
-      "noPct": 46.17,
-      "marginVotes": 143980,
-      "marginPct": 7.66,
+      "yesVotes": 1014939,
+      "noVotes": 873141,
+      "totalVotes": 1888080,
+      "yesPct": 53.76,
+      "noPct": 46.24,
+      "marginVotes": 141798,
+      "marginPct": 7.52,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -74,12 +74,12 @@
           "noPct": 57.46
         },
         "Regional / Other": {
-          "yes": 569293,
-          "no": 304363,
-          "total": 873656,
+          "yes": 572426,
+          "no": 309678,
+          "total": 882104,
           "wards": 41,
-          "yesPct": 65.16,
-          "noPct": 34.84
+          "yesPct": 64.89,
+          "noPct": 35.11
         }
       },
       "votingMethods": [
@@ -112,13 +112,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 166953,
-          "noVotes": 303977,
-          "totalVotes": 470930,
-          "yesPct": 35.45,
-          "noPct": 64.55,
-          "marginVotes": -137024,
-          "marginPct": -29.1,
+          "yesVotes": 170086,
+          "noVotes": 309292,
+          "totalVotes": 479378,
+          "yesPct": 35.48,
+          "noPct": 64.52,
+          "marginVotes": -139206,
+          "marginPct": -29.04,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -138,7 +138,7 @@
       ],
       "pollDistribution": {
         "<30%": 65,
-        "30-40%": 149,
+        "30-40%": 150,
         "40-50%": 490,
         "50-60%": 979,
         "60-70%": 1135,
@@ -1335,13 +1335,13 @@
           "ward": "75",
           "wardName": "75 - Morinville-St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 14126,
-          "noVotes": 7154,
-          "totalVotes": 21280,
-          "yesPct": 66.38,
-          "noPct": 33.62,
-          "marginVotes": 6972,
-          "marginPct": 32.76,
+          "yesVotes": 17259,
+          "noVotes": 12469,
+          "totalVotes": 29728,
+          "yesPct": 58.06,
+          "noPct": 41.94,
+          "marginVotes": 4790,
+          "marginPct": 16.12,
           "leader": "YES",
           "pollsReporting": 58,
           "totalPolls": 64,
