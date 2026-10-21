@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T03:14:24.925947+00:00",
-  "lastUpdatedEAB": "2026-10-21T03:13:43.3757305+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 09:13:43 PM MDT",
+  "fetchedAt": "2026-10-21T03:15:09.347067+00:00",
+  "lastUpdatedEAB": "2026-10-21T03:14:32.1080391+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 09:14:32 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 15112746,
-      "valid": 15112746,
+      "votes": 15117159,
+      "valid": 15117159,
       "pollsReporting": 5113,
       "totalPolls": 5583,
       "pollsReportingPct": 91.58
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 47.98,
+      "percentageOfAllVotes": 47.96,
       "valid": 7250792,
       "pollsReporting": 251,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 39.03,
+      "percentageOfAllVotes": 39.01,
       "valid": 5897907,
       "pollsReporting": 4522,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 11.86,
-      "valid": 1792372,
+      "percentageOfAllVotes": 11.89,
+      "valid": 1796785,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 898951,
-      "noVotes": 779775,
-      "totalVotes": 1678726,
-      "yesPct": 53.55,
-      "noPct": 46.45,
-      "marginVotes": 119176,
-      "marginPct": 7.1,
+      "yesVotes": 900920,
+      "noVotes": 782219,
+      "totalVotes": 1683139,
+      "yesPct": 53.53,
+      "noPct": 46.47,
+      "marginVotes": 118701,
+      "marginPct": 7.06,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1572,12 +1572,12 @@
           "noPct": 59.56
         },
         "Regional / Other": {
-          "yes": 510300,
-          "no": 275566,
-          "total": 785866,
+          "yes": 512269,
+          "no": 278010,
+          "total": 790279,
           "wards": 41,
-          "yesPct": 64.93,
-          "noPct": 35.07
+          "yesPct": 64.82,
+          "noPct": 35.18
         }
       },
       "votingMethods": [
@@ -1610,13 +1610,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 114406,
-          "noVotes": 220092,
-          "totalVotes": 334498,
-          "yesPct": 34.2,
-          "noPct": 65.8,
-          "marginVotes": -105686,
-          "marginPct": -31.6,
+          "yesVotes": 116375,
+          "noVotes": 222536,
+          "totalVotes": 338911,
+          "yesPct": 34.34,
+          "noPct": 65.66,
+          "marginVotes": -106161,
+          "marginPct": -31.32,
           "pollsReporting": 86,
           "totalPolls": 87
         },
@@ -1637,7 +1637,7 @@
       "pollDistribution": {
         "<30%": 88,
         "30-40%": 227,
-        "40-50%": 668,
+        "40-50%": 669,
         "50-60%": 1113,
         "60-70%": 1034,
         "70-80%": 885,
@@ -2689,13 +2689,13 @@
           "ward": "66",
           "wardName": "66 - Innisfail-Sylvan Lake",
           "region": "Regional / Other",
-          "yesVotes": 16885,
-          "noVotes": 5363,
-          "totalVotes": 22248,
-          "yesPct": 75.89,
-          "noPct": 24.11,
-          "marginVotes": 11522,
-          "marginPct": 51.78,
+          "yesVotes": 18854,
+          "noVotes": 7807,
+          "totalVotes": 26661,
+          "yesPct": 70.72,
+          "noPct": 29.28,
+          "marginVotes": 11047,
+          "marginPct": 41.44,
           "leader": "YES",
           "pollsReporting": 73,
           "totalPolls": 73,
