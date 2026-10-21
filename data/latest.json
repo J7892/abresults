@@ -1,26 +1,26 @@
 {
-  "fetchedAt": "2026-10-21T05:13:47.235961+00:00",
-  "lastUpdatedEAB": "2026-10-21T05:13:24.7703703+00:00",
-  "lastUpdatedMountain": "Oct 20, 2026 11:13:24 PM MDT",
+  "fetchedAt": "2026-10-21T05:14:20.355911+00:00",
+  "lastUpdatedEAB": "2026-10-21T05:14:12.8901865+00:00",
+  "lastUpdatedMountain": "Oct 20, 2026 11:14:12 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 15361965,
-      "valid": 15361965,
-      "pollsReporting": 5154,
+      "votes": 15376571,
+      "valid": 15376571,
+      "pollsReporting": 5155,
       "totalPolls": 5583,
-      "pollsReportingPct": 92.32
+      "pollsReportingPct": 92.33
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 47.47,
-      "valid": 7292533,
-      "pollsReporting": 253,
+      "percentageOfAllVotes": 47.48,
+      "valid": 7300337,
+      "pollsReporting": 254,
       "totalPolls": 269
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 38.87,
+      "percentageOfAllVotes": 38.83,
       "valid": 5970498,
       "pollsReporting": 4561,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 12.54,
-      "valid": 1926485,
+      "percentageOfAllVotes": 12.57,
+      "valid": 1933287,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1004148,
-      "noVotes": 856540,
-      "totalVotes": 1860688,
-      "yesPct": 53.97,
-      "noPct": 46.03,
-      "marginVotes": 147608,
-      "marginPct": 7.94,
+      "yesVotes": 1005114,
+      "noVotes": 857556,
+      "totalVotes": 1862670,
+      "yesPct": 53.96,
+      "noPct": 46.04,
+      "marginVotes": 147558,
+      "marginPct": 7.92,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -86,14 +86,14 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 424253,
-          "noVotes": 352259,
-          "totalVotes": 776512,
-          "yesPct": 54.64,
-          "noPct": 45.36,
-          "marginVotes": 71994,
-          "marginPct": 9.28,
-          "pollsReporting": 251,
+          "yesVotes": 425219,
+          "noVotes": 353275,
+          "totalVotes": 778494,
+          "yesPct": 54.62,
+          "noPct": 45.38,
+          "marginVotes": 71944,
+          "marginPct": 9.24,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -139,7 +139,7 @@
       "pollDistribution": {
         "<30%": 64,
         "30-40%": 141,
-        "40-50%": 474,
+        "40-50%": 475,
         "50-60%": 961,
         "60-70%": 1127,
         "70-80%": 1000,
@@ -767,9 +767,9 @@
           "marginVotes": -1450,
           "marginPct": -12.42,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -1546,13 +1546,13 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 922891,
-      "noVotes": 813697,
-      "totalVotes": 1736588,
-      "yesPct": 53.14,
-      "noPct": 46.86,
-      "marginVotes": 109194,
-      "marginPct": 6.28,
+      "yesVotes": 923719,
+      "noVotes": 814806,
+      "totalVotes": 1738525,
+      "yesPct": 53.13,
+      "noPct": 46.87,
+      "marginVotes": 108913,
+      "marginPct": 6.26,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -1584,14 +1584,14 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 397106,
-          "noVotes": 335561,
-          "totalVotes": 732667,
-          "yesPct": 54.2,
-          "noPct": 45.8,
-          "marginVotes": 61545,
-          "marginPct": 8.4,
-          "pollsReporting": 251,
+          "yesVotes": 397934,
+          "noVotes": 336670,
+          "totalVotes": 734604,
+          "yesPct": 54.17,
+          "noPct": 45.83,
+          "marginVotes": 61264,
+          "marginPct": 8.34,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -1637,7 +1637,7 @@
       "pollDistribution": {
         "<30%": 89,
         "30-40%": 230,
-        "40-50%": 682,
+        "40-50%": 683,
         "50-60%": 1131,
         "60-70%": 1051,
         "70-80%": 893,
@@ -2265,9 +2265,9 @@
           "marginVotes": -2170,
           "marginPct": -18.98,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -3044,13 +3044,13 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 885287,
-      "noVotes": 698694,
-      "totalVotes": 1583981,
-      "yesPct": 55.89,
-      "noPct": 44.11,
-      "marginVotes": 186593,
-      "marginPct": 11.78,
+      "yesVotes": 886149,
+      "noVotes": 699743,
+      "totalVotes": 1585892,
+      "yesPct": 55.88,
+      "noPct": 44.12,
+      "marginVotes": 186406,
+      "marginPct": 11.76,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -3082,14 +3082,14 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 403234,
-          "noVotes": 326979,
-          "totalVotes": 730213,
-          "yesPct": 55.22,
-          "noPct": 44.78,
-          "marginVotes": 76255,
-          "marginPct": 10.44,
-          "pollsReporting": 251,
+          "yesVotes": 404092,
+          "noVotes": 328027,
+          "totalVotes": 732119,
+          "yesPct": 55.19,
+          "noPct": 44.81,
+          "marginVotes": 76065,
+          "marginPct": 10.38,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -3108,12 +3108,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 84919,
-          "noVotes": 148261,
-          "totalVotes": 233180,
+          "yesVotes": 84923,
+          "noVotes": 148262,
+          "totalVotes": 233185,
           "yesPct": 36.42,
           "noPct": 63.58,
-          "marginVotes": -63342,
+          "marginVotes": -63339,
           "marginPct": -27.16,
           "pollsReporting": 86,
           "totalPolls": 87
@@ -3135,7 +3135,7 @@
       "pollDistribution": {
         "<30%": 71,
         "30-40%": 220,
-        "40-50%": 590,
+        "40-50%": 591,
         "50-60%": 1129,
         "60-70%": 1052,
         "70-80%": 900,
@@ -3763,9 +3763,9 @@
           "marginVotes": -2006,
           "marginPct": -19.36,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 812668,
-      "noVotes": 628756,
-      "totalVotes": 1441424,
-      "yesPct": 56.38,
-      "noPct": 43.62,
-      "marginVotes": 183912,
-      "marginPct": 12.76,
+      "yesVotes": 815410,
+      "noVotes": 632811,
+      "totalVotes": 1448221,
+      "yesPct": 56.3,
+      "noPct": 43.7,
+      "marginVotes": 182599,
+      "marginPct": 12.6,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4587,7 +4587,7 @@
           "noPct": 45.08,
           "marginVotes": 71360,
           "marginPct": 9.84,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -4606,13 +4606,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 42850,
-          "noVotes": 67357,
-          "totalVotes": 110207,
-          "yesPct": 38.88,
-          "noPct": 61.12,
-          "marginVotes": -24507,
-          "marginPct": -22.24,
+          "yesVotes": 45592,
+          "noVotes": 71412,
+          "totalVotes": 117004,
+          "yesPct": 38.97,
+          "noPct": 61.03,
+          "marginVotes": -25820,
+          "marginPct": -22.06,
           "pollsReporting": 86,
           "totalPolls": 87
         },
@@ -4633,7 +4633,7 @@
       "pollDistribution": {
         "<30%": 104,
         "30-40%": 300,
-        "40-50%": 728,
+        "40-50%": 729,
         "50-60%": 1096,
         "60-70%": 983,
         "70-80%": 814,
@@ -5261,9 +5261,9 @@
           "marginVotes": -1614,
           "marginPct": -24.94,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -6085,7 +6085,7 @@
           "noPct": 40.01,
           "marginVotes": 143893,
           "marginPct": 19.98,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -6759,9 +6759,9 @@
           "marginVotes": -674,
           "marginPct": -9.2,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -7583,7 +7583,7 @@
           "noPct": 52.1,
           "marginVotes": -29773,
           "marginPct": -4.2,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -8257,9 +8257,9 @@
           "marginVotes": -474,
           "marginPct": -20.54,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -9081,7 +9081,7 @@
           "noPct": 49.99,
           "marginVotes": 134,
           "marginPct": 0.02,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -9755,9 +9755,9 @@
           "marginVotes": -315,
           "marginPct": -16.98,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -10579,7 +10579,7 @@
           "noPct": 55.11,
           "marginVotes": -71678,
           "marginPct": -10.22,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -11253,9 +11253,9 @@
           "marginVotes": -524,
           "marginPct": -26.42,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -12077,7 +12077,7 @@
           "noPct": 52.63,
           "marginVotes": -36957,
           "marginPct": -5.26,
-          "pollsReporting": 251,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -12751,9 +12751,9 @@
           "marginVotes": -330,
           "marginPct": -19.16,
           "leader": "NO",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
@@ -13530,13 +13530,13 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1481869,
-      "noVotes": 488722,
-      "totalVotes": 1970591,
-      "yesPct": 75.2,
-      "noPct": 24.8,
-      "marginVotes": 993147,
-      "marginPct": 50.4,
+      "yesVotes": 1483477,
+      "noVotes": 489093,
+      "totalVotes": 1972570,
+      "yesPct": 75.21,
+      "noPct": 24.79,
+      "marginVotes": 994384,
+      "marginPct": 50.42,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -13568,14 +13568,14 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 565987,
-          "noVotes": 225811,
-          "totalVotes": 791798,
-          "yesPct": 71.48,
-          "noPct": 28.52,
-          "marginVotes": 340176,
-          "marginPct": 42.96,
-          "pollsReporting": 251,
+          "yesVotes": 567595,
+          "noVotes": 226182,
+          "totalVotes": 793777,
+          "yesPct": 71.51,
+          "noPct": 28.49,
+          "marginVotes": 341413,
+          "marginPct": 43.02,
+          "pollsReporting": 252,
           "totalPolls": 269
         },
         {
@@ -13625,7 +13625,7 @@
         "50-60%": 631,
         "60-70%": 880,
         "70-80%": 1439,
-        "80-90%": 1033,
+        "80-90%": 1034,
         "90-100%": 288
       },
       "wards": [
@@ -14249,9 +14249,9 @@
           "marginVotes": 12265,
           "marginPct": 73.42,
           "leader": "YES",
-          "pollsReporting": 58,
+          "pollsReporting": 59,
           "totalPolls": 68,
-          "pollsPct": 85.3
+          "pollsPct": 86.8
         },
         {
           "ward": "40",
