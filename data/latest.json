@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T14:29:44.602587+00:00",
-  "lastUpdatedEAB": "2026-10-22T14:29:12.2399263+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 08:29:12 AM MDT",
+  "fetchedAt": "2026-10-22T14:30:17.975835+00:00",
+  "lastUpdatedEAB": "2026-10-22T14:30:02.0017830+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 08:30:02 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19443774,
-      "valid": 19443774,
+      "votes": 19452662,
+      "valid": 19452662,
       "pollsReporting": 5446,
-      "totalPolls": 5575,
-      "pollsReportingPct": 97.69
+      "totalPolls": 5572,
+      "pollsReportingPct": 97.74
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.6,
+      "percentageOfAllVotes": 41.58,
       "valid": 8088661,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,8 +20,8 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.16,
-      "valid": 6836284,
+      "percentageOfAllVotes": 35.15,
+      "valid": 6837138,
       "pollsReporting": 4819,
       "totalPolls": 4904
     },
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.24,
-      "valid": 4325081,
+      "percentageOfAllVotes": 22.28,
+      "valid": 4333115,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -39,7 +39,7 @@
       "percentageOfAllVotes": 1.0,
       "valid": 193748,
       "pollsReporting": 281,
-      "totalPolls": 315
+      "totalPolls": 312
     }
   },
   "questions": [
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1113553,
-      "noVotes": 919398,
-      "totalVotes": 2032951,
+      "yesVotes": 1113628,
+      "noVotes": 919417,
+      "totalVotes": 2033045,
       "yesPct": 54.78,
       "noPct": 45.22,
-      "marginVotes": 194155,
+      "marginVotes": 194211,
       "marginPct": 9.56,
       "leader": "YES",
       "regionalStats": {
@@ -74,9 +74,9 @@
           "noPct": 57.02
         },
         "Regional / Other": {
-          "yes": 627552,
-          "no": 342457,
-          "total": 970009,
+          "yes": 627627,
+          "no": 342476,
+          "total": 970103,
           "wards": 41,
           "yesPct": 64.7,
           "noPct": 35.3
@@ -99,12 +99,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 455125,
-          "noVotes": 227512,
-          "totalVotes": 682637,
+          "yesVotes": 455200,
+          "noVotes": 227531,
+          "totalVotes": 682731,
           "yesPct": 66.67,
           "noPct": 33.33,
-          "marginVotes": 227613,
+          "marginVotes": 227669,
           "marginPct": 33.34,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -133,7 +133,7 @@
           "marginVotes": 3240,
           "marginPct": 16.56,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -142,7 +142,7 @@
         "40-50%": 539,
         "50-60%": 1118,
         "60-70%": 1284,
-        "70-80%": 1102,
+        "70-80%": 1103,
         "80-90%": 889,
         "90-100%": 175
       },
@@ -608,8 +608,8 @@
           "marginPct": -32.98,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -1127,13 +1127,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 17086,
-          "noVotes": 9012,
-          "totalVotes": 26098,
-          "yesPct": 65.47,
-          "noPct": 34.53,
-          "marginVotes": 8074,
-          "marginPct": 30.94,
+          "yesVotes": 17161,
+          "noVotes": 9031,
+          "totalVotes": 26192,
+          "yesPct": 65.52,
+          "noPct": 34.48,
+          "marginVotes": 8130,
+          "marginPct": 31.04,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 1053370,
-      "noVotes": 953951,
-      "totalVotes": 2007321,
+      "yesVotes": 1053442,
+      "noVotes": 953974,
+      "totalVotes": 2007416,
       "yesPct": 52.48,
       "noPct": 47.52,
-      "marginVotes": 99419,
+      "marginVotes": 99468,
       "marginPct": 4.96,
       "leader": "YES",
       "regionalStats": {
@@ -1572,9 +1572,9 @@
           "noPct": 59.42
         },
         "Regional / Other": {
-          "yes": 602355,
-          "no": 360317,
-          "total": 962672,
+          "yes": 602427,
+          "no": 360340,
+          "total": 962767,
           "wards": 41,
           "yesPct": 62.57,
           "noPct": 37.43
@@ -1597,12 +1597,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 429242,
-          "noVotes": 254024,
-          "totalVotes": 683266,
+          "yesVotes": 429314,
+          "noVotes": 254047,
+          "totalVotes": 683361,
           "yesPct": 62.82,
           "noPct": 37.18,
-          "marginVotes": 175218,
+          "marginVotes": 175267,
           "marginPct": 25.64,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -1631,7 +1631,7 @@
           "marginVotes": 3052,
           "marginPct": 15.7,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -1640,7 +1640,7 @@
         "40-50%": 792,
         "50-60%": 1285,
         "60-70%": 1161,
-        "70-80%": 977,
+        "70-80%": 978,
         "80-90%": 667,
         "90-100%": 103
       },
@@ -2106,8 +2106,8 @@
           "marginPct": -37.74,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -2625,13 +2625,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 15807,
-          "noVotes": 8682,
-          "totalVotes": 24489,
-          "yesPct": 64.55,
-          "noPct": 35.45,
-          "marginVotes": 7125,
-          "marginPct": 29.1,
+          "yesVotes": 15879,
+          "noVotes": 8705,
+          "totalVotes": 24584,
+          "yesPct": 64.59,
+          "noPct": 35.41,
+          "marginVotes": 7174,
+          "marginPct": 29.18,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1076150,
-      "noVotes": 950614,
-      "totalVotes": 2026764,
+      "yesVotes": 1076224,
+      "noVotes": 950635,
+      "totalVotes": 2026859,
       "yesPct": 53.1,
       "noPct": 46.9,
-      "marginVotes": 125536,
+      "marginVotes": 125589,
       "marginPct": 6.2,
       "leader": "YES",
       "regionalStats": {
@@ -3070,9 +3070,9 @@
           "noPct": 58.61
         },
         "Regional / Other": {
-          "yes": 613200,
-          "no": 358862,
-          "total": 972062,
+          "yes": 613274,
+          "no": 358883,
+          "total": 972157,
           "wards": 41,
           "yesPct": 63.08,
           "noPct": 36.92
@@ -3095,12 +3095,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 433361,
-          "noVotes": 250206,
-          "totalVotes": 683567,
+          "yesVotes": 433435,
+          "noVotes": 250227,
+          "totalVotes": 683662,
           "yesPct": 63.4,
           "noPct": 36.6,
-          "marginVotes": 183155,
+          "marginVotes": 183208,
           "marginPct": 26.8,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -3129,7 +3129,7 @@
           "marginVotes": 3388,
           "marginPct": 17.42,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -3138,7 +3138,7 @@
         "40-50%": 707,
         "50-60%": 1316,
         "60-70%": 1166,
-        "70-80%": 990,
+        "70-80%": 991,
         "80-90%": 721,
         "90-100%": 105
       },
@@ -3604,8 +3604,8 @@
           "marginPct": -36.6,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -4123,13 +4123,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 15005,
-          "noVotes": 6751,
-          "totalVotes": 21756,
-          "yesPct": 68.97,
-          "noPct": 31.03,
-          "marginVotes": 8254,
-          "marginPct": 37.94,
+          "yesVotes": 15079,
+          "noVotes": 6772,
+          "totalVotes": 21851,
+          "yesPct": 69.01,
+          "noPct": 30.99,
+          "marginVotes": 8307,
+          "marginPct": 38.02,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -4542,22 +4542,22 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 1046854,
-      "noVotes": 965583,
-      "totalVotes": 2012437,
-      "yesPct": 52.02,
-      "noPct": 47.98,
-      "marginVotes": 81271,
-      "marginPct": 4.04,
+      "yesVotes": 1049253,
+      "noVotes": 971313,
+      "totalVotes": 2020566,
+      "yesPct": 51.93,
+      "noPct": 48.07,
+      "marginVotes": 77940,
+      "marginPct": 3.86,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 270979,
-          "no": 333566,
-          "total": 604545,
+          "yes": 273306,
+          "no": 339273,
+          "total": 612579,
           "wards": 26,
-          "yesPct": 44.82,
-          "noPct": 55.18
+          "yesPct": 44.62,
+          "noPct": 55.38
         },
         "Edmonton": {
           "yes": 177519,
@@ -4568,9 +4568,9 @@
           "noPct": 59.33
         },
         "Regional / Other": {
-          "yes": 598356,
-          "no": 373049,
-          "total": 971405,
+          "yes": 598428,
+          "no": 373072,
+          "total": 971500,
           "wards": 41,
           "yesPct": 61.6,
           "noPct": 38.4
@@ -4593,26 +4593,26 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 414702,
-          "noVotes": 269698,
-          "totalVotes": 684400,
-          "yesPct": 60.59,
-          "noPct": 39.41,
-          "marginVotes": 145004,
-          "marginPct": 21.18,
+          "yesVotes": 414774,
+          "noVotes": 269721,
+          "totalVotes": 684495,
+          "yesPct": 60.6,
+          "noPct": 39.4,
+          "marginVotes": 145053,
+          "marginPct": 21.2,
           "pollsReporting": 4833,
           "totalPolls": 4904
         },
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 178440,
-          "noVotes": 325967,
-          "totalVotes": 504407,
-          "yesPct": 35.38,
-          "noPct": 64.62,
-          "marginVotes": -147527,
-          "marginPct": -29.24,
+          "yesVotes": 180767,
+          "noVotes": 331674,
+          "totalVotes": 512441,
+          "yesPct": 35.28,
+          "noPct": 64.72,
+          "marginVotes": -150907,
+          "marginPct": -29.44,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -4627,16 +4627,16 @@
           "marginVotes": 1939,
           "marginPct": 10.02,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
-        "<30%": 137,
+        "<30%": 138,
         "30-40%": 383,
         "40-50%": 925,
         "50-60%": 1300,
         "60-70%": 1079,
-        "70-80%": 901,
+        "70-80%": 902,
         "80-90%": 573,
         "90-100%": 71
       },
@@ -4725,13 +4725,13 @@
           "ward": "06",
           "wardName": "06 - Calgary-Currie",
           "region": "Calgary",
-          "yesVotes": 7033,
-          "noVotes": 8921,
-          "totalVotes": 15954,
-          "yesPct": 44.08,
-          "noPct": 55.92,
-          "marginVotes": -1888,
-          "marginPct": -11.84,
+          "yesVotes": 9360,
+          "noVotes": 14628,
+          "totalVotes": 23988,
+          "yesPct": 39.02,
+          "noPct": 60.98,
+          "marginVotes": -5268,
+          "marginPct": -21.96,
           "leader": "NO",
           "pollsReporting": 56,
           "totalPolls": 58,
@@ -5102,8 +5102,8 @@
           "marginPct": -21.52,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -5621,13 +5621,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 16437,
-          "noVotes": 9770,
-          "totalVotes": 26207,
-          "yesPct": 62.72,
-          "noPct": 37.28,
-          "marginVotes": 6667,
-          "marginPct": 25.44,
+          "yesVotes": 16509,
+          "noVotes": 9793,
+          "totalVotes": 26302,
+          "yesPct": 62.77,
+          "noPct": 37.23,
+          "marginVotes": 6716,
+          "marginPct": 25.54,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1171136,
-      "noVotes": 847834,
-      "totalVotes": 2018970,
+      "yesVotes": 1171211,
+      "noVotes": 847854,
+      "totalVotes": 2019065,
       "yesPct": 58.01,
       "noPct": 41.99,
-      "marginVotes": 323302,
+      "marginVotes": 323357,
       "marginPct": 16.02,
       "leader": "YES",
       "regionalStats": {
@@ -6066,9 +6066,9 @@
           "noPct": 54.22
         },
         "Regional / Other": {
-          "yes": 663276,
-          "no": 313039,
-          "total": 976315,
+          "yes": 663351,
+          "no": 313059,
+          "total": 976410,
           "wards": 41,
           "yesPct": 67.94,
           "noPct": 32.06
@@ -6091,12 +6091,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 469047,
-          "noVotes": 215616,
-          "totalVotes": 684663,
+          "yesVotes": 469122,
+          "noVotes": 215636,
+          "totalVotes": 684758,
           "yesPct": 68.51,
           "noPct": 31.49,
-          "marginVotes": 253431,
+          "marginVotes": 253486,
           "marginPct": 37.02,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -6125,7 +6125,7 @@
           "marginVotes": 6562,
           "marginPct": 33.46,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -6134,7 +6134,7 @@
         "40-50%": 403,
         "50-60%": 1010,
         "60-70%": 1322,
-        "70-80%": 1164,
+        "70-80%": 1165,
         "80-90%": 1030,
         "90-100%": 269
       },
@@ -6600,8 +6600,8 @@
           "marginPct": -29.32,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -7119,13 +7119,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 18098,
-          "noVotes": 8278,
-          "totalVotes": 26376,
-          "yesPct": 68.62,
-          "noPct": 31.38,
-          "marginVotes": 9820,
-          "marginPct": 37.24,
+          "yesVotes": 18173,
+          "noVotes": 8298,
+          "totalVotes": 26471,
+          "yesPct": 68.65,
+          "noPct": 31.35,
+          "marginVotes": 9875,
+          "marginPct": 37.3,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 890654,
-      "noVotes": 1043935,
-      "totalVotes": 1934589,
+      "yesVotes": 890724,
+      "noVotes": 1043960,
+      "totalVotes": 1934684,
       "yesPct": 46.04,
       "noPct": 53.96,
-      "marginVotes": -153281,
+      "marginVotes": -153236,
       "marginPct": -7.92,
       "leader": "NO",
       "regionalStats": {
@@ -7564,9 +7564,9 @@
           "noPct": 67.46
         },
         "Regional / Other": {
-          "yes": 531606,
-          "no": 391026,
-          "total": 922632,
+          "yes": 531676,
+          "no": 391051,
+          "total": 922727,
           "wards": 41,
           "yesPct": 57.62,
           "noPct": 42.38
@@ -7589,12 +7589,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 380592,
-          "noVotes": 300500,
-          "totalVotes": 681092,
+          "yesVotes": 380662,
+          "noVotes": 300525,
+          "totalVotes": 681187,
           "yesPct": 55.88,
           "noPct": 44.12,
-          "marginVotes": 80092,
+          "marginVotes": 80137,
           "marginPct": 11.76,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -7623,7 +7623,7 @@
           "marginVotes": -54,
           "marginPct": -0.28,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -7632,7 +7632,7 @@
         "40-50%": 1159,
         "50-60%": 1078,
         "60-70%": 832,
-        "70-80%": 774,
+        "70-80%": 775,
         "80-90%": 409,
         "90-100%": 58
       },
@@ -8098,8 +8098,8 @@
           "marginPct": -54.62,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -8617,13 +8617,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 13037,
-          "noVotes": 7811,
-          "totalVotes": 20848,
-          "yesPct": 62.53,
-          "noPct": 37.47,
-          "marginVotes": 5226,
-          "marginPct": 25.06,
+          "yesVotes": 13107,
+          "noVotes": 7836,
+          "totalVotes": 20943,
+          "yesPct": 62.58,
+          "noPct": 37.42,
+          "marginVotes": 5271,
+          "marginPct": 25.16,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 903881,
-      "noVotes": 930258,
-      "totalVotes": 1834139,
+      "yesVotes": 903954,
+      "noVotes": 930280,
+      "totalVotes": 1834234,
       "yesPct": 49.28,
       "noPct": 50.72,
-      "marginVotes": -26377,
+      "marginVotes": -26326,
       "marginPct": -1.44,
       "leader": "NO",
       "regionalStats": {
@@ -9062,9 +9062,9 @@
           "noPct": 64.28
         },
         "Regional / Other": {
-          "yes": 542443,
-          "no": 366587,
-          "total": 909030,
+          "yes": 542516,
+          "no": 366609,
+          "total": 909125,
           "wards": 41,
           "yesPct": 59.67,
           "noPct": 40.33
@@ -9087,12 +9087,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 387520,
-          "noVotes": 291546,
-          "totalVotes": 679066,
+          "yesVotes": 387593,
+          "noVotes": 291568,
+          "totalVotes": 679161,
           "yesPct": 57.07,
           "noPct": 42.93,
-          "marginVotes": 95974,
+          "marginVotes": 96025,
           "marginPct": 14.14,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -9121,7 +9121,7 @@
           "marginVotes": 146,
           "marginPct": 0.78,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -9130,7 +9130,7 @@
         "40-50%": 1154,
         "50-60%": 1191,
         "60-70%": 859,
-        "70-80%": 795,
+        "70-80%": 796,
         "80-90%": 440,
         "90-100%": 66
       },
@@ -9596,8 +9596,8 @@
           "marginPct": -48.94,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -10115,13 +10115,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 14904,
-          "noVotes": 10524,
-          "totalVotes": 25428,
-          "yesPct": 58.61,
-          "noPct": 41.39,
-          "marginVotes": 4380,
-          "marginPct": 17.22,
+          "yesVotes": 14977,
+          "noVotes": 10546,
+          "totalVotes": 25523,
+          "yesPct": 58.68,
+          "noPct": 41.32,
+          "marginVotes": 4431,
+          "marginPct": 17.36,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 798979,
-      "noVotes": 970873,
-      "totalVotes": 1769852,
-      "yesPct": 45.14,
-      "noPct": 54.86,
-      "marginVotes": -171894,
-      "marginPct": -9.72,
+      "yesVotes": 799045,
+      "noVotes": 970902,
+      "totalVotes": 1769947,
+      "yesPct": 45.15,
+      "noPct": 54.85,
+      "marginVotes": -171857,
+      "marginPct": -9.7,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,9 +10560,9 @@
           "noPct": 68.58
         },
         "Regional / Other": {
-          "yes": 492616,
-          "no": 396157,
-          "total": 888773,
+          "yes": 492682,
+          "no": 396186,
+          "total": 888868,
           "wards": 41,
           "yesPct": 55.43,
           "noPct": 44.57
@@ -10585,12 +10585,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 367054,
-          "noVotes": 316898,
-          "totalVotes": 683952,
+          "yesVotes": 367120,
+          "noVotes": 316927,
+          "totalVotes": 684047,
           "yesPct": 53.67,
           "noPct": 46.33,
-          "marginVotes": 50156,
+          "marginVotes": 50193,
           "marginPct": 7.34,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -10619,7 +10619,7 @@
           "marginVotes": -1183,
           "marginPct": -6.38,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -10627,7 +10627,7 @@
         "30-40%": 860,
         "40-50%": 1210,
         "50-60%": 1068,
-        "60-70%": 804,
+        "60-70%": 805,
         "70-80%": 686,
         "80-90%": 280,
         "90-100%": 36
@@ -11094,8 +11094,8 @@
           "marginPct": -58.82,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -11613,13 +11613,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 13575,
-          "noVotes": 12686,
-          "totalVotes": 26261,
-          "yesPct": 51.69,
-          "noPct": 48.31,
-          "marginVotes": 889,
-          "marginPct": 3.38,
+          "yesVotes": 13641,
+          "noVotes": 12715,
+          "totalVotes": 26356,
+          "yesPct": 51.76,
+          "noPct": 48.24,
+          "marginVotes": 926,
+          "marginPct": 3.52,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -12032,12 +12032,12 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 835772,
-      "noVotes": 909742,
-      "totalVotes": 1745514,
+      "yesVotes": 835843,
+      "noVotes": 909766,
+      "totalVotes": 1745609,
       "yesPct": 47.88,
       "noPct": 52.12,
-      "marginVotes": -73970,
+      "marginVotes": -73923,
       "marginPct": -4.24,
       "leader": "NO",
       "regionalStats": {
@@ -12058,9 +12058,9 @@
           "noPct": 64.8
         },
         "Regional / Other": {
-          "yes": 508445,
-          "no": 370646,
-          "total": 879091,
+          "yes": 508516,
+          "no": 370670,
+          "total": 879186,
           "wards": 41,
           "yesPct": 57.84,
           "noPct": 42.16
@@ -12083,12 +12083,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 379814,
-          "noVotes": 299451,
-          "totalVotes": 679265,
+          "yesVotes": 379885,
+          "noVotes": 299475,
+          "totalVotes": 679360,
           "yesPct": 55.92,
           "noPct": 44.08,
-          "marginVotes": 80363,
+          "marginVotes": 80410,
           "marginPct": 11.84,
           "pollsReporting": 4833,
           "totalPolls": 4904
@@ -12117,7 +12117,7 @@
           "marginVotes": 297,
           "marginPct": 1.56,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -12126,7 +12126,7 @@
         "40-50%": 1194,
         "50-60%": 1119,
         "60-70%": 846,
-        "70-80%": 734,
+        "70-80%": 735,
         "80-90%": 405,
         "90-100%": 56
       },
@@ -12592,8 +12592,8 @@
           "marginPct": -11.38,
           "leader": "NO",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
@@ -13111,13 +13111,13 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 12538,
-          "noVotes": 8106,
-          "totalVotes": 20644,
-          "yesPct": 60.73,
-          "noPct": 39.27,
-          "marginVotes": 4432,
-          "marginPct": 21.46,
+          "yesVotes": 12609,
+          "noVotes": 8130,
+          "totalVotes": 20739,
+          "yesPct": 60.8,
+          "noPct": 39.2,
+          "marginVotes": 4479,
+          "marginPct": 21.6,
           "leader": "YES",
           "pollsReporting": 65,
           "totalPolls": 82,
@@ -13615,7 +13615,7 @@
           "marginVotes": 15637,
           "marginPct": 74.68,
           "pollsReporting": 284,
-          "totalPolls": 315
+          "totalPolls": 312
         }
       ],
       "pollDistribution": {
@@ -14090,8 +14090,8 @@
           "marginPct": 77.92,
           "leader": "YES",
           "pollsReporting": 75,
-          "totalPolls": 79,
-          "pollsPct": 94.9
+          "totalPolls": 76,
+          "pollsPct": 98.7
         },
         {
           "ward": "30",
