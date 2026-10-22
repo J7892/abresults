@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T08:08:02.412510+00:00",
-  "lastUpdatedEAB": "2026-10-22T08:07:30.1533592+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 02:07:30 AM MDT",
+  "fetchedAt": "2026-10-22T08:08:35.857996+00:00",
+  "lastUpdatedEAB": "2026-10-22T08:08:20.4142099+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 02:08:20 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19313691,
-      "valid": 19313691,
+      "votes": 19321302,
+      "valid": 19321302,
       "pollsReporting": 5441,
       "totalPolls": 5575,
       "pollsReportingPct": 97.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.83,
+      "percentageOfAllVotes": 41.81,
       "valid": 8078694,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.34,
+      "percentageOfAllVotes": 35.33,
       "valid": 6826199,
       "pollsReporting": 4814,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.82,
-      "valid": 4215050,
+      "percentageOfAllVotes": 21.85,
+      "valid": 4222661,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -9036,13 +9036,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 892553,
-      "noVotes": 915403,
-      "totalVotes": 1807956,
-      "yesPct": 49.37,
-      "noPct": 50.63,
-      "marginVotes": -22850,
-      "marginPct": -1.26,
+      "yesVotes": 895254,
+      "noVotes": 920313,
+      "totalVotes": 1815567,
+      "yesPct": 49.31,
+      "noPct": 50.69,
+      "marginVotes": -25059,
+      "marginPct": -1.38,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -9062,12 +9062,12 @@
           "noPct": 64.28
         },
         "Regional / Other": {
-          "yes": 533563,
-          "no": 357699,
-          "total": 891262,
+          "yes": 536264,
+          "no": 362609,
+          "total": 898873,
           "wards": 41,
-          "yesPct": 59.87,
-          "noPct": 40.13
+          "yesPct": 59.66,
+          "noPct": 40.34
         }
       },
       "votingMethods": [
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 96238,
-          "noVotes": 220367,
-          "totalVotes": 316605,
-          "yesPct": 30.4,
-          "noPct": 69.6,
-          "marginVotes": -124129,
-          "marginPct": -39.2,
+          "yesVotes": 98939,
+          "noVotes": 225277,
+          "totalVotes": 324216,
+          "yesPct": 30.52,
+          "noPct": 69.48,
+          "marginVotes": -126338,
+          "marginPct": -38.96,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9126,7 +9126,7 @@
       ],
       "pollDistribution": {
         "<30%": 243,
-        "30-40%": 589,
+        "30-40%": 590,
         "40-50%": 1154,
         "50-60%": 1191,
         "60-70%": 856,
@@ -10435,13 +10435,13 @@
           "ward": "82",
           "wardName": "82 - Spruce Grove-Stony Plain",
           "region": "Regional / Other",
-          "yesVotes": 13436,
-          "noVotes": 9550,
-          "totalVotes": 22986,
-          "yesPct": 58.45,
-          "noPct": 41.55,
-          "marginVotes": 3886,
-          "marginPct": 16.9,
+          "yesVotes": 16137,
+          "noVotes": 14460,
+          "totalVotes": 30597,
+          "yesPct": 52.74,
+          "noPct": 47.26,
+          "marginVotes": 1677,
+          "marginPct": 5.48,
           "leader": "YES",
           "pollsReporting": 66,
           "totalPolls": 67,
