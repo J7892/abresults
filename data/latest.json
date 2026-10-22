@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T03:19:32.380428+00:00",
-  "lastUpdatedEAB": "2026-10-22T03:19:19.8108400+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 09:19:19 PM MDT",
+  "fetchedAt": "2026-10-22T03:20:48.103781+00:00",
+  "lastUpdatedEAB": "2026-10-22T03:20:10.7727448+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 09:20:10 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18812619,
-      "valid": 18812619,
-      "pollsReporting": 5415,
+      "votes": 18813213,
+      "valid": 18813213,
+      "pollsReporting": 5416,
       "totalPolls": 5575,
-      "pollsReportingPct": 97.13
+      "pollsReportingPct": 97.15
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.51,
+      "percentageOfAllVotes": 42.5,
       "valid": 7996337,
       "pollsReporting": 258,
       "totalPolls": 269
@@ -20,9 +20,9 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.98,
-      "valid": 6769470,
-      "pollsReporting": 4789,
+      "percentageOfAllVotes": 35.99,
+      "valid": 6770064,
+      "pollsReporting": 4790,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1103795,
-      "noVotes": 915206,
-      "totalVotes": 2019001,
+      "yesVotes": 1103921,
+      "noVotes": 915249,
+      "totalVotes": 2019170,
       "yesPct": 54.67,
       "noPct": 45.33,
-      "marginVotes": 188589,
+      "marginVotes": 188672,
       "marginPct": 9.34,
       "leader": "YES",
       "regionalStats": {
@@ -74,9 +74,9 @@
           "noPct": 57.09
         },
         "Regional / Other": {
-          "yes": 619502,
-          "no": 339888,
-          "total": 959390,
+          "yes": 619628,
+          "no": 339931,
+          "total": 959559,
           "wards": 41,
           "yesPct": 64.57,
           "noPct": 35.43
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 450627,
-          "noVotes": 225543,
-          "totalVotes": 676170,
-          "yesPct": 66.64,
-          "noPct": 33.36,
-          "marginVotes": 225084,
-          "marginPct": 33.28,
-          "pollsReporting": 4803,
+          "yesVotes": 450753,
+          "noVotes": 225586,
+          "totalVotes": 676339,
+          "yesPct": 66.65,
+          "noPct": 33.35,
+          "marginVotes": 225167,
+          "marginPct": 33.3,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -142,7 +142,7 @@
         "40-50%": 537,
         "50-60%": 1110,
         "60-70%": 1277,
-        "70-80%": 1090,
+        "70-80%": 1091,
         "80-90%": 880,
         "90-100%": 171
       },
@@ -1511,17 +1511,17 @@
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 14554,
-          "noVotes": 4640,
-          "totalVotes": 19194,
-          "yesPct": 75.83,
-          "noPct": 24.17,
-          "marginVotes": 9914,
-          "marginPct": 51.66,
+          "yesVotes": 14680,
+          "noVotes": 4683,
+          "totalVotes": 19363,
+          "yesPct": 75.81,
+          "noPct": 24.19,
+          "marginVotes": 9997,
+          "marginPct": 51.62,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -1604,7 +1604,7 @@
           "noPct": 37.2,
           "marginVotes": 173079,
           "marginPct": 25.6,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -3017,9 +3017,9 @@
           "marginVotes": 9092,
           "marginPct": 47.28,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -3102,7 +3102,7 @@
           "noPct": 36.62,
           "marginVotes": 180905,
           "marginPct": 26.76,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -4515,9 +4515,9 @@
           "marginVotes": 9179,
           "marginPct": 49.18,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -4542,12 +4542,12 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 1024313,
-      "noVotes": 940412,
-      "totalVotes": 1964725,
+      "yesVotes": 1024429,
+      "noVotes": 940460,
+      "totalVotes": 1964889,
       "yesPct": 52.14,
       "noPct": 47.86,
-      "marginVotes": 83901,
+      "marginVotes": 83969,
       "marginPct": 4.28,
       "leader": "YES",
       "regionalStats": {
@@ -4568,9 +4568,9 @@
           "noPct": 59.39
         },
         "Regional / Other": {
-          "yes": 577115,
-          "no": 349123,
-          "total": 926238,
+          "yes": 577231,
+          "no": 349171,
+          "total": 926402,
           "wards": 41,
           "yesPct": 62.31,
           "noPct": 37.69
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 410583,
-          "noVotes": 267599,
-          "totalVotes": 678182,
+          "yesVotes": 410699,
+          "noVotes": 267647,
+          "totalVotes": 678346,
           "yesPct": 60.54,
           "noPct": 39.46,
-          "marginVotes": 142984,
+          "marginVotes": 143052,
           "marginPct": 21.08,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -4636,7 +4636,7 @@
         "40-50%": 919,
         "50-60%": 1294,
         "60-70%": 1072,
-        "70-80%": 890,
+        "70-80%": 891,
         "80-90%": 562,
         "90-100%": 71
       },
@@ -6005,17 +6005,17 @@
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 13897,
-          "noVotes": 5267,
-          "totalVotes": 19164,
-          "yesPct": 72.52,
-          "noPct": 27.48,
-          "marginVotes": 8630,
-          "marginPct": 45.04,
+          "yesVotes": 14013,
+          "noVotes": 5315,
+          "totalVotes": 19328,
+          "yesPct": 72.5,
+          "noPct": 27.5,
+          "marginVotes": 8698,
+          "marginPct": 45.0,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1120662,
-      "noVotes": 780651,
-      "totalVotes": 1901313,
+      "yesVotes": 1120765,
+      "noVotes": 780679,
+      "totalVotes": 1901444,
       "yesPct": 58.94,
       "noPct": 41.06,
-      "marginVotes": 340011,
+      "marginVotes": 340086,
       "marginPct": 17.88,
       "leader": "YES",
       "regionalStats": {
@@ -6066,9 +6066,9 @@
           "noPct": 53.36
         },
         "Regional / Other": {
-          "yes": 630836,
-          "no": 279908,
-          "total": 910744,
+          "yes": 630939,
+          "no": 279936,
+          "total": 910875,
           "wards": 41,
           "yesPct": 69.27,
           "noPct": 30.73
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 463942,
-          "noVotes": 213715,
-          "totalVotes": 677657,
+          "yesVotes": 464045,
+          "noVotes": 213743,
+          "totalVotes": 677788,
           "yesPct": 68.46,
           "noPct": 31.54,
-          "marginVotes": 250227,
+          "marginVotes": 250302,
           "marginPct": 36.92,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -6134,7 +6134,7 @@
         "40-50%": 396,
         "50-60%": 1002,
         "60-70%": 1315,
-        "70-80%": 1153,
+        "70-80%": 1154,
         "80-90%": 1014,
         "90-100%": 265
       },
@@ -7087,13 +7087,13 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 7846,
-          "noVotes": 3464,
-          "totalVotes": 11310,
-          "yesPct": 69.37,
-          "noPct": 30.63,
-          "marginVotes": 4382,
-          "marginPct": 38.74,
+          "yesVotes": 7949,
+          "noVotes": 3492,
+          "totalVotes": 11441,
+          "yesPct": 69.48,
+          "noPct": 30.52,
+          "marginVotes": 4457,
+          "marginPct": 38.96,
           "leader": "YES",
           "pollsReporting": 58,
           "totalPolls": 63,
@@ -7511,9 +7511,9 @@
           "marginVotes": 11052,
           "marginPct": 57.74,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -7596,7 +7596,7 @@
           "noPct": 44.15,
           "marginVotes": 78822,
           "marginPct": 11.7,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -9009,9 +9009,9 @@
           "marginVotes": 7466,
           "marginPct": 39.32,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 866541,
-      "noVotes": 869840,
-      "totalVotes": 1736381,
+      "yesVotes": 866627,
+      "noVotes": 869884,
+      "totalVotes": 1736511,
       "yesPct": 49.91,
       "noPct": 50.09,
-      "marginVotes": -3299,
+      "marginVotes": -3257,
       "marginPct": -0.18,
       "leader": "NO",
       "regionalStats": {
@@ -9062,9 +9062,9 @@
           "noPct": 63.62
         },
         "Regional / Other": {
-          "yes": 520247,
-          "no": 345430,
-          "total": 865677,
+          "yes": 520333,
+          "no": 345474,
+          "total": 865807,
           "wards": 41,
           "yesPct": 60.1,
           "noPct": 39.9
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 383356,
-          "noVotes": 288838,
-          "totalVotes": 672194,
+          "yesVotes": 383442,
+          "noVotes": 288882,
+          "totalVotes": 672324,
           "yesPct": 57.03,
           "noPct": 42.97,
-          "marginVotes": 94518,
+          "marginVotes": 94560,
           "marginPct": 14.06,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -9129,7 +9129,7 @@
         "30-40%": 581,
         "40-50%": 1145,
         "50-60%": 1188,
-        "60-70%": 846,
+        "60-70%": 847,
         "70-80%": 783,
         "80-90%": 433,
         "90-100%": 66
@@ -10083,13 +10083,13 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 6590,
-          "noVotes": 4653,
-          "totalVotes": 11243,
-          "yesPct": 58.61,
-          "noPct": 41.39,
-          "marginVotes": 1937,
-          "marginPct": 17.22,
+          "yesVotes": 6676,
+          "noVotes": 4697,
+          "totalVotes": 11373,
+          "yesPct": 58.7,
+          "noPct": 41.3,
+          "marginVotes": 1979,
+          "marginPct": 17.4,
           "leader": "YES",
           "pollsReporting": 58,
           "totalPolls": 63,
@@ -10507,9 +10507,9 @@
           "marginVotes": 7581,
           "marginPct": 39.92,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -10592,7 +10592,7 @@
           "noPct": 46.35,
           "marginVotes": 49328,
           "marginPct": 7.3,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -12005,9 +12005,9 @@
           "marginVotes": 7303,
           "marginPct": 38.54,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -12090,7 +12090,7 @@
           "noPct": 44.13,
           "marginVotes": 78930,
           "marginPct": 11.74,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -13503,9 +13503,9 @@
           "marginVotes": 7062,
           "marginPct": 37.06,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
@@ -13588,7 +13588,7 @@
           "noPct": 33.02,
           "marginVotes": 234569,
           "marginPct": 33.96,
-          "pollsReporting": 4803,
+          "pollsReporting": 4804,
           "totalPolls": 4904
         },
         {
@@ -15001,9 +15001,9 @@
           "marginVotes": 3800,
           "marginPct": 21.02,
           "leader": "YES",
-          "pollsReporting": 57,
+          "pollsReporting": 58,
           "totalPolls": 66,
-          "pollsPct": 86.4
+          "pollsPct": 87.9
         },
         {
           "ward": "87",
