@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T23:52:31.352672+00:00",
-  "lastUpdatedEAB": "2026-10-22T23:52:07.5691958+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 05:52:07 PM MDT",
+  "fetchedAt": "2026-10-22T23:54:23.638638+00:00",
+  "lastUpdatedEAB": "2026-10-22T23:53:54.9309642+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 05:53:54 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19948162,
-      "valid": 19948162,
+      "votes": 19957795,
+      "valid": 19957795,
       "pollsReporting": 5487,
       "totalPolls": 5552,
       "pollsReportingPct": 98.83
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.21,
+      "percentageOfAllVotes": 41.19,
       "valid": 8221071,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.54,
+      "percentageOfAllVotes": 34.53,
       "valid": 6890431,
       "pollsReporting": 4859,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.25,
-      "valid": 4638637,
+      "percentageOfAllVotes": 23.29,
+      "valid": 4648270,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -9036,13 +9036,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 933423,
-      "noVotes": 1003473,
-      "totalVotes": 1936896,
-      "yesPct": 48.19,
-      "noPct": 51.81,
-      "marginVotes": -70050,
-      "marginPct": -3.62,
+      "yesVotes": 936013,
+      "noVotes": 1010516,
+      "totalVotes": 1946529,
+      "yesPct": 48.09,
+      "noPct": 51.91,
+      "marginVotes": -74503,
+      "marginPct": -3.82,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -9054,12 +9054,12 @@
           "noPct": 59.89
         },
         "Edmonton": {
-          "yes": 143809,
-          "no": 265998,
-          "total": 409807,
+          "yes": 146399,
+          "no": 273041,
+          "total": 419440,
           "wards": 20,
-          "yesPct": 35.09,
-          "noPct": 64.91
+          "yesPct": 34.9,
+          "noPct": 65.1
         },
         "Regional / Other": {
           "yes": 549671,
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 123452,
-          "noVotes": 296478,
-          "totalVotes": 419930,
-          "yesPct": 29.4,
-          "noPct": 70.6,
-          "marginVotes": -173026,
-          "marginPct": -41.2,
+          "yesVotes": 126042,
+          "noVotes": 303521,
+          "totalVotes": 429563,
+          "yesPct": 29.34,
+          "noPct": 70.66,
+          "marginVotes": -177479,
+          "marginPct": -41.32,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9125,7 +9125,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 250,
+        "<30%": 251,
         "30-40%": 598,
         "40-50%": 1176,
         "50-60%": 1210,
@@ -9795,13 +9795,13 @@
           "ward": "42",
           "wardName": "42 - Edmonton-South",
           "region": "Edmonton",
-          "yesVotes": 9209,
-          "noVotes": 12904,
-          "totalVotes": 22113,
-          "yesPct": 41.65,
-          "noPct": 58.35,
-          "marginVotes": -3695,
-          "marginPct": -16.7,
+          "yesVotes": 11799,
+          "noVotes": 19947,
+          "totalVotes": 31746,
+          "yesPct": 37.17,
+          "noPct": 62.83,
+          "marginVotes": -8148,
+          "marginPct": -25.66,
           "leader": "NO",
           "pollsReporting": 88,
           "totalPolls": 88,
