@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-22T22:37:51.539136+00:00",
-  "lastUpdatedEAB": "2026-10-22T22:37:23.4064809+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 04:37:23 PM MDT",
+  "fetchedAt": "2026-10-22T22:38:41.820708+00:00",
+  "lastUpdatedEAB": "2026-10-22T22:38:13.0441948+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 04:38:13 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19841759,
-      "valid": 19841759,
+      "votes": 19842242,
+      "valid": 19842242,
       "pollsReporting": 5483,
-      "totalPolls": 5553,
-      "pollsReportingPct": 98.74
+      "totalPolls": 5554,
+      "pollsReportingPct": 98.72
     },
     "advance": {
       "votes": null,
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 34.72,
-      "valid": 6889376,
+      "valid": 6889466,
       "pollsReporting": 4855,
       "totalPolls": 4904
     },
@@ -30,16 +30,16 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 22.85,
-      "valid": 4534714,
+      "valid": 4534726,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
       "percentageOfAllVotes": 1.0,
-      "valid": 197642,
+      "valid": 198023,
       "pollsReporting": 282,
-      "totalPolls": 298
+      "totalPolls": 299
     }
   },
   "questions": [
@@ -125,15 +125,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11612,
-          "noVotes": 8336,
-          "totalVotes": 19948,
-          "yesPct": 58.21,
-          "noPct": 41.79,
-          "marginVotes": 3276,
-          "marginPct": 16.42,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 11646,
+          "noVotes": 8341,
+          "totalVotes": 19987,
+          "yesPct": 58.27,
+          "noPct": 41.73,
+          "marginVotes": 3305,
+          "marginPct": 16.54,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -143,7 +143,7 @@
         "50-60%": 1142,
         "60-70%": 1301,
         "70-80%": 1110,
-        "80-90%": 903,
+        "80-90%": 904,
         "90-100%": 176
       },
       "wards": [
@@ -768,8 +768,8 @@
           "marginPct": -7.82,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 1064923,
+      "yesVotes": 1064927,
       "noVotes": 962172,
-      "totalVotes": 2027095,
+      "totalVotes": 2027099,
       "yesPct": 52.53,
       "noPct": 47.47,
-      "marginVotes": 102751,
+      "marginVotes": 102755,
       "marginPct": 5.06,
       "leader": "YES",
       "regionalStats": {
@@ -1572,9 +1572,9 @@
           "noPct": 59.23
         },
         "Regional / Other": {
-          "yes": 608134,
+          "yes": 608138,
           "no": 362783,
-          "total": 970917,
+          "total": 970921,
           "wards": 41,
           "yesPct": 62.64,
           "noPct": 37.36
@@ -1610,12 +1610,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 170494,
+          "yesVotes": 170498,
           "noVotes": 326200,
-          "totalVotes": 496694,
+          "totalVotes": 496698,
           "yesPct": 34.33,
           "noPct": 65.67,
-          "marginVotes": -155706,
+          "marginVotes": -155702,
           "marginPct": -31.34,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -1623,15 +1623,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11449,
-          "noVotes": 8356,
-          "totalVotes": 19805,
-          "yesPct": 57.81,
-          "noPct": 42.19,
-          "marginVotes": 3093,
-          "marginPct": 15.62,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 11483,
+          "noVotes": 8361,
+          "totalVotes": 19844,
+          "yesPct": 57.87,
+          "noPct": 42.13,
+          "marginVotes": 3122,
+          "marginPct": 15.74,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -1641,7 +1641,7 @@
         "50-60%": 1308,
         "60-70%": 1169,
         "70-80%": 994,
-        "80-90%": 672,
+        "80-90%": 673,
         "90-100%": 103
       },
       "wards": [
@@ -2266,8 +2266,8 @@
           "marginPct": -14.1,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -2929,12 +2929,12 @@
           "ward": "81",
           "wardName": "81 - Sherwood Park",
           "region": "Regional / Other",
-          "yesVotes": 14654,
+          "yesVotes": 14658,
           "noVotes": 15321,
-          "totalVotes": 29975,
+          "totalVotes": 29979,
           "yesPct": 48.89,
           "noPct": 51.11,
-          "marginVotes": -667,
+          "marginVotes": -663,
           "marginPct": -2.22,
           "leader": "NO",
           "pollsReporting": 61,
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1087274,
-      "noVotes": 958339,
-      "totalVotes": 2045613,
+      "yesVotes": 1087275,
+      "noVotes": 958346,
+      "totalVotes": 2045621,
       "yesPct": 53.15,
       "noPct": 46.85,
-      "marginVotes": 128935,
+      "marginVotes": 128929,
       "marginPct": 6.3,
       "leader": "YES",
       "regionalStats": {
@@ -3070,9 +3070,9 @@
           "noPct": 58.43
         },
         "Regional / Other": {
-          "yes": 618181,
-          "no": 360411,
-          "total": 978592,
+          "yes": 618182,
+          "no": 360418,
+          "total": 978600,
           "wards": 41,
           "yesPct": 63.17,
           "noPct": 36.83
@@ -3108,12 +3108,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 178386,
-          "noVotes": 331537,
-          "totalVotes": 509923,
+          "yesVotes": 178387,
+          "noVotes": 331544,
+          "totalVotes": 509931,
           "yesPct": 34.98,
           "noPct": 65.02,
-          "marginVotes": -153151,
+          "marginVotes": -153157,
           "marginPct": -30.04,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -3121,15 +3121,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11630,
-          "noVotes": 8185,
-          "totalVotes": 19815,
-          "yesPct": 58.69,
-          "noPct": 41.31,
-          "marginVotes": 3445,
-          "marginPct": 17.38,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 11663,
+          "noVotes": 8190,
+          "totalVotes": 19853,
+          "yesPct": 58.75,
+          "noPct": 41.25,
+          "marginVotes": 3473,
+          "marginPct": 17.5,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -3139,7 +3139,7 @@
         "50-60%": 1342,
         "60-70%": 1177,
         "70-80%": 1009,
-        "80-90%": 725,
+        "80-90%": 726,
         "90-100%": 105
       },
       "wards": [
@@ -3764,8 +3764,8 @@
           "marginPct": -12.4,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -4427,13 +4427,13 @@
           "ward": "81",
           "wardName": "81 - Sherwood Park",
           "region": "Regional / Other",
-          "yesVotes": 14921,
-          "noVotes": 15044,
-          "totalVotes": 29965,
-          "yesPct": 49.79,
-          "noPct": 50.21,
-          "marginVotes": -123,
-          "marginPct": -0.42,
+          "yesVotes": 14922,
+          "noVotes": 15051,
+          "totalVotes": 29973,
+          "yesPct": 49.78,
+          "noPct": 50.22,
+          "marginVotes": -129,
+          "marginPct": -0.44,
           "leader": "NO",
           "pollsReporting": 61,
           "totalPolls": 61,
@@ -4542,13 +4542,13 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 1058119,
-      "noVotes": 978881,
-      "totalVotes": 2037000,
-      "yesPct": 51.94,
-      "noPct": 48.06,
-      "marginVotes": 79238,
-      "marginPct": 3.88,
+      "yesVotes": 1058172,
+      "noVotes": 978918,
+      "totalVotes": 2037090,
+      "yesPct": 51.95,
+      "noPct": 48.05,
+      "marginVotes": 79254,
+      "marginPct": 3.9,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -4560,9 +4560,9 @@
           "noPct": 55.29
         },
         "Edmonton": {
-          "yes": 178612,
-          "no": 259923,
-          "total": 438535,
+          "yes": 178665,
+          "no": 259960,
+          "total": 438625,
           "wards": 20,
           "yesPct": 40.73,
           "noPct": 59.27
@@ -4593,12 +4593,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 418065,
-          "noVotes": 271560,
-          "totalVotes": 689625,
+          "yesVotes": 418118,
+          "noVotes": 271597,
+          "totalVotes": 689715,
           "yesPct": 60.62,
           "noPct": 39.38,
-          "marginVotes": 146505,
+          "marginVotes": 146521,
           "marginPct": 21.24,
           "pollsReporting": 4855,
           "totalPolls": 4904
@@ -4619,25 +4619,25 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 10852,
-          "noVotes": 8884,
-          "totalVotes": 19736,
-          "yesPct": 54.99,
-          "noPct": 45.01,
-          "marginVotes": 1968,
-          "marginPct": 9.98,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 10885,
+          "noVotes": 8889,
+          "totalVotes": 19774,
+          "yesPct": 55.05,
+          "noPct": 44.95,
+          "marginVotes": 1996,
+          "marginPct": 10.1,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
         "<30%": 136,
         "30-40%": 385,
         "40-50%": 933,
-        "50-60%": 1320,
+        "50-60%": 1321,
         "60-70%": 1088,
         "70-80%": 914,
-        "80-90%": 576,
+        "80-90%": 577,
         "90-100%": 72
       },
       "wards": [
@@ -5253,17 +5253,17 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 8047,
-          "noVotes": 11211,
-          "totalVotes": 19258,
-          "yesPct": 41.79,
-          "noPct": 58.21,
-          "marginVotes": -3164,
-          "marginPct": -16.42,
+          "yesVotes": 8100,
+          "noVotes": 11248,
+          "totalVotes": 19348,
+          "yesPct": 41.86,
+          "noPct": 58.14,
+          "marginVotes": -3148,
+          "marginPct": -16.28,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -6117,15 +6117,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 13329,
-          "noVotes": 6641,
-          "totalVotes": 19970,
-          "yesPct": 66.75,
-          "noPct": 33.25,
-          "marginVotes": 6688,
-          "marginPct": 33.5,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 13364,
+          "noVotes": 6644,
+          "totalVotes": 20008,
+          "yesPct": 66.79,
+          "noPct": 33.21,
+          "marginVotes": 6720,
+          "marginPct": 33.58,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -6136,7 +6136,7 @@
         "60-70%": 1340,
         "70-80%": 1180,
         "80-90%": 1037,
-        "90-100%": 271
+        "90-100%": 272
       },
       "wards": [
         {
@@ -6760,8 +6760,8 @@
           "marginPct": -0.76,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -7615,15 +7615,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9636,
-          "noVotes": 9698,
-          "totalVotes": 19334,
-          "yesPct": 49.84,
-          "noPct": 50.16,
-          "marginVotes": -62,
-          "marginPct": -0.32,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 9661,
+          "noVotes": 9711,
+          "totalVotes": 19372,
+          "yesPct": 49.87,
+          "noPct": 50.13,
+          "marginVotes": -50,
+          "marginPct": -0.26,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -7631,7 +7631,7 @@
         "30-40%": 750,
         "40-50%": 1172,
         "50-60%": 1092,
-        "60-70%": 841,
+        "60-70%": 842,
         "70-80%": 781,
         "80-90%": 413,
         "90-100%": 59
@@ -8258,8 +8258,8 @@
           "marginPct": -30.76,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -9113,15 +9113,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9693,
-          "noVotes": 9547,
-          "totalVotes": 19240,
-          "yesPct": 50.38,
-          "noPct": 49.62,
-          "marginVotes": 146,
-          "marginPct": 0.76,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 9717,
+          "noVotes": 9560,
+          "totalVotes": 19277,
+          "yesPct": 50.41,
+          "noPct": 49.59,
+          "marginVotes": 157,
+          "marginPct": 0.82,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -9129,7 +9129,7 @@
         "30-40%": 597,
         "40-50%": 1175,
         "50-60%": 1209,
-        "60-70%": 867,
+        "60-70%": 868,
         "70-80%": 804,
         "80-90%": 443,
         "90-100%": 66
@@ -9756,8 +9756,8 @@
           "marginPct": -25.28,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -10611,15 +10611,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9045,
-          "noVotes": 10317,
-          "totalVotes": 19362,
-          "yesPct": 46.72,
-          "noPct": 53.28,
-          "marginVotes": -1272,
-          "marginPct": -6.56,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 9072,
+          "noVotes": 10327,
+          "totalVotes": 19399,
+          "yesPct": 46.77,
+          "noPct": 53.23,
+          "marginVotes": -1255,
+          "marginPct": -6.46,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -10628,7 +10628,7 @@
         "40-50%": 1228,
         "50-60%": 1081,
         "60-70%": 815,
-        "70-80%": 693,
+        "70-80%": 694,
         "80-90%": 281,
         "90-100%": 36
       },
@@ -11254,8 +11254,8 @@
           "marginPct": -38.08,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -12109,15 +12109,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9809,
-          "noVotes": 9537,
-          "totalVotes": 19346,
-          "yesPct": 50.7,
-          "noPct": 49.3,
-          "marginVotes": 272,
-          "marginPct": 1.4,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 9839,
+          "noVotes": 9545,
+          "totalVotes": 19384,
+          "yesPct": 50.76,
+          "noPct": 49.24,
+          "marginVotes": 294,
+          "marginPct": 1.52,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -12126,7 +12126,7 @@
         "40-50%": 1216,
         "50-60%": 1131,
         "60-70%": 854,
-        "70-80%": 742,
+        "70-80%": 743,
         "80-90%": 410,
         "90-100%": 56
       },
@@ -12752,8 +12752,8 @@
           "marginPct": -37.64,
           "leader": "NO",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
@@ -13607,15 +13607,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 18423,
-          "noVotes": 2663,
-          "totalVotes": 21086,
-          "yesPct": 87.37,
-          "noPct": 12.63,
-          "marginVotes": 15760,
-          "marginPct": 74.74,
-          "pollsReporting": 281,
-          "totalPolls": 298
+          "yesVotes": 18460,
+          "noVotes": 2665,
+          "totalVotes": 21125,
+          "yesPct": 87.38,
+          "noPct": 12.62,
+          "marginVotes": 15795,
+          "marginPct": 74.76,
+          "pollsReporting": 282,
+          "totalPolls": 299
         }
       ],
       "pollDistribution": {
@@ -13626,7 +13626,7 @@
         "60-70%": 934,
         "70-80%": 1549,
         "80-90%": 1130,
-        "90-100%": 310
+        "90-100%": 311
       },
       "wards": [
         {
@@ -14250,8 +14250,8 @@
           "marginPct": 71.78,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 65,
-          "pollsPct": 98.5
+          "totalPolls": 66,
+          "pollsPct": 97.0
         },
         {
           "ward": "40",
