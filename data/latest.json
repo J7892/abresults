@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T17:31:53.787035+00:00",
-  "lastUpdatedEAB": "2026-10-22T17:31:21.2716910+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 11:31:21 AM MDT",
+  "fetchedAt": "2026-10-22T17:32:42.780611+00:00",
+  "lastUpdatedEAB": "2026-10-22T17:32:11.7634872+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 11:32:11 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19533308,
-      "valid": 19533308,
+      "votes": 19540633,
+      "valid": 19540633,
       "pollsReporting": 5453,
       "totalPolls": 5559,
       "pollsReportingPct": 98.09
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.52,
+      "percentageOfAllVotes": 41.5,
       "valid": 8109310,
       "pollsReporting": 259,
       "totalPolls": 265
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.15,
+      "percentageOfAllVotes": 35.14,
       "valid": 6866207,
       "pollsReporting": 4826,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.33,
-      "valid": 4362084,
+      "percentageOfAllVotes": 22.36,
+      "valid": 4369409,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 837793,
-      "noVotes": 910857,
-      "totalVotes": 1748650,
-      "yesPct": 47.91,
-      "noPct": 52.09,
-      "marginVotes": -73064,
-      "marginPct": -4.18,
+      "yesVotes": 840012,
+      "noVotes": 915963,
+      "totalVotes": 1755975,
+      "yesPct": 47.84,
+      "noPct": 52.16,
+      "marginVotes": -75951,
+      "marginPct": -4.32,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -12058,12 +12058,12 @@
           "noPct": 64.78
         },
         "Regional / Other": {
-          "yes": 509975,
-          "no": 371263,
-          "total": 881238,
+          "yes": 512194,
+          "no": 376369,
+          "total": 888563,
           "wards": 41,
-          "yesPct": 57.87,
-          "noPct": 42.13
+          "yesPct": 57.64,
+          "noPct": 42.36
         }
       },
       "votingMethods": [
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 58303,
-          "noVotes": 178291,
-          "totalVotes": 236594,
-          "yesPct": 24.64,
-          "noPct": 75.36,
-          "marginVotes": -119988,
-          "marginPct": -50.72,
+          "yesVotes": 60522,
+          "noVotes": 183397,
+          "totalVotes": 243919,
+          "yesPct": 24.81,
+          "noPct": 75.19,
+          "marginVotes": -122875,
+          "marginPct": -50.38,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12122,7 +12122,7 @@
       ],
       "pollDistribution": {
         "<30%": 274,
-        "30-40%": 700,
+        "30-40%": 701,
         "40-50%": 1199,
         "50-60%": 1125,
         "60-70%": 850,
@@ -12887,13 +12887,13 @@
           "ward": "48",
           "wardName": "48 - Airdrie-East",
           "region": "Regional / Other",
-          "yesVotes": 13127,
-          "noVotes": 9541,
-          "totalVotes": 22668,
-          "yesPct": 57.91,
-          "noPct": 42.09,
-          "marginVotes": 3586,
-          "marginPct": 15.82,
+          "yesVotes": 15346,
+          "noVotes": 14647,
+          "totalVotes": 29993,
+          "yesPct": 51.17,
+          "noPct": 48.83,
+          "marginVotes": 699,
+          "marginPct": 2.34,
           "leader": "YES",
           "pollsReporting": 73,
           "totalPolls": 73,
