@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-22T15:28:21.901219+00:00",
-  "lastUpdatedEAB": "2026-10-22T15:27:44.1035183+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 09:27:44 AM MDT",
+  "fetchedAt": "2026-10-22T15:29:13.554852+00:00",
+  "lastUpdatedEAB": "2026-10-22T15:28:34.2301794+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 09:28:34 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19483874,
-      "valid": 19483874,
+      "votes": 19484058,
+      "valid": 19484058,
       "pollsReporting": 5448,
-      "totalPolls": 5567,
-      "pollsReportingPct": 97.86
+      "totalPolls": 5565,
+      "pollsReportingPct": 97.9
     },
     "advance": {
       "votes": null,
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 35.13,
-      "valid": 6844615,
+      "valid": 6844799,
       "pollsReporting": 4821,
       "totalPolls": 4904
     },
@@ -29,7 +29,7 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.26,
+      "percentageOfAllVotes": 22.25,
       "valid": 4336172,
       "pollsReporting": 87,
       "totalPolls": 87
@@ -39,7 +39,7 @@
       "percentageOfAllVotes": 0.99,
       "valid": 193785,
       "pollsReporting": 281,
-      "totalPolls": 310
+      "totalPolls": 308
     }
   },
   "questions": [
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1116984,
-      "noVotes": 920356,
-      "totalVotes": 2037340,
+      "yesVotes": 1117041,
+      "noVotes": 920391,
+      "totalVotes": 2037432,
       "yesPct": 54.83,
       "noPct": 45.17,
-      "marginVotes": 196628,
+      "marginVotes": 196650,
       "marginPct": 9.66,
       "leader": "YES",
       "regionalStats": {
@@ -66,12 +66,12 @@
           "noPct": 52.33
         },
         "Edmonton": {
-          "yes": 189576,
-          "no": 251483,
-          "total": 441059,
+          "yes": 189633,
+          "no": 251518,
+          "total": 441151,
           "wards": 20,
-          "yesPct": 42.98,
-          "noPct": 57.02
+          "yesPct": 42.99,
+          "noPct": 57.01
         },
         "Regional / Other": {
           "yes": 630984,
@@ -99,12 +99,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 455821,
-          "noVotes": 227641,
-          "totalVotes": 683462,
+          "yesVotes": 455878,
+          "noVotes": 227676,
+          "totalVotes": 683554,
           "yesPct": 66.69,
           "noPct": 33.31,
-          "marginVotes": 228180,
+          "marginVotes": 228202,
           "marginPct": 33.38,
           "pollsReporting": 4835,
           "totalPolls": 4904
@@ -133,7 +133,7 @@
           "marginVotes": 3240,
           "marginPct": 16.56,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -141,7 +141,7 @@
         "30-40%": 157,
         "40-50%": 539,
         "50-60%": 1119,
-        "60-70%": 1284,
+        "60-70%": 1285,
         "70-80%": 1105,
         "80-90%": 892,
         "90-100%": 175
@@ -727,13 +727,13 @@
           "ward": "37",
           "wardName": "37 - Edmonton-Meadows",
           "region": "Edmonton",
-          "yesVotes": 8976,
-          "noVotes": 11322,
-          "totalVotes": 20298,
-          "yesPct": 44.22,
-          "noPct": 55.78,
-          "marginVotes": -2346,
-          "marginPct": -11.56,
+          "yesVotes": 9033,
+          "noVotes": 11357,
+          "totalVotes": 20390,
+          "yesPct": 44.3,
+          "noPct": 55.7,
+          "marginVotes": -2324,
+          "marginPct": -11.4,
           "leader": "NO",
           "pollsReporting": 61,
           "totalPolls": 61,
@@ -992,8 +992,8 @@
           "marginPct": 36.76,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 1056972,
-      "noVotes": 954982,
-      "totalVotes": 2011954,
+      "yesVotes": 1057027,
+      "noVotes": 955019,
+      "totalVotes": 2012046,
       "yesPct": 52.53,
       "noPct": 47.47,
-      "marginVotes": 101990,
+      "marginVotes": 102008,
       "marginPct": 5.06,
       "leader": "YES",
       "regionalStats": {
@@ -1564,9 +1564,9 @@
           "noPct": 55.02
         },
         "Edmonton": {
-          "yes": 173880,
-          "no": 254617,
-          "total": 428497,
+          "yes": 173935,
+          "no": 254654,
+          "total": 428589,
           "wards": 20,
           "yesPct": 40.58,
           "noPct": 59.42
@@ -1597,13 +1597,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 429921,
-          "noVotes": 254176,
-          "totalVotes": 684097,
-          "yesPct": 62.85,
-          "noPct": 37.15,
-          "marginVotes": 175745,
-          "marginPct": 25.7,
+          "yesVotes": 429976,
+          "noVotes": 254213,
+          "totalVotes": 684189,
+          "yesPct": 62.84,
+          "noPct": 37.16,
+          "marginVotes": 175763,
+          "marginPct": 25.68,
           "pollsReporting": 4835,
           "totalPolls": 4904
         },
@@ -1631,14 +1631,14 @@
           "marginVotes": 3052,
           "marginPct": 15.7,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
         "<30%": 109,
         "30-40%": 261,
         "40-50%": 792,
-        "50-60%": 1285,
+        "50-60%": 1286,
         "60-70%": 1161,
         "70-80%": 980,
         "80-90%": 670,
@@ -2225,13 +2225,13 @@
           "ward": "37",
           "wardName": "37 - Edmonton-Meadows",
           "region": "Edmonton",
-          "yesVotes": 8537,
-          "noVotes": 11896,
-          "totalVotes": 20433,
-          "yesPct": 41.78,
-          "noPct": 58.22,
-          "marginVotes": -3359,
-          "marginPct": -16.44,
+          "yesVotes": 8592,
+          "noVotes": 11933,
+          "totalVotes": 20525,
+          "yesPct": 41.86,
+          "noPct": 58.14,
+          "marginVotes": -3341,
+          "marginPct": -16.28,
           "leader": "NO",
           "pollsReporting": 61,
           "totalPolls": 61,
@@ -2490,8 +2490,8 @@
           "marginPct": 33.66,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -3129,7 +3129,7 @@
           "marginVotes": 3388,
           "marginPct": 17.42,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -3988,8 +3988,8 @@
           "marginPct": 34.34,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -4627,7 +4627,7 @@
           "marginVotes": 1939,
           "marginPct": 10.02,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -5486,8 +5486,8 @@
           "marginPct": 31.58,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -6125,7 +6125,7 @@
           "marginVotes": 6562,
           "marginPct": 33.46,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -6984,8 +6984,8 @@
           "marginPct": 44.22,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -7623,7 +7623,7 @@
           "marginVotes": -54,
           "marginPct": -0.28,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -8482,8 +8482,8 @@
           "marginPct": 21.94,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -9121,7 +9121,7 @@
           "marginVotes": 146,
           "marginPct": 0.78,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -9980,8 +9980,8 @@
           "marginPct": 27.08,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -10619,7 +10619,7 @@
           "marginVotes": -1183,
           "marginPct": -6.38,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -11478,8 +11478,8 @@
           "marginPct": 14.98,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -12117,7 +12117,7 @@
           "marginVotes": 297,
           "marginPct": 1.56,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -12976,8 +12976,8 @@
           "marginPct": 20.38,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
@@ -13615,7 +13615,7 @@
           "marginVotes": 15668,
           "marginPct": 74.7,
           "pollsReporting": 284,
-          "totalPolls": 310
+          "totalPolls": 308
         }
       ],
       "pollDistribution": {
@@ -14474,8 +14474,8 @@
           "marginPct": 27.94,
           "leader": "YES",
           "pollsReporting": 64,
-          "totalPolls": 67,
-          "pollsPct": 95.5
+          "totalPolls": 65,
+          "pollsPct": 98.5
         },
         {
           "ward": "54",
