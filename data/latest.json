@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T23:07:00.074366+00:00",
-  "lastUpdatedEAB": "2026-10-22T23:06:15.6404935+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 05:06:15 PM MDT",
+  "fetchedAt": "2026-10-22T23:07:47.747298+00:00",
+  "lastUpdatedEAB": "2026-10-22T23:07:05.6806341+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 05:07:05 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19896775,
-      "valid": 19896775,
+      "votes": 19903966,
+      "valid": 19903966,
       "pollsReporting": 5485,
       "totalPolls": 5553,
       "pollsReportingPct": 98.78
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.31,
+      "percentageOfAllVotes": 41.3,
       "valid": 8220037,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.63,
+      "percentageOfAllVotes": 34.62,
       "valid": 6890544,
       "pollsReporting": 4855,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.06,
-      "valid": 4587965,
+      "percentageOfAllVotes": 23.09,
+      "valid": 4595156,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 826325,
-      "noVotes": 1028200,
-      "totalVotes": 1854525,
-      "yesPct": 44.56,
-      "noPct": 55.44,
-      "marginVotes": -201875,
-      "marginPct": -10.88,
+      "yesVotes": 827888,
+      "noVotes": 1033828,
+      "totalVotes": 1861716,
+      "yesPct": 44.47,
+      "noPct": 55.53,
+      "marginVotes": -205940,
+      "marginPct": -11.06,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10552,12 +10552,12 @@
           "noPct": 63.51
         },
         "Edmonton": {
-          "yes": 121356,
-          "no": 264228,
-          "total": 385584,
+          "yes": 122919,
+          "no": 269856,
+          "total": 392775,
           "wards": 20,
-          "yesPct": 31.47,
-          "noPct": 68.53
+          "yesPct": 31.3,
+          "noPct": 68.7
         },
         "Regional / Other": {
           "yes": 502949,
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 73711,
-          "noVotes": 249375,
-          "totalVotes": 323086,
-          "yesPct": 22.81,
-          "noPct": 77.19,
-          "marginVotes": -175664,
-          "marginPct": -54.38,
+          "yesVotes": 75274,
+          "noVotes": 255003,
+          "totalVotes": 330277,
+          "yesPct": 22.79,
+          "noPct": 77.21,
+          "marginVotes": -179729,
+          "marginPct": -54.42,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 396,
+        "<30%": 397,
         "30-40%": 876,
         "40-50%": 1227,
         "50-60%": 1082,
@@ -11341,13 +11341,13 @@
           "ward": "45",
           "wardName": "45 - Edmonton-West Henday",
           "region": "Edmonton",
-          "yesVotes": 7679,
-          "noVotes": 11730,
-          "totalVotes": 19409,
-          "yesPct": 39.56,
-          "noPct": 60.44,
-          "marginVotes": -4051,
-          "marginPct": -20.88,
+          "yesVotes": 9242,
+          "noVotes": 17358,
+          "totalVotes": 26600,
+          "yesPct": 34.74,
+          "noPct": 65.26,
+          "marginVotes": -8116,
+          "marginPct": -30.52,
           "leader": "NO",
           "pollsReporting": 59,
           "totalPolls": 59,
