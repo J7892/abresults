@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T05:28:23.787929+00:00",
+  "fetchedAt": "2026-10-22T05:28:57.971445+00:00",
   "lastUpdatedEAB": "2026-10-22T05:28:07.3777932+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 11:28:07 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19160134,
-      "valid": 19160134,
+      "votes": 19168190,
+      "valid": 19168190,
       "pollsReporting": 5435,
       "totalPolls": 5575,
       "pollsReportingPct": 97.49
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.08,
+      "percentageOfAllVotes": 42.07,
       "valid": 8063150,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.52,
+      "percentageOfAllVotes": 35.51,
       "valid": 6806012,
       "pollsReporting": 4808,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.38,
-      "valid": 4097224,
+      "percentageOfAllVotes": 21.42,
+      "valid": 4105280,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -9036,13 +9036,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 883141,
-      "noVotes": 894679,
-      "totalVotes": 1777820,
-      "yesPct": 49.68,
-      "noPct": 50.32,
-      "marginVotes": -11538,
-      "marginPct": -0.64,
+      "yesVotes": 884180,
+      "noVotes": 901696,
+      "totalVotes": 1785876,
+      "yesPct": 49.51,
+      "noPct": 50.49,
+      "marginVotes": -17516,
+      "marginPct": -0.98,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 90004,
-          "noVotes": 201812,
-          "totalVotes": 291816,
-          "yesPct": 30.84,
-          "noPct": 69.16,
-          "marginVotes": -111808,
-          "marginPct": -38.32,
+          "yesVotes": 91043,
+          "noVotes": 208829,
+          "totalVotes": 299872,
+          "yesPct": 30.36,
+          "noPct": 69.64,
+          "marginVotes": -117786,
+          "marginPct": -39.28,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9125,7 +9125,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 241,
+        "<30%": 242,
         "30-40%": 584,
         "40-50%": 1150,
         "50-60%": 1189,
