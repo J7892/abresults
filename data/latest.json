@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T09:01:07.496833+00:00",
-  "lastUpdatedEAB": "2026-10-22T09:00:34.0358775+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 03:00:34 AM MDT",
+  "fetchedAt": "2026-10-22T09:01:41.958167+00:00",
+  "lastUpdatedEAB": "2026-10-22T09:01:24.2400152+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 03:01:24 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19356594,
-      "valid": 19356594,
+      "votes": 19358419,
+      "valid": 19358419,
       "pollsReporting": 5441,
       "totalPolls": 5575,
       "pollsReportingPct": 97.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.74,
+      "percentageOfAllVotes": 41.73,
       "valid": 8078758,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.27,
+      "percentageOfAllVotes": 35.26,
       "valid": 6826373,
       "pollsReporting": 4814,
       "totalPolls": 4904
@@ -30,7 +30,7 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 22.0,
-      "valid": 4257715,
+      "valid": 4259540,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1169928,
-      "noVotes": 847085,
-      "totalVotes": 2017013,
+      "yesVotes": 1170314,
+      "noVotes": 847639,
+      "totalVotes": 2017953,
       "yesPct": 58.0,
       "noPct": 42.0,
-      "marginVotes": 322843,
+      "marginVotes": 322675,
       "marginPct": 16.0,
       "leader": "YES",
       "regionalStats": {
@@ -6066,12 +6066,12 @@
           "noPct": 54.22
         },
         "Regional / Other": {
-          "yes": 662068,
-          "no": 312290,
-          "total": 974358,
+          "yes": 662454,
+          "no": 312844,
+          "total": 975298,
           "wards": 41,
-          "yesPct": 67.95,
-          "noPct": 32.05
+          "yesPct": 67.92,
+          "noPct": 32.08
         }
       },
       "votingMethods": [
@@ -6104,12 +6104,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 207839,
-          "noVotes": 306585,
-          "totalVotes": 514424,
+          "yesVotes": 208225,
+          "noVotes": 307139,
+          "totalVotes": 515364,
           "yesPct": 40.4,
           "noPct": 59.6,
-          "marginVotes": -98746,
+          "marginVotes": -98914,
           "marginPct": -19.2,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -6131,7 +6131,7 @@
       "pollDistribution": {
         "<30%": 64,
         "30-40%": 95,
-        "40-50%": 402,
+        "40-50%": 403,
         "50-60%": 1010,
         "60-70%": 1322,
         "70-80%": 1161,
@@ -7359,13 +7359,13 @@
           "ward": "77",
           "wardName": "77 - Peace River",
           "region": "Regional / Other",
-          "yesVotes": 9010,
-          "noVotes": 4650,
-          "totalVotes": 13660,
-          "yesPct": 65.96,
-          "noPct": 34.04,
-          "marginVotes": 4360,
-          "marginPct": 31.92,
+          "yesVotes": 9396,
+          "noVotes": 5204,
+          "totalVotes": 14600,
+          "yesPct": 64.36,
+          "noPct": 35.64,
+          "marginVotes": 4192,
+          "marginPct": 28.72,
           "leader": "YES",
           "pollsReporting": 68,
           "totalPolls": 69,
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 796187,
-      "noVotes": 963274,
-      "totalVotes": 1759461,
-      "yesPct": 45.25,
-      "noPct": 54.75,
-      "marginVotes": -167087,
-      "marginPct": -9.5,
+      "yesVotes": 796420,
+      "noVotes": 963926,
+      "totalVotes": 1760346,
+      "yesPct": 45.24,
+      "noPct": 54.76,
+      "marginVotes": -167506,
+      "marginPct": -9.52,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,12 +10560,12 @@
           "noPct": 68.58
         },
         "Regional / Other": {
-          "yes": 491700,
-          "no": 395187,
-          "total": 886887,
+          "yes": 491933,
+          "no": 395839,
+          "total": 887772,
           "wards": 41,
-          "yesPct": 55.44,
-          "noPct": 44.56
+          "yesPct": 55.41,
+          "noPct": 44.59
         }
       },
       "votingMethods": [
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 60298,
-          "noVotes": 203988,
-          "totalVotes": 264286,
-          "yesPct": 22.82,
-          "noPct": 77.18,
-          "marginVotes": -143690,
-          "marginPct": -54.36,
+          "yesVotes": 60531,
+          "noVotes": 204640,
+          "totalVotes": 265171,
+          "yesPct": 22.83,
+          "noPct": 77.17,
+          "marginVotes": -144109,
+          "marginPct": -54.34,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 388,
+        "<30%": 389,
         "30-40%": 860,
         "40-50%": 1210,
         "50-60%": 1068,
@@ -11853,13 +11853,13 @@
           "ward": "77",
           "wardName": "77 - Peace River",
           "region": "Regional / Other",
-          "yesVotes": 7658,
-          "noVotes": 5949,
-          "totalVotes": 13607,
-          "yesPct": 56.28,
-          "noPct": 43.72,
-          "marginVotes": 1709,
-          "marginPct": 12.56,
+          "yesVotes": 7891,
+          "noVotes": 6601,
+          "totalVotes": 14492,
+          "yesPct": 54.45,
+          "noPct": 45.55,
+          "marginVotes": 1290,
+          "marginPct": 8.9,
           "leader": "YES",
           "pollsReporting": 68,
           "totalPolls": 69,
