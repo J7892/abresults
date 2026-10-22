@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T08:21:55.777244+00:00",
-  "lastUpdatedEAB": "2026-10-22T08:21:40.3807046+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 02:21:40 AM MDT",
+  "fetchedAt": "2026-10-22T08:22:45.258507+00:00",
+  "lastUpdatedEAB": "2026-10-22T08:22:29.5425717+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 02:22:29 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19329930,
-      "valid": 19329930,
+      "votes": 19337788,
+      "valid": 19337788,
       "pollsReporting": 5441,
       "totalPolls": 5575,
       "pollsReportingPct": 97.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.79,
+      "percentageOfAllVotes": 41.78,
       "valid": 8078758,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.31,
+      "percentageOfAllVotes": 35.3,
       "valid": 6826199,
       "pollsReporting": 4814,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.89,
-      "valid": 4231225,
+      "percentageOfAllVotes": 21.92,
+      "valid": 4239083,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 826133,
-      "noVotes": 882481,
-      "totalVotes": 1708614,
-      "yesPct": 48.35,
-      "noPct": 51.65,
-      "marginVotes": -56348,
-      "marginPct": -3.3,
+      "yesVotes": 828208,
+      "noVotes": 888264,
+      "totalVotes": 1716472,
+      "yesPct": 48.25,
+      "noPct": 51.75,
+      "marginVotes": -60056,
+      "marginPct": -3.5,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -12058,12 +12058,12 @@
           "noPct": 64.8
         },
         "Regional / Other": {
-          "yes": 501063,
-          "no": 351559,
-          "total": 852622,
+          "yes": 503138,
+          "no": 357342,
+          "total": 860480,
           "wards": 41,
-          "yesPct": 58.77,
-          "noPct": 41.23
+          "yesPct": 58.47,
+          "noPct": 41.53
         }
       },
       "votingMethods": [
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 49376,
-          "noVotes": 151377,
-          "totalVotes": 200753,
-          "yesPct": 24.6,
-          "noPct": 75.4,
-          "marginVotes": -102001,
-          "marginPct": -50.8,
+          "yesVotes": 51451,
+          "noVotes": 157160,
+          "totalVotes": 208611,
+          "yesPct": 24.66,
+          "noPct": 75.34,
+          "marginVotes": -105709,
+          "marginPct": -50.68,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 269,
+        "<30%": 270,
         "30-40%": 699,
         "40-50%": 1193,
         "50-60%": 1119,
@@ -13431,14 +13431,14 @@
           "ward": "82",
           "wardName": "82 - Spruce Grove-Stony Plain",
           "region": "Regional / Other",
-          "yesVotes": 12953,
-          "noVotes": 10097,
-          "totalVotes": 23050,
-          "yesPct": 56.2,
-          "noPct": 43.8,
-          "marginVotes": 2856,
-          "marginPct": 12.4,
-          "leader": "YES",
+          "yesVotes": 15028,
+          "noVotes": 15880,
+          "totalVotes": 30908,
+          "yesPct": 48.62,
+          "noPct": 51.38,
+          "marginVotes": -852,
+          "marginPct": -2.76,
+          "leader": "NO",
           "pollsReporting": 66,
           "totalPolls": 67,
           "pollsPct": 98.5
