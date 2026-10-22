@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T20:08:40.189205+00:00",
-  "lastUpdatedEAB": "2026-10-22T20:08:17.5004071+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 02:08:17 PM MDT",
+  "fetchedAt": "2026-10-22T20:09:31.669138+00:00",
+  "lastUpdatedEAB": "2026-10-22T20:09:08.0157298+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 02:09:08 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19658063,
-      "valid": 19658063,
+      "votes": 19661927,
+      "valid": 19661927,
       "pollsReporting": 5464,
       "totalPolls": 5557,
       "pollsReportingPct": 98.33
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.44,
+      "percentageOfAllVotes": 41.43,
       "valid": 8146569,
       "pollsReporting": 259,
       "totalPolls": 265
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.99,
+      "percentageOfAllVotes": 34.98,
       "valid": 6878379,
       "pollsReporting": 4837,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.57,
-      "valid": 4436410,
+      "percentageOfAllVotes": 22.58,
+      "valid": 4440274,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 812923,
-      "noVotes": 992857,
-      "totalVotes": 1805780,
-      "yesPct": 45.02,
-      "noPct": 54.98,
-      "marginVotes": -179934,
-      "marginPct": -9.96,
+      "yesVotes": 813913,
+      "noVotes": 995731,
+      "totalVotes": 1809644,
+      "yesPct": 44.98,
+      "noPct": 55.02,
+      "marginVotes": -181818,
+      "marginPct": -10.04,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,12 +10560,12 @@
           "noPct": 68.39
         },
         "Regional / Other": {
-          "yes": 499033,
-          "no": 401466,
-          "total": 900499,
+          "yes": 500023,
+          "no": 404340,
+          "total": 904363,
           "wards": 41,
-          "yesPct": 55.42,
-          "noPct": 44.58
+          "yesPct": 55.29,
+          "noPct": 44.71
         }
       },
       "votingMethods": [
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 65590,
-          "noVotes": 221366,
-          "totalVotes": 286956,
-          "yesPct": 22.86,
-          "noPct": 77.14,
-          "marginVotes": -155776,
-          "marginPct": -54.28,
+          "yesVotes": 66580,
+          "noVotes": 224240,
+          "totalVotes": 290820,
+          "yesPct": 22.89,
+          "noPct": 77.11,
+          "marginVotes": -157660,
+          "marginPct": -54.22,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,8 +10623,8 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 391,
-        "30-40%": 869,
+        "<30%": 392,
+        "30-40%": 868,
         "40-50%": 1227,
         "50-60%": 1077,
         "60-70%": 813,
@@ -11725,14 +11725,14 @@
           "ward": "69",
           "wardName": "69 - Leduc-Beaumont",
           "region": "Regional / Other",
-          "yesVotes": 13365,
-          "noVotes": 12460,
-          "totalVotes": 25825,
-          "yesPct": 51.75,
-          "noPct": 48.25,
-          "marginVotes": 905,
-          "marginPct": 3.5,
-          "leader": "YES",
+          "yesVotes": 14355,
+          "noVotes": 15334,
+          "totalVotes": 29689,
+          "yesPct": 48.35,
+          "noPct": 51.65,
+          "marginVotes": -979,
+          "marginPct": -3.3,
+          "leader": "NO",
           "pollsReporting": 68,
           "totalPolls": 68,
           "pollsPct": 100.0
