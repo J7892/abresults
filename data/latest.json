@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T01:29:55.948827+00:00",
-  "lastUpdatedEAB": "2026-10-22T01:28:53.3876118+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 07:28:53 PM MDT",
+  "fetchedAt": "2026-10-22T01:30:41.254827+00:00",
+  "lastUpdatedEAB": "2026-10-22T01:29:42.6997692+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 07:29:42 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18547507,
-      "valid": 18547507,
-      "pollsReporting": 5379,
+      "votes": 18549508,
+      "valid": 18549508,
+      "pollsReporting": 5380,
       "totalPolls": 5575,
-      "pollsReportingPct": 96.48
+      "pollsReportingPct": 96.5
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 43.1,
+      "percentageOfAllVotes": 43.09,
       "valid": 7993073,
       "pollsReporting": 257,
       "totalPolls": 269
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 36.2,
-      "valid": 6713807,
-      "pollsReporting": 4754,
+      "valid": 6715808,
+      "pollsReporting": 4755,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1100386,
-      "noVotes": 913220,
-      "totalVotes": 2013606,
+      "yesVotes": 1100550,
+      "noVotes": 913298,
+      "totalVotes": 2013848,
       "yesPct": 54.65,
       "noPct": 45.35,
-      "marginVotes": 187166,
+      "marginVotes": 187252,
       "marginPct": 9.3,
       "leader": "YES",
       "regionalStats": {
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 447229,
-          "noVotes": 223593,
-          "totalVotes": 670822,
+          "yesVotes": 447393,
+          "noVotes": 223671,
+          "totalVotes": 671064,
           "yesPct": 66.67,
           "noPct": 33.33,
-          "marginVotes": 223636,
+          "marginVotes": 223722,
           "marginPct": 33.34,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -141,8 +141,8 @@
         "30-40%": 156,
         "40-50%": 533,
         "50-60%": 1096,
-        "60-70%": 1269,
-        "70-80%": 1083,
+        "60-70%": 1270,
+        "70-80%": 1084,
         "80-90%": 874,
         "90-100%": 171
       },
@@ -703,9 +703,9 @@
           "marginVotes": -570,
           "marginPct": -2.64,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 1039448,
-      "noVotes": 947065,
-      "totalVotes": 1986513,
+      "yesVotes": 1039554,
+      "noVotes": 947149,
+      "totalVotes": 1986703,
       "yesPct": 52.33,
       "noPct": 47.67,
-      "marginVotes": 92383,
+      "marginVotes": 92405,
       "marginPct": 4.66,
       "leader": "YES",
       "regionalStats": {
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 421937,
-          "noVotes": 249697,
-          "totalVotes": 671634,
+          "yesVotes": 422043,
+          "noVotes": 249781,
+          "totalVotes": 671824,
           "yesPct": 62.82,
           "noPct": 37.18,
-          "marginVotes": 172240,
+          "marginVotes": 172262,
           "marginPct": 25.64,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -1638,7 +1638,7 @@
         "<30%": 108,
         "30-40%": 258,
         "40-50%": 780,
-        "50-60%": 1273,
+        "50-60%": 1274,
         "60-70%": 1144,
         "70-80%": 958,
         "80-90%": 656,
@@ -2201,9 +2201,9 @@
           "marginVotes": -1445,
           "marginPct": -6.72,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1059448,
-      "noVotes": 937446,
-      "totalVotes": 1996894,
+      "yesVotes": 1059550,
+      "noVotes": 937534,
+      "totalVotes": 1997084,
       "yesPct": 53.05,
       "noPct": 46.95,
-      "marginVotes": 122002,
+      "marginVotes": 122016,
       "marginPct": 6.1,
       "leader": "YES",
       "regionalStats": {
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 425345,
-          "noVotes": 245438,
-          "totalVotes": 670783,
+          "yesVotes": 425447,
+          "noVotes": 245526,
+          "totalVotes": 670973,
           "yesPct": 63.41,
           "noPct": 36.59,
-          "marginVotes": 179907,
+          "marginVotes": 179921,
           "marginPct": 26.82,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -3136,7 +3136,7 @@
         "<30%": 99,
         "30-40%": 252,
         "40-50%": 696,
-        "50-60%": 1288,
+        "50-60%": 1289,
         "60-70%": 1154,
         "70-80%": 971,
         "80-90%": 709,
@@ -3699,9 +3699,9 @@
           "marginVotes": -828,
           "marginPct": -4.02,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -4542,12 +4542,12 @@
       "questionNumber": 4,
       "title": "Healthcare & Education Fees for Non-Permanent Residents",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for public health care and education as they do now, do you support the Government of Alberta charging a reasonable fee or premium to individuals with a non-permanent immigration status living in Alberta for their and their family's use of the health care and education systems?",
-      "yesVotes": 1017382,
-      "noVotes": 931108,
-      "totalVotes": 1948490,
+      "yesVotes": 1017477,
+      "noVotes": 931202,
+      "totalVotes": 1948679,
       "yesPct": 52.21,
       "noPct": 47.79,
-      "marginVotes": 86274,
+      "marginVotes": 86275,
       "marginPct": 4.42,
       "leader": "YES",
       "regionalStats": {
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 407340,
-          "noVotes": 264896,
-          "totalVotes": 672236,
+          "yesVotes": 407435,
+          "noVotes": 264990,
+          "totalVotes": 672425,
           "yesPct": 60.59,
           "noPct": 39.41,
-          "marginVotes": 142444,
+          "marginVotes": 142445,
           "marginPct": 21.18,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -4634,7 +4634,7 @@
         "<30%": 136,
         "30-40%": 375,
         "40-50%": 903,
-        "50-60%": 1284,
+        "50-60%": 1285,
         "60-70%": 1063,
         "70-80%": 885,
         "80-90%": 561,
@@ -5197,9 +5197,9 @@
           "marginVotes": -2375,
           "marginPct": -11.02,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1098346,
-      "noVotes": 744733,
-      "totalVotes": 1843079,
+      "yesVotes": 1098461,
+      "noVotes": 744807,
+      "totalVotes": 1843268,
       "yesPct": 59.59,
       "noPct": 40.41,
-      "marginVotes": 353613,
+      "marginVotes": 353654,
       "marginPct": 19.18,
       "leader": "YES",
       "regionalStats": {
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 459606,
-          "noVotes": 211049,
-          "totalVotes": 670655,
+          "yesVotes": 459721,
+          "noVotes": 211123,
+          "totalVotes": 670844,
           "yesPct": 68.53,
           "noPct": 31.47,
-          "marginVotes": 248557,
+          "marginVotes": 248598,
           "marginPct": 37.06,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -6133,7 +6133,7 @@
         "30-40%": 88,
         "40-50%": 391,
         "50-60%": 984,
-        "60-70%": 1304,
+        "60-70%": 1305,
         "70-80%": 1145,
         "80-90%": 1008,
         "90-100%": 265
@@ -6695,9 +6695,9 @@
           "marginVotes": 921,
           "marginPct": 4.3,
           "leader": "YES",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 847442,
-      "noVotes": 952363,
-      "totalVotes": 1799805,
+      "yesVotes": 847529,
+      "noVotes": 952465,
+      "totalVotes": 1799994,
       "yesPct": 47.09,
       "noPct": 52.91,
-      "marginVotes": -104921,
+      "marginVotes": -104936,
       "marginPct": -5.82,
       "leader": "NO",
       "regionalStats": {
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 373141,
-          "noVotes": 294256,
-          "totalVotes": 667397,
+          "yesVotes": 373228,
+          "noVotes": 294358,
+          "totalVotes": 667586,
           "yesPct": 55.91,
           "noPct": 44.09,
-          "marginVotes": 78885,
+          "marginVotes": 78870,
           "marginPct": 11.82,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -7629,7 +7629,7 @@
       "pollDistribution": {
         "<30%": 296,
         "30-40%": 718,
-        "40-50%": 1136,
+        "40-50%": 1137,
         "50-60%": 1058,
         "60-70%": 818,
         "70-80%": 757,
@@ -8193,9 +8193,9 @@
           "marginVotes": -6136,
           "marginPct": -28.34,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -9036,12 +9036,12 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 845955,
-      "noVotes": 833060,
-      "totalVotes": 1679015,
+      "yesVotes": 846032,
+      "noVotes": 833170,
+      "totalVotes": 1679202,
       "yesPct": 50.38,
       "noPct": 49.62,
-      "marginVotes": 12895,
+      "marginVotes": 12862,
       "marginPct": 0.76,
       "leader": "YES",
       "regionalStats": {
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 380425,
-          "noVotes": 286092,
-          "totalVotes": 666517,
-          "yesPct": 57.08,
-          "noPct": 42.92,
-          "marginVotes": 94333,
-          "marginPct": 14.16,
-          "pollsReporting": 4768,
+          "yesVotes": 380502,
+          "noVotes": 286202,
+          "totalVotes": 666704,
+          "yesPct": 57.07,
+          "noPct": 42.93,
+          "marginVotes": 94300,
+          "marginPct": 14.14,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -9127,7 +9127,7 @@
       "pollDistribution": {
         "<30%": 235,
         "30-40%": 571,
-        "40-50%": 1126,
+        "40-50%": 1127,
         "50-60%": 1184,
         "60-70%": 838,
         "70-80%": 779,
@@ -9691,9 +9691,9 @@
           "marginVotes": -4942,
           "marginPct": -23.08,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -10534,12 +10534,12 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 759996,
-      "noVotes": 869631,
-      "totalVotes": 1629627,
+      "yesVotes": 760085,
+      "noVotes": 869728,
+      "totalVotes": 1629813,
       "yesPct": 46.64,
       "noPct": 53.36,
-      "marginVotes": -109635,
+      "marginVotes": -109643,
       "marginPct": -6.72,
       "leader": "NO",
       "regionalStats": {
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 360490,
-          "noVotes": 310925,
-          "totalVotes": 671415,
+          "yesVotes": 360579,
+          "noVotes": 311022,
+          "totalVotes": 671601,
           "yesPct": 53.69,
           "noPct": 46.31,
-          "marginVotes": 49565,
+          "marginVotes": 49557,
           "marginPct": 7.38,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -10625,7 +10625,7 @@
       "pollDistribution": {
         "<30%": 369,
         "30-40%": 840,
-        "40-50%": 1191,
+        "40-50%": 1192,
         "50-60%": 1057,
         "60-70%": 786,
         "70-80%": 673,
@@ -11189,9 +11189,9 @@
           "marginVotes": -7063,
           "marginPct": -32.68,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -12032,12 +12032,12 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 793745,
-      "noVotes": 810802,
-      "totalVotes": 1604547,
+      "yesVotes": 793924,
+      "noVotes": 810830,
+      "totalVotes": 1604754,
       "yesPct": 49.47,
       "noPct": 50.53,
-      "marginVotes": -17057,
+      "marginVotes": -16906,
       "marginPct": -1.06,
       "leader": "NO",
       "regionalStats": {
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 372445,
-          "noVotes": 293552,
-          "totalVotes": 665997,
-          "yesPct": 55.92,
-          "noPct": 44.08,
-          "marginVotes": 78893,
-          "marginPct": 11.84,
-          "pollsReporting": 4768,
+          "yesVotes": 372624,
+          "noVotes": 293580,
+          "totalVotes": 666204,
+          "yesPct": 55.93,
+          "noPct": 44.07,
+          "marginVotes": 79044,
+          "marginPct": 11.86,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -12127,7 +12127,7 @@
         "50-60%": 1107,
         "60-70%": 828,
         "70-80%": 719,
-        "80-90%": 396,
+        "80-90%": 397,
         "90-100%": 56
       },
       "wards": [
@@ -12687,9 +12687,9 @@
           "marginVotes": -6244,
           "marginPct": -28.72,
           "leader": "NO",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
@@ -13530,12 +13530,12 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1535548,
-      "noVotes": 510383,
-      "totalVotes": 2045931,
+      "yesVotes": 1535727,
+      "noVotes": 510436,
+      "totalVotes": 2046163,
       "yesPct": 75.05,
       "noPct": 24.95,
-      "marginVotes": 1025165,
+      "marginVotes": 1025291,
       "marginPct": 50.1,
       "leader": "YES",
       "regionalStats": {
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 459639,
-          "noVotes": 226712,
-          "totalVotes": 686351,
+          "yesVotes": 459818,
+          "noVotes": 226765,
+          "totalVotes": 686583,
           "yesPct": 66.97,
           "noPct": 33.03,
-          "marginVotes": 232927,
+          "marginVotes": 233053,
           "marginPct": 33.94,
-          "pollsReporting": 4768,
+          "pollsReporting": 4769,
           "totalPolls": 4904
         },
         {
@@ -13624,7 +13624,7 @@
         "40-50%": 495,
         "50-60%": 655,
         "60-70%": 911,
-        "70-80%": 1534,
+        "70-80%": 1535,
         "80-90%": 1112,
         "90-100%": 310
       },
@@ -14185,9 +14185,9 @@
           "marginVotes": 14249,
           "marginPct": 65.74,
           "leader": "YES",
-          "pollsReporting": 51,
+          "pollsReporting": 52,
           "totalPolls": 59,
-          "pollsPct": 86.4
+          "pollsPct": 88.1
         },
         {
           "ward": "36",
