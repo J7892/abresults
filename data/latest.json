@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-22T07:11:00.337662+00:00",
-  "lastUpdatedEAB": "2026-10-22T07:10:34.3743035+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 01:10:34 AM MDT",
+  "fetchedAt": "2026-10-22T07:12:19.123129+00:00",
+  "lastUpdatedEAB": "2026-10-22T07:11:23.9222909+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 01:11:23 AM MDT",
   "turnout": {
     "summary": {
       "votes": 19274985,
@@ -7564,12 +7564,12 @@
           "noPct": 67.14
         },
         "Regional / Other": {
-          "yes": 523994,
-          "no": 372499,
-          "total": 896493,
+          "yes": 526153,
+          "no": 378587,
+          "total": 904740,
           "wards": 41,
-          "yesPct": 58.45,
-          "noPct": 41.55
+          "yesPct": 58.16,
+          "noPct": 41.84
         }
       },
       "votingMethods": [
@@ -7602,12 +7602,12 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 97699,
-          "noVotes": 275130,
-          "totalVotes": 372829,
+          "yesVotes": 99858,
+          "noVotes": 281218,
+          "totalVotes": 381076,
           "yesPct": 26.2,
           "noPct": 73.8,
-          "marginVotes": -177431,
+          "marginVotes": -181360,
           "marginPct": -47.6,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -7627,7 +7627,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 302,
+        "<30%": 303,
         "30-40%": 742,
         "40-50%": 1159,
         "50-60%": 1077,
@@ -8425,13 +8425,13 @@
           "ward": "50",
           "wardName": "50 - Banff-Kananaskis",
           "region": "Regional / Other",
-          "yesVotes": 8623,
-          "noVotes": 11406,
-          "totalVotes": 20029,
-          "yesPct": 43.05,
-          "noPct": 56.95,
-          "marginVotes": -2783,
-          "marginPct": -13.9,
+          "yesVotes": 10782,
+          "noVotes": 17494,
+          "totalVotes": 28276,
+          "yesPct": 38.13,
+          "noPct": 61.87,
+          "marginVotes": -6712,
+          "marginPct": -23.74,
           "leader": "NO",
           "pollsReporting": 64,
           "totalPolls": 64,
