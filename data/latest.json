@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T02:12:46.000527+00:00",
-  "lastUpdatedEAB": "2026-10-22T02:12:28.3178875+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 08:12:28 PM MDT",
+  "fetchedAt": "2026-10-22T02:13:51.268768+00:00",
+  "lastUpdatedEAB": "2026-10-22T02:13:17.6294380+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 08:13:17 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18667109,
-      "valid": 18667109,
+      "votes": 18674881,
+      "valid": 18674881,
       "pollsReporting": 5396,
       "totalPolls": 5575,
       "pollsReportingPct": 96.79
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.82,
+      "percentageOfAllVotes": 42.8,
       "valid": 7993073,
       "pollsReporting": 257,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 36.11,
+      "percentageOfAllVotes": 36.1,
       "valid": 6740945,
       "pollsReporting": 4771,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 20.05,
-      "valid": 3742641,
+      "percentageOfAllVotes": 20.08,
+      "valid": 3750413,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,22 +10534,22 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 762052,
-      "noVotes": 877981,
-      "totalVotes": 1640033,
-      "yesPct": 46.47,
-      "noPct": 53.53,
-      "marginVotes": -115929,
-      "marginPct": -7.06,
+      "yesVotes": 763929,
+      "noVotes": 883876,
+      "totalVotes": 1647805,
+      "yesPct": 46.36,
+      "noPct": 53.64,
+      "marginVotes": -119947,
+      "marginPct": -7.28,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 181130,
-          "no": 286959,
-          "total": 468089,
+          "yes": 183007,
+          "no": 292854,
+          "total": 475861,
           "wards": 26,
-          "yesPct": 38.7,
-          "noPct": 61.3
+          "yesPct": 38.46,
+          "noPct": 61.54
         },
         "Edmonton": {
           "yes": 113177,
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 36830,
-          "noVotes": 126617,
-          "totalVotes": 163447,
-          "yesPct": 22.53,
-          "noPct": 77.47,
-          "marginVotes": -89787,
-          "marginPct": -54.94,
+          "yesVotes": 38707,
+          "noVotes": 132512,
+          "totalVotes": 171219,
+          "yesPct": 22.61,
+          "noPct": 77.39,
+          "marginVotes": -93805,
+          "marginPct": -54.78,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 371,
+        "<30%": 372,
         "30-40%": 845,
         "40-50%": 1198,
         "50-60%": 1059,
@@ -10989,14 +10989,14 @@
           "ward": "23",
           "wardName": "23 - Calgary-Shaw",
           "region": "Calgary",
-          "yesVotes": 7191,
-          "noVotes": 7096,
-          "totalVotes": 14287,
-          "yesPct": 50.33,
-          "noPct": 49.67,
-          "marginVotes": 95,
-          "marginPct": 0.66,
-          "leader": "YES",
+          "yesVotes": 9068,
+          "noVotes": 12991,
+          "totalVotes": 22059,
+          "yesPct": 41.11,
+          "noPct": 58.89,
+          "marginVotes": -3923,
+          "marginPct": -17.78,
+          "leader": "NO",
           "pollsReporting": 70,
           "totalPolls": 71,
           "pollsPct": 98.6
