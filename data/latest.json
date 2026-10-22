@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-22T04:10:52.861931+00:00",
+  "fetchedAt": "2026-10-22T04:11:38.427056+00:00",
   "lastUpdatedEAB": "2026-10-22T04:10:41.2020285+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 10:10:41 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18966257,
-      "valid": 18966257,
-      "pollsReporting": 5425,
+      "votes": 18966501,
+      "valid": 18966501,
+      "pollsReporting": 5426,
       "totalPolls": 5575,
-      "pollsReportingPct": 97.31
+      "pollsReportingPct": 97.33
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 35.78,
-      "valid": 6785771,
-      "pollsReporting": 4798,
+      "valid": 6786015,
+      "pollsReporting": 4799,
       "totalPolls": 4904
     },
     "vbm": {
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1107924,
-      "noVotes": 917059,
-      "totalVotes": 2024983,
-      "yesPct": 54.71,
-      "noPct": 45.29,
-      "marginVotes": 190865,
-      "marginPct": 9.42,
+      "yesVotes": 1108063,
+      "noVotes": 917080,
+      "totalVotes": 2025143,
+      "yesPct": 54.72,
+      "noPct": 45.28,
+      "marginVotes": 190983,
+      "marginPct": 9.44,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -74,9 +74,9 @@
           "noPct": 57.06
         },
         "Regional / Other": {
-          "yes": 623025,
-          "no": 341244,
-          "total": 964269,
+          "yes": 623164,
+          "no": 341265,
+          "total": 964429,
           "wards": 41,
           "yesPct": 64.61,
           "noPct": 35.39
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 452129,
-          "noVotes": 226311,
-          "totalVotes": 678440,
-          "yesPct": 66.64,
-          "noPct": 33.36,
-          "marginVotes": 225818,
-          "marginPct": 33.28,
-          "pollsReporting": 4812,
+          "yesVotes": 452268,
+          "noVotes": 226332,
+          "totalVotes": 678600,
+          "yesPct": 66.65,
+          "noPct": 33.35,
+          "marginVotes": 225936,
+          "marginPct": 33.3,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -143,7 +143,7 @@
         "50-60%": 1113,
         "60-70%": 1282,
         "70-80%": 1095,
-        "80-90%": 883,
+        "80-90%": 884,
         "90-100%": 171
       },
       "wards": [
@@ -1511,17 +1511,17 @@
           "ward": "86",
           "wardName": "86 - Vermilion-Lloydminster-Wainwright",
           "region": "Regional / Other",
-          "yesVotes": 15188,
-          "noVotes": 4811,
-          "totalVotes": 19999,
-          "yesPct": 75.94,
-          "noPct": 24.06,
-          "marginVotes": 10377,
-          "marginPct": 51.88,
+          "yesVotes": 15327,
+          "noVotes": 4832,
+          "totalVotes": 20159,
+          "yesPct": 76.03,
+          "noPct": 23.97,
+          "marginVotes": 10495,
+          "marginPct": 52.06,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -1604,7 +1604,7 @@
           "noPct": 37.2,
           "marginVotes": 173592,
           "marginPct": 25.6,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -3017,9 +3017,9 @@
           "marginVotes": 9523,
           "marginPct": 47.54,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -3102,7 +3102,7 @@
           "noPct": 36.61,
           "marginVotes": 181481,
           "marginPct": 26.78,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -4515,9 +4515,9 @@
           "marginVotes": 9630,
           "marginPct": 49.48,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -4600,7 +4600,7 @@
           "noPct": 39.44,
           "marginVotes": 143585,
           "marginPct": 21.12,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -6013,9 +6013,9 @@
           "marginVotes": 9051,
           "marginPct": 45.34,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -6098,7 +6098,7 @@
           "noPct": 31.52,
           "marginVotes": 251101,
           "marginPct": 36.96,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -7511,9 +7511,9 @@
           "marginVotes": 11593,
           "marginPct": 58.12,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -7538,19 +7538,19 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 865008,
-      "noVotes": 981964,
-      "totalVotes": 1846972,
+      "yesVotes": 865037,
+      "noVotes": 982019,
+      "totalVotes": 1847056,
       "yesPct": 46.83,
       "noPct": 53.17,
-      "marginVotes": -116956,
+      "marginVotes": -116982,
       "marginPct": -6.34,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 214412,
-          "no": 345209,
-          "total": 559621,
+          "yes": 214441,
+          "no": 345264,
+          "total": 559705,
           "wards": 26,
           "yesPct": 38.31,
           "noPct": 61.69
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 377461,
-          "noVotes": 298282,
-          "totalVotes": 675743,
+          "yesVotes": 377490,
+          "noVotes": 298337,
+          "totalVotes": 675827,
           "yesPct": 55.86,
           "noPct": 44.14,
-          "marginVotes": 79179,
+          "marginVotes": 79153,
           "marginPct": 11.72,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -7628,7 +7628,7 @@
       ],
       "pollDistribution": {
         "<30%": 300,
-        "30-40%": 729,
+        "30-40%": 730,
         "40-50%": 1156,
         "50-60%": 1073,
         "60-70%": 826,
@@ -8025,13 +8025,13 @@
           "ward": "25",
           "wardName": "25 - Calgary-Varsity",
           "region": "Calgary",
-          "yesVotes": 6805,
-          "noVotes": 15359,
-          "totalVotes": 22164,
-          "yesPct": 30.7,
-          "noPct": 69.3,
-          "marginVotes": -8554,
-          "marginPct": -38.6,
+          "yesVotes": 6834,
+          "noVotes": 15414,
+          "totalVotes": 22248,
+          "yesPct": 30.72,
+          "noPct": 69.28,
+          "marginVotes": -8580,
+          "marginPct": -38.56,
           "leader": "NO",
           "pollsReporting": 51,
           "totalPolls": 51,
@@ -9009,9 +9009,9 @@
           "marginVotes": 7794,
           "marginPct": 39.4,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -9094,7 +9094,7 @@
           "noPct": 42.95,
           "marginVotes": 94956,
           "marginPct": 14.1,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -10507,9 +10507,9 @@
           "marginVotes": 7939,
           "marginPct": 40.12,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -10592,7 +10592,7 @@
           "noPct": 46.34,
           "marginVotes": 49619,
           "marginPct": 7.32,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -12005,9 +12005,9 @@
           "marginVotes": 7564,
           "marginPct": 38.3,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -12090,7 +12090,7 @@
           "noPct": 44.12,
           "marginVotes": 79240,
           "marginPct": 11.76,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -13503,9 +13503,9 @@
           "marginVotes": 7423,
           "marginPct": 37.12,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
@@ -13588,7 +13588,7 @@
           "noPct": 33.04,
           "marginVotes": 234584,
           "marginPct": 33.92,
-          "pollsReporting": 4812,
+          "pollsReporting": 4813,
           "totalPolls": 4904
         },
         {
@@ -15001,9 +15001,9 @@
           "marginVotes": 3987,
           "marginPct": 21.12,
           "leader": "YES",
-          "pollsReporting": 63,
+          "pollsReporting": 64,
           "totalPolls": 66,
-          "pollsPct": 95.5
+          "pollsPct": 97.0
         },
         {
           "ward": "87",
