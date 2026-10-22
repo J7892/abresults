@@ -21,7 +21,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,1,Immigration Control & Alberta Priority,12317,13959,26276,46.88,53.12,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,1,Immigration Control & Alberta Priority,13015,14731,27746,46.91,53.09,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,1,Immigration Control & Alberta Priority,12264,10780,23044,53.22,46.78,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,1,Immigration Control & Alberta Priority,17506,14279,31785,55.08,44.92,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,1,Immigration Control & Alberta Priority,17591,14327,31918,55.11,44.89,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,1,Immigration Control & Alberta Priority,18424,14132,32556,56.59,43.41,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,1,Immigration Control & Alberta Priority,8983,14907,23890,37.6,62.4,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,1,Immigration Control & Alberta Priority,12417,12706,25123,49.42,50.58,NO,54,54,100.0
@@ -38,7 +38,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,1,Immigration Control & Alberta Priority,9255,11525,20780,44.54,55.46,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,1,Immigration Control & Alberta Priority,7839,8453,16292,48.12,51.88,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,1,Immigration Control & Alberta Priority,9278,10862,20140,46.07,53.93,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,1,Immigration Control & Alberta Priority,6867,12840,19707,34.85,65.15,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,1,Immigration Control & Alberta Priority,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,1,Immigration Control & Alberta Priority,8414,13924,22338,37.67,62.33,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,1,Immigration Control & Alberta Priority,14873,16832,31705,46.91,53.09,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,1,Immigration Control & Alberta Priority,18005,18677,36682,49.08,50.92,NO,76,76,100.0
@@ -77,8 +77,8 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,1,Immigration Control & Alberta Priority,20600,6796,27396,75.19,24.81,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,1,Immigration Control & Alberta Priority,9374,5272,14646,64.0,36.0,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,1,Immigration Control & Alberta Priority,13287,8092,21379,62.15,37.85,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,1,Immigration Control & Alberta Priority,16003,10749,26752,59.82,40.18,YES,72,73,98.6
-80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,1,Immigration Control & Alberta Priority,18703,5264,23967,78.04,21.96,YES,83,85,97.6
+79,79 - Red Deer-South,Regional / Other,1,Immigration Control & Alberta Priority,15945,10726,26671,59.78,40.22,YES,72,73,98.6
+80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,1,Immigration Control & Alberta Priority,18704,5264,23968,78.04,21.96,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,1,Immigration Control & Alberta Priority,15398,14657,30055,51.23,48.77,YES,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,1,Immigration Control & Alberta Priority,18935,12102,31037,61.01,38.99,YES,66,66,100.0
 83,83 - St. Albert,Regional / Other,1,Immigration Control & Alberta Priority,13767,15981,29748,46.28,53.72,NO,60,60,100.0
@@ -108,7 +108,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,2,Citizenship/PR Requirement for Provincial Services,11183,14093,25276,44.24,55.76,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,2,Citizenship/PR Requirement for Provincial Services,12266,15295,27561,44.5,55.5,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,2,Citizenship/PR Requirement for Provincial Services,11876,11062,22938,51.77,48.23,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,2,Citizenship/PR Requirement for Provincial Services,16382,15407,31789,51.53,48.47,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,2,Citizenship/PR Requirement for Provincial Services,16475,15447,31922,51.61,48.39,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,2,Citizenship/PR Requirement for Provincial Services,17318,14243,31561,54.87,45.13,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,2,Citizenship/PR Requirement for Provincial Services,8852,15686,24538,36.07,63.93,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,2,Citizenship/PR Requirement for Provincial Services,11911,12690,24601,48.42,51.58,NO,54,54,100.0
@@ -125,7 +125,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,2,Citizenship/PR Requirement for Provincial Services,8852,12150,21002,42.15,57.85,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,2,Citizenship/PR Requirement for Provincial Services,6794,8454,15248,44.56,55.44,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,2,Citizenship/PR Requirement for Provincial Services,8638,11473,20111,42.95,57.05,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,2,Citizenship/PR Requirement for Provincial Services,7162,14570,21732,32.96,67.04,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,2,Citizenship/PR Requirement for Provincial Services,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,2,Citizenship/PR Requirement for Provincial Services,7024,11206,18230,38.53,61.47,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,2,Citizenship/PR Requirement for Provincial Services,14167,17695,31862,44.46,55.54,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,2,Citizenship/PR Requirement for Provincial Services,16533,18574,35107,47.09,52.91,NO,76,76,100.0
@@ -164,7 +164,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,19998,7356,27354,73.11,26.89,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,8760,5848,14608,59.97,40.03,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,12661,7925,20586,61.5,38.5,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15217,10725,25942,58.66,41.34,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,15164,10697,25861,58.64,41.36,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,19086,6008,25094,76.06,23.94,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,14654,15317,29971,48.89,51.11,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,2,Citizenship/PR Requirement for Provincial Services,17870,12784,30654,58.3,41.7,YES,66,66,100.0
@@ -195,7 +195,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,3,12-Month Residency Rule for Non-Permanent Support,11293,14001,25294,44.65,55.35,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,3,12-Month Residency Rule for Non-Permanent Support,12133,14431,26564,45.67,54.33,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,3,12-Month Residency Rule for Non-Permanent Support,12288,11213,23501,52.29,47.71,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,3,12-Month Residency Rule for Non-Permanent Support,16757,15476,32233,51.99,48.01,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,3,12-Month Residency Rule for Non-Permanent Support,16849,15515,32364,52.06,47.94,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,3,12-Month Residency Rule for Non-Permanent Support,17733,14338,32071,55.29,44.71,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,3,12-Month Residency Rule for Non-Permanent Support,8493,14718,23211,36.59,63.41,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,3,12-Month Residency Rule for Non-Permanent Support,12538,13740,26278,47.71,52.29,NO,54,54,100.0
@@ -212,7 +212,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,9141,11780,20921,43.69,56.31,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,7423,8642,16065,46.21,53.79,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,8931,11461,20392,43.8,56.2,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,7752,15000,22752,34.07,65.93,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,8177,14241,22418,36.48,63.52,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,14429,17091,31520,45.78,54.22,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,3,12-Month Residency Rule for Non-Permanent Support,17020,19056,36076,47.18,52.82,NO,76,76,100.0
@@ -251,7 +251,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,20284,7173,27457,73.88,26.12,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,8861,5750,14611,60.65,39.35,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,12928,8632,21560,59.96,40.04,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15374,10751,26125,58.85,41.15,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,15320,10724,26044,58.82,41.18,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,18768,5881,24649,76.14,23.86,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,14921,15044,29965,49.79,50.21,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,3,12-Month Residency Rule for Non-Permanent Support,18559,12458,31017,59.83,40.17,YES,66,66,100.0
@@ -282,7 +282,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,11965,13332,25297,47.3,52.7,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,12326,15286,27612,44.64,55.36,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,12047,11596,23643,50.95,49.05,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,15905,15842,31747,50.1,49.9,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,15983,15894,31877,50.14,49.86,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,17253,14830,32083,53.78,46.22,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,9091,15962,25053,36.29,63.71,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,4,Healthcare & Education Fees for Non-Permanent Residents,12075,13101,25176,47.96,52.04,NO,54,54,100.0
@@ -299,7 +299,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,8584,12069,20653,41.56,58.44,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,7029,9021,16050,43.79,56.21,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,7976,11149,19125,41.7,58.3,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,8467,13994,22461,37.7,62.3,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,8239,12250,20489,40.21,59.79,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,13689,17951,31640,43.26,56.74,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,4,Healthcare & Education Fees for Non-Permanent Residents,15968,19080,35048,45.56,54.44,NO,76,76,100.0
@@ -338,7 +338,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,19998,7390,27388,73.02,26.98,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,8630,5637,14267,60.49,39.51,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,12435,9336,21771,57.12,42.88,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,15024,11555,26579,56.53,43.47,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14972,11526,26498,56.5,43.5,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,18556,5336,23892,77.67,22.33,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,14720,15456,30176,48.78,51.22,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,4,Healthcare & Education Fees for Non-Permanent Residents,17833,13002,30835,57.83,42.17,YES,66,66,100.0
@@ -369,7 +369,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,12836,12638,25474,50.39,49.61,YES,62,65,95.4
 21,21 - Calgary-North West,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,14014,13786,27800,50.41,49.59,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,13212,10088,23300,56.7,43.3,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,18388,13667,32055,57.36,42.64,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,18489,13698,32187,57.44,42.56,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,19552,12593,32145,60.82,39.18,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,10352,14300,24652,41.99,58.01,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,5,Proof of Citizenship to Vote in Provincial Elections,13605,11373,24978,54.47,45.53,YES,54,54,100.0
@@ -386,7 +386,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,9802,11103,20905,46.89,53.11,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,8175,7902,16077,50.85,49.15,YES,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,10087,10242,20329,49.62,50.38,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,8877,13848,22725,39.06,60.94,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,8765,12790,21555,40.66,59.34,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,16430,16594,33024,49.75,50.25,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,5,Proof of Citizenship to Vote in Provincial Elections,19613,16765,36378,53.91,46.09,YES,76,76,100.0
@@ -425,7 +425,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,21267,6209,27476,77.4,22.6,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,9397,5206,14603,64.35,35.65,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,14063,7264,21327,65.94,34.06,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,17047,9559,26606,64.07,35.93,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16989,9536,26525,64.05,35.95,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,21365,4845,26210,81.51,18.49,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,16665,13298,29963,55.62,44.38,YES,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,5,Proof of Citizenship to Vote in Provincial Elections,19950,11137,31087,64.17,35.83,YES,66,66,100.0
@@ -456,7 +456,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,8569,16777,25346,33.81,66.19,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,10211,17406,27617,36.97,63.03,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,10268,13301,23569,43.57,56.43,NO,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,13734,18105,31839,43.14,56.86,NO,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,13809,18155,31964,43.2,56.8,NO,71,71,100.0
 24,24 - Calgary-South East,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,13512,15546,29058,46.5,53.5,NO,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,7523,17055,24578,30.61,69.39,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,6,Provincial Selection of King's Bench & Appeal Judges,10286,14858,25144,40.91,59.09,NO,54,54,100.0
@@ -473,7 +473,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,6499,14155,20654,31.47,68.53,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,5835,10486,16321,35.75,64.25,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,7070,13353,20423,34.62,65.38,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,5985,15741,21726,27.55,72.45,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,6199,15922,22121,28.02,71.98,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,10672,20526,31198,34.21,65.79,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,6,Provincial Selection of King's Bench & Appeal Judges,12804,22181,34985,36.6,63.4,NO,76,76,100.0
@@ -512,7 +512,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,18606,8658,27264,68.24,31.76,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,8193,6356,14549,56.31,43.69,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,11215,10032,21247,52.78,47.22,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14249,12873,27122,52.54,47.46,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,14205,12838,27043,52.53,47.47,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,19070,6504,25574,74.57,25.43,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,12405,18080,30485,40.69,59.31,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,6,Provincial Selection of King's Bench & Appeal Judges,15582,15274,30856,50.5,49.5,YES,66,66,100.0
@@ -543,7 +543,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,7,Abolition of the Federal Senate,8995,16084,25079,35.87,64.13,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,7,Abolition of the Federal Senate,10632,16458,27090,39.25,60.75,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,7,Abolition of the Federal Senate,10471,10676,21147,49.52,50.48,NO,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,7,Abolition of the Federal Senate,14457,17315,31772,45.5,54.5,NO,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,7,Abolition of the Federal Senate,14529,17369,31898,45.55,54.45,NO,71,71,100.0
 24,24 - Calgary-South East,Calgary,7,Abolition of the Federal Senate,15698,16265,31963,49.11,50.89,NO,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,7,Abolition of the Federal Senate,8156,16646,24802,32.88,67.12,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,7,Abolition of the Federal Senate,10816,13687,24503,44.14,55.86,NO,54,54,100.0
@@ -560,7 +560,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,7,Abolition of the Federal Senate,7139,13705,20844,34.25,65.75,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,7,Abolition of the Federal Senate,6076,10097,16173,37.57,62.43,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,7,Abolition of the Federal Senate,7450,12498,19948,37.35,62.65,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,7,Abolition of the Federal Senate,6590,16116,22706,29.02,70.98,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,7,Abolition of the Federal Senate,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,7,Abolition of the Federal Senate,5062,8120,13182,38.4,61.6,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,7,Abolition of the Federal Senate,9209,12904,22113,41.65,58.35,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,7,Abolition of the Federal Senate,13638,21525,35163,38.79,61.21,NO,76,76,100.0
@@ -599,7 +599,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,7,Abolition of the Federal Senate,18896,8165,27061,69.83,30.17,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,7,Abolition of the Federal Senate,8237,6294,14531,56.69,43.31,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,7,Abolition of the Federal Senate,11589,9551,21140,54.82,45.18,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,7,Abolition of the Federal Senate,14380,12137,26517,54.23,45.77,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,7,Abolition of the Federal Senate,14329,12107,26436,54.2,45.8,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,7,Abolition of the Federal Senate,17807,6991,24798,71.81,28.19,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,7,Abolition of the Federal Senate,9973,10194,20167,49.45,50.55,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,7,Abolition of the Federal Senate,16141,14463,30604,52.74,47.26,YES,66,66,100.0
@@ -630,7 +630,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,8081,17259,25340,31.89,68.11,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7381,11017,18398,40.12,59.88,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,9342,13958,23300,40.09,59.91,NO,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,13098,18783,31881,41.08,58.92,NO,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,13166,18843,32009,41.13,58.87,NO,71,71,100.0
 24,24 - Calgary-South East,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,11933,12118,24051,49.62,50.38,NO,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,4892,9456,14348,34.1,65.9,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,8,Provincial Opt-Out of Federal Programs with Full Funding,7830,9034,16864,46.43,53.57,NO,54,54,100.0
@@ -647,7 +647,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,6117,14516,20633,29.65,70.35,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,6645,12012,18657,35.62,64.38,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,6299,14048,20347,30.96,69.04,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,4162,9539,13701,30.38,69.62,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,4367,8813,13180,33.13,66.87,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,8233,13865,22098,37.26,62.74,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,8,Provincial Opt-Out of Federal Programs with Full Funding,10084,15400,25484,39.57,60.43,NO,76,76,100.0
@@ -686,7 +686,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,17679,9510,27189,65.02,34.98,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,7892,6603,14495,54.45,45.55,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,10506,10728,21234,49.48,50.52,NO,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,12784,13812,26596,48.07,51.93,NO,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,12742,13775,26517,48.05,51.95,NO,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,16929,7659,24588,68.85,31.15,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,8950,11326,20276,44.14,55.86,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,8,Provincial Opt-Out of Federal Programs with Full Funding,14099,15534,29633,47.58,52.42,NO,66,66,100.0
@@ -717,7 +717,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7717,13530,21247,36.32,63.68,NO,62,65,95.4
 21,21 - Calgary-North West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7626,10739,18365,41.52,58.48,NO,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,9701,13488,23189,41.83,58.17,NO,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,13547,18006,31553,42.93,57.07,NO,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,13627,18055,31682,43.01,56.99,NO,71,71,100.0
 24,24 - Calgary-South East,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,12364,11707,24071,51.36,48.64,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,5148,9287,14435,35.66,64.34,NO,51,51,100.0
 26,26 - Calgary-West,Calgary,9,Provincial Law Priority in Shared Constitutional Areas,7515,8853,16368,45.91,54.09,NO,54,54,100.0
@@ -734,7 +734,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,6770,14095,20865,32.45,67.55,NO,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,6969,13003,19972,34.89,65.11,NO,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,6120,13507,19627,31.18,68.82,NO,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,4434,8564,12998,34.11,65.89,NO,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,4544,8618,13162,34.52,65.48,NO,50,50,100.0
 42,42 - Edmonton-South,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,8791,13423,22214,39.57,60.43,NO,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,9,Provincial Law Priority in Shared Constitutional Areas,10373,14930,25303,41.0,59.0,NO,76,76,100.0
@@ -773,8 +773,8 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,18314,8776,27090,67.6,32.4,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,8159,6321,14480,56.35,43.65,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,10981,10048,21029,52.22,47.78,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11397,8137,19534,58.34,41.66,YES,72,73,98.6
-80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,17775,6754,24529,72.47,27.53,YES,83,85,97.6
+79,79 - Red Deer-South,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,11350,8103,19453,58.35,41.65,YES,72,73,98.6
+80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,17774,6754,24528,72.46,27.54,YES,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,9348,10835,20183,46.32,53.68,NO,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,15028,15881,30909,48.62,51.38,NO,66,66,100.0
 83,83 - St. Albert,Regional / Other,9,Provincial Law Priority in Shared Constitutional Areas,7857,10655,18512,42.44,57.56,NO,60,60,100.0
@@ -804,7 +804,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 20,20 - Calgary-North East,Calgary,10,Alberta Independence / Separation Referendum Process,21279,3619,24898,85.46,14.54,YES,62,65,95.4
 21,21 - Calgary-North West,Calgary,10,Alberta Independence / Separation Referendum Process,21943,4792,26735,82.08,17.92,YES,58,58,100.0
 22,22 - Calgary-Peigan,Calgary,10,Alberta Independence / Separation Referendum Process,18847,4915,23762,79.32,20.68,YES,52,52,100.0
-23,23 - Calgary-Shaw,Calgary,10,Alberta Independence / Separation Referendum Process,24918,7182,32100,77.63,22.37,YES,70,71,98.6
+23,23 - Calgary-Shaw,Calgary,10,Alberta Independence / Separation Referendum Process,25057,7194,32251,77.69,22.31,YES,71,71,100.0
 24,24 - Calgary-South East,Calgary,10,Alberta Independence / Separation Referendum Process,24597,7455,32052,76.74,23.26,YES,76,76,100.0
 25,25 - Calgary-Varsity,Calgary,10,Alberta Independence / Separation Referendum Process,21765,3527,25292,86.05,13.95,YES,51,51,100.0
 26,26 - Calgary-West,Calgary,10,Alberta Independence / Separation Referendum Process,20609,4644,25253,81.61,18.39,YES,54,54,100.0
@@ -821,7 +821,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 37,37 - Edmonton-Meadows,Edmonton,10,Alberta Independence / Separation Referendum Process,17890,3028,20918,85.52,14.48,YES,61,61,100.0
 38,38 - Edmonton-Mill Woods,Edmonton,10,Alberta Independence / Separation Referendum Process,16900,3460,20360,83.01,16.99,YES,53,53,100.0
 39,39 - Edmonton-North West,Edmonton,10,Alberta Independence / Separation Referendum Process,17658,2902,20560,85.89,14.11,YES,64,68,94.1
-40,40 - Edmonton-Riverview,Edmonton,10,Alberta Independence / Separation Referendum Process,20098,2695,22793,88.18,11.82,YES,53,53,100.0
+40,40 - Edmonton-Riverview,Edmonton,10,Alberta Independence / Separation Referendum Process,,,,0.0,0.0,Awaiting,53,53,100.0
 41,41 - Edmonton-Rutherford,Edmonton,10,Alberta Independence / Separation Referendum Process,19230,2762,21992,87.44,12.56,YES,50,50,100.0
 42,42 - Edmonton-South,Edmonton,10,Alberta Independence / Separation Referendum Process,26884,4957,31841,84.43,15.57,YES,88,88,100.0
 43,43 - Edmonton-South West,Edmonton,10,Alberta Independence / Separation Referendum Process,28936,6042,34978,82.73,17.27,YES,76,76,100.0
@@ -860,7 +860,7 @@ Ward Code,Ward Name,Region,Question Number,Question Title,Yes Votes,No Votes,Tot
 76,76 - Olds-Didsbury-Three Hills,Regional / Other,10,Alberta Independence / Separation Referendum Process,15226,12302,27528,55.31,44.69,YES,71,71,100.0
 77,77 - Peace River,Regional / Other,10,Alberta Independence / Separation Referendum Process,8458,6252,14710,57.5,42.5,YES,68,69,98.6
 78,78 - Red Deer-North,Regional / Other,10,Alberta Independence / Separation Referendum Process,14917,6464,21381,69.77,30.23,YES,64,64,100.0
-79,79 - Red Deer-South,Regional / Other,10,Alberta Independence / Separation Referendum Process,18725,7757,26482,70.71,29.29,YES,72,73,98.6
+79,79 - Red Deer-South,Regional / Other,10,Alberta Independence / Separation Referendum Process,18669,7731,26400,70.72,29.28,YES,72,73,98.6
 80,80 - Rimbey-Rocky Mountain House-Sundre,Regional / Other,10,Alberta Independence / Separation Referendum Process,12139,12784,24923,48.71,51.29,NO,83,85,97.6
 81,81 - Sherwood Park,Regional / Other,10,Alberta Independence / Separation Referendum Process,24272,5767,30039,80.8,19.2,YES,61,61,100.0
 82,82 - Spruce Grove-Stony Plain,Regional / Other,10,Alberta Independence / Separation Referendum Process,22458,8777,31235,71.9,28.1,YES,66,66,100.0
