@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T08:53:31.595812+00:00",
+  "fetchedAt": "2026-10-22T08:54:04.778938+00:00",
   "lastUpdatedEAB": "2026-10-22T08:53:04.8595075+00:00",
   "lastUpdatedMountain": "Oct 22, 2026 02:53:04 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19346815,
-      "valid": 19346815,
+      "votes": 19354591,
+      "valid": 19354591,
       "pollsReporting": 5441,
       "totalPolls": 5575,
       "pollsReportingPct": 97.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.76,
+      "percentageOfAllVotes": 41.74,
       "valid": 8078758,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.28,
+      "percentageOfAllVotes": 35.27,
       "valid": 6826248,
       "pollsReporting": 4814,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.96,
-      "valid": 4248061,
+      "percentageOfAllVotes": 21.99,
+      "valid": 4255837,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -12058,12 +12058,12 @@
           "noPct": 64.8
         },
         "Regional / Other": {
-          "yes": 503138,
-          "no": 357342,
-          "total": 860480,
+          "yes": 505862,
+          "no": 362394,
+          "total": 868256,
           "wards": 41,
-          "yesPct": 58.47,
-          "noPct": 41.53
+          "yesPct": 58.26,
+          "noPct": 41.74
         }
       },
       "votingMethods": [
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 51451,
-          "noVotes": 157160,
-          "totalVotes": 208611,
-          "yesPct": 24.66,
-          "noPct": 75.34,
-          "marginVotes": -105709,
-          "marginPct": -50.68,
+          "yesVotes": 54175,
+          "noVotes": 162212,
+          "totalVotes": 216387,
+          "yesPct": 25.04,
+          "noPct": 74.96,
+          "marginVotes": -108037,
+          "marginPct": -49.92,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12122,7 +12122,7 @@
       ],
       "pollDistribution": {
         "<30%": 270,
-        "30-40%": 699,
+        "30-40%": 700,
         "40-50%": 1193,
         "50-60%": 1119,
         "60-70%": 844,
@@ -13159,13 +13159,13 @@
           "ward": "65",
           "wardName": "65 - Highwood",
           "region": "Regional / Other",
-          "yesVotes": 14809,
-          "noVotes": 8535,
-          "totalVotes": 23344,
-          "yesPct": 63.44,
-          "noPct": 36.56,
-          "marginVotes": 6274,
-          "marginPct": 26.88,
+          "yesVotes": 17533,
+          "noVotes": 13587,
+          "totalVotes": 31120,
+          "yesPct": 56.34,
+          "noPct": 43.66,
+          "marginVotes": 3946,
+          "marginPct": 12.68,
           "leader": "YES",
           "pollsReporting": 112,
           "totalPolls": 112,
