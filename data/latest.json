@@ -1,26 +1,26 @@
 {
-  "fetchedAt": "2026-10-22T15:03:26.330737+00:00",
-  "lastUpdatedEAB": "2026-10-22T15:02:43.4145799+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 09:02:43 AM MDT",
+  "fetchedAt": "2026-10-22T15:04:20.570104+00:00",
+  "lastUpdatedEAB": "2026-10-22T15:03:33.6264070+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 09:03:33 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19473657,
-      "valid": 19473657,
+      "votes": 19480374,
+      "valid": 19480374,
       "pollsReporting": 5448,
       "totalPolls": 5571,
       "pollsReportingPct": 97.79
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.61,
-      "valid": 8102585,
+      "percentageOfAllVotes": 41.63,
+      "valid": 8109302,
       "pollsReporting": 259,
       "totalPolls": 269
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.15,
+      "percentageOfAllVotes": 35.13,
       "valid": 6844172,
       "pollsReporting": 4821,
       "totalPolls": 4904
@@ -29,14 +29,14 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.25,
+      "percentageOfAllVotes": 22.24,
       "valid": 4333115,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 1.0,
+      "percentageOfAllVotes": 0.99,
       "valid": 193785,
       "pollsReporting": 281,
       "totalPolls": 311
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 799600,
-      "noVotes": 971077,
-      "totalVotes": 1770677,
-      "yesPct": 45.16,
-      "noPct": 54.84,
-      "marginVotes": -171477,
-      "marginPct": -9.68,
+      "yesVotes": 803685,
+      "noVotes": 973709,
+      "totalVotes": 1777394,
+      "yesPct": 45.22,
+      "noPct": 54.78,
+      "marginVotes": -170024,
+      "marginPct": -9.56,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,25 +10560,25 @@
           "noPct": 68.58
         },
         "Regional / Other": {
-          "yes": 493237,
-          "no": 396361,
-          "total": 889598,
+          "yes": 497322,
+          "no": 398993,
+          "total": 896315,
           "wards": 41,
-          "yesPct": 55.44,
-          "noPct": 44.56
+          "yesPct": 55.49,
+          "noPct": 44.51
         }
       },
       "votingMethods": [
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 360837,
-          "noVotes": 432837,
-          "totalVotes": 793674,
-          "yesPct": 45.46,
-          "noPct": 54.54,
-          "marginVotes": -72000,
-          "marginPct": -9.08,
+          "yesVotes": 364922,
+          "noVotes": 435469,
+          "totalVotes": 800391,
+          "yesPct": 45.59,
+          "noPct": 54.41,
+          "marginVotes": -70547,
+          "marginPct": -8.82,
           "pollsReporting": 264,
           "totalPolls": 269
         },
@@ -10627,7 +10627,7 @@
         "30-40%": 860,
         "40-50%": 1210,
         "50-60%": 1068,
-        "60-70%": 805,
+        "60-70%": 806,
         "70-80%": 690,
         "80-90%": 280,
         "90-100%": 36
@@ -11597,13 +11597,13 @@
           "ward": "61",
           "wardName": "61 - Fort McMurray-Wood Buffalo",
           "region": "Regional / Other",
-          "yesVotes": 1927,
-          "noVotes": 1728,
-          "totalVotes": 3655,
-          "yesPct": 52.72,
-          "noPct": 47.28,
-          "marginVotes": 199,
-          "marginPct": 5.44,
+          "yesVotes": 6012,
+          "noVotes": 4360,
+          "totalVotes": 10372,
+          "yesPct": 57.96,
+          "noPct": 42.04,
+          "marginVotes": 1652,
+          "marginPct": 15.92,
           "leader": "YES",
           "pollsReporting": 13,
           "totalPolls": 40,
