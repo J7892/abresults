@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T23:42:33.130059+00:00",
-  "lastUpdatedEAB": "2026-10-22T23:42:15.2683686+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 05:42:15 PM MDT",
+  "fetchedAt": "2026-10-22T23:43:51.040875+00:00",
+  "lastUpdatedEAB": "2026-10-22T23:43:04.7699909+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 05:43:04 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19924820,
-      "valid": 19924820,
+      "votes": 19933133,
+      "valid": 19933133,
       "pollsReporting": 5487,
       "totalPolls": 5552,
       "pollsReportingPct": 98.83
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.26,
+      "percentageOfAllVotes": 41.24,
       "valid": 8221071,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.59,
+      "percentageOfAllVotes": 34.57,
       "valid": 6891460,
       "pollsReporting": 4859,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.16,
-      "valid": 4614266,
+      "percentageOfAllVotes": 23.19,
+      "valid": 4622579,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -9036,13 +9036,13 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 930867,
-      "noVotes": 997756,
-      "totalVotes": 1928623,
-      "yesPct": 48.27,
-      "noPct": 51.73,
-      "marginVotes": -66889,
-      "marginPct": -3.46,
+      "yesVotes": 933470,
+      "noVotes": 1003466,
+      "totalVotes": 1936936,
+      "yesPct": 48.19,
+      "noPct": 51.81,
+      "marginVotes": -69996,
+      "marginPct": -3.62,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -9062,12 +9062,12 @@
           "noPct": 64.91
         },
         "Regional / Other": {
-          "yes": 547131,
-          "no": 373599,
-          "total": 920730,
+          "yes": 549734,
+          "no": 379309,
+          "total": 929043,
           "wards": 41,
-          "yesPct": 59.42,
-          "noPct": 40.58
+          "yesPct": 59.17,
+          "noPct": 40.83
         }
       },
       "votingMethods": [
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 120849,
-          "noVotes": 290768,
-          "totalVotes": 411617,
-          "yesPct": 29.36,
-          "noPct": 70.64,
-          "marginVotes": -169919,
-          "marginPct": -41.28,
+          "yesVotes": 123452,
+          "noVotes": 296478,
+          "totalVotes": 419930,
+          "yesPct": 29.4,
+          "noPct": 70.6,
+          "marginVotes": -173026,
+          "marginPct": -41.2,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9126,7 +9126,7 @@
       ],
       "pollDistribution": {
         "<30%": 250,
-        "30-40%": 597,
+        "30-40%": 598,
         "40-50%": 1176,
         "50-60%": 1210,
         "60-70%": 869,
@@ -10323,13 +10323,13 @@
           "ward": "75",
           "wardName": "75 - Morinville-St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 12211,
-          "noVotes": 9073,
-          "totalVotes": 21284,
-          "yesPct": 57.37,
-          "noPct": 42.63,
-          "marginVotes": 3138,
-          "marginPct": 14.74,
+          "yesVotes": 14814,
+          "noVotes": 14783,
+          "totalVotes": 29597,
+          "yesPct": 50.05,
+          "noPct": 49.95,
+          "marginVotes": 31,
+          "marginPct": 0.1,
           "leader": "YES",
           "pollsReporting": 58,
           "totalPolls": 64,
