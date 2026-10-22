@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-22T00:02:01.309725+00:00",
-  "lastUpdatedEAB": "2026-10-22T00:01:06.0342233+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 06:01:06 PM MDT",
+  "fetchedAt": "2026-10-22T00:02:35.353066+00:00",
+  "lastUpdatedEAB": "2026-10-22T00:01:57.3603881+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 06:01:57 PM MDT",
   "turnout": {
     "summary": {
       "votes": 18163603,
@@ -6050,12 +6050,12 @@
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 270835,
-          "no": 241747,
-          "total": 512582,
+          "yes": 273601,
+          "no": 247758,
+          "total": 521359,
           "wards": 26,
-          "yesPct": 52.84,
-          "noPct": 47.16
+          "yesPct": 52.48,
+          "noPct": 47.52
         },
         "Edmonton": {
           "yes": 186928,
@@ -6223,14 +6223,14 @@
           "ward": "06",
           "wardName": "06 - Calgary-Currie",
           "region": "Calgary",
-          "yesVotes": 8175,
-          "noVotes": 7878,
-          "totalVotes": 16053,
-          "yesPct": 50.93,
-          "noPct": 49.07,
-          "marginVotes": 297,
-          "marginPct": 1.86,
-          "leader": "YES",
+          "yesVotes": 10941,
+          "noVotes": 13889,
+          "totalVotes": 24830,
+          "yesPct": 44.06,
+          "noPct": 55.94,
+          "marginVotes": -2948,
+          "marginPct": -11.88,
+          "leader": "NO",
           "pollsReporting": 56,
           "totalPolls": 58,
           "pollsPct": 96.6
@@ -10552,9 +10552,9 @@
           "noPct": 61.43
         },
         "Edmonton": {
-          "yes": 109140,
-          "no": 227945,
-          "total": 337085,
+          "yes": 109163,
+          "no": 227985,
+          "total": 337148,
           "wards": 20,
           "yesPct": 32.38,
           "noPct": 67.62
@@ -11245,13 +11245,13 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 3896,
-          "noVotes": 10184,
-          "totalVotes": 14080,
-          "yesPct": 27.67,
-          "noPct": 72.33,
-          "marginVotes": -6288,
-          "marginPct": -44.66,
+          "yesVotes": 3919,
+          "noVotes": 10224,
+          "totalVotes": 14143,
+          "yesPct": 27.71,
+          "noPct": 72.29,
+          "marginVotes": -6305,
+          "marginPct": -44.58,
           "leader": "NO",
           "pollsReporting": 62,
           "totalPolls": 68,
