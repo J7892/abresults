@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T18:56:57.672656+00:00",
-  "lastUpdatedEAB": "2026-10-22T18:56:39.1189795+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 12:56:39 PM MDT",
+  "fetchedAt": "2026-10-22T18:57:44.825891+00:00",
+  "lastUpdatedEAB": "2026-10-22T18:57:27.8956545+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 12:57:27 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19560967,
-      "valid": 19560967,
+      "votes": 19560988,
+      "valid": 19560988,
       "pollsReporting": 5457,
       "totalPolls": 5557,
       "pollsReportingPct": 98.2
@@ -37,7 +37,7 @@
     "mobile": {
       "votes": null,
       "percentageOfAllVotes": 1.0,
-      "valid": 195708,
+      "valid": 195729,
       "pollsReporting": 281,
       "totalPolls": 301
     }
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1119173,
-      "noVotes": 921619,
-      "totalVotes": 2040792,
+      "yesVotes": 1119185,
+      "noVotes": 921628,
+      "totalVotes": 2040813,
       "yesPct": 54.84,
       "noPct": 45.16,
-      "marginVotes": 197554,
+      "marginVotes": 197557,
       "marginPct": 9.68,
       "leader": "YES",
       "regionalStats": {
@@ -66,12 +66,12 @@
           "noPct": 52.3
         },
         "Edmonton": {
-          "yes": 189976,
-          "no": 251784,
-          "total": 441760,
+          "yes": 189988,
+          "no": 251793,
+          "total": 441781,
           "wards": 20,
-          "yesPct": 43.0,
-          "noPct": 57.0
+          "yesPct": 43.01,
+          "noPct": 56.99
         },
         "Regional / Other": {
           "yes": 631618,
@@ -125,12 +125,12 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11528,
-          "noVotes": 8265,
-          "totalVotes": 19793,
+          "yesVotes": 11540,
+          "noVotes": 8274,
+          "totalVotes": 19814,
           "yesPct": 58.24,
           "noPct": 41.76,
-          "marginVotes": 3263,
+          "marginVotes": 3266,
           "marginPct": 16.48,
           "pollsReporting": 281,
           "totalPolls": 301
@@ -140,7 +140,7 @@
         "<30%": 82,
         "30-40%": 157,
         "40-50%": 540,
-        "50-60%": 1135,
+        "50-60%": 1136,
         "60-70%": 1294,
         "70-80%": 1109,
         "80-90%": 894,
@@ -759,13 +759,13 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 9175,
-          "noVotes": 10778,
-          "totalVotes": 19953,
-          "yesPct": 45.98,
-          "noPct": 54.02,
-          "marginVotes": -1603,
-          "marginPct": -8.04,
+          "yesVotes": 9187,
+          "noVotes": 10787,
+          "totalVotes": 19974,
+          "yesPct": 45.99,
+          "noPct": 54.01,
+          "marginVotes": -1600,
+          "marginPct": -8.02,
           "leader": "NO",
           "pollsReporting": 64,
           "totalPolls": 68,
