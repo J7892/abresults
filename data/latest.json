@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T13:58:28.480647+00:00",
-  "lastUpdatedEAB": "2026-10-22T13:57:55.3882800+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 07:57:55 AM MDT",
+  "fetchedAt": "2026-10-22T13:59:21.410383+00:00",
+  "lastUpdatedEAB": "2026-10-22T13:58:44.4061251+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 07:58:44 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19425151,
-      "valid": 19425151,
+      "votes": 19425266,
+      "valid": 19425266,
       "pollsReporting": 5443,
       "totalPolls": 5575,
       "pollsReportingPct": 97.63
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 35.15,
-      "valid": 6827564,
+      "valid": 6827679,
       "pollsReporting": 4816,
       "totalPolls": 4904
     },
@@ -13530,13 +13530,13 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1544373,
-      "noVotes": 516311,
-      "totalVotes": 2060684,
-      "yesPct": 74.94,
-      "noPct": 25.06,
-      "marginVotes": 1028062,
-      "marginPct": 49.88,
+      "yesVotes": 1544469,
+      "noVotes": 516330,
+      "totalVotes": 2060799,
+      "yesPct": 74.95,
+      "noPct": 25.05,
+      "marginVotes": 1028139,
+      "marginPct": 49.9,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -13548,9 +13548,9 @@
           "noPct": 17.67
         },
         "Edmonton": {
-          "yes": 381353,
-          "no": 65841,
-          "total": 447194,
+          "yes": 381449,
+          "no": 65860,
+          "total": 447309,
           "wards": 20,
           "yesPct": 85.28,
           "noPct": 14.72
@@ -13581,13 +13581,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 464471,
-          "noVotes": 229352,
-          "totalVotes": 693823,
-          "yesPct": 66.94,
-          "noPct": 33.06,
-          "marginVotes": 235119,
-          "marginPct": 33.88,
+          "yesVotes": 464567,
+          "noVotes": 229371,
+          "totalVotes": 693938,
+          "yesPct": 66.95,
+          "noPct": 33.05,
+          "marginVotes": 235196,
+          "marginPct": 33.9,
           "pollsReporting": 4830,
           "totalPolls": 4904
         },
@@ -13625,7 +13625,7 @@
         "50-60%": 667,
         "60-70%": 921,
         "70-80%": 1547,
-        "80-90%": 1120,
+        "80-90%": 1121,
         "90-100%": 310
       },
       "wards": [
@@ -14097,12 +14097,12 @@
           "ward": "30",
           "wardName": "30 - Edmonton-Decore",
           "region": "Edmonton",
-          "yesVotes": 13323,
-          "noVotes": 2621,
-          "totalVotes": 15944,
+          "yesVotes": 13419,
+          "noVotes": 2640,
+          "totalVotes": 16059,
           "yesPct": 83.56,
           "noPct": 16.44,
-          "marginVotes": 10702,
+          "marginVotes": 10779,
           "marginPct": 67.12,
           "leader": "YES",
           "pollsReporting": 56,
