@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T23:03:56.863489+00:00",
-  "lastUpdatedEAB": "2026-10-22T23:03:45.8853330+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 05:03:45 PM MDT",
+  "fetchedAt": "2026-10-22T23:05:03.277351+00:00",
+  "lastUpdatedEAB": "2026-10-22T23:04:35.8236105+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 05:04:35 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19887654,
-      "valid": 19887654,
+      "votes": 19896721,
+      "valid": 19896721,
       "pollsReporting": 5485,
-      "totalPolls": 5552,
-      "pollsReportingPct": 98.79
+      "totalPolls": 5553,
+      "pollsReportingPct": 98.78
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.33,
+      "percentageOfAllVotes": 41.31,
       "valid": 8220037,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.65,
+      "percentageOfAllVotes": 34.63,
       "valid": 6890490,
       "pollsReporting": 4855,
       "totalPolls": 4904
@@ -29,17 +29,17 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.02,
-      "valid": 4579104,
+      "percentageOfAllVotes": 23.06,
+      "valid": 4587965,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
       "percentageOfAllVotes": 1.0,
-      "valid": 198023,
+      "valid": 198229,
       "pollsReporting": 284,
-      "totalPolls": 297
+      "totalPolls": 298
     }
   },
   "questions": [
@@ -125,22 +125,22 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11646,
-          "noVotes": 8341,
-          "totalVotes": 19987,
+          "yesVotes": 11658,
+          "noVotes": 8350,
+          "totalVotes": 20008,
           "yesPct": 58.27,
           "noPct": 41.73,
-          "marginVotes": 3305,
+          "marginVotes": 3308,
           "marginPct": 16.54,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 81,
         "30-40%": 157,
         "40-50%": 541,
-        "50-60%": 1142,
+        "50-60%": 1143,
         "60-70%": 1301,
         "70-80%": 1110,
         "80-90%": 904,
@@ -768,8 +768,8 @@
           "marginPct": -7.64,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -1623,22 +1623,22 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11483,
-          "noVotes": 8361,
-          "totalVotes": 19844,
-          "yesPct": 57.87,
-          "noPct": 42.13,
+          "yesVotes": 11494,
+          "noVotes": 8372,
+          "totalVotes": 19866,
+          "yesPct": 57.86,
+          "noPct": 42.14,
           "marginVotes": 3122,
-          "marginPct": 15.74,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "marginPct": 15.72,
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 111,
         "30-40%": 261,
         "40-50%": 804,
-        "50-60%": 1309,
+        "50-60%": 1310,
         "60-70%": 1169,
         "70-80%": 994,
         "80-90%": 673,
@@ -2266,8 +2266,8 @@
           "marginPct": -13.9,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -3121,22 +3121,22 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 11663,
-          "noVotes": 8190,
-          "totalVotes": 19853,
-          "yesPct": 58.75,
-          "noPct": 41.25,
-          "marginVotes": 3473,
-          "marginPct": 17.5,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "yesVotes": 11675,
+          "noVotes": 8200,
+          "totalVotes": 19875,
+          "yesPct": 58.74,
+          "noPct": 41.26,
+          "marginVotes": 3475,
+          "marginPct": 17.48,
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 98,
         "30-40%": 257,
         "40-50%": 712,
-        "50-60%": 1342,
+        "50-60%": 1343,
         "60-70%": 1177,
         "70-80%": 1009,
         "80-90%": 726,
@@ -3764,8 +3764,8 @@
           "marginPct": -12.22,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -4619,15 +4619,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 10885,
-          "noVotes": 8889,
-          "totalVotes": 19774,
-          "yesPct": 55.05,
-          "noPct": 44.95,
-          "marginVotes": 1996,
-          "marginPct": 10.1,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "yesVotes": 10899,
+          "noVotes": 8897,
+          "totalVotes": 19796,
+          "yesPct": 55.06,
+          "noPct": 44.94,
+          "marginVotes": 2002,
+          "marginPct": 10.12,
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
@@ -4635,7 +4635,7 @@
         "30-40%": 385,
         "40-50%": 933,
         "50-60%": 1320,
-        "60-70%": 1089,
+        "60-70%": 1090,
         "70-80%": 914,
         "80-90%": 577,
         "90-100%": 72
@@ -5262,8 +5262,8 @@
           "marginPct": -16.04,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -6117,15 +6117,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 13364,
-          "noVotes": 6644,
-          "totalVotes": 20008,
+          "yesVotes": 13376,
+          "noVotes": 6650,
+          "totalVotes": 20026,
           "yesPct": 66.79,
           "noPct": 33.21,
-          "marginVotes": 6720,
+          "marginVotes": 6726,
           "marginPct": 33.58,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
@@ -6133,7 +6133,7 @@
         "30-40%": 96,
         "40-50%": 408,
         "50-60%": 1026,
-        "60-70%": 1343,
+        "60-70%": 1344,
         "70-80%": 1180,
         "80-90%": 1037,
         "90-100%": 272
@@ -6760,8 +6760,8 @@
           "marginPct": -0.58,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -7615,20 +7615,20 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9661,
-          "noVotes": 9711,
-          "totalVotes": 19372,
-          "yesPct": 49.87,
-          "noPct": 50.13,
-          "marginVotes": -50,
-          "marginPct": -0.26,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "yesVotes": 9669,
+          "noVotes": 9724,
+          "totalVotes": 19393,
+          "yesPct": 49.86,
+          "noPct": 50.14,
+          "marginVotes": -55,
+          "marginPct": -0.28,
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 313,
-        "30-40%": 752,
+        "30-40%": 753,
         "40-50%": 1172,
         "50-60%": 1092,
         "60-70%": 841,
@@ -8258,8 +8258,8 @@
           "marginPct": -30.64,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -9036,22 +9036,22 @@
       "questionNumber": 7,
       "title": "Abolition of the Federal Senate",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to abolish the unelected federal Senate?",
-      "yesVotes": 927077,
-      "noVotes": 984157,
-      "totalVotes": 1911234,
-      "yesPct": 48.51,
-      "noPct": 51.49,
-      "marginVotes": -57080,
-      "marginPct": -2.98,
+      "yesVotes": 928970,
+      "noVotes": 991125,
+      "totalVotes": 1920095,
+      "yesPct": 48.38,
+      "noPct": 51.62,
+      "marginVotes": -62155,
+      "marginPct": -3.24,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 238034,
-          "no": 351191,
-          "total": 589225,
+          "yes": 239927,
+          "no": 358159,
+          "total": 598086,
           "wards": 26,
-          "yesPct": 40.4,
-          "noPct": 59.6
+          "yesPct": 40.12,
+          "noPct": 59.88
         },
         "Edmonton": {
           "yes": 141913,
@@ -9100,35 +9100,35 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 117026,
-          "noVotes": 277145,
-          "totalVotes": 394171,
-          "yesPct": 29.69,
-          "noPct": 70.31,
-          "marginVotes": -160119,
-          "marginPct": -40.62,
+          "yesVotes": 118919,
+          "noVotes": 284113,
+          "totalVotes": 403032,
+          "yesPct": 29.51,
+          "noPct": 70.49,
+          "marginVotes": -165194,
+          "marginPct": -40.98,
           "pollsReporting": 87,
           "totalPolls": 87
         },
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9717,
-          "noVotes": 9560,
-          "totalVotes": 19277,
+          "yesVotes": 9727,
+          "noVotes": 9570,
+          "totalVotes": 19297,
           "yesPct": 50.41,
           "noPct": 49.59,
           "marginVotes": 157,
           "marginPct": 0.82,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
-        "<30%": 248,
+        "<30%": 249,
         "30-40%": 597,
         "40-50%": 1176,
-        "50-60%": 1209,
+        "50-60%": 1210,
         "60-70%": 868,
         "70-80%": 804,
         "80-90%": 443,
@@ -9219,13 +9219,13 @@
           "ward": "06",
           "wardName": "06 - Calgary-Currie",
           "region": "Calgary",
-          "yesVotes": 6487,
-          "noVotes": 9599,
-          "totalVotes": 16086,
-          "yesPct": 40.33,
-          "noPct": 59.67,
-          "marginVotes": -3112,
-          "marginPct": -19.34,
+          "yesVotes": 8380,
+          "noVotes": 16567,
+          "totalVotes": 24947,
+          "yesPct": 33.59,
+          "noPct": 66.41,
+          "marginVotes": -8187,
+          "marginPct": -32.82,
           "leader": "NO",
           "pollsReporting": 56,
           "totalPolls": 56,
@@ -9756,8 +9756,8 @@
           "marginPct": -25.14,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -10611,22 +10611,22 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9072,
-          "noVotes": 10327,
-          "totalVotes": 19399,
+          "yesVotes": 9082,
+          "noVotes": 10337,
+          "totalVotes": 19419,
           "yesPct": 46.77,
           "noPct": 53.23,
           "marginVotes": -1255,
           "marginPct": -6.46,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 396,
         "30-40%": 876,
         "40-50%": 1227,
-        "50-60%": 1081,
+        "50-60%": 1082,
         "60-70%": 815,
         "70-80%": 694,
         "80-90%": 281,
@@ -11254,8 +11254,8 @@
           "marginPct": -37.9,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -12109,22 +12109,22 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 9839,
-          "noVotes": 9545,
-          "totalVotes": 19384,
+          "yesVotes": 9850,
+          "noVotes": 9554,
+          "totalVotes": 19404,
           "yesPct": 50.76,
           "noPct": 49.24,
-          "marginVotes": 294,
+          "marginVotes": 296,
           "marginPct": 1.52,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
         "<30%": 278,
         "30-40%": 708,
         "40-50%": 1217,
-        "50-60%": 1132,
+        "50-60%": 1133,
         "60-70%": 855,
         "70-80%": 742,
         "80-90%": 410,
@@ -12752,8 +12752,8 @@
           "marginPct": -37.08,
           "leader": "NO",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
@@ -13607,15 +13607,15 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 18460,
-          "noVotes": 2665,
-          "totalVotes": 21125,
+          "yesVotes": 18476,
+          "noVotes": 2669,
+          "totalVotes": 21145,
           "yesPct": 87.38,
           "noPct": 12.62,
-          "marginVotes": 15795,
+          "marginVotes": 15807,
           "marginPct": 74.76,
-          "pollsReporting": 282,
-          "totalPolls": 297
+          "pollsReporting": 283,
+          "totalPolls": 298
         }
       ],
       "pollDistribution": {
@@ -13625,7 +13625,7 @@
         "50-60%": 676,
         "60-70%": 933,
         "70-80%": 1550,
-        "80-90%": 1130,
+        "80-90%": 1131,
         "90-100%": 311
       },
       "wards": [
@@ -14250,8 +14250,8 @@
           "marginPct": 71.8,
           "leader": "YES",
           "pollsReporting": 66,
-          "totalPolls": 64,
-          "pollsPct": 103.1
+          "totalPolls": 65,
+          "pollsPct": 101.5
         },
         {
           "ward": "40",
