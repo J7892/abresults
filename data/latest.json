@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T19:23:20.665795+00:00",
-  "lastUpdatedEAB": "2026-10-22T19:22:36.2456688+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 01:22:36 PM MDT",
+  "fetchedAt": "2026-10-22T19:23:54.731435+00:00",
+  "lastUpdatedEAB": "2026-10-22T19:23:26.0389784+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 01:23:26 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19583781,
-      "valid": 19583781,
+      "votes": 19585092,
+      "valid": 19585092,
       "pollsReporting": 5464,
       "totalPolls": 5557,
       "pollsReportingPct": 98.33
@@ -13,14 +13,14 @@
     "advance": {
       "votes": null,
       "percentageOfAllVotes": 41.42,
-      "valid": 8110850,
+      "valid": 8112161,
       "pollsReporting": 259,
       "totalPolls": 265
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.09,
+      "percentageOfAllVotes": 35.08,
       "valid": 6871210,
       "pollsReporting": 4837,
       "totalPolls": 4904
@@ -29,7 +29,7 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 22.5,
+      "percentageOfAllVotes": 22.49,
       "valid": 4405445,
       "pollsReporting": 87,
       "totalPolls": 87
@@ -10534,12 +10534,12 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 808681,
-      "noVotes": 985450,
-      "totalVotes": 1794131,
+      "yesVotes": 809125,
+      "noVotes": 986317,
+      "totalVotes": 1795442,
       "yesPct": 45.07,
       "noPct": 54.93,
-      "marginVotes": -176769,
+      "marginVotes": -177192,
       "marginPct": -9.86,
       "leader": "NO",
       "regionalStats": {
@@ -10552,12 +10552,12 @@
           "noPct": 63.11
         },
         "Edmonton": {
-          "yes": 115989,
-          "no": 252718,
-          "total": 368707,
+          "yes": 116433,
+          "no": 253585,
+          "total": 370018,
           "wards": 20,
-          "yesPct": 31.46,
-          "noPct": 68.54
+          "yesPct": 31.47,
+          "noPct": 68.53
         },
         "Regional / Other": {
           "yes": 499030,
@@ -10572,13 +10572,13 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 365052,
-          "noVotes": 435487,
-          "totalVotes": 800539,
-          "yesPct": 45.6,
-          "noPct": 54.4,
-          "marginVotes": -70435,
-          "marginPct": -8.8,
+          "yesVotes": 365496,
+          "noVotes": 436354,
+          "totalVotes": 801850,
+          "yesPct": 45.58,
+          "noPct": 54.42,
+          "marginVotes": -70858,
+          "marginPct": -8.84,
           "pollsReporting": 264,
           "totalPolls": 265
         },
@@ -10624,7 +10624,7 @@
       ],
       "pollDistribution": {
         "<30%": 391,
-        "30-40%": 866,
+        "30-40%": 867,
         "40-50%": 1224,
         "50-60%": 1076,
         "60-70%": 813,
@@ -11245,13 +11245,13 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 5037,
-          "noVotes": 11746,
-          "totalVotes": 16783,
-          "yesPct": 30.01,
-          "noPct": 69.99,
-          "marginVotes": -6709,
-          "marginPct": -39.98,
+          "yesVotes": 5481,
+          "noVotes": 12613,
+          "totalVotes": 18094,
+          "yesPct": 30.29,
+          "noPct": 69.71,
+          "marginVotes": -7132,
+          "marginPct": -39.42,
           "leader": "NO",
           "pollsReporting": 64,
           "totalPolls": 68,
