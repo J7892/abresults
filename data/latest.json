@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-22T04:14:34.801747+00:00",
-  "lastUpdatedEAB": "2026-10-22T04:14:05.2236762+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 10:14:05 PM MDT",
+  "fetchedAt": "2026-10-22T04:15:20.147348+00:00",
+  "lastUpdatedEAB": "2026-10-22T04:14:55.6212500+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 10:14:55 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18968828,
-      "valid": 18968828,
-      "pollsReporting": 5427,
+      "votes": 18969089,
+      "valid": 18969089,
+      "pollsReporting": 5428,
       "totalPolls": 5575,
-      "pollsReportingPct": 97.35
+      "pollsReportingPct": 97.36
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 35.79,
-      "valid": 6788333,
-      "pollsReporting": 4800,
+      "valid": 6788591,
+      "pollsReporting": 4801,
       "totalPolls": 4904
     },
     "vbm": {
@@ -30,7 +30,7 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 20.86,
-      "valid": 3957025,
+      "valid": 3957028,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1108177,
-      "noVotes": 917092,
-      "totalVotes": 2025269,
+      "yesVotes": 1108304,
+      "noVotes": 917223,
+      "totalVotes": 2025527,
       "yesPct": 54.72,
       "noPct": 45.28,
-      "marginVotes": 191085,
+      "marginVotes": 191081,
       "marginPct": 9.44,
       "leader": "YES",
       "regionalStats": {
@@ -66,9 +66,9 @@
           "noPct": 52.32
         },
         "Edmonton": {
-          "yes": 188707,
-          "no": 250807,
-          "total": 439514,
+          "yes": 188834,
+          "no": 250938,
+          "total": 439772,
           "wards": 20,
           "yesPct": 42.94,
           "noPct": 57.06
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 452378,
-          "noVotes": 226343,
-          "totalVotes": 678721,
-          "yesPct": 66.65,
-          "noPct": 33.35,
-          "marginVotes": 226035,
-          "marginPct": 33.3,
-          "pollsReporting": 4814,
+          "yesVotes": 452505,
+          "noVotes": 226474,
+          "totalVotes": 678979,
+          "yesPct": 66.64,
+          "noPct": 33.36,
+          "marginVotes": 226031,
+          "marginPct": 33.28,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -139,7 +139,7 @@
       "pollDistribution": {
         "<30%": 80,
         "30-40%": 157,
-        "40-50%": 537,
+        "40-50%": 538,
         "50-60%": 1113,
         "60-70%": 1282,
         "70-80%": 1095,
@@ -567,17 +567,17 @@
           "ward": "27",
           "wardName": "27 - Edmonton-Beverly-Clareview",
           "region": "Edmonton",
-          "yesVotes": 6580,
-          "noVotes": 7208,
-          "totalVotes": 13788,
-          "yesPct": 47.72,
-          "noPct": 52.28,
-          "marginVotes": -628,
-          "marginPct": -4.56,
+          "yesVotes": 6707,
+          "noVotes": 7339,
+          "totalVotes": 14046,
+          "yesPct": 47.75,
+          "noPct": 52.25,
+          "marginVotes": -632,
+          "marginPct": -4.5,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -1604,7 +1604,7 @@
           "noPct": 37.19,
           "marginVotes": 173800,
           "marginPct": 25.62,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -2073,9 +2073,9 @@
           "marginVotes": -1247,
           "marginPct": -9.38,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1066851,
-      "noVotes": 941687,
-      "totalVotes": 2008538,
+      "yesVotes": 1066852,
+      "noVotes": 941689,
+      "totalVotes": 2008541,
       "yesPct": 53.12,
       "noPct": 46.88,
-      "marginVotes": 125164,
+      "marginVotes": 125163,
       "marginPct": 6.24,
       "leader": "YES",
       "regionalStats": {
@@ -3070,9 +3070,9 @@
           "noPct": 58.7
         },
         "Regional / Other": {
-          "yes": 605667,
-          "no": 351493,
-          "total": 957160,
+          "yes": 605668,
+          "no": 351495,
+          "total": 957163,
           "wards": 41,
           "yesPct": 63.28,
           "noPct": 36.72
@@ -3102,18 +3102,18 @@
           "noPct": 36.61,
           "marginVotes": 181686,
           "marginPct": 26.78,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 174956,
-          "noVotes": 325265,
-          "totalVotes": 500221,
+          "yesVotes": 174957,
+          "noVotes": 325267,
+          "totalVotes": 500224,
           "yesPct": 34.98,
           "noPct": 65.02,
-          "marginVotes": -150309,
+          "marginVotes": -150310,
           "marginPct": -30.04,
           "pollsReporting": 87,
           "totalPolls": 87
@@ -3571,9 +3571,9 @@
           "marginVotes": -932,
           "marginPct": -7.1,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -4347,12 +4347,12 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 20283,
-          "noVotes": 7171,
-          "totalVotes": 27454,
+          "yesVotes": 20284,
+          "noVotes": 7173,
+          "totalVotes": 27457,
           "yesPct": 73.88,
           "noPct": 26.12,
-          "marginVotes": 13112,
+          "marginVotes": 13111,
           "marginPct": 47.76,
           "leader": "YES",
           "pollsReporting": 71,
@@ -4600,7 +4600,7 @@
           "noPct": 39.43,
           "marginVotes": 143767,
           "marginPct": 21.14,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -5069,9 +5069,9 @@
           "marginVotes": -1575,
           "marginPct": -11.28,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -6098,7 +6098,7 @@
           "noPct": 31.51,
           "marginVotes": 251324,
           "marginPct": 36.98,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -6567,9 +6567,9 @@
           "marginVotes": 243,
           "marginPct": 1.76,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -7596,7 +7596,7 @@
           "noPct": 44.13,
           "marginVotes": 79337,
           "marginPct": 11.74,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -8065,9 +8065,9 @@
           "marginVotes": -4020,
           "marginPct": -29.58,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -9094,7 +9094,7 @@
           "noPct": 42.94,
           "marginVotes": 95137,
           "marginPct": 14.12,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -9563,9 +9563,9 @@
           "marginVotes": -3309,
           "marginPct": -25.2,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -10592,7 +10592,7 @@
           "noPct": 46.33,
           "marginVotes": 49794,
           "marginPct": 7.34,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -11061,9 +11061,9 @@
           "marginVotes": -3574,
           "marginPct": -29.38,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -12090,7 +12090,7 @@
           "noPct": 44.11,
           "marginVotes": 79325,
           "marginPct": 11.78,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -12559,9 +12559,9 @@
           "marginVotes": -4039,
           "marginPct": -30.5,
           "leader": "NO",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
@@ -13588,7 +13588,7 @@
           "noPct": 33.04,
           "marginVotes": 234526,
           "marginPct": 33.92,
-          "pollsReporting": 4814,
+          "pollsReporting": 4815,
           "totalPolls": 4904
         },
         {
@@ -14057,9 +14057,9 @@
           "marginVotes": 11286,
           "marginPct": 64.32,
           "leader": "YES",
-          "pollsReporting": 44,
+          "pollsReporting": 45,
           "totalPolls": 49,
-          "pollsPct": 89.8
+          "pollsPct": 91.8
         },
         {
           "ward": "28",
