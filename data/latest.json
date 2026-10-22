@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T17:43:12.952551+00:00",
-  "lastUpdatedEAB": "2026-10-22T17:43:01.6926819+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 11:43:01 AM MDT",
+  "fetchedAt": "2026-10-22T17:44:32.727992+00:00",
+  "lastUpdatedEAB": "2026-10-22T17:43:50.8683107+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 11:43:50 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19541381,
-      "valid": 19541381,
+      "votes": 19541451,
+      "valid": 19541451,
       "pollsReporting": 5453,
       "totalPolls": 5557,
       "pollsReportingPct": 98.13
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 35.14,
-      "valid": 6866948,
+      "valid": 6867018,
       "pollsReporting": 4826,
       "totalPolls": 4904
     },
@@ -48,19 +48,19 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1119269,
-      "noVotes": 921529,
-      "totalVotes": 2040798,
+      "yesVotes": 1119279,
+      "noVotes": 921589,
+      "totalVotes": 2040868,
       "yesPct": 54.84,
       "noPct": 45.16,
-      "marginVotes": 197740,
+      "marginVotes": 197690,
       "marginPct": 9.68,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 297356,
-          "no": 326062,
-          "total": 623418,
+          "yes": 297419,
+          "no": 326123,
+          "total": 623542,
           "wards": 26,
           "yesPct": 47.7,
           "noPct": 52.3
@@ -99,12 +99,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 457932,
-          "noVotes": 228714,
-          "totalVotes": 686646,
+          "yesVotes": 457995,
+          "noVotes": 228775,
+          "totalVotes": 686770,
           "yesPct": 66.69,
           "noPct": 33.31,
-          "marginVotes": 229218,
+          "marginVotes": 229220,
           "marginPct": 33.38,
           "pollsReporting": 4843,
           "totalPolls": 4904
@@ -137,14 +137,14 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 80,
+        "<30%": 81,
         "30-40%": 157,
         "40-50%": 540,
         "50-60%": 1130,
         "60-70%": 1292,
         "70-80%": 1108,
         "80-90%": 894,
-        "90-100%": 175
+        "90-100%": 176
       },
       "wards": [
         {
@@ -327,13 +327,13 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 12890,
-          "noVotes": 14072,
-          "totalVotes": 26962,
-          "yesPct": 47.81,
-          "noPct": 52.19,
-          "marginVotes": -1182,
-          "marginPct": -4.38,
+          "yesVotes": 12953,
+          "noVotes": 14133,
+          "totalVotes": 27086,
+          "yesPct": 47.82,
+          "noPct": 52.18,
+          "marginVotes": -1180,
+          "marginPct": -4.36,
           "leader": "NO",
           "pollsReporting": 62,
           "totalPolls": 62,
