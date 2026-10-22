@@ -1,27 +1,27 @@
 {
-  "fetchedAt": "2026-10-22T03:21:21.230513+00:00",
+  "fetchedAt": "2026-10-22T03:21:54.487510+00:00",
   "lastUpdatedEAB": "2026-10-22T03:21:01.1603082+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 09:21:01 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18815924,
-      "valid": 18815924,
-      "pollsReporting": 5417,
+      "votes": 18818851,
+      "valid": 18818851,
+      "pollsReporting": 5418,
       "totalPolls": 5575,
-      "pollsReportingPct": 97.17
+      "pollsReportingPct": 97.18
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.5,
-      "valid": 7996337,
-      "pollsReporting": 258,
+      "percentageOfAllVotes": 42.51,
+      "valid": 7999573,
+      "pollsReporting": 259,
       "totalPolls": 269
     },
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.98,
-      "valid": 6770303,
+      "percentageOfAllVotes": 35.97,
+      "valid": 6769982,
       "pollsReporting": 4791,
       "totalPolls": 4904
     },
@@ -30,7 +30,7 @@
       "kitsCounted": null,
       "percentCounted": null,
       "percentageOfAllVotes": 20.49,
-      "valid": 3855536,
+      "valid": 3855548,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1103921,
-      "noVotes": 915249,
-      "totalVotes": 2019170,
+      "yesVotes": 1103925,
+      "noVotes": 915257,
+      "totalVotes": 2019182,
       "yesPct": 54.67,
       "noPct": 45.33,
-      "marginVotes": 188672,
+      "marginVotes": 188668,
       "marginPct": 9.34,
       "leader": "YES",
       "regionalStats": {
@@ -74,9 +74,9 @@
           "noPct": 57.09
         },
         "Regional / Other": {
-          "yes": 619628,
-          "no": 339931,
-          "total": 959559,
+          "yes": 619632,
+          "no": 339939,
+          "total": 959571,
           "wards": 41,
           "yesPct": 64.57,
           "noPct": 35.43
@@ -959,9 +959,9 @@
           "marginVotes": 4520,
           "marginPct": 32.88,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -1527,13 +1527,13 @@
           "ward": "87",
           "wardName": "87 - West Yellowhead",
           "region": "Regional / Other",
-          "yesVotes": 16171,
-          "noVotes": 6729,
-          "totalVotes": 22900,
-          "yesPct": 70.62,
-          "noPct": 29.38,
-          "marginVotes": 9442,
-          "marginPct": 41.24,
+          "yesVotes": 16175,
+          "noVotes": 6737,
+          "totalVotes": 22912,
+          "yesPct": 70.6,
+          "noPct": 29.4,
+          "marginVotes": 9438,
+          "marginPct": 41.2,
           "leader": "YES",
           "pollsReporting": 73,
           "totalPolls": 74,
@@ -2457,9 +2457,9 @@
           "marginVotes": 3886,
           "marginPct": 28.28,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -3955,9 +3955,9 @@
           "marginVotes": 4289,
           "marginPct": 31.32,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -5453,9 +5453,9 @@
           "marginVotes": 3348,
           "marginPct": 24.46,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -6951,9 +6951,9 @@
           "marginVotes": 5483,
           "marginPct": 40.3,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 857270,
-      "noVotes": 969839,
-      "totalVotes": 1827109,
+      "yesVotes": 857327,
+      "noVotes": 969900,
+      "totalVotes": 1827227,
       "yesPct": 46.92,
       "noPct": 53.08,
-      "marginVotes": -112569,
+      "marginVotes": -112573,
       "marginPct": -6.16,
       "leader": "NO",
       "regionalStats": {
@@ -7564,9 +7564,9 @@
           "noPct": 66.64
         },
         "Regional / Other": {
-          "yes": 512877,
-          "no": 364968,
-          "total": 877845,
+          "yes": 512934,
+          "no": 365029,
+          "total": 877963,
           "wards": 41,
           "yesPct": 58.42,
           "noPct": 41.58
@@ -8449,9 +8449,9 @@
           "marginVotes": 1949,
           "marginPct": 14.28,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -8585,13 +8585,13 @@
           "ward": "60",
           "wardName": "60 - Fort McMurray-Lac La Biche",
           "region": "Regional / Other",
-          "yesVotes": 6380,
-          "noVotes": 4621,
-          "totalVotes": 11001,
-          "yesPct": 57.99,
-          "noPct": 42.01,
-          "marginVotes": 1759,
-          "marginPct": 15.98,
+          "yesVotes": 6437,
+          "noVotes": 4682,
+          "totalVotes": 11119,
+          "yesPct": 57.89,
+          "noPct": 42.11,
+          "marginVotes": 1755,
+          "marginPct": 15.78,
           "leader": "YES",
           "pollsReporting": 58,
           "totalPolls": 63,
@@ -9947,9 +9947,9 @@
           "marginVotes": 2429,
           "marginPct": 17.8,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -11445,9 +11445,9 @@
           "marginVotes": 1307,
           "marginPct": 9.56,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 806399,
-      "noVotes": 851237,
-      "totalVotes": 1657636,
-      "yesPct": 48.65,
-      "noPct": 51.35,
-      "marginVotes": -44838,
-      "marginPct": -2.7,
+      "yesVotes": 808370,
+      "noVotes": 852502,
+      "totalVotes": 1660872,
+      "yesPct": 48.67,
+      "noPct": 51.33,
+      "marginVotes": -44132,
+      "marginPct": -2.66,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -12058,12 +12058,12 @@
           "noPct": 64.68
         },
         "Regional / Other": {
-          "yes": 486941,
-          "no": 337853,
-          "total": 824794,
+          "yes": 488912,
+          "no": 339118,
+          "total": 828030,
           "wards": 41,
-          "yesPct": 59.04,
-          "noPct": 40.96
+          "yesPct": 59.05,
+          "noPct": 40.95
         }
       },
       "votingMethods": [
@@ -12935,17 +12935,17 @@
           "ward": "51",
           "wardName": "51 - Bonnyville-Cold Lake-St. Paul",
           "region": "Regional / Other",
-          "yesVotes": 7838,
-          "noVotes": 5785,
-          "totalVotes": 13623,
-          "yesPct": 57.54,
-          "noPct": 42.46,
-          "marginVotes": 2053,
-          "marginPct": 15.08,
+          "yesVotes": 9809,
+          "noVotes": 7050,
+          "totalVotes": 16859,
+          "yesPct": 58.18,
+          "noPct": 41.82,
+          "marginVotes": 2759,
+          "marginPct": 16.36,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
@@ -13530,12 +13530,12 @@
       "questionNumber": 10,
       "title": "Alberta Independence / Separation Referendum Process",
       "questionText": "Should Alberta remain a province of Canada, or should the Government of Alberta commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada?<br /><br />Option 1: Alberta should remain a province in Canada.<br /><br />Option 2: The Government of Alberta should commence the legal process required under the Canadian Constitution to hold a binding provincial referendum on whether or not Alberta should separate from Canada",
-      "yesVotes": 1540221,
-      "noVotes": 513465,
-      "totalVotes": 2053686,
+      "yesVotes": 1539860,
+      "noVotes": 513387,
+      "totalVotes": 2053247,
       "yesPct": 75.0,
       "noPct": 25.0,
-      "marginVotes": 1026756,
+      "marginVotes": 1026473,
       "marginPct": 50.0,
       "leader": "YES",
       "regionalStats": {
@@ -13548,9 +13548,9 @@
           "noPct": 17.67
         },
         "Edmonton": {
-          "yes": 380952,
-          "no": 65754,
-          "total": 446706,
+          "yes": 380591,
+          "no": 65676,
+          "total": 446267,
           "wards": 20,
           "yesPct": 85.28,
           "noPct": 14.72
@@ -14049,12 +14049,12 @@
           "ward": "27",
           "wardName": "27 - Edmonton-Beverly-Clareview",
           "region": "Edmonton",
-          "yesVotes": 14778,
-          "noVotes": 3209,
-          "totalVotes": 17987,
+          "yesVotes": 14417,
+          "noVotes": 3131,
+          "totalVotes": 17548,
           "yesPct": 82.16,
           "noPct": 17.84,
-          "marginVotes": 11569,
+          "marginVotes": 11286,
           "marginPct": 64.32,
           "leader": "YES",
           "pollsReporting": 44,
@@ -14441,9 +14441,9 @@
           "marginVotes": 3038,
           "marginPct": 17.76,
           "leader": "YES",
-          "pollsReporting": 66,
+          "pollsReporting": 67,
           "totalPolls": 74,
-          "pollsPct": 89.2
+          "pollsPct": 90.5
         },
         {
           "ward": "52",
