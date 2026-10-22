@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T02:38:31.900909+00:00",
-  "lastUpdatedEAB": "2026-10-22T02:38:08.3961050+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 08:38:08 PM MDT",
+  "fetchedAt": "2026-10-22T02:39:19.805017+00:00",
+  "lastUpdatedEAB": "2026-10-22T02:38:57.8328944+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 08:38:57 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18755924,
-      "valid": 18755924,
+      "votes": 18766145,
+      "valid": 18766145,
       "pollsReporting": 5403,
       "totalPolls": 5575,
       "pollsReportingPct": 96.91
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.62,
+      "percentageOfAllVotes": 42.59,
       "valid": 7993073,
       "pollsReporting": 257,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.99,
+      "percentageOfAllVotes": 35.97,
       "valid": 6750353,
       "pollsReporting": 4778,
       "totalPolls": 4904
@@ -29,14 +29,14 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 20.38,
-      "valid": 3822048,
+      "percentageOfAllVotes": 20.42,
+      "valid": 3832269,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 1.02,
+      "percentageOfAllVotes": 1.01,
       "valid": 190450,
       "pollsReporting": 281,
       "totalPolls": 315
@@ -6040,13 +6040,13 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1113713,
-      "noVotes": 763636,
-      "totalVotes": 1877349,
-      "yesPct": 59.32,
-      "noPct": 40.68,
-      "marginVotes": 350077,
-      "marginPct": 18.64,
+      "yesVotes": 1117216,
+      "noVotes": 770354,
+      "totalVotes": 1887570,
+      "yesPct": 59.19,
+      "noPct": 40.81,
+      "marginVotes": 346862,
+      "marginPct": 18.38,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6058,12 +6058,12 @@
           "noPct": 48.03
         },
         "Edmonton": {
-          "yes": 190039,
-          "no": 212539,
-          "total": 402578,
+          "yes": 193542,
+          "no": 219257,
+          "total": 412799,
           "wards": 20,
-          "yesPct": 47.21,
-          "noPct": 52.79
+          "yesPct": 46.89,
+          "noPct": 53.11
         },
         "Regional / Other": {
           "yes": 630054,
@@ -6104,13 +6104,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 164877,
-          "noVotes": 228313,
-          "totalVotes": 393190,
-          "yesPct": 41.93,
-          "noPct": 58.07,
-          "marginVotes": -63436,
-          "marginPct": -16.14,
+          "yesVotes": 168380,
+          "noVotes": 235031,
+          "totalVotes": 403411,
+          "yesPct": 41.74,
+          "noPct": 58.26,
+          "marginVotes": -66651,
+          "marginPct": -16.52,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -6130,7 +6130,7 @@
       ],
       "pollDistribution": {
         "<30%": 60,
-        "30-40%": 90,
+        "30-40%": 91,
         "40-50%": 396,
         "50-60%": 995,
         "60-70%": 1313,
@@ -6863,14 +6863,14 @@
           "ward": "46",
           "wardName": "46 - Edmonton-Whitemud",
           "region": "Edmonton",
-          "yesVotes": 6926,
-          "noVotes": 6755,
-          "totalVotes": 13681,
-          "yesPct": 50.62,
-          "noPct": 49.38,
-          "marginVotes": 171,
-          "marginPct": 1.24,
-          "leader": "YES",
+          "yesVotes": 10429,
+          "noVotes": 13473,
+          "totalVotes": 23902,
+          "yesPct": 43.63,
+          "noPct": 56.37,
+          "marginVotes": -3044,
+          "marginPct": -12.74,
+          "leader": "NO",
           "pollsReporting": 51,
           "totalPolls": 51,
           "pollsPct": 100.0
