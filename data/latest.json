@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T00:08:12.636022+00:00",
-  "lastUpdatedEAB": "2026-10-22T00:07:49.3632954+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 06:07:49 PM MDT",
+  "fetchedAt": "2026-10-22T00:08:46.203225+00:00",
+  "lastUpdatedEAB": "2026-10-22T00:08:39.1415827+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 06:08:39 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18196847,
-      "valid": 18196847,
+      "votes": 18202791,
+      "valid": 18202791,
       "pollsReporting": 5361,
       "totalPolls": 5575,
       "pollsReportingPct": 96.16
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 43.3,
+      "percentageOfAllVotes": 43.28,
       "valid": 7878686,
       "pollsReporting": 257,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 36.37,
+      "percentageOfAllVotes": 36.36,
       "valid": 6617955,
       "pollsReporting": 4736,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 19.29,
-      "valid": 3509756,
+      "percentageOfAllVotes": 19.31,
+      "valid": 3515700,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1066651,
-      "noVotes": 720897,
-      "totalVotes": 1787548,
+      "yesVotes": 1070104,
+      "noVotes": 723388,
+      "totalVotes": 1793492,
       "yesPct": 59.67,
       "noPct": 40.33,
-      "marginVotes": 345754,
+      "marginVotes": 346716,
       "marginPct": 19.34,
       "leader": "YES",
       "regionalStats": {
@@ -6066,12 +6066,12 @@
           "noPct": 52.93
         },
         "Regional / Other": {
-          "yes": 602910,
-          "no": 259855,
-          "total": 862765,
+          "yes": 606363,
+          "no": 262346,
+          "total": 868709,
           "wards": 41,
-          "yesPct": 69.88,
-          "noPct": 30.12
+          "yesPct": 69.8,
+          "noPct": 30.2
         }
       },
       "votingMethods": [
@@ -6104,13 +6104,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 136757,
-          "noVotes": 194872,
-          "totalVotes": 331629,
-          "yesPct": 41.24,
-          "noPct": 58.76,
-          "marginVotes": -58115,
-          "marginPct": -17.52,
+          "yesVotes": 140210,
+          "noVotes": 197363,
+          "totalVotes": 337573,
+          "yesPct": 41.53,
+          "noPct": 58.47,
+          "marginVotes": -57153,
+          "marginPct": -16.94,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -6132,7 +6132,7 @@
         "<30%": 60,
         "30-40%": 87,
         "40-50%": 381,
-        "50-60%": 967,
+        "50-60%": 968,
         "60-70%": 1277,
         "70-80%": 1131,
         "80-90%": 1007,
@@ -7023,13 +7023,13 @@
           "ward": "56",
           "wardName": "56 - Chestermere-Strathmore",
           "region": "Regional / Other",
-          "yesVotes": 16125,
-          "noVotes": 6318,
-          "totalVotes": 22443,
-          "yesPct": 71.85,
-          "noPct": 28.15,
-          "marginVotes": 9807,
-          "marginPct": 43.7,
+          "yesVotes": 19578,
+          "noVotes": 8809,
+          "totalVotes": 28387,
+          "yesPct": 68.97,
+          "noPct": 31.03,
+          "marginVotes": 10769,
+          "marginPct": 37.94,
           "leader": "YES",
           "pollsReporting": 69,
           "totalPolls": 71,
