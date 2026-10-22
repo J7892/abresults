@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T06:40:18.466246+00:00",
-  "lastUpdatedEAB": "2026-10-22T06:40:00.8424820+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 12:40:00 AM MDT",
+  "fetchedAt": "2026-10-22T06:41:24.160910+00:00",
+  "lastUpdatedEAB": "2026-10-22T06:40:50.4337020+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 12:40:50 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 19247712,
-      "valid": 19247712,
+      "votes": 19255227,
+      "valid": 19255227,
       "pollsReporting": 5441,
       "totalPolls": 5575,
       "pollsReportingPct": 97.6
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.95,
+      "percentageOfAllVotes": 41.93,
       "valid": 8074041,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.43,
+      "percentageOfAllVotes": 35.42,
       "valid": 6820187,
       "pollsReporting": 4814,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.61,
-      "valid": 4159736,
+      "percentageOfAllVotes": 21.64,
+      "valid": 4167251,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -12032,22 +12032,22 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 820132,
-      "noVotes": 868973,
-      "totalVotes": 1689105,
-      "yesPct": 48.55,
-      "noPct": 51.45,
-      "marginVotes": -48841,
-      "marginPct": -2.9,
+      "yesVotes": 822150,
+      "noVotes": 874470,
+      "totalVotes": 1696620,
+      "yesPct": 48.46,
+      "noPct": 51.54,
+      "marginVotes": -52320,
+      "marginPct": -3.08,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 189789,
-          "no": 275812,
-          "total": 465601,
+          "yes": 191807,
+          "no": 281309,
+          "total": 473116,
           "wards": 26,
-          "yesPct": 40.76,
-          "noPct": 59.24
+          "yesPct": 40.54,
+          "noPct": 59.46
         },
         "Edmonton": {
           "yes": 132176,
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 46341,
-          "noVotes": 139767,
-          "totalVotes": 186108,
-          "yesPct": 24.9,
-          "noPct": 75.1,
-          "marginVotes": -93426,
-          "marginPct": -50.2,
+          "yesVotes": 48359,
+          "noVotes": 145264,
+          "totalVotes": 193623,
+          "yesPct": 24.98,
+          "noPct": 75.02,
+          "marginVotes": -96905,
+          "marginPct": -50.04,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 267,
+        "<30%": 268,
         "30-40%": 698,
         "40-50%": 1193,
         "50-60%": 1119,
@@ -12487,14 +12487,14 @@
           "ward": "23",
           "wardName": "23 - Calgary-Shaw",
           "region": "Calgary",
-          "yesVotes": 7394,
-          "noVotes": 6880,
-          "totalVotes": 14274,
-          "yesPct": 51.8,
-          "noPct": 48.2,
-          "marginVotes": 514,
-          "marginPct": 3.6,
-          "leader": "YES",
+          "yesVotes": 9412,
+          "noVotes": 12377,
+          "totalVotes": 21789,
+          "yesPct": 43.2,
+          "noPct": 56.8,
+          "marginVotes": -2965,
+          "marginPct": -13.6,
+          "leader": "NO",
           "pollsReporting": 70,
           "totalPolls": 71,
           "pollsPct": 98.6
