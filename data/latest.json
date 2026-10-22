@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-22T05:17:43.957108+00:00",
-  "lastUpdatedEAB": "2026-10-22T05:17:19.0408315+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 11:17:19 PM MDT",
+  "fetchedAt": "2026-10-22T05:18:17.131713+00:00",
+  "lastUpdatedEAB": "2026-10-22T05:18:08.8897912+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 11:18:08 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19108955,
-      "valid": 19108955,
+      "votes": 19113456,
+      "valid": 19113456,
       "pollsReporting": 5435,
       "totalPolls": 5575,
       "pollsReportingPct": 97.49
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 42.2,
+      "percentageOfAllVotes": 42.19,
       "valid": 8063150,
       "pollsReporting": 259,
       "totalPolls": 269
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 35.61,
+      "percentageOfAllVotes": 35.6,
       "valid": 6804917,
       "pollsReporting": 4808,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 21.18,
-      "valid": 4047140,
+      "percentageOfAllVotes": 21.2,
+      "valid": 4051641,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 783805,
-      "noVotes": 925395,
-      "totalVotes": 1709200,
-      "yesPct": 45.86,
-      "noPct": 54.14,
-      "marginVotes": -141590,
-      "marginPct": -8.28,
+      "yesVotes": 784963,
+      "noVotes": 928738,
+      "totalVotes": 1713701,
+      "yesPct": 45.81,
+      "noPct": 54.19,
+      "marginVotes": -143775,
+      "marginPct": -8.38,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,12 +10560,12 @@
           "noPct": 68.09
         },
         "Regional / Other": {
-          "yes": 482275,
-          "no": 372487,
-          "total": 854762,
+          "yes": 483433,
+          "no": 375830,
+          "total": 859263,
           "wards": 41,
-          "yesPct": 56.42,
-          "noPct": 43.58
+          "yesPct": 56.26,
+          "noPct": 43.74
         }
       },
       "votingMethods": [
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 50792,
-          "noVotes": 168377,
-          "totalVotes": 219169,
-          "yesPct": 23.17,
-          "noPct": 76.83,
-          "marginVotes": -117585,
-          "marginPct": -53.66,
+          "yesVotes": 51950,
+          "noVotes": 171720,
+          "totalVotes": 223670,
+          "yesPct": 23.23,
+          "noPct": 76.77,
+          "marginVotes": -119770,
+          "marginPct": -53.54,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 381,
+        "<30%": 382,
         "30-40%": 856,
         "40-50%": 1206,
         "50-60%": 1065,
@@ -11869,14 +11869,14 @@
           "ward": "78",
           "wardName": "78 - Red Deer-North",
           "region": "Regional / Other",
-          "yesVotes": 9348,
-          "noVotes": 7385,
-          "totalVotes": 16733,
-          "yesPct": 55.87,
-          "noPct": 44.13,
-          "marginVotes": 1963,
-          "marginPct": 11.74,
-          "leader": "YES",
+          "yesVotes": 10506,
+          "noVotes": 10728,
+          "totalVotes": 21234,
+          "yesPct": 49.48,
+          "noPct": 50.52,
+          "marginVotes": -222,
+          "marginPct": -1.04,
+          "leader": "NO",
           "pollsReporting": 64,
           "totalPolls": 64,
           "pollsPct": 100.0
