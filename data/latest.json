@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T20:46:44.517604+00:00",
-  "lastUpdatedEAB": "2026-10-22T20:46:00.8615259+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 02:46:00 PM MDT",
+  "fetchedAt": "2026-10-22T20:47:17.848313+00:00",
+  "lastUpdatedEAB": "2026-10-22T20:46:51.3977401+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 02:46:51 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19693584,
-      "valid": 19693584,
+      "votes": 19693692,
+      "valid": 19693692,
       "pollsReporting": 5464,
       "totalPolls": 5556,
       "pollsReportingPct": 98.34
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 34.96,
-      "valid": 6884446,
+      "valid": 6884554,
       "pollsReporting": 4838,
       "totalPolls": 4904
     },
@@ -6040,22 +6040,22 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1178718,
-      "noVotes": 853009,
-      "totalVotes": 2031727,
+      "yesVotes": 1178817,
+      "noVotes": 853018,
+      "totalVotes": 2031835,
       "yesPct": 58.02,
       "noPct": 41.98,
-      "marginVotes": 325709,
+      "marginVotes": 325799,
       "marginPct": 16.04,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
-          "yes": 308487,
-          "no": 298169,
-          "total": 606656,
+          "yes": 308586,
+          "no": 298178,
+          "total": 606764,
           "wards": 26,
-          "yesPct": 50.85,
-          "noPct": 49.15
+          "yesPct": 50.86,
+          "noPct": 49.14
         },
         "Edmonton": {
           "yes": 205146,
@@ -6091,12 +6091,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 472416,
-          "noVotes": 216941,
-          "totalVotes": 689357,
+          "yesVotes": 472515,
+          "noVotes": 216950,
+          "totalVotes": 689465,
           "yesPct": 68.53,
           "noPct": 31.47,
-          "marginVotes": 255475,
+          "marginVotes": 255565,
           "marginPct": 37.06,
           "pollsReporting": 4853,
           "totalPolls": 4904
@@ -6136,7 +6136,7 @@
         "60-70%": 1342,
         "70-80%": 1174,
         "80-90%": 1037,
-        "90-100%": 271
+        "90-100%": 272
       },
       "wards": [
         {
@@ -6319,13 +6319,13 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 9879,
-          "noVotes": 9717,
-          "totalVotes": 19596,
-          "yesPct": 50.41,
-          "noPct": 49.59,
-          "marginVotes": 162,
-          "marginPct": 0.82,
+          "yesVotes": 9978,
+          "noVotes": 9726,
+          "totalVotes": 19704,
+          "yesPct": 50.64,
+          "noPct": 49.36,
+          "marginVotes": 252,
+          "marginPct": 1.28,
           "leader": "YES",
           "pollsReporting": 62,
           "totalPolls": 62,
