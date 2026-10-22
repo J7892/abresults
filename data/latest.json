@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-22T01:33:07.778979+00:00",
-  "lastUpdatedEAB": "2026-10-22T01:32:09.9142449+00:00",
-  "lastUpdatedMountain": "Oct 21, 2026 07:32:09 PM MDT",
+  "fetchedAt": "2026-10-22T01:33:41.019081+00:00",
+  "lastUpdatedEAB": "2026-10-22T01:32:59.2994588+00:00",
+  "lastUpdatedMountain": "Oct 21, 2026 07:32:59 PM MDT",
   "turnout": {
     "summary": {
       "votes": 18558254,
@@ -9087,12 +9087,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 380569,
-          "noVotes": 286267,
-          "totalVotes": 666836,
+          "yesVotes": 380670,
+          "noVotes": 286326,
+          "totalVotes": 666996,
           "yesPct": 57.07,
           "noPct": 42.93,
-          "marginVotes": 94302,
+          "marginVotes": 94344,
           "marginPct": 14.14,
           "pollsReporting": 4769,
           "totalPolls": 4904
@@ -9100,13 +9100,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 62619,
-          "noVotes": 146671,
-          "totalVotes": 209290,
-          "yesPct": 29.92,
-          "noPct": 70.08,
-          "marginVotes": -84052,
-          "marginPct": -40.16,
+          "yesVotes": 64822,
+          "noVotes": 151573,
+          "totalVotes": 216395,
+          "yesPct": 29.96,
+          "noPct": 70.04,
+          "marginVotes": -86751,
+          "marginPct": -40.08,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -9126,10 +9126,10 @@
       ],
       "pollDistribution": {
         "<30%": 235,
-        "30-40%": 571,
+        "30-40%": 572,
         "40-50%": 1127,
         "50-60%": 1185,
-        "60-70%": 838,
+        "60-70%": 839,
         "70-80%": 779,
         "80-90%": 432,
         "90-100%": 66
@@ -12083,12 +12083,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 372754,
-          "noVotes": 293752,
-          "totalVotes": 666506,
+          "yesVotes": 372795,
+          "noVotes": 293798,
+          "totalVotes": 666593,
           "yesPct": 55.93,
           "noPct": 44.07,
-          "marginVotes": 79002,
+          "marginVotes": 78997,
           "marginPct": 11.86,
           "pollsReporting": 4769,
           "totalPolls": 4904
@@ -12123,7 +12123,7 @@
       "pollDistribution": {
         "<30%": 257,
         "30-40%": 681,
-        "40-50%": 1173,
+        "40-50%": 1174,
         "50-60%": 1108,
         "60-70%": 828,
         "70-80%": 719,
