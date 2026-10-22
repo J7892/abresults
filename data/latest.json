@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-22T20:30:02.989742+00:00",
+  "fetchedAt": "2026-10-22T20:30:36.802068+00:00",
   "lastUpdatedEAB": "2026-10-22T20:29:37.4018932+00:00",
   "lastUpdatedMountain": "Oct 22, 2026 02:29:37 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 19678751,
-      "valid": 19678751,
-      "pollsReporting": 5464,
+      "votes": 19680406,
+      "valid": 19680406,
+      "pollsReporting": 5465,
       "totalPolls": 5557,
-      "pollsReportingPct": 98.33
+      "pollsReportingPct": 98.34
     },
     "advance": {
       "votes": null,
@@ -20,9 +20,9 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.96,
-      "valid": 6880532,
-      "pollsReporting": 4837,
+      "percentageOfAllVotes": 34.97,
+      "valid": 6882187,
+      "pollsReporting": 4838,
       "totalPolls": 4904
     },
     "vbm": {
@@ -66,20 +66,20 @@
           "noPct": 52.3
         },
         "Edmonton": {
-          "yes": 190453,
-          "no": 252142,
-          "total": 442595,
+          "yes": 190523,
+          "no": 252198,
+          "total": 442721,
           "wards": 20,
           "yesPct": 43.03,
           "noPct": 56.97
         },
         "Regional / Other": {
-          "yes": 632298,
-          "no": 343547,
-          "total": 975845,
+          "yes": 632419,
+          "no": 343573,
+          "total": 975992,
           "wards": 41,
-          "yesPct": 64.79,
-          "noPct": 35.21
+          "yesPct": 64.8,
+          "noPct": 35.2
         }
       },
       "votingMethods": [
@@ -99,14 +99,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 458323,
-          "noVotes": 229183,
-          "totalVotes": 687506,
-          "yesPct": 66.66,
-          "noPct": 33.34,
-          "marginVotes": 229140,
-          "marginPct": 33.32,
-          "pollsReporting": 4851,
+          "yesVotes": 458514,
+          "noVotes": 229265,
+          "totalVotes": 687779,
+          "yesPct": 66.67,
+          "noPct": 33.33,
+          "marginVotes": 229249,
+          "marginPct": 33.34,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -140,10 +140,10 @@
         "<30%": 82,
         "30-40%": 157,
         "40-50%": 540,
-        "50-60%": 1139,
+        "50-60%": 1140,
         "60-70%": 1299,
         "70-80%": 1110,
-        "80-90%": 898,
+        "80-90%": 899,
         "90-100%": 176
       },
       "wards": [
@@ -759,13 +759,13 @@
           "ward": "39",
           "wardName": "39 - Edmonton-North West",
           "region": "Edmonton",
-          "yesVotes": 9208,
-          "noVotes": 10806,
-          "totalVotes": 20014,
-          "yesPct": 46.01,
-          "noPct": 53.99,
-          "marginVotes": -1598,
-          "marginPct": -7.98,
+          "yesVotes": 9278,
+          "noVotes": 10862,
+          "totalVotes": 20140,
+          "yesPct": 46.07,
+          "noPct": 53.93,
+          "marginVotes": -1584,
+          "marginPct": -7.86,
           "leader": "NO",
           "pollsReporting": 64,
           "totalPolls": 68,
@@ -1319,17 +1319,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 13250,
-          "noVotes": 6867,
-          "totalVotes": 20117,
-          "yesPct": 65.86,
-          "noPct": 34.14,
-          "marginVotes": 6383,
-          "marginPct": 31.72,
+          "yesVotes": 13371,
+          "noVotes": 6893,
+          "totalVotes": 20264,
+          "yesPct": 65.98,
+          "noPct": 34.02,
+          "marginVotes": 6478,
+          "marginPct": 31.96,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -1572,9 +1572,9 @@
           "noPct": 59.23
         },
         "Regional / Other": {
-          "yes": 607346,
-          "no": 361764,
-          "total": 969110,
+          "yes": 607458,
+          "no": 361801,
+          "total": 969259,
           "wards": 41,
           "yesPct": 62.67,
           "noPct": 37.33
@@ -1597,14 +1597,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 431984,
-          "noVotes": 255466,
-          "totalVotes": 687450,
+          "yesVotes": 432096,
+          "noVotes": 255503,
+          "totalVotes": 687599,
           "yesPct": 62.84,
           "noPct": 37.16,
-          "marginVotes": 176518,
+          "marginVotes": 176593,
           "marginPct": 25.68,
-          "pollsReporting": 4851,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -1640,7 +1640,7 @@
         "40-50%": 798,
         "50-60%": 1304,
         "60-70%": 1167,
-        "70-80%": 989,
+        "70-80%": 990,
         "80-90%": 672,
         "90-100%": 103
       },
@@ -2817,17 +2817,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 12768,
-          "noVotes": 7311,
-          "totalVotes": 20079,
-          "yesPct": 63.59,
-          "noPct": 36.41,
-          "marginVotes": 5457,
-          "marginPct": 27.18,
+          "yesVotes": 12880,
+          "noVotes": 7348,
+          "totalVotes": 20228,
+          "yesPct": 63.67,
+          "noPct": 36.33,
+          "marginVotes": 5532,
+          "marginPct": 27.34,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -3070,9 +3070,9 @@
           "noPct": 58.43
         },
         "Regional / Other": {
-          "yes": 617420,
-          "no": 359854,
-          "total": 977274,
+          "yes": 617533,
+          "no": 359886,
+          "total": 977419,
           "wards": 41,
           "yesPct": 63.18,
           "noPct": 36.82
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 436590,
-          "noVotes": 251946,
-          "totalVotes": 688536,
+          "yesVotes": 436703,
+          "noVotes": 251978,
+          "totalVotes": 688681,
           "yesPct": 63.41,
           "noPct": 36.59,
-          "marginVotes": 184644,
+          "marginVotes": 184725,
           "marginPct": 26.82,
-          "pollsReporting": 4851,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -3138,7 +3138,7 @@
         "40-50%": 710,
         "50-60%": 1344,
         "60-70%": 1174,
-        "70-80%": 1005,
+        "70-80%": 1006,
         "80-90%": 725,
         "90-100%": 105
       },
@@ -4315,17 +4315,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 12835,
-          "noVotes": 7276,
-          "totalVotes": 20111,
-          "yesPct": 63.82,
-          "noPct": 36.18,
-          "marginVotes": 5559,
-          "marginPct": 27.64,
+          "yesVotes": 12948,
+          "noVotes": 7308,
+          "totalVotes": 20256,
+          "yesPct": 63.92,
+          "noPct": 36.08,
+          "marginVotes": 5640,
+          "marginPct": 27.84,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -4568,9 +4568,9 @@
           "noPct": 59.27
         },
         "Regional / Other": {
-          "yes": 599978,
-          "no": 373572,
-          "total": 973550,
+          "yes": 600088,
+          "no": 373608,
+          "total": 973696,
           "wards": 41,
           "yesPct": 61.63,
           "noPct": 38.37
@@ -4593,14 +4593,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 417716,
-          "noVotes": 271436,
-          "totalVotes": 689152,
-          "yesPct": 60.61,
-          "noPct": 39.39,
-          "marginVotes": 146280,
-          "marginPct": 21.22,
-          "pollsReporting": 4851,
+          "yesVotes": 417826,
+          "noVotes": 271472,
+          "totalVotes": 689298,
+          "yesPct": 60.62,
+          "noPct": 39.38,
+          "marginVotes": 146354,
+          "marginPct": 21.24,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -4636,7 +4636,7 @@
         "40-50%": 930,
         "50-60%": 1321,
         "60-70%": 1087,
-        "70-80%": 910,
+        "70-80%": 911,
         "80-90%": 576,
         "90-100%": 72
       },
@@ -5813,17 +5813,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 12600,
-          "noVotes": 7399,
-          "totalVotes": 19999,
-          "yesPct": 63.0,
-          "noPct": 37.0,
-          "marginVotes": 5201,
-          "marginPct": 26.0,
+          "yesVotes": 12710,
+          "noVotes": 7435,
+          "totalVotes": 20145,
+          "yesPct": 63.09,
+          "noPct": 36.91,
+          "marginVotes": 5275,
+          "marginPct": 26.18,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -6066,9 +6066,9 @@
           "noPct": 54.07
         },
         "Regional / Other": {
-          "yes": 664836,
-          "no": 313273,
-          "total": 978109,
+          "yes": 664963,
+          "no": 313293,
+          "total": 978256,
           "wards": 41,
           "yesPct": 67.97,
           "noPct": 32.03
@@ -6091,14 +6091,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 472167,
-          "noVotes": 216913,
-          "totalVotes": 689080,
-          "yesPct": 68.52,
-          "noPct": 31.48,
-          "marginVotes": 255254,
-          "marginPct": 37.04,
-          "pollsReporting": 4851,
+          "yesVotes": 472294,
+          "noVotes": 216933,
+          "totalVotes": 689227,
+          "yesPct": 68.53,
+          "noPct": 31.47,
+          "marginVotes": 255361,
+          "marginPct": 37.06,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -6135,7 +6135,7 @@
         "50-60%": 1022,
         "60-70%": 1342,
         "70-80%": 1174,
-        "80-90%": 1035,
+        "80-90%": 1036,
         "90-100%": 271
       },
       "wards": [
@@ -7311,17 +7311,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 13651,
-          "noVotes": 6423,
-          "totalVotes": 20074,
-          "yesPct": 68.0,
-          "noPct": 32.0,
-          "marginVotes": 7228,
-          "marginPct": 36.0,
+          "yesVotes": 13778,
+          "noVotes": 6443,
+          "totalVotes": 20221,
+          "yesPct": 68.14,
+          "noPct": 31.86,
+          "marginVotes": 7335,
+          "marginPct": 36.28,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -7564,9 +7564,9 @@
           "noPct": 67.7
         },
         "Regional / Other": {
-          "yes": 541991,
-          "no": 405555,
-          "total": 947546,
+          "yes": 542109,
+          "no": 405585,
+          "total": 947694,
           "wards": 41,
           "yesPct": 57.2,
           "noPct": 42.8
@@ -7589,14 +7589,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 383152,
-          "noVotes": 302090,
-          "totalVotes": 685242,
-          "yesPct": 55.91,
-          "noPct": 44.09,
-          "marginVotes": 81062,
-          "marginPct": 11.82,
-          "pollsReporting": 4851,
+          "yesVotes": 383270,
+          "noVotes": 302120,
+          "totalVotes": 685390,
+          "yesPct": 55.92,
+          "noPct": 44.08,
+          "marginVotes": 81150,
+          "marginPct": 11.84,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -7632,7 +7632,7 @@
         "40-50%": 1169,
         "50-60%": 1095,
         "60-70%": 839,
-        "70-80%": 779,
+        "70-80%": 780,
         "80-90%": 414,
         "90-100%": 58
       },
@@ -8809,17 +8809,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 11345,
-          "noVotes": 8391,
-          "totalVotes": 19736,
-          "yesPct": 57.48,
-          "noPct": 42.52,
-          "marginVotes": 2954,
-          "marginPct": 14.96,
+          "yesVotes": 11463,
+          "noVotes": 8421,
+          "totalVotes": 19884,
+          "yesPct": 57.65,
+          "noPct": 42.35,
+          "marginVotes": 3042,
+          "marginPct": 15.3,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -9062,9 +9062,9 @@
           "noPct": 64.65
         },
         "Regional / Other": {
-          "yes": 546466,
-          "no": 372941,
-          "total": 919407,
+          "yes": 546580,
+          "no": 372973,
+          "total": 919553,
           "wards": 41,
           "yesPct": 59.44,
           "noPct": 40.56
@@ -9087,14 +9087,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 389937,
-          "noVotes": 293029,
-          "totalVotes": 682966,
-          "yesPct": 57.09,
-          "noPct": 42.91,
-          "marginVotes": 96908,
-          "marginPct": 14.18,
-          "pollsReporting": 4851,
+          "yesVotes": 390051,
+          "noVotes": 293061,
+          "totalVotes": 683112,
+          "yesPct": 57.1,
+          "noPct": 42.9,
+          "marginVotes": 96990,
+          "marginPct": 14.2,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -9130,7 +9130,7 @@
         "40-50%": 1167,
         "50-60%": 1204,
         "60-70%": 866,
-        "70-80%": 802,
+        "70-80%": 803,
         "80-90%": 442,
         "90-100%": 67
       },
@@ -10307,17 +10307,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 11698,
-          "noVotes": 8237,
-          "totalVotes": 19935,
-          "yesPct": 58.68,
-          "noPct": 41.32,
-          "marginVotes": 3461,
-          "marginPct": 17.36,
+          "yesVotes": 11812,
+          "noVotes": 8269,
+          "totalVotes": 20081,
+          "yesPct": 58.82,
+          "noPct": 41.18,
+          "marginVotes": 3543,
+          "marginPct": 17.64,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -10544,9 +10544,9 @@
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 193893,
-          "no": 331596,
-          "total": 525489,
+          "yes": 193930,
+          "no": 331619,
+          "total": 525549,
           "wards": 26,
           "yesPct": 36.9,
           "noPct": 63.1
@@ -10560,12 +10560,12 @@
           "noPct": 68.39
         },
         "Regional / Other": {
-          "yes": 500068,
-          "no": 404340,
-          "total": 904408,
+          "yes": 500174,
+          "no": 404381,
+          "total": 904555,
           "wards": 41,
-          "yesPct": 55.29,
-          "noPct": 44.71
+          "yesPct": 55.3,
+          "noPct": 44.7
         }
       },
       "votingMethods": [
@@ -10585,14 +10585,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 369520,
-          "noVotes": 318920,
-          "totalVotes": 688440,
-          "yesPct": 53.67,
-          "noPct": 46.33,
-          "marginVotes": 50600,
-          "marginPct": 7.34,
-          "pollsReporting": 4851,
+          "yesVotes": 369663,
+          "noVotes": 318984,
+          "totalVotes": 688647,
+          "yesPct": 53.68,
+          "noPct": 46.32,
+          "marginVotes": 50679,
+          "marginPct": 7.36,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -10627,8 +10627,8 @@
         "30-40%": 870,
         "40-50%": 1229,
         "50-60%": 1079,
-        "60-70%": 813,
-        "70-80%": 690,
+        "60-70%": 814,
+        "70-80%": 691,
         "80-90%": 282,
         "90-100%": 36
       },
@@ -10813,13 +10813,13 @@
           "ward": "12",
           "wardName": "12 - Calgary-Foothills",
           "region": "Calgary",
-          "yesVotes": 8025,
-          "noVotes": 12294,
-          "totalVotes": 20319,
-          "yesPct": 39.5,
-          "noPct": 60.5,
-          "marginVotes": -4269,
-          "marginPct": -21.0,
+          "yesVotes": 8062,
+          "noVotes": 12317,
+          "totalVotes": 20379,
+          "yesPct": 39.56,
+          "noPct": 60.44,
+          "marginVotes": -4255,
+          "marginPct": -20.88,
           "leader": "NO",
           "pollsReporting": 62,
           "totalPolls": 62,
@@ -11805,17 +11805,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 10802,
-          "noVotes": 9189,
-          "totalVotes": 19991,
-          "yesPct": 54.03,
-          "noPct": 45.97,
-          "marginVotes": 1613,
-          "marginPct": 8.06,
+          "yesVotes": 10908,
+          "noVotes": 9230,
+          "totalVotes": 20138,
+          "yesPct": 54.17,
+          "noPct": 45.83,
+          "marginVotes": 1678,
+          "marginPct": 8.34,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -12058,12 +12058,12 @@
           "noPct": 64.73
         },
         "Regional / Other": {
-          "yes": 512340,
-          "no": 376295,
-          "total": 888635,
+          "yes": 512446,
+          "no": 376335,
+          "total": 888781,
           "wards": 41,
-          "yesPct": 57.65,
-          "noPct": 42.35
+          "yesPct": 57.66,
+          "noPct": 42.34
         }
       },
       "votingMethods": [
@@ -12083,14 +12083,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 382915,
-          "noVotes": 301519,
-          "totalVotes": 684434,
+          "yesVotes": 383021,
+          "noVotes": 301559,
+          "totalVotes": 684580,
           "yesPct": 55.95,
           "noPct": 44.05,
-          "marginVotes": 81396,
+          "marginVotes": 81462,
           "marginPct": 11.9,
-          "pollsReporting": 4851,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -12126,7 +12126,7 @@
         "40-50%": 1212,
         "50-60%": 1133,
         "60-70%": 853,
-        "70-80%": 739,
+        "70-80%": 740,
         "80-90%": 411,
         "90-100%": 56
       },
@@ -13303,17 +13303,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 11247,
-          "noVotes": 8716,
-          "totalVotes": 19963,
-          "yesPct": 56.34,
-          "noPct": 43.66,
-          "marginVotes": 2531,
-          "marginPct": 12.68,
+          "yesVotes": 11353,
+          "noVotes": 8756,
+          "totalVotes": 20109,
+          "yesPct": 56.46,
+          "noPct": 43.54,
+          "marginVotes": 2597,
+          "marginPct": 12.92,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
@@ -13556,9 +13556,9 @@
           "noPct": 14.72
         },
         "Regional / Other": {
-          "yes": 648957,
-          "no": 341016,
-          "total": 989973,
+          "yes": 649032,
+          "no": 341089,
+          "total": 990121,
           "wards": 41,
           "yesPct": 65.55,
           "noPct": 34.45
@@ -13581,14 +13581,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 466958,
-          "noVotes": 230768,
-          "totalVotes": 697726,
-          "yesPct": 66.93,
-          "noPct": 33.07,
-          "marginVotes": 236190,
-          "marginPct": 33.86,
-          "pollsReporting": 4851,
+          "yesVotes": 467033,
+          "noVotes": 230841,
+          "totalVotes": 697874,
+          "yesPct": 66.92,
+          "noPct": 33.08,
+          "marginVotes": 236192,
+          "marginPct": 33.84,
+          "pollsReporting": 4852,
           "totalPolls": 4904
         },
         {
@@ -13622,7 +13622,7 @@
         "<30%": 71,
         "30-40%": 266,
         "40-50%": 505,
-        "50-60%": 675,
+        "50-60%": 676,
         "60-70%": 929,
         "70-80%": 1554,
         "80-90%": 1129,
@@ -14801,17 +14801,17 @@
           "ward": "74",
           "wardName": "74 - Maskwacis-Wetaskiwin",
           "region": "Regional / Other",
-          "yesVotes": 13763,
-          "noVotes": 7518,
-          "totalVotes": 21281,
-          "yesPct": 64.67,
-          "noPct": 35.33,
-          "marginVotes": 6245,
-          "marginPct": 29.34,
+          "yesVotes": 13838,
+          "noVotes": 7591,
+          "totalVotes": 21429,
+          "yesPct": 64.58,
+          "noPct": 35.42,
+          "marginVotes": 6247,
+          "marginPct": 29.16,
           "leader": "YES",
-          "pollsReporting": 53,
+          "pollsReporting": 54,
           "totalPolls": 57,
-          "pollsPct": 93.0
+          "pollsPct": 94.7
         },
         {
           "ward": "75",
