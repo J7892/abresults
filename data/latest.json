@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-22T01:36:24.896527+00:00",
+  "fetchedAt": "2026-10-22T01:36:58.407653+00:00",
   "lastUpdatedEAB": "2026-10-22T01:36:14.3084096+00:00",
   "lastUpdatedMountain": "Oct 21, 2026 07:36:14 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 18560575,
-      "valid": 18560575,
+      "votes": 18560717,
+      "valid": 18560717,
       "pollsReporting": 5381,
       "totalPolls": 5575,
       "pollsReportingPct": 96.52
@@ -20,8 +20,8 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 36.2,
-      "valid": 6719770,
+      "percentageOfAllVotes": 36.21,
+      "valid": 6719912,
       "pollsReporting": 4756,
       "totalPolls": 4904
     },
@@ -48,12 +48,12 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1100747,
-      "noVotes": 913440,
-      "totalVotes": 2014187,
+      "yesVotes": 1100848,
+      "noVotes": 913481,
+      "totalVotes": 2014329,
       "yesPct": 54.65,
       "noPct": 45.35,
-      "marginVotes": 187307,
+      "marginVotes": 187367,
       "marginPct": 9.3,
       "leader": "YES",
       "regionalStats": {
@@ -99,13 +99,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 447590,
-          "noVotes": 223813,
-          "totalVotes": 671403,
-          "yesPct": 66.66,
-          "noPct": 33.34,
-          "marginVotes": 223777,
-          "marginPct": 33.32,
+          "yesVotes": 447691,
+          "noVotes": 223854,
+          "totalVotes": 671545,
+          "yesPct": 66.67,
+          "noPct": 33.33,
+          "marginVotes": 223837,
+          "marginPct": 33.34,
           "pollsReporting": 4770,
           "totalPolls": 4904
         },
@@ -142,7 +142,7 @@
         "40-50%": 533,
         "50-60%": 1098,
         "60-70%": 1271,
-        "70-80%": 1084,
+        "70-80%": 1085,
         "80-90%": 874,
         "90-100%": 171
       },
