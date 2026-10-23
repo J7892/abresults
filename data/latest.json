@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-23T03:27:26.134482+00:00",
+  "fetchedAt": "2026-10-23T03:28:15.402995+00:00",
   "lastUpdatedEAB": "2026-10-23T03:27:15.6593188+00:00",
   "lastUpdatedMountain": "Oct 22, 2026 09:27:15 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20351224,
-      "valid": 20351224,
+      "votes": 20360186,
+      "valid": 20360186,
       "pollsReporting": 5501,
       "totalPolls": 5540,
       "pollsReportingPct": 99.3
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.5,
+      "percentageOfAllVotes": 40.48,
       "valid": 8241989,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 33.87,
+      "percentageOfAllVotes": 33.85,
       "valid": 6892558,
       "pollsReporting": 4873,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 24.66,
-      "valid": 5018654,
+      "percentageOfAllVotes": 24.69,
+      "valid": 5027616,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -12032,22 +12032,22 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 894138,
-      "noVotes": 1086418,
-      "totalVotes": 1980556,
-      "yesPct": 45.15,
-      "noPct": 54.85,
-      "marginVotes": -192280,
-      "marginPct": -9.7,
+      "yesVotes": 895968,
+      "noVotes": 1093550,
+      "totalVotes": 1989518,
+      "yesPct": 45.03,
+      "noPct": 54.97,
+      "marginVotes": -197582,
+      "marginPct": -9.94,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 221016,
-          "no": 378269,
-          "total": 599285,
+          "yes": 222846,
+          "no": 385401,
+          "total": 608247,
           "wards": 26,
-          "yesPct": 36.88,
-          "noPct": 63.12
+          "yesPct": 36.64,
+          "noPct": 63.36
         },
         "Edmonton": {
           "yes": 140958,
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 103238,
-          "noVotes": 343414,
-          "totalVotes": 446652,
-          "yesPct": 23.11,
-          "noPct": 76.89,
-          "marginVotes": -240176,
-          "marginPct": -53.78,
+          "yesVotes": 105068,
+          "noVotes": 350546,
+          "totalVotes": 455614,
+          "yesPct": 23.06,
+          "noPct": 76.94,
+          "marginVotes": -245478,
+          "marginPct": -53.88,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 297,
+        "<30%": 298,
         "30-40%": 709,
         "40-50%": 1216,
         "50-60%": 1134,
@@ -12167,13 +12167,13 @@
           "ward": "03",
           "wardName": "03 - Calgary-Bow",
           "region": "Calgary",
-          "yesVotes": 8745,
-          "noVotes": 11234,
-          "totalVotes": 19979,
-          "yesPct": 43.77,
-          "noPct": 56.23,
-          "marginVotes": -2489,
-          "marginPct": -12.46,
+          "yesVotes": 10575,
+          "noVotes": 18366,
+          "totalVotes": 28941,
+          "yesPct": 36.54,
+          "noPct": 63.46,
+          "marginVotes": -7791,
+          "marginPct": -26.92,
           "leader": "NO",
           "pollsReporting": 69,
           "totalPolls": 69,
