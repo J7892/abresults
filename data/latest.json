@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-23T16:22:18.798586+00:00",
-  "lastUpdatedEAB": "2026-10-23T16:21:36.9631168+00:00",
-  "lastUpdatedMountain": "Oct 23, 2026 10:21:36 AM MDT",
+  "fetchedAt": "2026-10-23T16:22:53.302201+00:00",
+  "lastUpdatedEAB": "2026-10-23T16:22:26.6038822+00:00",
+  "lastUpdatedMountain": "Oct 23, 2026 10:22:26 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 20416733,
-      "valid": 20416733,
+      "votes": 20425797,
+      "valid": 20425797,
       "pollsReporting": 5507,
       "totalPolls": 5540,
       "pollsReportingPct": 99.4
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.37,
+      "percentageOfAllVotes": 40.35,
       "valid": 8241991,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 33.76,
+      "percentageOfAllVotes": 33.74,
       "valid": 6892393,
       "pollsReporting": 4879,
       "totalPolls": 4904
@@ -29,15 +29,15 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 24.9,
-      "valid": 5084328,
+      "percentageOfAllVotes": 24.94,
+      "valid": 5093391,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
       "percentageOfAllVotes": 0.97,
-      "valid": 198021,
+      "valid": 198022,
       "pollsReporting": 282,
       "totalPolls": 285
     }
@@ -6040,12 +6040,12 @@
       "questionNumber": 5,
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
-      "yesVotes": 1190209,
+      "yesVotes": 1190210,
       "noVotes": 859747,
-      "totalVotes": 2049956,
+      "totalVotes": 2049957,
       "yesPct": 58.06,
       "noPct": 41.94,
-      "marginVotes": 330462,
+      "marginVotes": 330463,
       "marginPct": 16.12,
       "leader": "YES",
       "regionalStats": {
@@ -6066,9 +6066,9 @@
           "noPct": 54.07
         },
         "Regional / Other": {
-          "yes": 670156,
+          "yes": 670157,
           "no": 314763,
-          "total": 984919,
+          "total": 984920,
           "wards": 41,
           "yesPct": 68.04,
           "noPct": 31.96
@@ -6117,12 +6117,12 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 13364,
+          "yesVotes": 13365,
           "noVotes": 6644,
-          "totalVotes": 20008,
+          "totalVotes": 20009,
           "yesPct": 66.79,
           "noPct": 33.21,
-          "marginVotes": 6720,
+          "marginVotes": 6721,
           "marginPct": 33.58,
           "pollsReporting": 282,
           "totalPolls": 285
@@ -7343,12 +7343,12 @@
           "ward": "76",
           "wardName": "76 - Olds-Didsbury-Three Hills",
           "region": "Regional / Other",
-          "yesVotes": 21267,
+          "yesVotes": 21268,
           "noVotes": 6209,
-          "totalVotes": 27476,
+          "totalVotes": 27477,
           "yesPct": 77.4,
           "noPct": 22.6,
-          "marginVotes": 15058,
+          "marginVotes": 15059,
           "marginPct": 54.8,
           "leader": "YES",
           "pollsReporting": 71,
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 905230,
-      "noVotes": 1124609,
-      "totalVotes": 2029839,
-      "yesPct": 44.6,
-      "noPct": 55.4,
-      "marginVotes": -219379,
-      "marginPct": -10.8,
+      "yesVotes": 907013,
+      "noVotes": 1131889,
+      "totalVotes": 2038902,
+      "yesPct": 44.49,
+      "noPct": 55.51,
+      "marginVotes": -224876,
+      "marginPct": -11.02,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -12050,12 +12050,12 @@
           "noPct": 63.61
         },
         "Edmonton": {
-          "yes": 143076,
-          "no": 295235,
-          "total": 438311,
+          "yes": 144859,
+          "no": 302515,
+          "total": 447374,
           "wards": 20,
-          "yesPct": 32.64,
-          "noPct": 67.36
+          "yesPct": 32.38,
+          "noPct": 67.62
         },
         "Regional / Other": {
           "yes": 536821,
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 114328,
-          "noVotes": 381608,
-          "totalVotes": 495936,
-          "yesPct": 23.05,
-          "noPct": 76.95,
-          "marginVotes": -267280,
-          "marginPct": -53.9,
+          "yesVotes": 116111,
+          "noVotes": 388888,
+          "totalVotes": 504999,
+          "yesPct": 22.99,
+          "noPct": 77.01,
+          "marginVotes": -272777,
+          "marginPct": -54.02,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 301,
+        "<30%": 302,
         "30-40%": 709,
         "40-50%": 1216,
         "50-60%": 1136,
@@ -12791,13 +12791,13 @@
           "ward": "42",
           "wardName": "42 - Edmonton-South",
           "region": "Edmonton",
-          "yesVotes": 8791,
-          "noVotes": 13423,
-          "totalVotes": 22214,
-          "yesPct": 39.57,
-          "noPct": 60.43,
-          "marginVotes": -4632,
-          "marginPct": -20.86,
+          "yesVotes": 10574,
+          "noVotes": 20703,
+          "totalVotes": 31277,
+          "yesPct": 33.81,
+          "noPct": 66.19,
+          "marginVotes": -10129,
+          "marginPct": -32.38,
           "leader": "NO",
           "pollsReporting": 88,
           "totalPolls": 88,
