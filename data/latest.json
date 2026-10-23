@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-23T02:13:03.133067+00:00",
+  "fetchedAt": "2026-10-23T02:13:37.251872+00:00",
   "lastUpdatedEAB": "2026-10-23T02:12:37.0707697+00:00",
   "lastUpdatedMountain": "Oct 22, 2026 08:12:37 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20125666,
-      "valid": 20125666,
+      "votes": 20135822,
+      "valid": 20135822,
       "pollsReporting": 5497,
       "totalPolls": 5540,
       "pollsReportingPct": 99.22
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.91,
+      "percentageOfAllVotes": 40.89,
       "valid": 8233423,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.22,
+      "percentageOfAllVotes": 34.2,
       "valid": 6886385,
       "pollsReporting": 4869,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.89,
-      "valid": 4807835,
+      "percentageOfAllVotes": 23.93,
+      "valid": 4817991,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,22 +10534,22 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 844873,
-      "noVotes": 1096927,
-      "totalVotes": 1941800,
-      "yesPct": 43.51,
-      "noPct": 56.49,
-      "marginVotes": -252054,
-      "marginPct": -12.98,
+      "yesVotes": 846903,
+      "noVotes": 1105053,
+      "totalVotes": 1951956,
+      "yesPct": 43.39,
+      "noPct": 56.61,
+      "marginVotes": -258150,
+      "marginPct": -13.22,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
-          "yes": 210141,
-          "no": 383152,
-          "total": 593293,
+          "yes": 212171,
+          "no": 391278,
+          "total": 603449,
           "wards": 26,
-          "yesPct": 35.42,
-          "noPct": 64.58
+          "yesPct": 35.16,
+          "noPct": 64.84
         },
         "Edmonton": {
           "yes": 126881,
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 91470,
-          "noVotes": 317092,
-          "totalVotes": 408562,
-          "yesPct": 22.39,
-          "noPct": 77.61,
-          "marginVotes": -225622,
-          "marginPct": -55.22,
+          "yesVotes": 93500,
+          "noVotes": 325218,
+          "totalVotes": 418718,
+          "yesPct": 22.33,
+          "noPct": 77.67,
+          "marginVotes": -231718,
+          "marginPct": -55.34,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 404,
+        "<30%": 405,
         "30-40%": 878,
         "40-50%": 1228,
         "50-60%": 1084,
@@ -10669,13 +10669,13 @@
           "ward": "03",
           "wardName": "03 - Calgary-Bow",
           "region": "Calgary",
-          "yesVotes": 8507,
-          "noVotes": 11563,
-          "totalVotes": 20070,
-          "yesPct": 42.39,
-          "noPct": 57.61,
-          "marginVotes": -3056,
-          "marginPct": -15.22,
+          "yesVotes": 10537,
+          "noVotes": 19689,
+          "totalVotes": 30226,
+          "yesPct": 34.86,
+          "noPct": 65.14,
+          "marginVotes": -9152,
+          "marginPct": -30.28,
           "leader": "NO",
           "pollsReporting": 69,
           "totalPolls": 69,
