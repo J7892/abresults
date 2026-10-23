@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-23T01:59:34.365046+00:00",
-  "lastUpdatedEAB": "2026-10-23T01:59:19.7125593+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 07:59:19 PM MDT",
+  "fetchedAt": "2026-10-23T02:00:23.975432+00:00",
+  "lastUpdatedEAB": "2026-10-23T02:00:09.9822656+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 08:00:09 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20099859,
-      "valid": 20099859,
+      "votes": 20107330,
+      "valid": 20107330,
       "pollsReporting": 5496,
       "totalPolls": 5540,
       "pollsReportingPct": 99.21
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.96,
+      "percentageOfAllVotes": 40.95,
       "valid": 8233423,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.26,
+      "percentageOfAllVotes": 34.25,
       "valid": 6886256,
       "pollsReporting": 4868,
       "totalPolls": 4904
@@ -29,14 +29,14 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.79,
-      "valid": 4782157,
+      "percentageOfAllVotes": 23.82,
+      "valid": 4789628,
       "pollsReporting": 87,
       "totalPolls": 87
     },
     "mobile": {
       "votes": null,
-      "percentageOfAllVotes": 0.99,
+      "percentageOfAllVotes": 0.98,
       "valid": 198023,
       "pollsReporting": 282,
       "totalPolls": 285
@@ -12032,13 +12032,13 @@
       "questionNumber": 9,
       "title": "Provincial Law Priority in Shared Constitutional Areas",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to better protect provincial rights from federal interference by giving a province's laws dealing with provincial or shared areas of constitutional jurisdiction priority over federal laws when the province's laws and federal laws conflict?",
-      "yesVotes": 871331,
-      "noVotes": 1000147,
-      "totalVotes": 1871478,
-      "yesPct": 46.56,
-      "noPct": 53.44,
-      "marginVotes": -128816,
-      "marginPct": -6.88,
+      "yesVotes": 873065,
+      "noVotes": 1005884,
+      "totalVotes": 1878949,
+      "yesPct": 46.47,
+      "noPct": 53.53,
+      "marginVotes": -132819,
+      "marginPct": -7.06,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -12058,12 +12058,12 @@
           "noPct": 65.52
         },
         "Regional / Other": {
-          "yes": 525995,
-          "no": 402789,
-          "total": 928784,
+          "yes": 527729,
+          "no": 408526,
+          "total": 936255,
           "wards": 41,
-          "yesPct": 56.63,
-          "noPct": 43.37
+          "yesPct": 56.37,
+          "noPct": 43.63
         }
       },
       "votingMethods": [
@@ -12096,13 +12096,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 81659,
-          "noVotes": 257577,
-          "totalVotes": 339236,
-          "yesPct": 24.07,
-          "noPct": 75.93,
-          "marginVotes": -175918,
-          "marginPct": -51.86,
+          "yesVotes": 83393,
+          "noVotes": 263314,
+          "totalVotes": 346707,
+          "yesPct": 24.05,
+          "noPct": 75.95,
+          "marginVotes": -179921,
+          "marginPct": -51.9,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -12121,7 +12121,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 284,
+        "<30%": 285,
         "30-40%": 709,
         "40-50%": 1216,
         "50-60%": 1134,
@@ -13319,14 +13319,14 @@
           "ward": "75",
           "wardName": "75 - Morinville-St. Albert",
           "region": "Regional / Other",
-          "yesVotes": 11422,
-          "noVotes": 9416,
-          "totalVotes": 20838,
-          "yesPct": 54.81,
-          "noPct": 45.19,
-          "marginVotes": 2006,
-          "marginPct": 9.62,
-          "leader": "YES",
+          "yesVotes": 13156,
+          "noVotes": 15153,
+          "totalVotes": 28309,
+          "yesPct": 46.47,
+          "noPct": 53.53,
+          "marginVotes": -1997,
+          "marginPct": -7.06,
+          "leader": "NO",
           "pollsReporting": 58,
           "totalPolls": 64,
           "pollsPct": 90.6
