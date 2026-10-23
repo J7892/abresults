@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-23T01:48:01.970131+00:00",
-  "lastUpdatedEAB": "2026-10-23T01:47:45.0756574+00:00",
-  "lastUpdatedMountain": "Oct 22, 2026 07:47:45 PM MDT",
+  "fetchedAt": "2026-10-23T01:48:50.988311+00:00",
+  "lastUpdatedEAB": "2026-10-23T01:48:34.6731928+00:00",
+  "lastUpdatedMountain": "Oct 22, 2026 07:48:34 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20069133,
-      "valid": 20069133,
+      "votes": 20078691,
+      "valid": 20078691,
       "pollsReporting": 5494,
       "totalPolls": 5540,
       "pollsReportingPct": 99.17
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 41.03,
+      "percentageOfAllVotes": 41.01,
       "valid": 8233423,
       "pollsReporting": 259,
       "totalPolls": 264
@@ -20,7 +20,7 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 34.31,
+      "percentageOfAllVotes": 34.29,
       "valid": 6885391,
       "pollsReporting": 4866,
       "totalPolls": 4904
@@ -29,8 +29,8 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 23.68,
-      "valid": 4752296,
+      "percentageOfAllVotes": 23.72,
+      "valid": 4761854,
       "pollsReporting": 87,
       "totalPolls": 87
     },
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 840279,
-      "noVotes": 1073286,
-      "totalVotes": 1913565,
-      "yesPct": 43.91,
-      "noPct": 56.09,
-      "marginVotes": -233007,
-      "marginPct": -12.18,
+      "yesVotes": 842279,
+      "noVotes": 1080844,
+      "totalVotes": 1923123,
+      "yesPct": 43.8,
+      "noPct": 56.2,
+      "marginVotes": -238565,
+      "marginPct": -12.4,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10560,12 +10560,12 @@
           "noPct": 68.49
         },
         "Regional / Other": {
-          "yes": 505782,
-          "no": 419823,
-          "total": 925605,
+          "yes": 507782,
+          "no": 427381,
+          "total": 935163,
           "wards": 41,
-          "yesPct": 54.64,
-          "noPct": 45.36
+          "yesPct": 54.3,
+          "noPct": 45.7
         }
       },
       "votingMethods": [
@@ -10598,13 +10598,13 @@
         {
           "code": "VBMHQ",
           "name": "Mail-in / Special Ballot",
-          "yesVotes": 86945,
-          "noVotes": 293485,
-          "totalVotes": 380430,
-          "yesPct": 22.85,
-          "noPct": 77.15,
-          "marginVotes": -206540,
-          "marginPct": -54.3,
+          "yesVotes": 88945,
+          "noVotes": 301043,
+          "totalVotes": 389988,
+          "yesPct": 22.81,
+          "noPct": 77.19,
+          "marginVotes": -212098,
+          "marginPct": -54.38,
           "pollsReporting": 87,
           "totalPolls": 87
         },
@@ -10623,7 +10623,7 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 401,
+        "<30%": 402,
         "30-40%": 878,
         "40-50%": 1228,
         "50-60%": 1084,
@@ -11917,13 +11917,13 @@
           "ward": "81",
           "wardName": "81 - Sherwood Park",
           "region": "Regional / Other",
-          "yesVotes": 8950,
-          "noVotes": 11326,
-          "totalVotes": 20276,
-          "yesPct": 44.14,
-          "noPct": 55.86,
-          "marginVotes": -2376,
-          "marginPct": -11.72,
+          "yesVotes": 10950,
+          "noVotes": 18884,
+          "totalVotes": 29834,
+          "yesPct": 36.7,
+          "noPct": 63.3,
+          "marginVotes": -7934,
+          "marginPct": -26.6,
           "leader": "NO",
           "pollsReporting": 61,
           "totalPolls": 61,
