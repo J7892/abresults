@@ -1,14 +1,14 @@
 {
-  "fetchedAt": "2026-10-23T15:36:29.933401+00:00",
-  "lastUpdatedEAB": "2026-10-23T15:35:53.6254475+00:00",
-  "lastUpdatedMountain": "Oct 23, 2026 09:35:53 AM MDT",
+  "fetchedAt": "2026-10-23T15:37:03.874909+00:00",
+  "lastUpdatedEAB": "2026-10-23T15:36:43.1385671+00:00",
+  "lastUpdatedMountain": "Oct 23, 2026 09:36:43 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 20416601,
-      "valid": 20416601,
-      "pollsReporting": 5505,
+      "votes": 20416870,
+      "valid": 20416870,
+      "pollsReporting": 5507,
       "totalPolls": 5540,
-      "pollsReportingPct": 99.37
+      "pollsReportingPct": 99.4
     },
     "advance": {
       "votes": null,
@@ -21,8 +21,8 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 33.76,
-      "valid": 6892261,
-      "pollsReporting": 4877,
+      "valid": 6892530,
+      "pollsReporting": 4879,
       "totalPolls": 4904
     },
     "vbm": {
@@ -106,7 +106,7 @@
           "noPct": 33.33,
           "marginVotes": 229838,
           "marginPct": 33.34,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -1135,9 +1135,9 @@
           "marginVotes": 8927,
           "marginPct": 32.46,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -1604,7 +1604,7 @@
           "noPct": 37.23,
           "marginVotes": 176115,
           "marginPct": 25.54,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -2633,9 +2633,9 @@
           "marginVotes": 7986,
           "marginPct": 30.7,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -3044,12 +3044,12 @@
       "questionNumber": 3,
       "title": "12-Month Residency Rule for Non-Permanent Support",
       "questionText": "Assuming that all Canadian citizens and permanent residents continue to qualify for social support programs as they do now, do you support the Government of Alberta introducing a law requiring all individuals with a non-permanent legal immigration status to reside in Alberta for at least 12 months before qualifying for any provincially-funded social support programs?",
-      "yesVotes": 1087491,
-      "noVotes": 959094,
-      "totalVotes": 2046585,
+      "yesVotes": 1087679,
+      "noVotes": 959175,
+      "totalVotes": 2046854,
       "yesPct": 53.14,
       "noPct": 46.86,
-      "marginVotes": 128397,
+      "marginVotes": 128504,
       "marginPct": 6.28,
       "leader": "YES",
       "regionalStats": {
@@ -3070,9 +3070,9 @@
           "noPct": 58.42
         },
         "Regional / Other": {
-          "yes": 618191,
-          "no": 360930,
-          "total": 979121,
+          "yes": 618379,
+          "no": 361011,
+          "total": 979390,
           "wards": 41,
           "yesPct": 63.14,
           "noPct": 36.86
@@ -3095,14 +3095,14 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 436745,
-          "noVotes": 252145,
-          "totalVotes": 688890,
+          "yesVotes": 436933,
+          "noVotes": 252226,
+          "totalVotes": 689159,
           "yesPct": 63.4,
           "noPct": 36.6,
-          "marginVotes": 184600,
+          "marginVotes": 184707,
           "marginPct": 26.8,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -3137,8 +3137,8 @@
         "30-40%": 257,
         "40-50%": 712,
         "50-60%": 1342,
-        "60-70%": 1184,
-        "70-80%": 1020,
+        "60-70%": 1185,
+        "70-80%": 1021,
         "80-90%": 732,
         "90-100%": 105
       },
@@ -4123,17 +4123,17 @@
           "ward": "62",
           "wardName": "62 - Fort Saskatchewan-Vegreville",
           "region": "Regional / Other",
-          "yesVotes": 15888,
-          "noVotes": 6975,
-          "totalVotes": 22863,
-          "yesPct": 69.49,
-          "noPct": 30.51,
-          "marginVotes": 8913,
-          "marginPct": 38.98,
+          "yesVotes": 16076,
+          "noVotes": 7056,
+          "totalVotes": 23132,
+          "yesPct": 69.5,
+          "noPct": 30.5,
+          "marginVotes": 9020,
+          "marginPct": 39.0,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -4600,7 +4600,7 @@
           "noPct": 39.38,
           "marginVotes": 146516,
           "marginPct": 21.24,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -5629,9 +5629,9 @@
           "marginVotes": 7477,
           "marginPct": 26.98,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -6098,7 +6098,7 @@
           "noPct": 31.51,
           "marginVotes": 255406,
           "marginPct": 36.98,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -7127,9 +7127,9 @@
           "marginVotes": 10793,
           "marginPct": 38.74,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -7596,7 +7596,7 @@
           "noPct": 44.12,
           "marginVotes": 80776,
           "marginPct": 11.76,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -8625,9 +8625,9 @@
           "marginVotes": 4019,
           "marginPct": 14.56,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -9094,7 +9094,7 @@
           "noPct": 42.98,
           "marginVotes": 96106,
           "marginPct": 14.04,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -10123,9 +10123,9 @@
           "marginVotes": 5107,
           "marginPct": 18.98,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -10592,7 +10592,7 @@
           "noPct": 46.35,
           "marginVotes": 50304,
           "marginPct": 7.3,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -11621,9 +11621,9 @@
           "marginVotes": 1477,
           "marginPct": 5.32,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -12090,7 +12090,7 @@
           "noPct": 44.03,
           "marginVotes": 81675,
           "marginPct": 11.94,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -13119,9 +13119,9 @@
           "marginVotes": 2669,
           "marginPct": 9.66,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
@@ -13588,7 +13588,7 @@
           "noPct": 33.09,
           "marginVotes": 236467,
           "marginPct": 33.82,
-          "pollsReporting": 4877,
+          "pollsReporting": 4879,
           "totalPolls": 4904
         },
         {
@@ -14617,9 +14617,9 @@
           "marginVotes": 8536,
           "marginPct": 31.34,
           "leader": "YES",
-          "pollsReporting": 80,
+          "pollsReporting": 82,
           "totalPolls": 82,
-          "pollsPct": 97.6
+          "pollsPct": 100.0
         },
         {
           "ward": "63",
