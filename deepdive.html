@@ -406,6 +406,379 @@
       </div>
     </section>
 
+    <!-- SECTION 4: THE MAIL-IN / SPECIAL BALLOT FLIP & COUNTERFACTUAL SIMULATOR -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="sliders" class="w-4 h-4 text-rose-600 dark:text-rose-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">4. The Mail-In Flip & Counterfactual Ballot Simulator</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300">
+              4 Questions Flipped
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            On Election Day, <strong>all 9 policy and constitutional questions (Q1–Q9) passed</strong> (53.7%–68.5% Yes). Mail-in / Special Ballots (~515k votes) broke 71%–78% No on Q6–Q9, single-handedly flipping 4 constitutional questions from Pass to Fail. Toggle voting methods below to simulate counterfactual outcomes.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5 flex-shrink-0">
+          <button onclick="setMethodPreset('all')" class="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-700 transition">
+            All Ballots (Official)
+          </button>
+          <button onclick="setMethodPreset('no_vbm')" class="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-rose-50 hover:bg-rose-100 text-rose-700 dark:bg-rose-950/50 dark:hover:bg-rose-900/60 dark:text-rose-300 border border-rose-200 dark:border-rose-800/60 transition">
+            In-Person Only (No Mail-In)
+          </button>
+          <button onclick="setMethodPreset('ord_only')" class="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-amber-50 hover:bg-amber-100 text-amber-700 dark:bg-amber-950/50 dark:hover:bg-amber-900/60 dark:text-amber-300 border border-amber-200 dark:border-amber-800/60 transition">
+            Election Day Only
+          </button>
+          <button onclick="setMethodPreset('vbm_only')" class="px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-indigo-50 hover:bg-indigo-100 text-indigo-700 dark:bg-indigo-950/50 dark:hover:bg-indigo-900/60 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800/60 transition">
+            Mail-In Only
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive Method Checkboxes -->
+      <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-3.5">
+        <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-slate-700 dark:text-slate-200">
+          <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400">Include Ballot Types:</span>
+          <label class="inline-flex items-center space-x-2 cursor-pointer">
+            <input type="checkbox" id="chk-method-ORD" checked onchange="renderMethodSimulator()" class="rounded border-slate-300 text-blue-600 focus:ring-blue-500">
+            <span>Election Day (<span id="lbl-votes-ORD" class="font-mono text-slate-500">~690k</span>)</span>
+          </label>
+          <label class="inline-flex items-center space-x-2 cursor-pointer">
+            <input type="checkbox" id="chk-method-ADV" checked onchange="renderMethodSimulator()" class="rounded border-slate-300 text-purple-600 focus:ring-purple-500">
+            <span>Advance Voting (<span id="lbl-votes-ADV" class="font-mono text-slate-500">~825k</span>)</span>
+          </label>
+          <label class="inline-flex items-center space-x-2 cursor-pointer">
+            <input type="checkbox" id="chk-method-VBMHQ" checked onchange="renderMethodSimulator()" class="rounded border-slate-300 text-emerald-600 focus:ring-emerald-500">
+            <span>Mail-in / Special (<span id="lbl-votes-VBMHQ" class="font-mono text-slate-500">~510k</span>)</span>
+          </label>
+          <label class="inline-flex items-center space-x-2 cursor-pointer">
+            <input type="checkbox" id="chk-method-MOB" checked onchange="renderMethodSimulator()" class="rounded border-slate-300 text-amber-600 focus:ring-amber-500">
+            <span>Mobile Voting (<span id="lbl-votes-MOB" class="font-mono text-slate-500">~20k</span>)</span>
+          </label>
+        </div>
+        <div id="sim-flip-banner" class="text-xs font-bold px-2.5 py-1 rounded bg-slate-200/70 dark:bg-slate-800 text-slate-700 dark:text-slate-300">
+          Showing Official Combined Returns
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Method Divergence Bar Chart (7 cols) -->
+        <div class="xl:col-span-7 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Yes % (Q1–Q9) &amp; Separation % (Q10) by Voting Method
+            </h4>
+            <span class="text-[11px] text-slate-400">50% Majority Line Highlighted</span>
+          </div>
+          <div class="h-80 w-full relative">
+            <canvas id="methodFlipChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Simulated Outcome Table (5 cols) -->
+        <div class="xl:col-span-5 overflow-x-auto">
+          <table class="min-w-full text-xs text-left">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-700">
+              <tr>
+                <th class="py-2 px-2.5">Question</th>
+                <th class="py-2 px-2 text-right">Official</th>
+                <th class="py-2 px-2 text-right">Simulated</th>
+                <th class="py-2 px-2.5 text-right">Outcome / Flip</th>
+              </tr>
+            </thead>
+            <tbody id="counterfactual-table-body" class="divide-y divide-slate-100 dark:divide-slate-800">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: THREE-TIER TICKET-SPLITTING & COALITION DROP-OFF -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="layers" class="w-4 h-4 text-amber-600 dark:text-amber-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">5. Three-Tier "Ticket-Splitting" &amp; Coalition Drop-Off</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300">
+              Ballot Splitting
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Albertans divided the 10 questions into three distinct ideological tiers: passing <strong>Immigration &amp; Voter ID (Q1–Q5)</strong>, rejecting <strong>Constitutional Overhaul (Q6–Q9)</strong>, and overwhelmingly rejecting <strong>Separation (Q10 Option 2)</strong>. Over half of Q1–Q5 "Yes" voters defected against Separation.
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 Tier Summary Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-4 rounded-xl bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/60">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-700 dark:text-emerald-400">Tier 1: Immigration &amp; Voter ID (Q1–Q5)</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-200/80 text-emerald-900 dark:bg-emerald-800 dark:text-emerald-100">ALL 5 PASSED</span>
+          </div>
+          <div class="mt-2 flex items-baseline justify-between">
+            <span id="tier1-avg-pct" class="text-2xl font-black text-slate-900 dark:text-white">54.1%</span>
+            <span id="tier1-ridings-info" class="text-xs font-semibold text-emerald-700 dark:text-emerald-300">Won 42–62 of 87 ridings</span>
+          </div>
+          <p class="text-[11px] text-slate-600 dark:text-slate-400 mt-1">
+            Broad coalition: sweeps rural Alberta and wins up to 17/26 Calgary &amp; 6/20 Edmonton ridings (on Q5 Voter ID).
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/60">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400">Tier 2: Constitutional Overhaul (Q6–Q9)</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-200/80 text-rose-900 dark:bg-rose-900 dark:text-rose-100">ALL 4 FAILED</span>
+          </div>
+          <div class="mt-2 flex items-baseline justify-between">
+            <span id="tier2-avg-pct" class="text-2xl font-black text-slate-900 dark:text-white">44.9%</span>
+            <span id="tier2-ridings-info" class="text-xs font-semibold text-amber-700 dark:text-amber-300">Won 27–36 of 87 ridings</span>
+          </div>
+          <p class="text-[11px] text-slate-600 dark:text-slate-400 mt-1">
+            Suburban defection: loses ~9.2 pts province-wide vs. Tier 1 and gets shut out in Calgary (0/26 on Q6, Q8, Q9) and Edmonton (0/20).
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-rose-50/70 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-800/60">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-rose-700 dark:text-rose-400">Tier 3: Separation Referendum (Q10 Opt 2)</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-200/80 text-rose-900 dark:bg-rose-900 dark:text-rose-100">REJECTED 3-TO-1</span>
+          </div>
+          <div class="mt-2 flex items-baseline justify-between">
+            <span id="tier3-avg-pct" class="text-2xl font-black text-slate-900 dark:text-white">25.1%</span>
+            <span id="tier3-ridings-info" class="text-xs font-semibold text-rose-700 dark:text-rose-300">Won only 2 of 87 ridings</span>
+          </div>
+          <p class="text-[11px] text-slate-600 dark:text-slate-400 mt-1">
+            Massive 29-point drop-off from Tier 1: more than half of voters supporting Q1–Q5 voted to Remain in Canada.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Regional Drop-Off Chart (6 cols) -->
+        <div class="xl:col-span-6 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Coalition Drop-Off by Region (Tier 1 &rarr; Tier 2 &rarr; Tier 3)
+            </h4>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="ticketSplitChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Top Ticket-Splitting Ridings Leaderboard (6 cols) -->
+        <div class="xl:col-span-6 space-y-3">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Riding Ticket-Splitting Explorer (All 87 Ridings)
+            </h4>
+            <select id="splitter-sort-select" onchange="renderTicketSplittingSection()" class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+              <option value="sep_gap">Highest Policy-vs-Separation Gap (Q1–5 &minus; Q10 Sep)</option>
+              <option value="const_gap">Highest Policy-vs-Constitutional Gap (Q1–5 &minus; Q6–9)</option>
+              <option value="q10_sep_desc">Highest Separation Vote % (Q10 Option 2)</option>
+              <option value="q1_5_desc">Highest Immigration/Voter ID Support (Q1–5 Avg)</option>
+            </select>
+          </div>
+
+          <div class="overflow-y-auto max-h-64 border border-slate-200 dark:border-slate-800 rounded-xl">
+            <table class="min-w-full text-xs text-left">
+              <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold sticky top-0">
+                <tr>
+                  <th class="py-2 px-2.5">Riding</th>
+                  <th class="py-2 px-2 text-right">Q1–5 Avg</th>
+                  <th class="py-2 px-2 text-right">Q6–9 Avg</th>
+                  <th class="py-2 px-2 text-right">Q10 Sep</th>
+                  <th class="py-2 px-2.5 text-right">Q1–5 &minus; Sep Gap</th>
+                </tr>
+              </thead>
+              <tbody id="splitter-table-body" class="divide-y divide-slate-100 dark:divide-slate-800 bg-white dark:bg-slate-900">
+                <!-- Rendered via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: MULTIVARIATE DEMOGRAPHIC MODEL & OUTLIER RIDINGS (RESIDUALS) -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="compass" class="w-4 h-4 text-blue-600 dark:text-blue-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">6. Multivariate Demographic Model &amp; Outlier Ridings</h3>
+            <span id="ols-r2-badge" class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300">
+              Model R² = 0.834
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Ordinary Least Squares (OLS) multiple regression combining 5 Census variables (Immigrant %, Bachelor's Degree %, Oil &amp; Gas %, Homeownership %, and Average Age) explains <strong>83.4% of the variance</strong> in Separation voting. Analyzing the <strong>residuals (Actual &minus; Predicted)</strong> reveals which ridings defied their census demographics.
+          </p>
+        </div>
+        <div class="flex items-center space-x-2 flex-shrink-0">
+          <label class="text-xs text-slate-500 dark:text-slate-400 font-medium">Target Metric:</label>
+          <select id="ols-target-select" onchange="renderMultivariateSection()" class="bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-1.5 text-xs text-slate-800 dark:text-slate-200 font-medium">
+            <option value="q10_no">Q10: Separation Referendum (Option 2 %)</option>
+            <option value="tier1">Tier 1: Immigration &amp; Voter ID (Q1–Q5 Avg Yes %)</option>
+            <option value="tier2">Tier 2: Constitutional Questions (Q6–Q9 Avg Yes %)</option>
+            <option value="q1">Q1: Immigration Control Yes %</option>
+            <option value="q5">Q5: Proof of Citizenship to Vote Yes %</option>
+            <option value="q6">Q6: Provincial Selection of Judges Yes %</option>
+            <option value="q7">Q7: Abolition of Senate Yes %</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Actual vs Predicted Scatter (6 cols) -->
+        <div class="xl:col-span-6 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-2">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Actual Vote % vs. 5-Factor Census Prediction
+            </h4>
+            <span class="text-[11px] text-slate-400">Dashed Line = Exact Demographic Parity</span>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="residualScatterChart"></canvas>
+          </div>
+          <p class="text-[11px] text-slate-500 dark:text-slate-400 mt-2">
+            Dots <strong>above</strong> the dashed diagonal line voted higher than their census profile predicts; dots <strong>below</strong> voted lower.
+          </p>
+        </div>
+
+        <!-- Top Overperformers & Underperformers (6 cols) -->
+        <div class="xl:col-span-6 space-y-4">
+          <div class="bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-2">
+              Biggest Demographic Outliers (Actual &minus; Predicted Residual)
+            </h4>
+            <div class="h-64 w-full relative">
+              <canvas id="residualBarChart"></canvas>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <div class="p-3 rounded-xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/60">
+              <span class="font-bold text-amber-800 dark:text-amber-300 block mb-1">Top Overperformers (+Residual)</span>
+              <p class="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed" id="ols-over-text">
+                Southern rural ridings like <strong>85 - Taber-Warner (+12.6 pts)</strong> and <strong>54 - Cardston-Siksika (+10.6 pts)</strong> voted significantly higher for Separation than their age, education, and oil/gas share predict.
+              </p>
+            </div>
+            <div class="p-3 rounded-xl bg-blue-50/70 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800/60">
+              <span class="font-bold text-blue-800 dark:text-blue-300 block mb-1">Top Underperformers (&minus;Residual)</span>
+              <p class="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed" id="ols-under-text">
+                <strong>61 - Fort McMurray-Wood Buffalo (&minus;11.9 pts)</strong> (40.6% actual vs. 52.5% predicted by its massive resource sector) and Edmonton suburbs <strong>St. Albert (&minus;10.8 pts)</strong> and <strong>Sherwood Park (&minus;9.8 pts)</strong> strongly favored remaining in Canada relative to their demographics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: BALLOT ROLL-OFF & SELECTIVE ABSTENTION -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="user-minus" class="w-4 h-4 text-cyan-600 dark:text-cyan-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">7. Ballot Roll-Off &amp; Selective Abstention</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-cyan-100 text-cyan-800 dark:bg-cyan-900/40 dark:text-cyan-300">
+              Up to 56,600 Skipped Ballots
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            Not every voter answered all 10 questions. <strong>Q10 (Separation)</strong> drew the highest participation on the ballot (2.069M valid votes), while <strong>56,622 voters</strong> who cast a ballot on Q10 skipped <strong>Q7 (Abolish the Senate)</strong> and <strong>41,049 skipped Q2</strong>.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Roll-off Chart (7 cols) -->
+        <div class="xl:col-span-7 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Skipped / Unmarked Ballots Relative to Peak Question (Q10) by Voting Method
+            </h4>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="rolloffChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Roll-off Table (5 cols) -->
+        <div class="xl:col-span-5 overflow-x-auto">
+          <table class="min-w-full text-xs text-left">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-700">
+              <tr>
+                <th class="py-2 px-2.5">Question</th>
+                <th class="py-2 px-2 text-right">Valid Votes</th>
+                <th class="py-2 px-2 text-right">Vs. Q10 Peak</th>
+                <th class="py-2 px-2.5 text-right">Roll-Off %</th>
+              </tr>
+            </thead>
+            <tbody id="rolloff-table-body" class="divide-y divide-slate-100 dark:divide-slate-800">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: THE MINORITY OF RIDINGS, MAJORITY OF VOTES PARADOX -->
+    <section class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6 transition-colors">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
+        <div>
+          <div class="flex items-center space-x-2">
+            <i data-lucide="scale" class="w-4 h-4 text-violet-600 dark:text-violet-400"></i>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 dark:text-white">8. The "Minority of Ridings, Majority of Votes" Paradox &amp; Regional Net Margins</h3>
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-300">
+              Electoral Geography
+            </span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">
+            On <strong>Q2, Q3, and Q4</strong>, the "Yes" side won <strong>only 42 or 43 out of 87 ridings</strong> (a minority of electoral divisions!), yet <strong>passed province-wide (52.0%–53.1%)</strong> because huge lopsided surpluses in rural ridings outweighed narrower "No" majorities in Calgary and Edmonton.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 xl:grid-cols-12 gap-6 items-start">
+        <!-- Net Vote Margin by Region Chart (7 cols) -->
+        <div class="xl:col-span-7 bg-slate-50 dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/80 rounded-xl p-4">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="text-xs font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">
+              Net Vote Margin (Yes &minus; No Votes; Q10: Option 2 &minus; Option 1) by Region
+            </h4>
+          </div>
+          <div class="h-80 w-full relative">
+            <canvas id="netMarginChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Ridings Won vs Popular Vote Table (5 cols) -->
+        <div class="xl:col-span-5 overflow-x-auto">
+          <table class="min-w-full text-xs text-left">
+            <thead class="bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-semibold border-b border-slate-200 dark:border-slate-700">
+              <tr>
+                <th class="py-2 px-2">Question</th>
+                <th class="py-2 px-1.5 text-right">Pop. Vote</th>
+                <th class="py-2 px-1.5 text-right">Ridings Won</th>
+                <th class="py-2 px-1.5 text-right">C / E / R</th>
+                <th class="py-2 px-2 text-right">Geography Note</th>
+              </tr>
+            </thead>
+            <tbody id="paradox-table-body" class="divide-y divide-slate-100 dark:divide-slate-800">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- FOOTER -->
@@ -430,6 +803,12 @@
     let urbanRuralChartInstance = null;
     let scatterChartInstance = null;
     let demographicScatterChartInstance = null;
+    let methodFlipChartInstance = null;
+    let ticketSplitChartInstance = null;
+    let residualScatterChartInstance = null;
+    let residualBarChartInstance = null;
+    let rolloffChartInstance = null;
+    let netMarginChartInstance = null;
     let demographicData = null;
 
     let activeScatterX = 1;
@@ -464,7 +843,17 @@
       const textColor = isDark ? '#94a3b8' : '#475569';
       const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
 
-      [urbanRuralChartInstance, scatterChartInstance, demographicScatterChartInstance].forEach(inst => {
+      [
+        urbanRuralChartInstance,
+        scatterChartInstance,
+        demographicScatterChartInstance,
+        methodFlipChartInstance,
+        ticketSplitChartInstance,
+        residualScatterChartInstance,
+        residualBarChartInstance,
+        rolloffChartInstance,
+        netMarginChartInstance
+      ].forEach(inst => {
         if (inst) {
           if (inst.options.plugins?.legend?.labels) inst.options.plugins.legend.labels.color = textColor;
           if (inst.options.scales?.x?.ticks) inst.options.scales.x.ticks.color = textColor;
@@ -884,6 +1273,11 @@
       renderUrbanRuralDivide(questions);
       renderCorrelationMatrix(questions);
       renderDemographics(questions, demographicData);
+      renderMethodSimulator();
+      renderTicketSplittingSection();
+      renderMultivariateSection();
+      renderBallotRolloffSection(questions);
+      renderParadoxSection(questions);
 
       lucide.createIcons();
     }
@@ -1146,6 +1540,914 @@
       if (!demographicData || !questions) return;
       renderDemographicSummaryTable(questions, demographicData);
       updateDemographicScatter();
+    }
+
+    // --- SECTION 4: MAIL-IN FLIP & COUNTERFACTUAL SIMULATOR ---
+    function setMethodPreset(preset) {
+      const codes = ['ORD', 'ADV', 'VBMHQ', 'MOB'];
+      const map = {
+        all: ['ORD', 'ADV', 'VBMHQ', 'MOB'],
+        no_vbm: ['ORD', 'ADV', 'MOB'],
+        ord_only: ['ORD'],
+        vbm_only: ['VBMHQ']
+      };
+      const active = map[preset] || codes;
+      codes.forEach(c => {
+        const el = document.getElementById(`chk-method-${c}`);
+        if (el) el.checked = active.includes(c);
+      });
+      renderMethodSimulator();
+    }
+
+    function renderMethodSimulator() {
+      if (!currentData || !currentData.questions) return;
+      const questions = currentData.questions;
+      const codes = ['ORD', 'ADV', 'VBMHQ', 'MOB'];
+      const activeCodes = codes.filter(c => document.getElementById(`chk-method-${c}`)?.checked);
+
+      // Update ballot count labels from Q10
+      const q10 = questions.find(q => q.questionNumber === 10) || questions[0];
+      if (q10 && q10.votingMethods) {
+        q10.votingMethods.forEach(m => {
+          const lbl = document.getElementById(`lbl-votes-${m.code}`);
+          if (lbl) lbl.textContent = `${Math.round((m.totalVotes || 0) / 1000).toLocaleString()}k`;
+        });
+      }
+
+      const tbody = document.getElementById('counterfactual-table-body');
+      if (tbody) tbody.innerHTML = '';
+
+      const labels = [];
+      const ordArr = [];
+      const advArr = [];
+      const vbmArr = [];
+      const simArr = [];
+      let flippedCount = 0;
+
+      questions.forEach(q => {
+        const qNum = q.questionNumber;
+        const isQ10 = (qNum === 10);
+        labels.push(isQ10 ? 'Q10 (Sep)' : `Q${qNum}`);
+
+        const vms = {};
+        (q.votingMethods || []).forEach(m => { vms[m.code] = m; });
+
+        const getPct = (m) => {
+          if (!m || !m.totalVotes) return 0;
+          return isQ10 ? m.noPct : m.yesPct;
+        };
+
+        ordArr.push(getPct(vms.ORD));
+        advArr.push(getPct(vms.ADV));
+        vbmArr.push(getPct(vms.VBMHQ));
+
+        const officialPct = isQ10 ? q.noPct : q.yesPct;
+        const officialPass = officialPct > 50;
+
+        let simYes = 0;
+        let simTot = 0;
+        activeCodes.forEach(c => {
+          const m = vms[c];
+          if (m) {
+            simYes += isQ10 ? (m.noVotes || 0) : (m.yesVotes || 0);
+            simTot += (m.totalVotes || 0);
+          }
+        });
+        const simPct = simTot > 0 ? +(simYes / simTot * 100).toFixed(2) : 0;
+        simArr.push(simPct);
+
+        const simPass = simTot > 0 && simPct > 50;
+        const isFlipped = simTot > 0 && (simPass !== officialPass);
+        if (isFlipped) flippedCount++;
+
+        if (tbody) {
+          const tr = document.createElement('tr');
+          tr.className = isFlipped
+            ? "bg-rose-50/70 dark:bg-rose-950/30 font-semibold transition"
+            : "hover:bg-slate-50 dark:hover:bg-slate-800/40 transition";
+
+          let badgeHtml = '';
+          if (simTot === 0) {
+            badgeHtml = `<span class="px-2 py-0.5 rounded text-[10px] bg-slate-200 dark:bg-slate-800 text-slate-500">Select Method</span>`;
+          } else if (isFlipped) {
+            badgeHtml = simPass
+              ? `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500 text-white shadow-sm">⚡ FLIPS TO PASS</span>`
+              : `<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500 text-white shadow-sm">⚡ FLIPS TO FAIL</span>`;
+          } else {
+            badgeHtml = simPass
+              ? `<span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">${isQ10 ? 'SEPARATE' : 'PASS'}</span>`
+              : `<span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-300">${isQ10 ? 'REMAIN' : 'FAIL'}</span>`;
+          }
+
+          tr.innerHTML = `
+            <td class="py-2 px-2.5 font-medium text-slate-900 dark:text-slate-100">
+              ${isQ10 ? 'Q10: Option 2 (Separate)' : `Q${qNum}: ${q.title.substring(0, 26)}`}
+            </td>
+            <td class="py-2 px-2 text-right font-mono text-slate-500 dark:text-slate-400">${officialPct.toFixed(1)}%</td>
+            <td class="py-2 px-2 text-right font-mono font-bold text-slate-900 dark:text-white">${simTot > 0 ? simPct.toFixed(1) + '%' : '—'}</td>
+            <td class="py-2 px-2.5 text-right">${badgeHtml}</td>
+          `;
+          tbody.appendChild(tr);
+        }
+      });
+
+      const banner = document.getElementById('sim-flip-banner');
+      if (banner) {
+        if (activeCodes.length === 4) {
+          banner.textContent = "Official Combined Result (All 4 Methods Included)";
+          banner.className = "text-xs font-bold px-2.5 py-1 rounded bg-slate-200/70 dark:bg-slate-800 text-slate-700 dark:text-slate-300";
+        } else if (flippedCount > 0) {
+          banner.textContent = `⚡ ${flippedCount} Question${flippedCount > 1 ? 's' : ''} Flip Outcome Under Selected Ballot Types!`;
+          banner.className = "text-xs font-bold px-2.5 py-1 rounded bg-rose-100 text-rose-800 dark:bg-rose-900/50 dark:text-rose-200 border border-rose-300 dark:border-rose-700";
+        } else {
+          banner.textContent = `0 Questions Flip Outcome (${activeCodes.join(' + ') || 'None'})`;
+          banner.className = "text-xs font-bold px-2.5 py-1 rounded bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300";
+        }
+      }
+
+      const ctx = document.getElementById('methodFlipChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (methodFlipChartInstance) {
+        methodFlipChartInstance.data.labels = labels;
+        methodFlipChartInstance.data.datasets[0].data = ordArr;
+        methodFlipChartInstance.data.datasets[1].data = advArr;
+        methodFlipChartInstance.data.datasets[2].data = vbmArr;
+        methodFlipChartInstance.data.datasets[3].data = simArr;
+        methodFlipChartInstance.update();
+      } else {
+        methodFlipChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Election Day (ORD)',
+                data: ordArr,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Advance Voting (ADV)',
+                data: advArr,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Mail-in / Special (VBM)',
+                data: vbmArr,
+                backgroundColor: 'rgba(16, 185, 129, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Simulated Selection %',
+                data: simArr,
+                type: 'line',
+                borderColor: 'rgba(244, 63, 94, 1)',
+                backgroundColor: 'rgba(244, 63, 94, 0.2)',
+                borderWidth: 2.5,
+                pointRadius: 4,
+                pointBackgroundColor: 'rgba(244, 63, 94, 1)'
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: textColor, font: { family: 'Inter', size: 10 } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: (c) => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}%`
+                }
+              }
+            },
+            scales: {
+              x: {
+                ticks: { color: textColor, font: { size: 10, weight: 'bold' } },
+                grid: { display: false }
+              },
+              y: {
+                min: 0,
+                max: 80,
+                ticks: { color: textColor, font: { size: 10 }, callback: v => v + '%' },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // --- SECTION 5: THREE-TIER TICKET-SPLITTING & COALITION DROP-OFF ---
+    function renderTicketSplittingSection() {
+      if (!currentData || !currentData.questions) return;
+      const questions = currentData.questions;
+      const qMap = {};
+      questions.forEach(q => { qMap[q.questionNumber] = q; });
+
+      // Calculate Tier averages province-wide and by region
+      const tier1Qs = [1, 2, 3, 4, 5].map(n => qMap[n]).filter(Boolean);
+      const tier2Qs = [6, 7, 8, 9].map(n => qMap[n]).filter(Boolean);
+      const q10 = qMap[10];
+
+      const avg = arr => arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+
+      const t1Prov = avg(tier1Qs.map(q => q.yesPct));
+      const t2Prov = avg(tier2Qs.map(q => q.yesPct));
+      const t3Prov = q10 ? q10.noPct : 0;
+
+      const elT1 = document.getElementById('tier1-avg-pct');
+      const elT2 = document.getElementById('tier2-avg-pct');
+      const elT3 = document.getElementById('tier3-avg-pct');
+      if (elT1) elT1.textContent = `${t1Prov.toFixed(1)}%`;
+      if (elT2) elT2.textContent = `${t2Prov.toFixed(1)}%`;
+      if (elT3) elT3.textContent = `${t3Prov.toFixed(1)}%`;
+
+      // Regional Tier averages
+      const regions = ['Edmonton', 'Calgary', 'Regional / Other'];
+      const regT1 = regions.map(r => +avg(tier1Qs.map(q => q.regionalStats?.[r]?.yesPct || 0)).toFixed(1));
+      const regT2 = regions.map(r => +avg(tier2Qs.map(q => q.regionalStats?.[r]?.yesPct || 0)).toFixed(1));
+      const regT3 = regions.map(r => +(q10?.regionalStats?.[r]?.noPct || 0).toFixed(1));
+
+      regT1.push(+t1Prov.toFixed(1));
+      regT2.push(+t2Prov.toFixed(1));
+      regT3.push(+t3Prov.toFixed(1));
+
+      const chartLabels = ['Edmonton (20)', 'Calgary (26)', 'Rural / Regional (41)', 'Province-Wide (87)'];
+      const ctx = document.getElementById('ticketSplitChart');
+      if (ctx) {
+        const isDark = document.documentElement.classList.contains('dark');
+        const textColor = isDark ? '#94a3b8' : '#475569';
+        const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+        if (ticketSplitChartInstance) {
+          ticketSplitChartInstance.data.datasets[0].data = regT1;
+          ticketSplitChartInstance.data.datasets[1].data = regT2;
+          ticketSplitChartInstance.data.datasets[2].data = regT3;
+          ticketSplitChartInstance.update();
+        } else {
+          ticketSplitChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: chartLabels,
+              datasets: [
+                {
+                  label: 'Tier 1: Immigration & Voter ID (Q1–Q5 Avg Yes %)',
+                  data: regT1,
+                  backgroundColor: 'rgba(16, 185, 129, 0.85)',
+                  borderRadius: 4
+                },
+                {
+                  label: 'Tier 2: Constitutional Overhaul (Q6–Q9 Avg Yes %)',
+                  data: regT2,
+                  backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                  borderRadius: 4
+                },
+                {
+                  label: 'Tier 3: Separation Referendum (Q10 Option 2 %)',
+                  data: regT3,
+                  backgroundColor: 'rgba(244, 63, 94, 0.85)',
+                  borderRadius: 4
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: {
+                  position: 'top',
+                  labels: { color: textColor, font: { family: 'Inter', size: 10 } }
+                },
+                tooltip: {
+                  callbacks: {
+                    label: c => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}%`
+                  }
+                }
+              },
+              scales: {
+                x: {
+                  ticks: { color: textColor, font: { size: 10, weight: 'bold' } },
+                  grid: { display: false }
+                },
+                y: {
+                  min: 0,
+                  max: 80,
+                  ticks: { color: textColor, font: { size: 10 }, callback: v => v + '%' },
+                  grid: { color: gridColor }
+                }
+              }
+            }
+          });
+        }
+      }
+
+      // Build Riding Ticket-Splitting Leaderboard
+      const wardRows = [];
+      const baseWards = qMap[1]?.wards || [];
+      baseWards.forEach((w, idx) => {
+        const wc = w.ward;
+        const t1 = avg(tier1Qs.map(q => (q.wards?.find(x => x.ward === wc)?.yesPct || 0)));
+        const t2 = avg(tier2Qs.map(q => (q.wards?.find(x => x.ward === wc)?.yesPct || 0)));
+        const t3 = q10?.wards?.find(x => x.ward === wc)?.noPct || 0;
+        wardRows.push({
+          ward: wc,
+          wardName: w.wardName,
+          region: w.region,
+          t1,
+          t2,
+          t3,
+          sepGap: t1 - t3,
+          constGap: t1 - t2
+        });
+      });
+
+      const sortMode = document.getElementById('splitter-sort-select')?.value || 'sep_gap';
+      wardRows.sort((a, b) => {
+        if (sortMode === 'const_gap') return b.constGap - a.constGap;
+        if (sortMode === 'q10_sep_desc') return b.t3 - a.t3;
+        if (sortMode === 'q1_5_desc') return b.t1 - a.t1;
+        return b.sepGap - a.sepGap;
+      });
+
+      const tbody = document.getElementById('splitter-table-body');
+      if (tbody) {
+        tbody.innerHTML = '';
+        wardRows.forEach(r => {
+          const tr = document.createElement('tr');
+          tr.className = "hover:bg-slate-50 dark:hover:bg-slate-800/50 transition";
+          tr.innerHTML = `
+            <td class="py-1.5 px-2.5 font-medium text-slate-900 dark:text-slate-100">${r.wardName}</td>
+            <td class="py-1.5 px-2 text-right font-mono text-emerald-600 dark:text-emerald-400 font-semibold">${r.t1.toFixed(1)}%</td>
+            <td class="py-1.5 px-2 text-right font-mono text-amber-600 dark:text-amber-400">${r.t2.toFixed(1)}%</td>
+            <td class="py-1.5 px-2 text-right font-mono ${r.t3 > 50 ? 'text-rose-600 dark:text-rose-400 font-bold' : 'text-slate-600 dark:text-slate-400'}">${r.t3.toFixed(1)}%</td>
+            <td class="py-1.5 px-2.5 text-right font-mono font-bold text-indigo-600 dark:text-indigo-400">+${r.sepGap.toFixed(1)} pts</td>
+          `;
+          tbody.appendChild(tr);
+        });
+      }
+    }
+
+    // --- SECTION 6: MULTIVARIATE OLS REGRESSION & OUTLIER RIDINGS ---
+    function solveOLS(X, y) {
+      // Solves (X^T X) beta = X^T y via Gaussian elimination with partial pivoting
+      const n = X.length;
+      const p = X[0].length;
+      const XtX = Array.from({ length: p }, () => Array(p).fill(0));
+      const Xty = Array(p).fill(0);
+
+      for (let i = 0; i < n; i++) {
+        for (let j = 0; j < p; j++) {
+          Xty[j] += X[i][j] * y[i];
+          for (let k = 0; k < p; k++) {
+            XtX[j][k] += X[i][j] * X[i][k];
+          }
+        }
+      }
+
+      // Augmented matrix [XtX | Xty]
+      const A = XtX.map((row, i) => [...row, Xty[i]]);
+      for (let col = 0; col < p; col++) {
+        let maxRow = col;
+        for (let row = col + 1; row < p; row++) {
+          if (Math.abs(A[row][col]) > Math.abs(A[maxRow][col])) maxRow = row;
+        }
+        [A[col], A[maxRow]] = [A[maxRow], A[col]];
+        const pivot = A[col][col];
+        if (Math.abs(pivot) < 1e-12) continue;
+        for (let j = col; j <= p; j++) A[col][j] /= pivot;
+        for (let row = 0; row < p; row++) {
+          if (row !== col) {
+            const factor = A[row][col];
+            for (let j = col; j <= p; j++) A[row][j] -= factor * A[col][j];
+          }
+        }
+      }
+      return A.map(row => row[p]);
+    }
+
+    function renderMultivariateSection() {
+      if (!currentData || !currentData.questions || !demographicData) return;
+      const questions = currentData.questions;
+      const qMap = {};
+      questions.forEach(q => { qMap[q.questionNumber] = q; });
+
+      const targetKey = document.getElementById('ols-target-select')?.value || 'q10_no';
+      const voteMap = {};
+      const regionMap = {};
+      (qMap[1]?.wards || []).forEach(w => { regionMap[w.ward] = w.region; });
+
+      if (targetKey === 'tier1') {
+        const qs = [1, 2, 3, 4, 5].map(n => qMap[n]).filter(Boolean);
+        (qMap[1]?.wards || []).forEach(w => {
+          const wc = w.ward;
+          voteMap[wc] = qs.reduce((acc, q) => acc + (q.wards?.find(x => x.ward === wc)?.yesPct || 0), 0) / qs.length;
+        });
+      } else if (targetKey === 'tier2') {
+        const qs = [6, 7, 8, 9].map(n => qMap[n]).filter(Boolean);
+        (qMap[1]?.wards || []).forEach(w => {
+          const wc = w.ward;
+          voteMap[wc] = qs.reduce((acc, q) => acc + (q.wards?.find(x => x.ward === wc)?.yesPct || 0), 0) / qs.length;
+        });
+      } else {
+        Object.assign(voteMap, getVoteValuesForMetric(questions, targetKey));
+      }
+
+      const validRows = [];
+      const X = [];
+      const y = [];
+
+      demographicData.forEach(d => {
+        const yVal = voteMap[d.ward];
+        if (yVal !== undefined && yVal !== null) {
+          const rowX = [
+            1.0,
+            d.immigrantPct || 0,
+            d.bachelorDegreePct || 0,
+            d.oilAndGasPct || 0,
+            d.homeownershipPct || 0,
+            d.avgAge || 0
+          ];
+          X.push(rowX);
+          y.push(yVal);
+          validRows.push({
+            ward: d.ward,
+            wardName: d.wardName || d.name,
+            region: regionMap[d.ward] || 'Regional / Other',
+            actual: yVal,
+            rowX
+          });
+        }
+      });
+
+      if (validRows.length < 10) return;
+
+      const beta = solveOLS(X, y);
+      const yMean = y.reduce((a, b) => a + b, 0) / y.length;
+      let ssTot = 0;
+      let ssRes = 0;
+
+      validRows.forEach(r => {
+        const pred = r.rowX.reduce((acc, v, idx) => acc + v * beta[idx], 0);
+        r.predicted = pred;
+        r.residual = r.actual - pred;
+        ssTot += Math.pow(r.actual - yMean, 2);
+        ssRes += Math.pow(r.residual, 2);
+      });
+
+      const r2 = ssTot > 0 ? Math.max(0, 1 - ssRes / ssTot) : 0;
+      const r2Badge = document.getElementById('ols-r2-badge');
+      if (r2Badge) {
+        r2Badge.textContent = `Model R² = ${r2.toFixed(3)} (${(r2 * 100).toFixed(1)}% Explained)`;
+      }
+
+      // Scatter Plot: X = Predicted, Y = Actual
+      const ptsCalg = [];
+      const ptsEdm = [];
+      const ptsRur = [];
+      let minVal = 100, maxVal = 0;
+
+      validRows.forEach(r => {
+        minVal = Math.min(minVal, r.predicted, r.actual);
+        maxVal = Math.max(maxVal, r.predicted, r.actual);
+        const pt = {
+          x: +r.predicted.toFixed(2),
+          y: +r.actual.toFixed(2),
+          residual: r.residual,
+          wardName: r.wardName
+        };
+        if (r.region === 'Calgary') ptsCalg.push(pt);
+        else if (r.region === 'Edmonton') ptsEdm.push(pt);
+        else ptsRur.push(pt);
+      });
+
+      const padMin = Math.max(0, Math.floor((minVal - 5) / 5) * 5);
+      const padMax = Math.min(100, Math.ceil((maxVal + 5) / 5) * 5);
+      const parityLine = [{ x: padMin, y: padMin }, { x: padMax, y: padMax }];
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      const ctxScatter = document.getElementById('residualScatterChart');
+      if (ctxScatter) {
+        if (residualScatterChartInstance) {
+          residualScatterChartInstance.data.datasets[0].data = ptsCalg;
+          residualScatterChartInstance.data.datasets[1].data = ptsEdm;
+          residualScatterChartInstance.data.datasets[2].data = ptsRur;
+          residualScatterChartInstance.data.datasets[3].data = parityLine;
+          residualScatterChartInstance.options.scales.x.min = padMin;
+          residualScatterChartInstance.options.scales.x.max = padMax;
+          residualScatterChartInstance.options.scales.y.min = padMin;
+          residualScatterChartInstance.options.scales.y.max = padMax;
+          residualScatterChartInstance.update();
+        } else {
+          residualScatterChartInstance = new Chart(ctxScatter, {
+            type: 'scatter',
+            data: {
+              datasets: [
+                {
+                  label: 'Calgary',
+                  data: ptsCalg,
+                  backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                  pointRadius: 5
+                },
+                {
+                  label: 'Edmonton',
+                  data: ptsEdm,
+                  backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                  pointRadius: 5
+                },
+                {
+                  label: 'Rural / Regional',
+                  data: ptsRur,
+                  backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                  pointRadius: 5
+                },
+                {
+                  label: 'Exact Demographic Parity (Actual = Predicted)',
+                  data: parityLine,
+                  type: 'line',
+                  borderColor: 'rgba(148, 163, 184, 0.7)',
+                  borderDash: [5, 5],
+                  borderWidth: 1.5,
+                  pointRadius: 0,
+                  fill: false
+                }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: (item) => {
+                      const raw = item.raw;
+                      if (!raw.wardName) return '';
+                      const sign = raw.residual >= 0 ? '+' : '';
+                      return `${raw.wardName}: Actual ${raw.y}% vs Pred ${raw.x}% (${sign}${raw.residual.toFixed(1)} pts)`;
+                    }
+                  }
+                }
+              },
+              scales: {
+                x: {
+                  min: padMin,
+                  max: padMax,
+                  title: { display: true, text: '5-Factor Demographic Predicted Vote %', color: textColor, font: { size: 10 } },
+                  ticks: { color: textColor, font: { size: 10 }, callback: v => v + '%' },
+                  grid: { color: gridColor }
+                },
+                y: {
+                  min: padMin,
+                  max: padMax,
+                  title: { display: true, text: 'Actual Vote %', color: textColor, font: { size: 10 } },
+                  ticks: { color: textColor, font: { size: 10 }, callback: v => v + '%' },
+                  grid: { color: gridColor }
+                }
+              }
+            }
+          });
+        }
+      }
+
+      // Top 5 Overperformers & Top 5 Underperformers Diverging Bar Chart
+      const sortedByRes = [...validRows].sort((a, b) => b.residual - a.residual);
+      const topOver = sortedByRes.slice(0, 5);
+      const topUnder = sortedByRes.slice(-5).reverse();
+      const combinedOutliers = [...topOver, ...topUnder.slice().reverse()];
+
+      const outlierLabels = combinedOutliers.map(r => r.wardName.replace(/^\d+\s*-\s*/, ''));
+      const outlierVals = combinedOutliers.map(r => +r.residual.toFixed(1));
+      const outlierColors = outlierVals.map(v => v >= 0 ? 'rgba(245, 158, 11, 0.85)' : 'rgba(59, 130, 246, 0.85)');
+
+      const overEl = document.getElementById('ols-over-text');
+      if (overEl && topOver.length >= 2) {
+        overEl.innerHTML = `<strong>${topOver[0].wardName} (+${topOver[0].residual.toFixed(1)} pts)</strong> (${topOver[0].actual.toFixed(1)}% actual vs. ${topOver[0].predicted.toFixed(1)}% predicted) and <strong>${topOver[1].wardName} (+${topOver[1].residual.toFixed(1)} pts)</strong> exceeded demographic model expectations by the widest margins.`;
+      }
+      const underEl = document.getElementById('ols-under-text');
+      if (underEl && topUnder.length >= 2) {
+        underEl.innerHTML = `<strong>${topUnder[0].wardName} (${topUnder[0].residual.toFixed(1)} pts)</strong> (${topUnder[0].actual.toFixed(1)}% actual vs. ${topUnder[0].predicted.toFixed(1)}% predicted) and <strong>${topUnder[1].wardName} (${topUnder[1].residual.toFixed(1)} pts)</strong> voted significantly lower than their census profile predicts.`;
+      }
+
+      const ctxBar = document.getElementById('residualBarChart');
+      if (ctxBar) {
+        if (residualBarChartInstance) {
+          residualBarChartInstance.data.labels = outlierLabels;
+          residualBarChartInstance.data.datasets[0].data = outlierVals;
+          residualBarChartInstance.data.datasets[0].backgroundColor = outlierColors;
+          residualBarChartInstance.update();
+        } else {
+          residualBarChartInstance = new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+              labels: outlierLabels,
+              datasets: [
+                {
+                  label: 'Residual (Actual % − Predicted %)',
+                  data: outlierVals,
+                  backgroundColor: outlierColors,
+                  borderRadius: 4
+                }
+              ]
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: (c) => {
+                      const v = c.parsed.x;
+                      return `Residual: ${v >= 0 ? '+' : ''}${v} pts vs demographic expectation`;
+                    }
+                  }
+                }
+              },
+              scales: {
+                x: {
+                  ticks: { color: textColor, font: { size: 10 }, callback: v => (v >= 0 ? '+' : '') + v + ' pts' },
+                  grid: { color: gridColor }
+                },
+                y: {
+                  ticks: { color: textColor, font: { size: 10 } },
+                  grid: { display: false }
+                }
+              }
+            }
+          });
+        }
+      }
+    }
+
+    // --- SECTION 7: BALLOT ROLL-OFF & SELECTIVE ABSTENTION ---
+    function renderBallotRolloffSection(questions) {
+      if (!questions || !questions.length) return;
+      const peakVotes = Math.max(...questions.map(q => q.totalVotes || 0));
+      const q10 = questions.find(q => q.questionNumber === 10) || questions[0];
+      const q10Methods = {};
+      (q10.votingMethods || []).forEach(m => { q10Methods[m.code] = m.totalVotes || 0; });
+
+      const labels = [];
+      const dropOrd = [];
+      const dropAdv = [];
+      const dropVbm = [];
+
+      const tbody = document.getElementById('rolloff-table-body');
+      if (tbody) tbody.innerHTML = '';
+
+      questions.forEach(q => {
+        const qNum = q.questionNumber;
+        labels.push(`Q${qNum}`);
+        const diff = (q.totalVotes || 0) - peakVotes;
+        const dropPct = peakVotes > 0 ? (Math.abs(diff) / peakVotes * 100) : 0;
+
+        const vms = {};
+        (q.votingMethods || []).forEach(m => { vms[m.code] = m.totalVotes || 0; });
+
+        dropOrd.push(Math.max(0, (q10Methods.ORD || 0) - (vms.ORD || 0)));
+        dropAdv.push(Math.max(0, (q10Methods.ADV || 0) - (vms.ADV || 0)));
+        dropVbm.push(Math.max(0, (q10Methods.VBMHQ || 0) - (vms.VBMHQ || 0)));
+
+        if (tbody) {
+          const tr = document.createElement('tr');
+          tr.className = "hover:bg-slate-50 dark:hover:bg-slate-800/40 transition";
+          const isPeak = diff === 0;
+          tr.innerHTML = `
+            <td class="py-2 px-2.5 font-medium text-slate-900 dark:text-slate-100">
+              Q${qNum}: ${q.title.substring(0, 26)}
+            </td>
+            <td class="py-2 px-2 text-right font-mono text-slate-700 dark:text-slate-300">${(q.totalVotes || 0).toLocaleString()}</td>
+            <td class="py-2 px-2 text-right font-mono font-bold ${isPeak ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}">
+              ${isPeak ? 'PEAK (Max)' : diff.toLocaleString()}
+            </td>
+            <td class="py-2 px-2.5 text-right font-mono text-slate-500 dark:text-slate-400">
+              ${isPeak ? '0.00%' : '&minus;' + dropPct.toFixed(2) + '%'}
+            </td>
+          `;
+          tbody.appendChild(tr);
+        }
+      });
+
+      const ctx = document.getElementById('rolloffChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (rolloffChartInstance) {
+        rolloffChartInstance.data.labels = labels;
+        rolloffChartInstance.data.datasets[0].data = dropOrd;
+        rolloffChartInstance.data.datasets[1].data = dropAdv;
+        rolloffChartInstance.data.datasets[2].data = dropVbm;
+        rolloffChartInstance.update();
+      } else {
+        rolloffChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Election Day Skipped vs Q10',
+                data: dropOrd,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Advance Voting Skipped vs Q10',
+                data: dropAdv,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Mail-in / Special Skipped vs Q10',
+                data: dropVbm,
+                backgroundColor: 'rgba(6, 182, 212, 0.85)',
+                borderRadius: 3
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: textColor, font: { family: 'Inter', size: 10 } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: c => `${c.dataset.label}: ${c.parsed.y.toLocaleString()} fewer ballots`
+                }
+              }
+            },
+            scales: {
+              x: {
+                stacked: true,
+                ticks: { color: textColor, font: { size: 10, weight: 'bold' } },
+                grid: { display: false }
+              },
+              y: {
+                stacked: true,
+                ticks: { color: textColor, font: { size: 10 }, callback: v => (v / 1000).toFixed(0) + 'k' },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
+    }
+
+    // --- SECTION 8: MINORITY OF RIDINGS, MAJORITY OF VOTES PARADOX ---
+    function renderParadoxSection(questions) {
+      if (!questions || !questions.length) return;
+
+      const labels = [];
+      const edmNet = [];
+      const calgNet = [];
+      const rurNet = [];
+
+      const tbody = document.getElementById('paradox-table-body');
+      if (tbody) tbody.innerHTML = '';
+
+      questions.forEach(q => {
+        const qNum = q.questionNumber;
+        const isQ10 = (qNum === 10);
+        labels.push(isQ10 ? 'Q10 (Sep)' : `Q${qNum}`);
+
+        const getRegNet = (reg) => {
+          const st = q.regionalStats?.[reg];
+          if (!st) return 0;
+          return isQ10 ? ((st.no || 0) - (st.yes || 0)) : ((st.yes || 0) - (st.no || 0));
+        };
+
+        edmNet.push(getRegNet('Edmonton'));
+        calgNet.push(getRegNet('Calgary'));
+        rurNet.push(getRegNet('Regional / Other'));
+
+        const wards = q.wards || [];
+        const wonTotal = wards.filter(w => isQ10 ? w.noPct > 50 : w.yesPct > 50).length;
+        const wonCalg = wards.filter(w => w.region === 'Calgary' && (isQ10 ? w.noPct > 50 : w.yesPct > 50)).length;
+        const wonEdm = wards.filter(w => w.region === 'Edmonton' && (isQ10 ? w.noPct > 50 : w.yesPct > 50)).length;
+        const wonRur = wards.filter(w => w.region === 'Regional / Other' && (isQ10 ? w.noPct > 50 : w.yesPct > 50)).length;
+
+        const popVote = isQ10 ? q.noPct : q.yesPct;
+        const isParadox = (popVote > 50 && wonTotal < 44);
+
+        if (tbody) {
+          const tr = document.createElement('tr');
+          tr.className = isParadox
+            ? "bg-violet-50/70 dark:bg-violet-950/30 font-semibold transition"
+            : "hover:bg-slate-50 dark:hover:bg-slate-800/40 transition";
+
+          let noteBadge = '';
+          if (isParadox) {
+            noteBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-violet-600 text-white">⚠️ Minority Seats, Majority Vote</span>`;
+          } else if (popVote > 50) {
+            noteBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-medium bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300">Majority Seats &amp; Vote</span>`;
+          } else {
+            noteBadge = `<span class="px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">Urban No Outweighs Rural Yes</span>`;
+          }
+
+          tr.innerHTML = `
+            <td class="py-2 px-2 font-medium text-slate-900 dark:text-slate-100">
+              ${isQ10 ? 'Q10 (Sep)' : `Q${qNum}`}
+            </td>
+            <td class="py-2 px-1.5 text-right font-mono font-bold ${popVote > 50 ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-600 dark:text-slate-400'}">${popVote.toFixed(1)}%</td>
+            <td class="py-2 px-1.5 text-right font-mono">${wonTotal} / 87</td>
+            <td class="py-2 px-1.5 text-right font-mono text-[11px] text-slate-500">${wonCalg} / ${wonEdm} / ${wonRur}</td>
+            <td class="py-2 px-2 text-right">${noteBadge}</td>
+          `;
+          tbody.appendChild(tr);
+        }
+      });
+
+      const ctx = document.getElementById('netMarginChart');
+      if (!ctx) return;
+
+      const isDark = document.documentElement.classList.contains('dark');
+      const textColor = isDark ? '#94a3b8' : '#475569';
+      const gridColor = isDark ? 'rgba(51, 65, 85, 0.4)' : 'rgba(203, 213, 225, 0.6)';
+
+      if (netMarginChartInstance) {
+        netMarginChartInstance.data.labels = labels;
+        netMarginChartInstance.data.datasets[0].data = edmNet;
+        netMarginChartInstance.data.datasets[1].data = calgNet;
+        netMarginChartInstance.data.datasets[2].data = rurNet;
+        netMarginChartInstance.update();
+      } else {
+        netMarginChartInstance = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'Edmonton Net Vote Margin',
+                data: edmNet,
+                backgroundColor: 'rgba(168, 85, 247, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Calgary Net Vote Margin',
+                data: calgNet,
+                backgroundColor: 'rgba(59, 130, 246, 0.85)',
+                borderRadius: 3
+              },
+              {
+                label: 'Rural / Regional Net Vote Margin',
+                data: rurNet,
+                backgroundColor: 'rgba(245, 158, 11, 0.85)',
+                borderRadius: 3
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: { color: textColor, font: { family: 'Inter', size: 10 } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: c => {
+                    const v = c.parsed.y;
+                    return `${c.dataset.label}: ${v >= 0 ? '+' : ''}${v.toLocaleString()} net votes`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                ticks: { color: textColor, font: { size: 10, weight: 'bold' } },
+                grid: { display: false }
+              },
+              y: {
+                ticks: {
+                  color: textColor,
+                  font: { size: 10 },
+                  callback: v => (v >= 0 ? '+' : '') + (v / 1000).toFixed(0) + 'k'
+                },
+                grid: { color: gridColor }
+              }
+            }
+          }
+        });
+      }
     }
 
     // --- TIMER & INIT ---
