@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-10-24T23:21:02.999838+00:00",
-  "lastUpdatedEAB": "2026-10-24T23:20:46.6125898+00:00",
-  "lastUpdatedMountain": "Oct 24, 2026 05:20:46 PM MDT",
+  "fetchedAt": "2026-10-24T23:21:47.523888+00:00",
+  "lastUpdatedEAB": "2026-10-24T23:21:35.8310362+00:00",
+  "lastUpdatedMountain": "Oct 24, 2026 05:21:35 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20559297,
-      "valid": 20559297,
+      "votes": 20555886,
+      "valid": 20555886,
       "pollsReporting": 5535,
       "totalPolls": 5536,
       "pollsReportingPct": 99.98
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.31,
-      "valid": 8287384,
+      "percentageOfAllVotes": 40.3,
+      "valid": 8283973,
       "pollsReporting": 264,
       "totalPolls": 264
     },
@@ -29,7 +29,7 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 24.85,
+      "percentageOfAllVotes": 24.86,
       "valid": 5109533,
       "pollsReporting": 87,
       "totalPolls": 87
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1121632,
+      "yesVotes": 1118221,
       "noVotes": 926757,
-      "totalVotes": 2048389,
-      "yesPct": 54.76,
-      "noPct": 45.24,
-      "marginVotes": 194875,
-      "marginPct": 9.52,
+      "totalVotes": 2044978,
+      "yesPct": 54.68,
+      "noPct": 45.32,
+      "marginVotes": 191464,
+      "marginPct": 9.36,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -86,13 +86,13 @@
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 463963,
+          "yesVotes": 460552,
           "noVotes": 352670,
-          "totalVotes": 816633,
-          "yesPct": 56.81,
-          "noPct": 43.19,
-          "marginVotes": 111293,
-          "marginPct": 13.62,
+          "totalVotes": 813222,
+          "yesPct": 56.63,
+          "noPct": 43.37,
+          "marginVotes": 107882,
+          "marginPct": 13.26,
           "pollsReporting": 264,
           "totalPolls": 264
         },
@@ -137,9 +137,9 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 80,
+        "<30%": 81,
         "30-40%": 153,
-        "40-50%": 554,
+        "40-50%": 553,
         "50-60%": 1158,
         "60-70%": 1321,
         "70-80%": 1131,
