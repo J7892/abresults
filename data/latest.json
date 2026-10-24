@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-24T21:42:06.759562+00:00",
-  "lastUpdatedEAB": "2026-10-24T21:41:13.9307756+00:00",
-  "lastUpdatedMountain": "Oct 24, 2026 03:41:13 PM MDT",
+  "fetchedAt": "2026-10-24T21:42:53.994309+00:00",
+  "lastUpdatedEAB": "2026-10-24T21:42:03.2573588+00:00",
+  "lastUpdatedMountain": "Oct 24, 2026 03:42:03 PM MDT",
   "turnout": {
     "summary": {
       "votes": 20550128,
@@ -1597,13 +1597,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 437729,
-          "noVotes": 259397,
-          "totalVotes": 697126,
-          "yesPct": 62.79,
-          "noPct": 37.21,
-          "marginVotes": 178332,
-          "marginPct": 25.58,
+          "yesVotes": 437670,
+          "noVotes": 259305,
+          "totalVotes": 696975,
+          "yesPct": 62.8,
+          "noPct": 37.2,
+          "marginVotes": 178365,
+          "marginPct": 25.6,
           "pollsReporting": 4903,
           "totalPolls": 4904
         },
@@ -1637,8 +1637,8 @@
       "pollDistribution": {
         "<30%": 113,
         "30-40%": 266,
-        "40-50%": 806,
-        "50-60%": 1318,
+        "40-50%": 805,
+        "50-60%": 1319,
         "60-70%": 1190,
         "70-80%": 1016,
         "80-90%": 674,
@@ -4619,13 +4619,13 @@
         {
           "code": "MOB",
           "name": "Mobile Voting",
-          "yesVotes": 10950,
-          "noVotes": 8957,
-          "totalVotes": 19907,
-          "yesPct": 55.01,
-          "noPct": 44.99,
-          "marginVotes": 1993,
-          "marginPct": 10.02,
+          "yesVotes": 10971,
+          "noVotes": 8970,
+          "totalVotes": 19941,
+          "yesPct": 55.02,
+          "noPct": 44.98,
+          "marginVotes": 2001,
+          "marginPct": 10.04,
           "pollsReporting": 281,
           "totalPolls": 281
         }
@@ -4635,7 +4635,7 @@
         "30-40%": 391,
         "40-50%": 953,
         "50-60%": 1331,
-        "60-70%": 1100,
+        "60-70%": 1101,
         "70-80%": 933,
         "80-90%": 582,
         "90-100%": 70
@@ -7589,13 +7589,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 387787,
-          "noVotes": 306747,
-          "totalVotes": 694534,
-          "yesPct": 55.83,
-          "noPct": 44.17,
-          "marginVotes": 81040,
-          "marginPct": 11.66,
+          "yesVotes": 387735,
+          "noVotes": 306648,
+          "totalVotes": 694383,
+          "yesPct": 55.84,
+          "noPct": 44.16,
+          "marginVotes": 81087,
+          "marginPct": 11.68,
           "pollsReporting": 4903,
           "totalPolls": 4904
         },
@@ -13581,12 +13581,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 468108,
-          "noVotes": 231695,
-          "totalVotes": 699803,
+          "yesVotes": 468105,
+          "noVotes": 231691,
+          "totalVotes": 699796,
           "yesPct": 66.89,
           "noPct": 33.11,
-          "marginVotes": 236413,
+          "marginVotes": 236414,
           "marginPct": 33.78,
           "pollsReporting": 4903,
           "totalPolls": 4904
@@ -13624,8 +13624,8 @@
         "40-50%": 510,
         "50-60%": 702,
         "60-70%": 948,
-        "70-80%": 1563,
-        "80-90%": 1129,
+        "70-80%": 1562,
+        "80-90%": 1130,
         "90-100%": 308
       },
       "wards": [
