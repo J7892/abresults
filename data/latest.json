@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-24T03:27:42.316834+00:00",
-  "lastUpdatedEAB": "2026-10-24T03:27:10.5411339+00:00",
-  "lastUpdatedMountain": "Oct 23, 2026 09:27:10 PM MDT",
+  "fetchedAt": "2026-10-24T03:28:31.728036+00:00",
+  "lastUpdatedEAB": "2026-10-24T03:27:59.7647555+00:00",
+  "lastUpdatedMountain": "Oct 23, 2026 09:27:59 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20490739,
-      "valid": 20490739,
+      "votes": 20490988,
+      "valid": 20490988,
       "pollsReporting": 5536,
       "totalPolls": 5537,
       "pollsReportingPct": 99.98
@@ -20,8 +20,8 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 33.91,
-      "valid": 6949354,
+      "percentageOfAllVotes": 33.92,
+      "valid": 6949603,
       "pollsReporting": 4903,
       "totalPolls": 4904
     },
@@ -7538,12 +7538,12 @@
       "questionNumber": 6,
       "title": "Provincial Selection of King's Bench & Appeal Judges",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to have provincial governments, and not the federal government, select the justices appointed to provincial King's Bench and Appeal courts?",
-      "yesVotes": 932259,
-      "noVotes": 1126322,
-      "totalVotes": 2058581,
+      "yesVotes": 932381,
+      "noVotes": 1126449,
+      "totalVotes": 2058830,
       "yesPct": 45.29,
       "noPct": 54.71,
-      "marginVotes": -194063,
+      "marginVotes": -194068,
       "marginPct": -9.42,
       "leader": "NO",
       "regionalStats": {
@@ -7556,12 +7556,12 @@
           "noPct": 62.75
         },
         "Edmonton": {
-          "yes": 143571,
-          "no": 305387,
-          "total": 448958,
+          "yes": 143693,
+          "no": 305514,
+          "total": 449207,
           "wards": 20,
-          "yesPct": 31.98,
-          "noPct": 68.02
+          "yesPct": 31.99,
+          "noPct": 68.01
         },
         "Regional / Other": {
           "yes": 555700,
@@ -7589,12 +7589,12 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 387329,
-          "noVotes": 305888,
-          "totalVotes": 693217,
+          "yesVotes": 387451,
+          "noVotes": 306015,
+          "totalVotes": 693466,
           "yesPct": 55.87,
           "noPct": 44.13,
-          "marginVotes": 81441,
+          "marginVotes": 81436,
           "marginPct": 11.74,
           "pollsReporting": 4903,
           "totalPolls": 4904
@@ -7629,7 +7629,7 @@
       "pollDistribution": {
         "<30%": 321,
         "30-40%": 754,
-        "40-50%": 1184,
+        "40-50%": 1185,
         "50-60%": 1098,
         "60-70%": 857,
         "70-80%": 796,
@@ -8057,13 +8057,13 @@
           "ward": "27",
           "wardName": "27 - Edmonton-Beverly-Clareview",
           "region": "Edmonton",
-          "yesVotes": 6474,
-          "noVotes": 10760,
-          "totalVotes": 17234,
-          "yesPct": 37.57,
-          "noPct": 62.43,
-          "marginVotes": -4286,
-          "marginPct": -24.86,
+          "yesVotes": 6596,
+          "noVotes": 10887,
+          "totalVotes": 17483,
+          "yesPct": 37.73,
+          "noPct": 62.27,
+          "marginVotes": -4291,
+          "marginPct": -24.54,
           "leader": "NO",
           "pollsReporting": 49,
           "totalPolls": 49,
