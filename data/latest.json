@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-25T14:27:08.221951+00:00",
-  "lastUpdatedEAB": "2026-10-25T14:26:20.2504774+00:00",
-  "lastUpdatedMountain": "Oct 25, 2026 08:26:20 AM MDT",
+  "fetchedAt": "2026-10-25T14:27:42.271839+00:00",
+  "lastUpdatedEAB": "2026-10-25T14:27:08.9075152+00:00",
+  "lastUpdatedMountain": "Oct 25, 2026 08:27:08 AM MDT",
   "turnout": {
     "summary": {
-      "votes": 20576414,
-      "valid": 20576414,
+      "votes": 20576260,
+      "valid": 20576260,
       "pollsReporting": 5535,
       "totalPolls": 5536,
       "pollsReportingPct": 99.98
@@ -21,7 +21,7 @@
       "totalVoters": null,
       "votes": null,
       "percentageOfAllVotes": 33.83,
-      "valid": 6960351,
+      "valid": 6960197,
       "pollsReporting": 4903,
       "totalPolls": 4904
     },
@@ -6041,12 +6041,12 @@
       "title": "Proof of Citizenship to Vote in Provincial Elections",
       "questionText": "Do you support the Government of Alberta introducing a law requiring individuals to provide proof of citizenship, such as a passport, birth certificate or citizenship card, to vote in an Alberta provincial election?",
       "yesVotes": 1201157,
-      "noVotes": 866792,
-      "totalVotes": 2067949,
-      "yesPct": 58.08,
-      "noPct": 41.92,
-      "marginVotes": 334365,
-      "marginPct": 16.16,
+      "noVotes": 866638,
+      "totalVotes": 2067795,
+      "yesPct": 58.09,
+      "noPct": 41.91,
+      "marginVotes": 334519,
+      "marginPct": 16.18,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -6067,11 +6067,11 @@
         },
         "Regional / Other": {
           "yes": 672571,
-          "no": 314934,
-          "total": 987505,
+          "no": 314780,
+          "total": 987351,
           "wards": 41,
-          "yesPct": 68.11,
-          "noPct": 31.89
+          "yesPct": 68.12,
+          "noPct": 31.88
         }
       },
       "votingMethods": [
@@ -6092,12 +6092,12 @@
           "code": "ORD",
           "name": "Election Day",
           "yesVotes": 479300,
-          "noVotes": 219606,
-          "totalVotes": 698906,
-          "yesPct": 68.58,
-          "noPct": 31.42,
-          "marginVotes": 259694,
-          "marginPct": 37.16,
+          "noVotes": 219452,
+          "totalVotes": 698752,
+          "yesPct": 68.59,
+          "noPct": 31.41,
+          "marginVotes": 259848,
+          "marginPct": 37.18,
           "pollsReporting": 4903,
           "totalPolls": 4904
         },
@@ -6130,12 +6130,12 @@
       ],
       "pollDistribution": {
         "<30%": 61,
-        "30-40%": 94,
+        "30-40%": 93,
         "40-50%": 407,
         "50-60%": 1042,
         "60-70%": 1356,
         "70-80%": 1205,
-        "80-90%": 1061,
+        "80-90%": 1062,
         "90-100%": 271
       },
       "wards": [
@@ -7200,12 +7200,12 @@
           "wardName": "67 - Lac Ste. Anne-Parkland",
           "region": "Regional / Other",
           "yesVotes": 18627,
-          "noVotes": 7164,
-          "totalVotes": 25791,
-          "yesPct": 72.22,
-          "noPct": 27.78,
-          "marginVotes": 11463,
-          "marginPct": 44.44,
+          "noVotes": 7010,
+          "totalVotes": 25637,
+          "yesPct": 72.66,
+          "noPct": 27.34,
+          "marginVotes": 11617,
+          "marginPct": 45.32,
           "leader": "YES",
           "pollsReporting": 75,
           "totalPolls": 75,
