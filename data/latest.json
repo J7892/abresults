@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-25T00:56:34.681266+00:00",
-  "lastUpdatedEAB": "2026-10-25T00:55:44.3304381+00:00",
-  "lastUpdatedMountain": "Oct 24, 2026 06:55:44 PM MDT",
+  "fetchedAt": "2026-10-25T00:57:08.758279+00:00",
+  "lastUpdatedEAB": "2026-10-25T00:56:33.2835890+00:00",
+  "lastUpdatedMountain": "Oct 24, 2026 06:56:33 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20559025,
-      "valid": 20559025,
+      "votes": 20556225,
+      "valid": 20556225,
       "pollsReporting": 5535,
       "totalPolls": 5536,
       "pollsReportingPct": 99.98
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.31,
+      "percentageOfAllVotes": 40.32,
       "valid": 8287384,
       "pollsReporting": 264,
       "totalPolls": 264
@@ -20,8 +20,8 @@
     "votingDay": {
       "totalVoters": null,
       "votes": null,
-      "percentageOfAllVotes": 33.87,
-      "valid": 6962889,
+      "percentageOfAllVotes": 33.86,
+      "valid": 6960089,
       "pollsReporting": 4903,
       "totalPolls": 4904
     },
@@ -29,7 +29,7 @@
       "totalKits": null,
       "kitsCounted": null,
       "percentCounted": null,
-      "percentageOfAllVotes": 24.85,
+      "percentageOfAllVotes": 24.86,
       "valid": 5109533,
       "pollsReporting": 87,
       "totalPolls": 87
@@ -10534,13 +10534,13 @@
       "questionNumber": 8,
       "title": "Provincial Opt-Out of Federal Programs with Full Funding",
       "questionText": "Do you support the Government of Alberta working with the governments of other willing provinces to amend the Canadian Constitution to allow provinces to opt out of federal programs that intrude on provincial jurisdiction such as health care, education and social services, without a province losing any of the associated federal funding for use in its social programs?",
-      "yesVotes": 872432,
+      "yesVotes": 869632,
       "noVotes": 1184705,
-      "totalVotes": 2057137,
-      "yesPct": 42.41,
-      "noPct": 57.59,
-      "marginVotes": -312273,
-      "marginPct": -15.18,
+      "totalVotes": 2054337,
+      "yesPct": 42.33,
+      "noPct": 57.67,
+      "marginVotes": -315073,
+      "marginPct": -15.34,
       "leader": "NO",
       "regionalStats": {
         "Calgary": {
@@ -10585,13 +10585,13 @@
         {
           "code": "ORD",
           "name": "Election Day",
-          "yesVotes": 373257,
+          "yesVotes": 370457,
           "noVotes": 323059,
-          "totalVotes": 696316,
-          "yesPct": 53.6,
-          "noPct": 46.4,
-          "marginVotes": 50198,
-          "marginPct": 7.2,
+          "totalVotes": 693516,
+          "yesPct": 53.42,
+          "noPct": 46.58,
+          "marginVotes": 47398,
+          "marginPct": 6.84,
           "pollsReporting": 4903,
           "totalPolls": 4904
         },
@@ -10623,13 +10623,13 @@
         }
       ],
       "pollDistribution": {
-        "<30%": 423,
+        "<30%": 424,
         "30-40%": 889,
         "40-50%": 1240,
         "50-60%": 1096,
         "60-70%": 825,
         "70-80%": 705,
-        "80-90%": 283,
+        "80-90%": 282,
         "90-100%": 32
       },
       "wards": [
