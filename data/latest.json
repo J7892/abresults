@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-10-25T03:10:04.778565+00:00",
-  "lastUpdatedEAB": "2026-10-25T03:09:32.0212963+00:00",
-  "lastUpdatedMountain": "Oct 24, 2026 09:09:32 PM MDT",
+  "fetchedAt": "2026-10-25T03:10:38.915669+00:00",
+  "lastUpdatedEAB": "2026-10-25T03:10:21.7710978+00:00",
+  "lastUpdatedMountain": "Oct 24, 2026 09:10:21 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20566525,
-      "valid": 20566525,
+      "votes": 20570082,
+      "valid": 20570082,
       "pollsReporting": 5535,
       "totalPolls": 5536,
       "pollsReportingPct": 99.98
     },
     "advance": {
       "votes": null,
-      "percentageOfAllVotes": 40.34,
-      "valid": 8297352,
+      "percentageOfAllVotes": 40.35,
+      "valid": 8300909,
       "pollsReporting": 264,
       "totalPolls": 264
     },
@@ -48,13 +48,13 @@
       "questionNumber": 1,
       "title": "Immigration Control & Alberta Priority",
       "questionText": "Do you support the Government of Alberta taking increased control over immigration for the purposes of decreasing immigration to more sustainable levels, prioritizing economic migration and giving Albertans first priority on new employment opportunities?",
-      "yesVotes": 1121639,
-      "noVotes": 926735,
-      "totalVotes": 2048374,
-      "yesPct": 54.76,
-      "noPct": 45.24,
-      "marginVotes": 194904,
-      "marginPct": 9.52,
+      "yesVotes": 1124473,
+      "noVotes": 927458,
+      "totalVotes": 2051931,
+      "yesPct": 54.8,
+      "noPct": 45.2,
+      "marginVotes": 197015,
+      "marginPct": 9.6,
       "leader": "YES",
       "regionalStats": {
         "Calgary": {
@@ -74,25 +74,25 @@
           "noPct": 56.88
         },
         "Regional / Other": {
-          "yes": 627906,
-          "no": 342290,
-          "total": 970196,
+          "yes": 630740,
+          "no": 343013,
+          "total": 973753,
           "wards": 41,
-          "yesPct": 64.72,
-          "noPct": 35.28
+          "yesPct": 64.77,
+          "noPct": 35.23
         }
       },
       "votingMethods": [
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 463963,
-          "noVotes": 352670,
-          "totalVotes": 816633,
-          "yesPct": 56.81,
-          "noPct": 43.19,
-          "marginVotes": 111293,
-          "marginPct": 13.62,
+          "yesVotes": 466797,
+          "noVotes": 353393,
+          "totalVotes": 820190,
+          "yesPct": 56.91,
+          "noPct": 43.09,
+          "marginVotes": 113404,
+          "marginPct": 13.82,
           "pollsReporting": 264,
           "totalPolls": 264
         },
@@ -142,8 +142,8 @@
         "40-50%": 554,
         "50-60%": 1157,
         "60-70%": 1322,
-        "70-80%": 1132,
-        "80-90%": 919,
+        "70-80%": 1133,
+        "80-90%": 920,
         "90-100%": 176
       },
       "wards": [
@@ -1159,13 +1159,13 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 10005,
-          "noVotes": 3152,
-          "totalVotes": 13157,
-          "yesPct": 76.04,
-          "noPct": 23.96,
-          "marginVotes": 6853,
-          "marginPct": 52.08,
+          "yesVotes": 12839,
+          "noVotes": 3875,
+          "totalVotes": 16714,
+          "yesPct": 76.82,
+          "noPct": 23.18,
+          "marginVotes": 8964,
+          "marginPct": 53.64,
           "leader": "YES",
           "pollsReporting": 80,
           "totalPolls": 80,
