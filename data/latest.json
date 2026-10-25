@@ -1,11 +1,11 @@
 {
-  "fetchedAt": "2026-10-25T01:57:48.956271+00:00",
-  "lastUpdatedEAB": "2026-10-25T01:57:05.5629640+00:00",
-  "lastUpdatedMountain": "Oct 24, 2026 07:57:05 PM MDT",
+  "fetchedAt": "2026-10-25T01:58:22.966036+00:00",
+  "lastUpdatedEAB": "2026-10-25T01:57:55.0459821+00:00",
+  "lastUpdatedMountain": "Oct 24, 2026 07:57:55 PM MDT",
   "turnout": {
     "summary": {
-      "votes": 20556276,
-      "valid": 20556276,
+      "votes": 20556669,
+      "valid": 20556669,
       "pollsReporting": 5535,
       "totalPolls": 5536,
       "pollsReportingPct": 99.98
@@ -13,7 +13,7 @@
     "advance": {
       "votes": null,
       "percentageOfAllVotes": 40.32,
-      "valid": 8287381,
+      "valid": 8287774,
       "pollsReporting": 264,
       "totalPolls": 264
     },
@@ -1546,12 +1546,12 @@
       "questionNumber": 2,
       "title": "Citizenship/PR Requirement for Provincial Services",
       "questionText": "Do you support the Government of Alberta introducing a law mandating that only Canadian citizens, permanent residents and individuals with an Alberta-approved immigration status will be eligible for provincially-funded programs, such as health care, education and other social services?",
-      "yesVotes": 1065670,
-      "noVotes": 966216,
-      "totalVotes": 2031886,
+      "yesVotes": 1065993,
+      "noVotes": 966286,
+      "totalVotes": 2032279,
       "yesPct": 52.45,
       "noPct": 47.55,
-      "marginVotes": 99454,
+      "marginVotes": 99707,
       "marginPct": 4.9,
       "leader": "YES",
       "regionalStats": {
@@ -1572,25 +1572,25 @@
           "noPct": 59.09
         },
         "Regional / Other": {
-          "yes": 604088,
-          "no": 361948,
-          "total": 966036,
+          "yes": 604411,
+          "no": 362018,
+          "total": 966429,
           "wards": 41,
-          "yesPct": 62.53,
-          "noPct": 37.47
+          "yesPct": 62.54,
+          "noPct": 37.46
         }
       },
       "votingMethods": [
         {
           "code": "ADV",
           "name": "Advance Voting",
-          "yesVotes": 445697,
-          "noVotes": 372015,
-          "totalVotes": 817712,
-          "yesPct": 54.51,
-          "noPct": 45.49,
-          "marginVotes": 73682,
-          "marginPct": 9.02,
+          "yesVotes": 446020,
+          "noVotes": 372085,
+          "totalVotes": 818105,
+          "yesPct": 54.52,
+          "noPct": 45.48,
+          "marginVotes": 73935,
+          "marginPct": 9.04,
           "pollsReporting": 264,
           "totalPolls": 264
         },
@@ -1641,7 +1641,7 @@
         "50-60%": 1324,
         "60-70%": 1190,
         "70-80%": 1017,
-        "80-90%": 673,
+        "80-90%": 674,
         "90-100%": 103
       },
       "wards": [
@@ -2657,13 +2657,13 @@
           "ward": "64",
           "wardName": "64 - Grande Prairie-Wapiti",
           "region": "Regional / Other",
-          "yesVotes": 9455,
-          "noVotes": 3629,
-          "totalVotes": 13084,
-          "yesPct": 72.26,
-          "noPct": 27.74,
-          "marginVotes": 5826,
-          "marginPct": 44.52,
+          "yesVotes": 9778,
+          "noVotes": 3699,
+          "totalVotes": 13477,
+          "yesPct": 72.55,
+          "noPct": 27.45,
+          "marginVotes": 6079,
+          "marginPct": 45.1,
           "leader": "YES",
           "pollsReporting": 80,
           "totalPolls": 80,
